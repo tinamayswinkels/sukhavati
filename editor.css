@@ -1,0 +1,18 @@
+h1.page-main-heading{
+    font-size: 5rem;
+}
+
+h2.larger-heading{
+    font-size: 9rem;
+}
+
+
+p.float-images-right{
+    color: inherit;
+    min-height: 15px;
+}
+
+p.float-images-left{
+    color: inherit;
+    min-height: 15px;
+}

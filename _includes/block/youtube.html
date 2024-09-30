@@ -1,0 +1,41 @@
+
+<section>
+  <div class="max-width">
+      <div class="grid gap-4">
+        <div class="relative col-w-{{block.video-col-width}}" style="aspect-ratio: {{block.video-aspect}} ;">
+          {{block.embed_code}}
+        </div>
+
+        <div class="text-box col-w-{{block.block-content-width}}">
+          {{block.block-content-html}}
+       </div>
+      </div>
+  </div>
+</section>
+
+
+<style>
+  @media (max-width: 768px)  {
+    #section-{{forloop.index}} .grid{
+    display: block;
+    }
+  }
+      #section-{{forloop.index}} .grid{
+      grid-template-columns: repeat({{block.video-col-width}}, 1fr) repeat({{block.block-content-width}}, 1fr);
+      {% case block.vert-alignment %}
+          {% when 'top' %}
+          align-items: normal ;
+          {% when 'middle' %}
+          align-items: center;
+          {% when 'bottom' %}
+          align-self: end;
+          {% endcase %};
+    }
+    #section-{{forloop.index}} iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+</style>

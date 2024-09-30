@@ -1,0 +1,520 @@
+paths:
+  uploads: uploads
+  static: ''
+  dam_uploads: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    description: ''
+    icon: notes
+    _editables:
+    _inputs:
+    _select_data:
+    _structures:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+      default page:
+        path:
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        name:
+        icon: notes
+        preview:
+        _editables:
+        _inputs:
+        _select_data:
+        _structures:
+        create:
+        new_preview_url:
+_inputs:
+  layout:
+    type: text
+    hidden: true
+    cascade: true
+  col-type:
+    type: text
+    hidden: true
+    cascade: true
+  block-content-html:
+    type: html
+    options:
+      allow_resize: true
+      allow_custom_markup: false
+      remove_custom_markup: false
+      initial_height: 320
+      center: text-center
+      format: p h2 h3 a img
+      horizontalrule: true
+      image: true
+      image_size_attributes: true
+      left: text-left
+      link: true
+      resize_style: contain
+      right: text-right
+      snippet: false
+      styles: /editor.css
+    label: Content
+    cascade: true
+  pre-heading-style:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - style 1
+        - style 2
+        - style 3
+  heading-style:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - style 1
+        - style 2
+        - style 3
+  sub-heading-style:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - style 1
+        - style 2
+        - style 3
+  content:
+    type: markdown
+    options:
+      allow_resize: true
+      allow_custom_markup: false
+      remove_custom_markup: false
+      initial_height: 320
+      center: text-center
+      format: p h2 h3 a img
+      horizontalrule: true
+      image: true
+      image_size_attributes: true
+      left: text-left
+      link: true
+      resize_style: contain
+      right: text-right
+      snippet: true
+      styles: /editor.css
+    label: Content
+    cascade: true
+  min-height:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        50vh: half screen min-min
+        75vh: three quater screen min-min
+        90vh: just short of full screen
+        100vh: full screen
+    cascade: true
+  text-alignment:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - left
+        - center
+        - right
+    cascade: true
+  desktop-image-position:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - left
+        - right
+    cascade: true
+  vert-alignment:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - top
+        - middle
+        - bottom
+    cascade: true
+  top-space-padding:
+    type: number
+    unit: vh
+    option:
+      min: 0
+      max: 100
+      step: 1
+  bottom-space-padding:
+    type: number
+    unit: vh
+    option:
+      min: 0
+      max: 100
+      step: 1
+  img_aspect:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - Square
+        - Tall Portraight
+        - Portraight
+        - Landscape
+        - Wide Landscape
+    cascade: true
+  video-orientation:
+    type: select
+    options: 
+      - vertical
+      - horizontal
+# snippet inputs
+  float-direction:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - left
+        - right
+    default: left
+_structures:
+  blocks:
+    style: modal
+    values:
+      - label: Simple banner
+        value:
+          _id: banner
+          block-content-html: <p>dan was here :D</p>
+          background-desktop-image: https://picsum.photos/id/1023/600/400
+          background-mobile-image: https://picsum.photos/id/1024/600/400
+          text-alignment: center
+          vert-alignment: middle
+          overlay-color: black
+          overlay-opacity: 0.5
+          min-height: 90vh
+          top-space-padding: 10
+          bottom-space-padding: 10
+          color-scheme: base
+      - label: Split banner strict
+        value:
+          _id: banner-split-strict-version
+          text-box:
+            pre-heading:
+            pre-heading-style:
+            heading:
+            heading-style:
+            sub-heading:
+            sub-heading-style:
+            para: 
+          background-desktop-image: https://picsum.photos/id/1023/600/400
+          background-mobile-image: https://picsum.photos/id/1024/600/400
+          background-alt: bg-alt
+          desktop-collapse-bg-padding: true
+          desktop-image-position: right
+          section-gap: 1rem
+          text-alignment: center
+          vert-alignment: bottom
+          mobile-image-position: bottom
+          mobile-collapse-bg-padding: false
+          img_aspect: Square
+          top-space-padding: 10
+          bottom-space-padding: 10
+          color-scheme: dark
+      - label: Split banner
+        value:
+          _id: banner-split
+          block-content-html:
+          background-desktop-image: https://picsum.photos/id/1023/600/400
+          background-mobile-image: https://picsum.photos/id/1024/600/400
+          background-alt: bg-alt
+          desktop-collapse-bg-padding: true
+          desktop-image-position: right
+          section-gap: 1rem
+          text-alignment: center
+          vert-alignment: bottom
+          mobile-image-position: bottom
+          mobile-collapse-bg-padding: false
+          img_aspect: Square
+          top-space-padding: 10
+          bottom-space-padding: 10
+          color-scheme: dark
+      - label: Video banner
+        value:
+          _id: banner-video
+          block-content-html:
+          videos:
+            - video_path: /uploads/sea-24216-360p.mp4
+              video_type: mp4
+          controls: false
+          autoplay: true
+          text-alignment: center
+          vert-alignment: middle
+          overlay-color: black
+          overlay-opacity: 0.5
+          min-height: 90vh
+          top-space-padding: 10
+          bottom-space-padding: 5
+          color-scheme: dark
+      - label: text block
+        value:
+          _id: text-block
+          block-content-html: 
+          color-scheme: dark
+          max-width:
+          color-scheme: base
+      - label: slider
+        value:
+          _id: slider
+          block-content-html: <h3> lorem </h3><h2>  experiences  </h2><p></p><p>Dan was here </p>
+          text-align: right
+          text-box-max-width: 500px
+          img_aspect: Square
+          slider_column_count: 3
+          slider_col_color_scheme: base
+          slider:
+                - image: https://picsum.photos/id/684/1200/630
+                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                  link: base
+                - image: https://picsum.photos/id/685/1200/630
+                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                  link: base
+                - image: 
+                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                  link: base
+                - image: https://picsum.photos/id/685/1200/630
+                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                  link: base
+          color-scheme: dark
+      - label: youtube embed
+        value:
+          _id: youtube
+          embed_code: 
+          video-aspect: 560/315
+          video-col-width: 2
+          block-content-html: >-
+              <h3> lorem </h3><h2>  experiences  </h2><p><img
+              src="/uploads/star.svg" /><img src="/uploads/star.svg" /><img
+              src="/uploads/star.svg" /><img src="/uploads/star.svg" /></p><p>Dan
+              was here</p>
+          block-content-width:  1
+          vert-alignment: middle
+          color-scheme: base
+      - label: Grid
+        value:
+          _id: grid
+          grid-desktop-columns: 4
+          grid-mobile-columns: 2
+          grid-gap: 1rem
+          columns:
+          color-scheme: dark
+      - label: html block
+        value: 
+          _id: liquid-block
+          liquid_code: >-
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.494647487761!2d115.12809509999998!3d-8.6444149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247a13066d977%3A0x467f2ebcb0fb76ef!2sHair%20by%20therapy!5e0!3m2!1sen!2sau!4v1726985453546!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          cape-width: true
+          vertical-padding: true
+          color-scheme: featured
+      - label: Horizontal scroll grid
+        value:  
+          _id: horizontal-scroll-basic
+          heading: block heading
+          block-content-html: <h3> lorem </h3> <h2>  experiences  </h2> 
+          image-width: 250px
+          img_aspect: square
+          scroll-items:
+          -   heading: first
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          -   heading: second
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          -   heading: third
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          -   heading: fourth
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          color-scheme: base
+      - label: Horizontal scroll grid with inline text box
+        value:  
+          _id: horizontal-scroll-inline-text-box
+          heading: block heading
+          block-content-html: <h3> lorem </h3> <h2>  experiences  </h2> 
+          text-box-width: 350px
+          image-width: 250px
+          img_aspect: square
+          scroll-items:
+          -   heading: first
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          -   heading: second
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          -   heading: third
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          -   heading: fourth
+              image: https://picsum.photos/id/684/1200/630
+              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link: #
+          color-scheme: base
+      - label: Accordion
+        value:
+          _id: accordion
+          block-content-html:
+          drop_down:
+          - button-text: Where is dan
+            icon_path: https://picsum.photos/id/1023/600/400
+            icon_alt: bike
+            block-content-html:
+          color-scheme: dark
+      - label: Ticket banner
+        value:
+          _id: ticket-banner
+          banner_speed_in_px: 50
+          banner_message:
+            - text: dan was here
+              url:
+            - text: so was bob
+              url: google.com
+          color-scheme: dark
+  columns:
+    style: modal
+    values:
+      - label: Image
+        value:
+          col-type: img
+          image: https://picsum.photos/id/1023/600/400
+          image_alt:
+          img_aspect: Square
+          col-width: 2
+          col-height: 2
+      - label: Text Block
+        value:
+          col-type: text
+          block-content-html:
+          icon-path:
+          icon-alt:
+          color-scheme: featured
+          col-width: 1
+          col-height: 1
+      - label: video
+        value:
+          col-type: video
+          videos:
+            - video_path: /uploads/sea-24216-360p.mp4
+              video_type: mp4
+          video_controls: false
+          video_autoplay: true
+          img_aspect: Square
+          col-width: 1
+          col-height: 1
+  header_links:
+    style: modal
+    values:
+      - label: simple link
+        value:
+          link: /
+          text: home
+      - label: link with sublinks
+        value:
+          text: home
+          link: /
+          sub_links:
+            - text: sublink 1
+              link: /
+            - text: sublink 2
+              link: /
+            - text: sublink 3
+              link: /
+
+data_config: {}
+timezone: Etc/UTC
+_snippets_definitions:
+  jekyll_liquid_format:
+    root_value_delimiter: '='
+    root_pair_delimiter:
+      - ''
+    array_boundary:
+      start: '['
+      end: ']'
+    array_delimiter: ','
+    string_boundary:
+      - '"'
+      - ''''
+    forbidden_tokens:
+      - '%}'
+      - '-%}'
+      - '}}'
+      - ','
+_snippets_templates:
+  jekyll_liquid_include:
+    snippet: '{% include [[name]] [[args]] %}'
+    params:
+      name:
+        parser: literal
+        options:
+          literal:
+            ref: include_name
+      args:
+        parser: key_values
+        options:
+          models:
+            ref: named_args
+          format:
+            ref: jekyll_liquid_format
+_snippets:
+  image_grid:
+    template: jekyll_liquid_include
+    inline: false
+    preview:
+      text: 3 image gallery
+    definitions:
+      include_name: snippets/imgGallery3.html
+      named_args:
+        - editor_key: first-image
+          type: string
+        - editor_key: first-alt
+          type: string
+        - editor_key: second-image
+          type: string
+        - editor_key: second-alt
+          type: string
+        - editor_key: third-image
+          type: string
+        - editor_key: third-alt
+          type: string
+        - editor_key: image_size_ratio
+          type: string
+  floating_image:
+    template: jekyll_liquid_include
+    inline: true
+    preview:
+      text: floating image
+    definitions:
+      include_name: snippets/image-float.html
+      named_args:
+        - editor_key: image
+          type: string
+        - editor_key: alt
+          type: string
+        - editor_key: float-direction
+          type: string
+        - editor_key: max-width
+          type: string

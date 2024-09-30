@@ -1,0 +1,44 @@
+
+<section>
+      <div class="max-width">
+          <div class=" pb-small">
+            {{block.block-content-html}}
+          </div>
+        
+          <div >
+            {% for drop in block.drop_down %}
+            <div >
+              <div class="expandButton">
+                <img class="icon inline-block" src="{{drop.icon_path}}" alt="{{drop.icon_alt}}">
+                <h3 class=" inline-block">{{drop.button-text}}</h3>
+              </div>
+              <div class="drop-sec collapsed">
+                <div class="content">
+                  {{drop.block-content-html}}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
+    </section>
+
+    <style>
+     
+     #section-{{forloop.index}} .icon{
+      max-width: min(100%, {{block.max-icon-width}})
+     }
+
+     .drop-sec{
+      padding-left: var(--small-padding);
+      padding-right: var(--small-padding);
+     }
+     .expandButton, .drop-sec:not(.collapsed){
+      border: 1px solid var(--text-color);
+      padding: var(--small-padding);
+     }
+     .drop-sec{
+      transition: padding-top var(--animation-speed), padding-bottom var(--animation-speed), border var(--animation-speed), max-height var(--animation-speed);
+     }
+
+    </style>

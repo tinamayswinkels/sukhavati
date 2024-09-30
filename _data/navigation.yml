@@ -1,0 +1,47 @@
+logo_image: /uploads/screenshot-2024-08-26-094507.png
+logo_alt: Logo
+header_logo_width: 4rem
+header_links:
+  - link: /
+    text: home
+    sub_links:
+      - text: sublink 1
+        link: /
+      - text: sublink 2
+        link: /
+      - text: sublink 3
+        link: /
+  - link: /blog
+    text: blog
+  - link: /about
+    text: about
+footer-logo-size: 150px
+footer_social_links:
+  - link: /
+    social: instagram
+    icon_link: /uploads/star.svg
+  - link: /
+    social: facebook
+    icon_link: /uploads/star.svg
+  - link: /
+    social: X
+    icon_link: /uploads/star.svg
+footer_nav_bars: 
+  - links:
+      - text: sublink 1
+        link: /
+      - text: sublink 1
+        link: /
+      - text: sublink 1
+        link: /
+      - text: sublink 1
+        link: /
+  - links:
+      - text: sublink 1
+        link: /
+      - text: sublink 1
+        link: /
+      - text: sublink 1
+        link: /
+      - text: sublink 1
+        link: /

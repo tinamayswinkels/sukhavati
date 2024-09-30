@@ -1,0 +1,42 @@
+
+<section>
+      <div class="max-width">
+          <div class="
+          {% case block.text-align %}
+          {% when 'left' %}
+          mr-auto
+          {% when 'center' %}
+           mx-auto text-center
+          {% when 'right' %}
+          ml-auto text-right
+          {% endcase %}
+          " {% if block.text-box-max-width %} style="max-width: min({{block.text-box-max-width}}, 100%) "{% endif %}>
+           
+            {{block.block-content-html }}
+          </div>
+          <div class="scheme-{{block.slider_col_color_scheme}} -mx-small slider mb-vert">
+            {% for col in block.slider %}
+            <div class="p-small h-full">
+              <div class="color-set">
+                {% if col.image %}
+                <div class="image-sizer relative">
+                  <img class="absolute inset-0 object-cover object-center h-full w-full" src="{{col.image}}" alt="">
+                </div>
+                {% endif %}
+                <div class="p-small star-aligner">
+                  {{col.block-content-html}}
+                </span>    
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
+    </section>
+
+
+    <style>
+      #section-{{forloop.index}} .image-sizer {
+      aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
+    }
+  </style>

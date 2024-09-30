@@ -1,0 +1,65 @@
+
+<section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %}">
+      <div class="max-width grid">
+          {% for col in block.columns %}
+          
+            <div class="
+
+            {% assign colWidth = col.col-width %}
+
+          {% if colWidth > block.grid-desktop-columns %}
+              {% assign colWidth = block.grid-desktop-columns %}
+              {% endif %}
+              col-w-{{colWidth}}
+          {% if colWidth >= block.grid-mobile-columns %}
+          {% assign colWidth = block.grid-mobile-columns %}
+            mob-col-w-{{colWidth}}
+          {% endif %}
+          col-h-{{col.col-height}} relative {% if col.color-scheme %} scheme-{{col.color-scheme}} {% endif %}  " style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %};">
+          <!-- {{col.col-type}} -->
+                {% case col.col-type %}
+                {% when 'img' %}
+                  {% include /snippets/col-img.html %}
+                {% when 'text' %}
+                  {% include /snippets/col-text.html %}
+                {% when 'video' %}
+                {% include /snippets/col-video.html %}
+                {% endcase %}
+            </div>
+          {% endfor %}
+    </div>
+</section>
+
+<style>
+    #section-{{forloop.index}} .grid {
+        gap: {{block.grid-gap}};
+      grid-template-columns: repeat({{block.grid-mobile-columns}}, 1fr);
+    }
+
+    #section-{{forloop.index}} .col-padded{
+        padding: {{block.grid-gap}};
+    }
+    {% if block.icon-width %}
+    #section-{{forloop.index}} .icon{
+max-width: min(100%, {{block.icon-width}});
+    }
+    {% endif %}
+
+
+    @media (min-width: 765px) {
+      #section-{{forloop.index}} .grid {
+        gap: {{block.grid-gap}};
+      grid-template-columns: repeat({{block.grid-desktop-columns}}, 1fr);
+    }
+    }
+    {% if block.background-mobile-image %} {% if block.background-desktop-image %}
+    @media (min-width: 765px) {
+      #section-{{forloop.index}} section {
+        
+        background-image: url( {{block.background-desktop-image}} );
+      }
+    }
+    {% endif %} {% endif %}
+
+
+  </style>

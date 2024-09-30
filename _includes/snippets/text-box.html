@@ -1,0 +1,35 @@
+
+
+    {% if block.text-box.pre-heading %}
+    <h3 class="{{block.text-box.pre-heading-style}}">
+        {{block.text-box.pre-heading}}
+    </h3>
+    {% endif %}
+    {% if block.text-box.heading %}
+    <h2 class="{{block.text-box.heading-style}}">
+        {{block.text-box.heading}}
+    </h2>
+    {% endif %}
+    {% if block.text-box.sub-heading %}
+    <h3 class="{{block.text-box.sub-heading-style}}">
+        {{block.text-box.sub-heading}}
+    </h3>
+    {% endif %}
+    {% if block.text-box.para %}
+    <p>{{block.text-box.para}}</p>
+    {% endif %}
+    
+    
+    {% comment %}
+    <!-- config settings  -->
+    text-box:
+        pre-heading:
+        pre-heading-style:
+        heading:
+        heading-style:
+        sub-heading:
+        sub-heading-style:
+        para: 
+    <!-- block include -->
+    {% include snippets/text-box.html include="block.text-box" %}
+    {% endcomment %}
