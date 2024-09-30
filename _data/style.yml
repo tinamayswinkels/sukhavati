@@ -1,24 +1,14 @@
 schemes:
-  - scheme_name: featured
-    bg-color: '#9ca592'
-    text-color: '#ffffff'
-    colored-button-bg-color: '#ece5dd'
-    colored-button-text-color: '#1d1d1b'
   - scheme_name: base
-    bg-color: '#ece5dd'
-    text-color: '#1d1d1b'
-    colored-button-bg-color: '#9ca592'
-    colored-button-text-color: '#ffffff'
-  - scheme_name: white
-    bg-color: '#f7f7f7'
-    text-color: '#000000'
+    bg-color: '#fff'
+    text-color: '#c1c4b3'
+  - scheme_name: featured
+    bg-color: '#c1c4b3'
+    text-color: '#272724'
     colored-button-bg-color: '#ece5dd'
-    colored-button-text-color: '#000000'
   - scheme_name: dark
-    bg-color: '#1d1d1b'
+    bg-color: '#272724'
     text-color: '#ffffff'
-    colored-button-bg-color: '#ece5dd'
-    colored-button-text-color: '#9ca592'
 max-width: 1280
 animation-speed: .4s
 small-padding: 1rem

@@ -627,6 +627,15 @@ video {
 
 img{max-width: 100%;}
 
+body{
+  font-family:  "Poppins", sans-serif;;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+}
+
 section,header,footer{
     padding: var(--vert-gap) var(--side-gap);
     background-size: cover;
@@ -851,6 +860,7 @@ float: right
 
   body .slick-next::before, body .slick-prev::before{
     font-family: inherit;
+    color: var(--text-color);
   }
 
   .star-aligner img {
