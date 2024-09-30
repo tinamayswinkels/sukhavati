@@ -19,32 +19,125 @@ blocks:
         bottom-space-padding: 5
         color-scheme: dark
     -
-        _id: youtube
-        embed_code: >-
-            <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/gvFsQqvB4cM?si=8wJ1Xm2ZbpvMQD9A"
-            title="YouTube video player" frameborder="0" allow="accelerometer;
-            autoplay; clipboard-write; encrypted-media; gyroscope;
-            picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
-        video-aspect: 560/315
-        video-col-width: 2
-        block-content-html: >-
-            <h3> lorem </h3><h2>  experiences  </h2><p
-            class="float-images-left"><img src="/uploads/star.svg" /><img
-            src="/uploads/star.svg" /><img src="/uploads/star.svg" /><img
-            src="/uploads/star.svg" /> </p><p>Dan was here</p>
-        block-content-width: 1
-        vert-alignment: middle
+        _id: banner-split
+        block-content-html: <p>quick heading</p>
+        background-desktop-image: https://picsum.photos/id/1023/600/400
+        background-mobile-image: https://picsum.photos/id/1024/600/400
+        background-alt: bg-alt
+        desktop-collapse-bg-padding: true
+        desktop-image-position: left
+        section-gap: 1rem
+        text-alignment: center
+        vert-alignment: bottom
+        mobile-image-position: bottom
+        mobile-collapse-bg-padding: false
+        img_aspect: Square
+        top-space-padding: 10
+        bottom-space-padding: 10
         color-scheme: dark
     -
+        _id: banner-split
+        block-content-html: <h2 class="larger-heading">quick heading</h2><p>lorem</p>
+        background-desktop-image: https://picsum.photos/id/1023/600/400
+        background-mobile-image: https://picsum.photos/id/1024/600/400
+        background-alt: bg-alt
+        desktop-collapse-bg-padding: true
+        desktop-image-position: right
+        section-gap: 1rem
+        text-alignment: center
+        vert-alignment: bottom
+        mobile-image-position: bottom
+        mobile-collapse-bg-padding: false
+        img_aspect: Square
+        top-space-padding: 10
+        bottom-space-padding: 10
+        color-scheme: dark
+    -
+        _id: horizontal-scroll-basic
+        heading: block heading
+        block-content-html: <h3> lorem </h3><h2>  experiences  </h2><p></p><p>more text</p>
+        image-width: 250px
+        img_aspect: square
+        scroll-items:
+            -
+                heading: first
+                image: https://picsum.photos/id/684/1200/630
+                description: >-
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    corporis obcaecati doloremque optio! Unde accusantium, esse
+                    consectetur asperiores voluptates obcaecati nobis libero
+                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
+                link:
+            -
+                heading: second
+                image: https://picsum.photos/id/684/1200/630
+                description: >-
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    corporis obcaecati doloremque optio! Unde accusantium, esse
+                    consectetur asperiores voluptates obcaecati nobis libero
+                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
+                link:
+            -
+                heading: third
+                image: https://picsum.photos/id/684/1200/630
+                description: >-
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    corporis obcaecati doloremque optio! Unde accusantium, esse
+                    consectetur asperiores voluptates obcaecati nobis libero
+                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
+                link:
+            -
+                heading: fourth
+                image: https://picsum.photos/id/684/1200/630
+                description: >-
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    corporis obcaecati doloremque optio! Unde accusantium, esse
+                    consectetur asperiores voluptates obcaecati nobis libero
+                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
+                link:
+        color-scheme: base
+    -
+        _id: banner
+        block-content-html: <h2>Banner text</h2><p>sub-text</p>
+        background-desktop-image: https://picsum.photos/id/1023/600/400
+        background-mobile-image: https://picsum.photos/id/1024/600/400
+        text-alignment: center
+        vert-alignment: middle
+        overlay-color: '#000000'
+        overlay-opacity: 0.5
+        min-height: 90vh
+        top-space-padding: 10
+        bottom-space-padding: 10
+        color-scheme: base
+    -
         _id: slider
-        block-content-html: >-
-            <h3> lorem </h3><h2>  experiences  </h2><p><img
-            src="/uploads/star.svg" /><img src="/uploads/star.svg" /><img
-            src="/uploads/star.svg" /><img src="/uploads/star.svg" /></p><p>Dan
-            was here</p>
+        block-content-html: <h3> lorem </h3><h2>  experiences  </h2><p></p><p>Dan was here </p>
+        text-align: right
+        text-box-max-width: 500px
+        img_aspect: Square
+        slider_column_count: 3
+        slider_col_color_scheme: featured
+        slider:
+            -
+                image: https://picsum.photos/id/684/1200/630
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+            -
+                image: https://picsum.photos/id/685/1200/630
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+            -
+                image:
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+            -
+                image: https://picsum.photos/id/685/1200/630
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+        color-scheme: base
+    -
+        _id: slider
+        block-content-html: <h3> lorem </h3><h2>  experiences  </h2><p></p><p>Dan was here </p>
         text-align: right
         text-box-max-width: 500px
         img_aspect: Square
@@ -52,16 +145,19 @@ blocks:
         slider_col_color_scheme: base
         slider:
             -
-                image:
+                image: https://picsum.photos/id/684/1200/630
                 block-content-html: >-
-                    <h3> lorem </h3><h2>  experiences  </h2><p></p><p><img
-                    src="/uploads/star.svg" /><img src="/uploads/star.svg"
-                    /><img src="/uploads/star.svg" /><img
-                    src="/uploads/star.svg" /><img src="/uploads/star.svg"
-                    /></p><p></p><p>and it worked </p>
+                    <h3> lorem </h3><h2>  experiences  </h2><p
+                    class="float-images-right"><img src="/uploads/star.svg"
+                    alt="star" title="star" /><img src="/uploads/star.svg"
+                    alt="star" title="star" /><img src="/uploads/star.svg"
+                    alt="star" title="star" /><img src="/uploads/star.svg"
+                    alt="star" title="star" /><img src="/uploads/star.svg"
+                    alt="star" title="star" /></p><p></p><p>" clients comments
+                    "</p>
                 link: base
             -
-                image:
+                image: https://picsum.photos/id/685/1200/630
                 block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
                 link: base
             -
@@ -69,67 +165,10 @@ blocks:
                 block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
                 link: base
             -
-                image:
+                image: https://picsum.photos/id/685/1200/630
                 block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
                 link: base
         color-scheme: dark
-    -
-        _id: banner
-        block-content-html: >-
-            <p>dan was here :D Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Quis, non provident ea itaque cum reiciendis
-            dolorum aliquam! Expedita praesentium, dolorum ducimus facere
-            dignissimos esse eveniet in rerum molestias aliquam. Rerum.Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit. Quis, non
-            provident ea itaque cum reiciendis dolorum aliquam! Expedita
-            praesentium, dolorum ducimus facere dignissimos esse eveniet in
-            rerum molestias aliquam. Rerum.Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Quis, non provident ea itaque cum
-            reiciendis dolorum aliquam! Expedita praesentium, dolorum ducimus
-            facere dignissimos esse eveniet in rerum molestias aliquam.
-            Rerum.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quis, non provident ea itaque cum reiciendis dolorum aliquam!
-            Expedita praesentium, dolorum ducimus facere dignissimos esse
-            eveniet in rerum molestias aliquam. Rerum.Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Quis, non provident ea itaque cum
-            reiciendis dolorum aliquam! Expedita praesentium, dolorum ducimus
-            facere dignissimos esse eveniet in rerum molestias aliquam.
-            Rerum.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quis, non provident ea itaque cum reiciendis dolorum aliquam!
-            Expedita praesentium, dolorum ducimus facere dignissimos esse
-            eveniet in rerum molestias aliquam. Rerum.Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Quis, non provident ea itaque cum
-            reiciendis dolorum aliquam! Expedita praesentium, dolorum ducimus
-            facere dignissimos esse eveniet in rerum molestias aliquam.
-            Rerum.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Quis, non provident ea itaque cum reiciendis dolorum aliquam!
-            Expedita praesentium, dolorum ducimus facere dignissimos esse
-            eveniet in rerum molestias aliquam. Rerum.Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Quis, non provident ea itaque cum
-            reiciendis dolorum aliquam! Expedita praesentium, dolorum ducimus
-            facere dignissimos esse eveniet in rerum molestias aliquam.
-            Rerum.</p>
-        content-max-width: 500px
-        background-desktop-image: https://picsum.photos/id/1023/600/400
-        background-mobile-image: https://picsum.photos/id/1024/600/400
-        text-alignment: right
-        vert-alignment: bottom
-        overlay-color: '#227722'
-        overlay-opacity: 0.3
-        min-height: 90vh
-        top-space-padding: 0
-        bottom-space-padding: 0
-        color-scheme: dark
-    -
-        _id: liquid-block
-        liquid_code: >-
-            <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.494647487761!2d115.12809509999998!3d-8.6444149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247a13066d977%3A0x467f2ebcb0fb76ef!2sHair%20by%20therapy!5e0!3m2!1sen!2sau!4v1726985453546!5m2!1sen!2sau"
-            width="100%" height="450" style="border:0;" allowfullscreen=""
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        cape-width: true
-        vertical-padding: true
-        color-scheme: featured
 seo:
     title: advanced title
     description: advanced description
