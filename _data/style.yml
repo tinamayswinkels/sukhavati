@@ -17,7 +17,10 @@ schemes:
     text-color: '#f3f3f0'
   - scheme_name: leaf-600
     bg-color: '#61625a'
-    text-color:
+    text-color: '#f3f3f0'
+  - scheme_name: dark
+    bg-color: '#272724'
+    text-color: '#f3f3f0'
   - scheme_name: testimonial box
     bg-color: '#e6e7e1'
     text-color: '#3e3e3e'
