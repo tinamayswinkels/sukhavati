@@ -1,5 +1,16 @@
 
 <section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %}">
+      <div class="max-width mb-small 
+      {% case block.text-alignment %}
+      {% when 'left' %}
+      {% when 'center' %}
+      text-center
+      {% when 'right' %}
+      text-right
+      {% endcase %}
+      ">
+        {{block.block-content-html}}
+      </div>
       <div class="max-width grid">
           {% for col in block.columns %}
           

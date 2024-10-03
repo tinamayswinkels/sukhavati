@@ -310,6 +310,8 @@ _structures:
       - label: Grid
         value:
           _id: grid
+          block-content-html: <h3 class="sub-header"> OUR HOLISTIC APPROACH </h3> <h2 class="heading">A personalised wellness retreat, tailored to you. </h2>
+          text-alignment: center
           grid-desktop-columns: 4
           grid-mobile-columns: 2
           grid-gap: 1rem
