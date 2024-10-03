@@ -3,8 +3,8 @@ schemes:
     bg-color: '#f3f3f0'
     text-color: '#3e3e3e'
   - scheme_name: featured
-    bg-color: '#c1c4b3'
-    text-color: '#272724'
+    bg-color: '#d4d6ca'
+    text-color: '#3e3e3e'
     colored-button-bg-color: '#ece5dd'
   - scheme_name: dark
     bg-color: '#272724'
