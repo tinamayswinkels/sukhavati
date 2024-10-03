@@ -480,6 +480,15 @@ video {
 .mr-full-side {
   margin-right: var(--max-width-side-padding);
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mb-32 {
+  margin-bottom: 8rem;
+}
+.-mb-vert {
+  margin-bottom: calc(var(--vert-gap) * -1);
+}
 .block {
   display: block;
 }
@@ -657,16 +666,17 @@ p:not(:last-child) {
 
 
 
-
-
-
 p {
   font-size: 0.9rem;
   line-height: 150%;
   font-weight:350;
 }
 
+/* editor styles for none content uses */
 
+.heading-md {
+  font-size: 1.8rem;
+}
 
 hr {
   border: none;

@@ -49,16 +49,17 @@ p:not(:last-child) {
 
 
 
-
-
-
 p {
   font-size: 0.9rem;
   line-height: 150%;
   font-weight:350;
 }
 
+/* editor styles for none content uses */
 
+.heading-md {
+  font-size: 1.8rem;
+}
 
 hr {
   border: none;

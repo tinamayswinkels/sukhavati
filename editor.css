@@ -6,6 +6,7 @@
     letter-spacing: -0.01em;
   }
 
+  /* duplicated in base style for none h2 uses */
   h2.heading-md {
     font-size: 1.8rem;
   }

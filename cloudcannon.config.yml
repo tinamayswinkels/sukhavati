@@ -267,6 +267,7 @@ _structures:
         value:
           _id: text-block
           block-content-html: 
+          text-alignment: center
           color-scheme: dark
           max-width:
           color-scheme: base
@@ -384,6 +385,13 @@ _structures:
           - button-text: question that you might have
             block-content-html: <p>answer to that question </p>
           color-scheme: <p></p>
+      - label: timeline
+        value:
+          _id: timeline
+          block-content-html: 
+          color-scheme: dark
+          max-width-timeline:
+          color-scheme: base
       - label: Ticket banner
         value:
           _id: ticket-banner
