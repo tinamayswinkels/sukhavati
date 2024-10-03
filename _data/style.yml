@@ -9,9 +9,9 @@ schemes:
   - scheme_name: dark
     bg-color: '#87897d'
     text-color: '#f3f3f0'
-  - scheme_name: ''
-    bg-color:
-    text-color:
+  - scheme_name: simple text banner
+    bg-color: '#e6e7e1'
+    text-color: '#272724'
 max-width: 1280
 animation-speed: .4s
 small-padding: 1rem
