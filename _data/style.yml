@@ -9,9 +9,15 @@ schemes:
   - scheme_name: dark
     bg-color: '#87897d'
     text-color: '#f3f3f0'
-  - scheme_name: ''
-    bg-color:
-    text-color:
+  - scheme_name: simple text banner
+    bg-color: '#e6e7e1'
+    text-color: '#272724'
+  - scheme_name: testimonial block
+    bg-color: '#c1c4b3'
+    text-color: '#3a3a3a'
+  - scheme_name: testimonial box
+    bg-color: '#e6e7e1'
+    text-color: '#3e3e3e'
 max-width: 1280
 animation-speed: .4s
 small-padding: 1rem
