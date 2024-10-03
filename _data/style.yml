@@ -9,7 +9,7 @@ schemes:
   - scheme_name: dark
     bg-color: '#87897d'
     text-color: '#f3f3f0'
-  - scheme_name: simple text banner
+  - scheme_name: text-banner
     bg-color: '#e6e7e1'
     text-color: '#272724'
   - scheme_name: testimonial block

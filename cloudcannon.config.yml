@@ -10,10 +10,10 @@ paths:
 collections_config:
   pages:
     path: ''
+    icon: notes
     output: true
     filter: strict
     description: ''
-    icon: notes
     _editables:
     _inputs:
     _select_data:
@@ -74,6 +74,7 @@ _inputs:
         - style 1
         - style 2
         - style 3
+    cascade: true
   heading-style:
     type: select
     options:
@@ -82,6 +83,7 @@ _inputs:
         - style 1
         - style 2
         - style 3
+    cascade: true
   sub-heading-style:
     type: select
     options:
@@ -90,6 +92,7 @@ _inputs:
         - style 1
         - style 2
         - style 3
+    cascade: true
   content:
     type: markdown
     options:
@@ -148,6 +151,7 @@ _inputs:
     cascade: true
   top-space-padding:
     type: number
+    cascade: true
     unit: vh
     option:
       min: 0
@@ -155,6 +159,7 @@ _inputs:
       step: 1
   bottom-space-padding:
     type: number
+    cascade: true
     unit: vh
     option:
       min: 0
@@ -173,10 +178,10 @@ _inputs:
     cascade: true
   video-orientation:
     type: select
-    options: 
+    options:
       - vertical
       - horizontal
-# snippet inputs
+    cascade: true
   float-direction:
     type: select
     options:
@@ -184,6 +189,7 @@ _inputs:
       values:
         - left
         - right
+    cascade: true
     default: left
 _structures:
   blocks:
@@ -213,7 +219,7 @@ _structures:
             heading-style:
             sub-heading:
             sub-heading-style:
-            para: 
+            para:
           background-desktop-image: https://picsum.photos/id/1023/600/400
           background-mobile-image: https://picsum.photos/id/1024/600/400
           background-alt: bg-alt
@@ -228,7 +234,8 @@ _structures:
           top-space-padding: 2
           bottom-space-padding: 2
           color-scheme: dark
-      - label: Split banner
+      - label: Text & grid
+        tags:
         value:
           _id: banner-split
           block-content-html:
@@ -266,11 +273,10 @@ _structures:
       - label: text block
         value:
           _id: text-block
-          block-content-html: 
+          block-content-html:
           text-alignment: center
-          color-scheme: dark
-          max-width:
           color-scheme: base
+          max-width:
       - label: slider
         value:
           _id: slider
@@ -281,37 +287,40 @@ _structures:
           slider_column_count: 3
           slider_col_color_scheme: base
           slider:
-                - image: https://picsum.photos/id/684/1200/630
-                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                  link: base
-                - image: https://picsum.photos/id/685/1200/630
-                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                  link: base
-                - image: https://picsum.photos/id/686/1200/630
-                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                  link: base
-                - image: https://picsum.photos/id/687/1200/630
-                  block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                  link: base
+            - image: https://picsum.photos/id/684/1200/630
+              block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              link: base
+            - image: https://picsum.photos/id/685/1200/630
+              block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              link: base
+            - image: https://picsum.photos/id/686/1200/630
+              block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              link: base
+            - image: https://picsum.photos/id/687/1200/630
+              block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              link: base
           color-scheme: dark
       - label: youtube embed
         value:
           _id: youtube
-          embed_code: 
+          embed_code:
           video-aspect: 560/315
           video-col-width: 2
           block-content-html: >-
-              <h3> lorem </h3><h2>  experiences  </h2><p><img
-              src="/uploads/star.svg" /><img src="/uploads/star.svg" /><img
-              src="/uploads/star.svg" /><img src="/uploads/star.svg" /></p><p>Dan
-              was here</p>
-          block-content-width:  1
+            <h3> lorem </h3><h2>  experiences  </h2><p><img
+            src="/uploads/star.svg" /><img src="/uploads/star.svg" /><img
+            src="/uploads/star.svg" /><img src="/uploads/star.svg" /></p><p>Dan
+            was here</p>
+          block-content-width: 1
           vert-alignment: middle
           color-scheme: base
       - label: Grid
         value:
           _id: grid
-          block-content-html: <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2 class="heading">A personalised wellness retreat, tailored to you. </h2>
+          block-content-html: >-
+            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2
+            class="heading">A personalised wellness retreat, tailored to you.
+            </h2>
           text-alignment: center
           grid-desktop-columns: 4
           grid-mobile-columns: 2
@@ -319,79 +328,113 @@ _structures:
           columns:
           color-scheme: dark
       - label: html block
-        value: 
+        value:
           _id: liquid-block
           liquid_code: >-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.494647487761!2d115.12809509999998!3d-8.6444149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247a13066d977%3A0x467f2ebcb0fb76ef!2sHair%20by%20therapy!5e0!3m2!1sen!2sau!4v1726985453546!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.494647487761!2d115.12809509999998!3d-8.6444149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247a13066d977%3A0x467f2ebcb0fb76ef!2sHair%20by%20therapy!5e0!3m2!1sen!2sau!4v1726985453546!5m2!1sen!2sau"
+            width="600" height="450" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           cape-width: true
           vertical-padding: true
           color-scheme: featured
       - label: Horizontal scroll grid
-        value:  
+        value:
           _id: horizontal-scroll-basic
           heading: block heading
-          block-content-html: <h3> lorem </h3> <h2>  experiences  </h2> 
+          block-content-html: <h3> lorem </h3> <h2>  experiences  </h2>
           image-width: 250px
           img_aspect: square
           scroll-items:
-          -   heading: first
+            - heading: first
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
-          -   heading: second
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
+            - heading: second
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
-          -   heading: third
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
+            - heading: third
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
-          -   heading: fourth
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
+            - heading: fourth
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
           color-scheme: base
       - label: Horizontal scroll grid with inline text box
-        value:  
+        value:
           _id: horizontal-scroll-inline-text-box
           heading: block heading
-          block-content-html: <h3> lorem </h3> <h2>  experiences  </h2> 
+          block-content-html: <h3> lorem </h3> <h2>  experiences  </h2>
           text-box-width: 350px
           image-width: 250px
           img_aspect: square
           scroll-items:
-          -   heading: first
+            - heading: first
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
-          -   heading: second
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
+            - heading: second
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
-          -   heading: third
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
+            - heading: third
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
-          -   heading: fourth
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
+            - heading: fourth
               image: https://picsum.photos/id/684/1200/630
-              description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis obcaecati doloremque optio! Unde accusantium, esse consectetur asperiores voluptates obcaecati nobis libero necessitatibus vero labore quod eaque. Illum, tenetur alias!
-              link: #
+              description: >-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                corporis obcaecati doloremque optio! Unde accusantium, esse
+                consectetur asperiores voluptates obcaecati nobis libero
+                necessitatibus vero labore quod eaque. Illum, tenetur alias!
+              link:
           color-scheme: base
       - label: Accordion
         value:
           _id: accordion
           block-content-html: <h2 class="heading-lg"> FREQUENTLY ASKED QUESTIONS </h2>
           drop_down:
-          - button-text: question that you might have
-            block-content-html: <p>answer to that question </p>
+            - button-text: question that you might have
+              block-content-html: <p>answer to that question </p>
           color-scheme: <p></p>
       - label: timeline
         value:
           _id: timeline
-          block-content-html: 
-          color-scheme: dark
-          max-width-timeline:
+          block-content-html:
           color-scheme: base
+          max-width-timeline:
       - label: Ticket banner
         value:
           _id: ticket-banner
@@ -451,8 +494,6 @@ _structures:
               link: /
             - text: sublink 3
               link: /
-
-data_config: {}
 timezone: Etc/UTC
 _snippets_definitions:
   jekyll_liquid_format:

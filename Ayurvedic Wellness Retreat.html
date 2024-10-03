@@ -45,7 +45,7 @@ blocks:
         mobile-collapse-bg-padding: false
         img_aspect: Square
         top-space-padding: 10
-        bottom-space-padding: 10
+        bottom-space-padding: 0
         color-scheme: base
     -
         _id: banner-split
@@ -138,7 +138,7 @@ blocks:
         mobile-collapse-bg-padding: false
         img_aspect: Square
         top-space-padding: 10
-        bottom-space-padding: 5
+        bottom-space-padding: 0
         color-scheme: base
     -
         _id: banner-split
@@ -215,6 +215,32 @@ blocks:
         top-space-padding: 10
         bottom-space-padding: 10
         color-scheme: simple text banner
+    -
+        _id: slider
+        block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
+        text-align: right
+        text-box-max-width: 500px
+        img_aspect: Square
+        slider_column_count: 3
+        slider_col_color_scheme: base
+        slider:
+            -
+                image: https://picsum.photos/id/684/1200/630
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+            -
+                image: https://picsum.photos/id/685/1200/630
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+            -
+                image: https://picsum.photos/id/686/1200/630
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+            -
+                image: https://picsum.photos/id/687/1200/630
+                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+                link: base
+        color-scheme: dark
 seo:
     title: advanced title
     description: advanced description
