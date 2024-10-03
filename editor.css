@@ -1,8 +1,5 @@
 
-p.p-subtle {
-    opacity: 0.8;
-    font-size: 0.8rem;
-  }
+
 
   h2.heading-lg {
     font-size: 2.5rem;
@@ -37,8 +34,10 @@ p.p-subtle {
     margin-top: 0.5rem;
   }
   
-  a.button:hover {
-    opacity:0.5;
+
+  p.p-subtle {
+    opacity: 0.8;
+    font-size: 0.8rem;
   }
 
 
