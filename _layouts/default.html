@@ -256,6 +256,7 @@ burgerButton.addEventListener('click', toggleBurger)
   
   function showMore() {
       this.nextElementSibling.classList.toggle('collapsed');
+      this.classList.toggle('open')
   }
 
   buttons.forEach(button => {

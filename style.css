@@ -37,13 +37,13 @@ h2 {
   letter-spacing: -0.01em;
 }
 
-h1:not(last-child),
-h2:not(last-child),
-h3:not(last-child){
+h1:not(:last-child),
+h2:not(:last-child),
+h3:not(:last-child){
   margin-bottom:0.5em;
 }
 
-p:not(last-child) {
+p:not(:last-child) {
   margin-bottom: 1rem;
 }
 
@@ -240,12 +240,12 @@ float: right
 /* accordian */
 .drop-sec{
     overflow: hidden;
-    max-height: calc(var(--true-height) + calc(var(--small-padding * 2)));
-    transition: max-height 2s;
+    height: calc(var(--true-height) + calc(var(--small-padding * 2)));
+    /* transition: max-height 2s; */
    }
 
    .drop-sec.collapsed {
-    max-height: 0;
+    height: 0;
    }
 
    /* ticket banner */

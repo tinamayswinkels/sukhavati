@@ -5,13 +5,13 @@
             {{block.block-content-html}}
           </div>
         
-          <div >
+          <div class="accordion-parent" >
             {% for drop in block.drop_down %}
             <div >
               <div class="expandButton">
                 <h3 class=" inline-block">{{drop.button-text}}</h3>
 
-                <span></span>
+                <span class=""></span>
               </div>
               <div class="drop-sec collapsed">
                 <div class="content">
@@ -26,20 +26,37 @@
 
     <style>
      
-     #section-{{forloop.index}} .icon{
-      max-width: min(100%, {{block.max-icon-width}})
+
+     .expandButton{
+      border: 1px solid var(--text-color);
+      border-bottom: 0 solid;
+      padding: var(--small-padding);
+      display: flex;
+      justify-content: space-between;
      }
 
      .drop-sec{
-      padding-left: var(--small-padding);
-      padding-right: var(--small-padding);
+       padding-left: var(--small-padding);
+       padding-right: var(--small-padding);
+       border-left: 1px solid var(--text-color);
+       border-right: 1px solid var(--text-color);
+       border-top: 0 solid;
+       transition: padding-top var(--animation-speed), padding-bottom var(--animation-speed), border var(--animation-speed), height var(--animation-speed);
+      }
+      
+      .accordion-parent > :last-child .drop-sec{
+          border-bottom:  1px solid var(--text-color);
+      }
+
+      .drop-sec:not(.collapsed){
+        padding: var(--small-padding);
      }
-     .expandButton, .drop-sec:not(.collapsed){
-      border: 1px solid var(--text-color);
-      padding: var(--small-padding);
+
+     .expandButton span::after{
+      content: "+";
      }
-     .drop-sec{
-      transition: padding-top var(--animation-speed), padding-bottom var(--animation-speed), border var(--animation-speed), max-height var(--animation-speed);
+     .expandButton.open span::after{
+      content: "-";
      }
 
     </style>
