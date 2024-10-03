@@ -10,10 +10,10 @@ paths:
 collections_config:
   pages:
     path: ''
-    icon: notes
     output: true
     filter: strict
     description: ''
+    icon: notes
     _editables:
     _inputs:
     _select_data:
@@ -196,6 +196,15 @@ _structures:
     style: modal
     values:
       - label: Simple banner
+        picker_preview:
+          text:
+          subtext:
+          icon:
+          icon_color:
+          image: /uploads/banner-preveiw.png
+          metadata:
+          gallery:
+        tags:
         value:
           _id: banner
           block-content-html: <h2> banner heading </h2> <p> subtext </p>
@@ -210,6 +219,22 @@ _structures:
           bottom-space-padding: 10
           color-scheme: base
       - label: Text & grid
+        picker_preview:
+          text:
+          subtext:
+          icon:
+          icon_color:
+          image: /uploads/split-grid-preview.png
+          metadata:
+          gallery:
+        preview:
+          text:
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
         tags:
         value:
           _id: banner-split
@@ -229,6 +254,15 @@ _structures:
           bottom-space-padding: 2
           color-scheme: dark
       - label: Video banner
+        picker_preview:
+          text:
+          subtext:
+          icon:
+          icon_color:
+          image: /uploads/banner-preveiw-1.png
+          metadata:
+          gallery:
+        tags:
         value:
           _id: banner-video
           block-content-html:
@@ -246,6 +280,15 @@ _structures:
           bottom-space-padding: 5
           color-scheme: dark
       - label: text block
+        preview:
+          text:
+          subtext:
+          icon:
+          icon_color:
+          image: /uploads/split-grid-preview-1.png
+          metadata:
+          gallery:
+        tags:
         value:
           _id: text-block
           block-content-html:
@@ -469,6 +512,7 @@ _structures:
               link: /
             - text: sublink 3
               link: /
+data_config: {}
 timezone: Etc/UTC
 _snippets_definitions:
   jekyll_liquid_format:
