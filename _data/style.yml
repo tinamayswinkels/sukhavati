@@ -1,20 +1,23 @@
 schemes:
-  - scheme_name: base
+  - scheme_name: leaf-100
     bg-color: '#f3f3f0'
     text-color: '#3e3e3e'
-  - scheme_name: featured
+  - scheme_name: leaf-200
+    bg-color: '#e6e7e1'
+    text-color: '#272724'
+  - scheme_name: leaf-300
     bg-color: '#d4d6ca'
     text-color: '#3e3e3e'
     colored-button-bg-color: '#ece5dd'
-  - scheme_name: dark
-    bg-color: '#87897d'
-    text-color: '#f3f3f0'
-  - scheme_name: text-banner
-    bg-color: '#e6e7e1'
-    text-color: '#272724'
-  - scheme_name: testimonial block
+  - scheme_name: leaf-400
     bg-color: '#c1c4b3'
     text-color: '#3a3a3a'
+  - scheme_name: leaf-500
+    bg-color: '#87897d'
+    text-color: '#f3f3f0'
+  - scheme_name: leaf-600
+    bg-color: '#61625a'
+    text-color:
   - scheme_name: testimonial box
     bg-color: '#e6e7e1'
     text-color: '#3e3e3e'
