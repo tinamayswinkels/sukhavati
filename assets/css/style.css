@@ -701,6 +701,13 @@ header{
     background-color: var(--bg-color);
 }
 
+/* extra for editor */
+
+a.button:hover {
+  opacity:0.5;
+}
+
+
 /* floating images */
 
 .float-images-right img{
