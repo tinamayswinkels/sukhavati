@@ -1,7 +1,7 @@
 schemes:
   - scheme_name: base
-    bg-color: '#ffffff'
-    text-color: '#c1c4b3'
+    bg-color: '#f3f3f0'
+    text-color: '#3e3e3e'
   - scheme_name: featured
     bg-color: '#c1c4b3'
     text-color: '#272724'
