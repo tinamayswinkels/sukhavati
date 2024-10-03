@@ -1,6 +1,6 @@
 schemes:
   - scheme_name: base
-    bg-color: '#fff'
+    bg-color: '#ffffff'
     text-color: '#c1c4b3'
   - scheme_name: featured
     bg-color: '#c1c4b3'
