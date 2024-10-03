@@ -1,10 +1,45 @@
-h1.page-main-heading{
-    font-size: 5rem;
-}
 
-h2.larger-heading{
-    font-size: 5rem;
-}
+p.p-subtle {
+    opacity: 0.8;
+    font-size: 0.8rem;
+  }
+
+  h2.heading-lg {
+    font-size: 2.5rem;
+    letter-spacing: -0.01em;
+  }
+
+  h2.heading-md {
+    font-size: 1.8rem;
+  }
+
+  h3.sub-heading {
+    font-family: var(--body-font-family);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 1em;
+  }
+
+  a.button {
+    font-family: var(--body-font-family);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid;
+    display:inline-block;
+    opacity: 1;
+    margin-top: 0.5rem;
+  }
+  
+  a.button:hover {
+    opacity:0.5;
+  }
 
 
 p.float-images-right{

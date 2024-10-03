@@ -17,13 +17,76 @@
 img{max-width: 100%;}
 
 body{
-  font-family:  "Poppins", sans-serif;;
+  font-family:  var(--body-font-family);
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Noto Serif", serif;
+  font-family: var(--heading-font-family);
   font-optical-sizing: auto;
 }
+
+
+h1, h2, h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -0.01em;
+}
+
+h1:not(last-child),
+h2:not(last-child),
+h3:not(last-child){
+  margin-bottom:0.5em;
+}
+
+p:not(last-child) {
+  margin-bottom: 1rem;
+}
+
+
+
+
+.button {
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid;
+  display:inline-block;
+  opacity: 1;
+  margin-top: 0.5rem;
+}
+
+.button:hover {
+  opacity:0.5;
+}
+
+/* this could also be the default for h2s */
+
+
+
+p {
+  font-size: 0.9rem;
+  line-height: 150%;
+  font-weight:350;
+}
+
+
+
+hr {
+  border: none;
+  border-bottom: 2px solid #C1C4B3;
+  margin: 2rem 0;
+}
+
 
 section,header,footer{
     padding: var(--vert-gap) var(--side-gap);
