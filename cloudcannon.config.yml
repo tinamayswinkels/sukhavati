@@ -225,8 +225,8 @@ _structures:
           mobile-image-position: bottom
           mobile-collapse-bg-padding: false
           img_aspect: Square
-          top-space-padding: 10
-          bottom-space-padding: 10
+          top-space-padding: 2
+          bottom-space-padding: 2
           color-scheme: dark
       - label: Split banner
         value:
@@ -275,7 +275,7 @@ _structures:
         value:
           _id: slider
           block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
-          text-align: right
+          text-alignment: right
           text-box-max-width: 500px
           img_aspect: Square
           slider_column_count: 3

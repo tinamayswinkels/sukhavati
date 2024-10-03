@@ -483,12 +483,6 @@ video {
 .mt-2 {
   margin-top: 0.5rem;
 }
-.mb-32 {
-  margin-bottom: 8rem;
-}
-.-mb-vert {
-  margin-bottom: calc(var(--vert-gap) * -1);
-}
 .block {
   display: block;
 }
