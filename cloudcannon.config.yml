@@ -10,10 +10,10 @@ paths:
 collections_config:
   pages:
     path: ''
+    icon: notes
     output: true
     filter: strict
     description: ''
-    icon: notes
     _editables:
     _inputs:
     _select_data:
@@ -212,7 +212,7 @@ _structures:
           background-mobile-image: https://picsum.photos/id/1024/600/400
           text-alignment: center
           vert-alignment: middle
-          overlay-color: black
+          overlay-color: '#000000'
           overlay-opacity: 0.5
           min-height: 90vh
           top-space-padding: 10
@@ -512,7 +512,6 @@ _structures:
               link: /
             - text: sublink 3
               link: /
-data_config: {}
 timezone: Etc/UTC
 _snippets_definitions:
   jekyll_liquid_format:
