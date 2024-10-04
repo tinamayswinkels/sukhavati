@@ -153,42 +153,71 @@
   {% endif %}
 
 
-  <div class="scheme-dark relative" id="footer">
-    <footer>
-      <div class="max-width grid gap-side">
-        <div class="">
-            <a href="/">
-              <img style="max-width: min({{site.data.navigation.footer-logo-size}}, 100%)" src="{{site.data.navigation.logo_image}}" alt="{{site.data.navigation.logo_alt}}">
+  <div class="scheme-base relative text-center" id="footer">
+    <footer class="px-0 pb-small">
+      <div class="">
+        <div class="mb-vert px-full-side">
+            <a class="mx-auto inline-block" href="/">
+              <img class="inline-block" style="max-width: min({{site.data.navigation.footer-logo-size}}, 100%)" src="{{site.data.navigation.footer-logo-image}}" alt="{{site.data.navigation.logo_alt}}">
             </a>
-          <nav class="flex justify-between">
-            {% for link in site.data.navigation.footer_social_links %}
-            <a class="inline-block p-4" href="{{link.link}}">
-              <img src="{{link.icon_link}}" alt="">
-            </a>
-            {% endfor %}
+        </div>
+        
+        
+          <nav class="flex justify-center gap-small px-full-side border-y-2">
+            {% for link in site.data.navigation.footer_nav_bar %}
+            <a class="block p-small" href="{{link.link}}">{{link.text}}</a>
+          {% endfor %}
 
           </nav>
-        </div>
-        <div class="flex justify-around">
-          {% for nav in site.data.navigation.footer_nav_bars %}
-          <nav>
-            {% for link in nav.links %}
-            <a class="block" href="{{link.link}}">{{link.text}}</a>
-            {% endfor %}
-          </nav>
-          {% endfor %}
-        </div>
-        <div>
-          <!-- placeholder form -->
-           <h3>Sign up to our newsletter</h3>
-           <form action="" class="flex">
-             <input type="email" placeholder="EMAIL">
-             <input class="shrink-0" type="submit" value="SUBMIT">
-           </form>
+
+          <div class="grid grid-cols-3 py-small">
+
+            <div class="p-small border-r-2">
+              <h3 class="heading-md"> Location </h3>
+              <div class="footer-grid-col">
+                {{site.data.navigation.footer-location-html}}
+              </div>
+            </div>
+            <div class="p-small border-r-2">
+              <h3 class="heading-md"> Contact </h3>
+              <div class="footer-grid-col">
+                <p>
+                  <a href="tel:{{site.data.navigation.footer-contact-links.phone-number}}"><span class="font-bold">Phone:</span> {{site.data.navigation.footer-contact-links.phone-number-text}}</a>
+                </p>
+                <p>
+                  <a href="https://wa.me/{{site.data.navigation.footer-contact-links.whatsApp-link-number}}?text={{site.data.navigation.footer-contact-links.whatsApp-link-initial-message | replace: ' ', '%20'}}"><span class="font-bold">WhatsApp:</span> {{site.data.navigation.footer-contact-links.whatsApp-text}}</a>
+                
+                </p>
+                <p>
+                  <a href="mailto:{{site.data.navigation.footer-contact-links.email}}"><span class="font-bold">Email:</span> {{site.data.navigation.footer-contact-links.email}}</a>
+                </p>
+
+              </div>
+            </div>
+            <div class="p-small">
+              <h3 class="heading-md"> Follow us </h3>
+              <div class="footer-grid-col">
+                {% for link in site.data.navigation.footer_social_links %}
+                <p>
+                  <a  href="{{link.link}}">{{link.text}}</a>
+                </p>
+
+              {% endfor %}
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </footer>
   </div>
+
+  {% for link in site.data.navigation.footer_social_links %}
+  <a class="inline-block p-4" href="{{link.link}}">
+    <img src="{{link.icon_link}}" alt="">
+  </a>
+  {% endfor %}
 
   <style>
     #footer .grid {

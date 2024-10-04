@@ -121,6 +121,11 @@ float: right
         display: block;
     }
 
+    /* footer styles */
+    .footer-grid-col p {
+      margin-bottom: 0;
+    }
+
 /* custom grid */
 
 
