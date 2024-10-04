@@ -201,7 +201,7 @@ _structures:
           subtext:
           icon:
           icon_color:
-          image: /uploads/banner-preveiw.png
+          image:
           metadata:
           gallery:
             image: /uploads/banner-preveiw.png
@@ -224,21 +224,17 @@ _structures:
           color-scheme: base
       - label: Text & grid
         picker_preview:
-          text:
-          subtext:
-          icon:
-          icon_color:
-          image: /uploads/split-grid-preview.png
-          metadata:
-          gallery:
-        preview:
-          text:
+          text: text and grid
           subtext:
           icon:
           icon_color:
           image:
           metadata:
           gallery:
+            image: /uploads/split-grid-preview.png
+            icon:
+            icon_color:
+            fit:
         tags:
         value:
           _id: banner-split
@@ -259,13 +255,17 @@ _structures:
           color-scheme: dark
       - label: Video banner
         picker_preview:
-          text:
+          text: Video banner
           subtext:
           icon:
           icon_color:
-          image: /uploads/banner-preveiw-1.png
+          image:
           metadata:
           gallery:
+            image: /uploads/split-grid-preview.png
+            icon:
+            icon_color:
+            fit:
         tags:
         value:
           _id: banner-video
@@ -284,14 +284,18 @@ _structures:
           bottom-space-padding: 5
           color-scheme: dark
       - label: text block
-        preview:
-          text:
+        picker_preview: 
+          text: text block
           subtext:
           icon:
           icon_color:
-          image: /uploads/split-grid-preview-1.png
+          image: 
           metadata:
           gallery:
+            image: /uploads/banner-preveiw.png
+            icon:
+            icon_color:
+            fit:
         tags:
         value:
           _id: text-block
@@ -300,6 +304,18 @@ _structures:
           color-scheme: base
           max-width:
       - label: slider
+        picker_preview: 
+          text: Slider
+          subtext:
+          icon:
+          icon_color:
+          image: 
+          metadata:
+          gallery:
+            image: /uploads/slider-preview.png
+            icon:
+            icon_color:
+            fit:
         value:
           _id: slider
           block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
@@ -322,21 +338,20 @@ _structures:
               block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               link: base
           color-scheme: dark
-      - label: youtube embed
-        value:
-          _id: youtube
-          embed_code:
-          video-aspect: 560/315
-          video-col-width: 2
-          block-content-html: >-
-            <h3> lorem </h3><h2>  experiences  </h2><p><img
-            src="/uploads/star.svg" /><img src="/uploads/star.svg" /><img
-            src="/uploads/star.svg" /><img src="/uploads/star.svg" /></p><p>Dan
-            was here</p>
-          block-content-width: 1
-          vert-alignment: middle
-          color-scheme: base
+
       - label: Grid
+        picker_preview: 
+          text: grid
+          subtext:
+          icon:
+          icon_color:
+          image: 
+          metadata:
+          gallery:
+            image: /uploads/grid-preview.png
+            icon:
+            icon_color:
+            fit:
         value:
           _id: grid
           block-content-html: >-
