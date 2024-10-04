@@ -565,16 +565,9 @@ video {
 .border {
   border-width: 1px;
 }
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
 .border-y-2 {
   border-top-width: 2px;
   border-bottom-width: 2px;
-}
-.border-r {
-  border-right-width: 1px;
 }
 .border-r-2 {
   border-right-width: 2px;
