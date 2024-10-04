@@ -204,6 +204,10 @@ _structures:
           image: /uploads/banner-preveiw.png
           metadata:
           gallery:
+            image: /uploads/banner-preveiw.png
+            icon:
+            icon_color:
+            fit:
         tags:
         value:
           _id: banner
