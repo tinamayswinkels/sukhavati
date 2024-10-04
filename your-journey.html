@@ -2,63 +2,36 @@
 layout: default
 blocks:
     -
-        _id: banner-video
+        _id: banner
         block-content-html: >-
-            <h3 class="sub-heading">Ayurvedic Wellness</h3><h2
-            class="heading-lg">Feel your best with our array of life-changing
-            holistic treatments</h2><p><a class="button" href="/">Book
-            Now</a></p>
-        videos:
-            -
-                video_path: /uploads/sea-24216-360p.mp4
-                video_type: mp4
-        controls: false
-        autoplay: true
+            <h3 class="sub-heading">AYUVEDIC WELLNESS</h3><h2
+            class="heading-lg">Our Ayuvedic wellness retreat, personalised for
+            you.</h2><p class="p-subtle">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        background-desktop-image:
+        background-mobile-image:
         text-alignment: center
         vert-alignment: middle
-        overlay-color: '#000000'
-        overlay-opacity: 0.5
+        overlay-color: '#ffffff'
+        overlay-opacity: 0
         min-height: 90vh
         top-space-padding: 10
-        bottom-space-padding: 5
-        color-scheme: dark
-    -
-        _id: banner-split
-        block-content-html: >-
-            <h3 class="sub-heading">OUR LUXURY RETREAT</h3><h2
-            class="heading-md">Ayuvedic Wellness</h2><p class="p-subtle">Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.</p><p><a class="button" href="/">Book Now</a></p>
-        background-desktop-image: https://picsum.photos/id/1023/600/400
-        background-mobile-image: https://picsum.photos/id/1024/600/400
-        background-alt: bg-alt
-        desktop-collapse-bg-padding: true
-        desktop-image-position: left
-        section-gap: 1rem
-        text-alignment: left
-        vert-alignment: middle
-        mobile-image-position: bottom
-        mobile-collapse-bg-padding: false
-        img_aspect: Square
-        top-space-padding: 5
-        bottom-space-padding: 0
-        color-scheme: leaf-100
+        bottom-space-padding: 10
+        color-scheme: leaf-300
     -
         _id: banner-split
         block-content-html: >-
             <h3 class="sub-heading">THE AYUVEDIC APPROACH</h3><h2
-            class="heading-md">Our holistic approach</h2><p
+            class="heading-lg">Personalised Approach</h2><p
             class="p-subtle">Lorem ipsum dolor sit amet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
             dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur.</p><p><a class="button" href="/">BOOK
-            NOW</a></p>
+            fugiat nulla pariatur.</p>
         background-desktop-image: https://picsum.photos/id/1023/600/400
         background-mobile-image: https://picsum.photos/id/1024/600/400
         background-alt: bg-alt
@@ -70,9 +43,9 @@ blocks:
         mobile-image-position: bottom
         mobile-collapse-bg-padding: false
         img_aspect: Square
-        top-space-padding: 0
+        top-space-padding: 5
         bottom-space-padding: 5
-        color-scheme: leaf-100
+        color-scheme: leaf-200
     -
         _id: slider
         block-content-html: >-
@@ -127,7 +100,7 @@ blocks:
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.</p>
-        text-alignment: center
+        text-alignment: right
         text-box-max-width: 500px
         img_aspect: Square
         slider_column_count: 3
@@ -150,6 +123,20 @@ blocks:
                 block-content-html: "<p class=\"float-images-right\"><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /></p><p>This is a short blurb about just how much \LI loved my Sukhavati experience.</p><h3 class=\"sub-heading\">Sandra, Australia</h3>"
                 link: base
         color-scheme: leaf-500
+    -
+        _id: timeline
+        block-content-html: >-
+            <p>CHOOSE YOUR RETREAT LENGTH</p><p>Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p><p>PERSONALISED CONSULTATION</p><p>Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.</p>
+        color-scheme: leaf-200
+        max-width-timeline:
 seo:
     title: advanced title
     description: advanced description
