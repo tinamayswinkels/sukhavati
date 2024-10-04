@@ -197,7 +197,7 @@ _structures:
     values:
       - label: Simple banner
         picker_preview:
-          text:
+          text: Simple banner
           subtext:
           icon:
           icon_color:
