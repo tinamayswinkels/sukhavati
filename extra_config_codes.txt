@@ -22,7 +22,7 @@
           img_aspect: Square
           top-space-padding: 2
           bottom-space-padding: 2
-          color-scheme: dark
+          color-scheme: leaf-500
 
 
 
@@ -39,4 +39,4 @@
             was here</p>
           block-content-width: 1
           vert-alignment: middle
-          color-scheme: base
+          color-scheme: leaf-100

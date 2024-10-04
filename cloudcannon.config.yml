@@ -221,7 +221,7 @@ _structures:
           min-height: 90vh
           top-space-padding: 10
           bottom-space-padding: 10
-          color-scheme: base
+          color-scheme: leaf-100
       - label: Text & grid
         picker_preview:
           text: text and grid
@@ -252,7 +252,7 @@ _structures:
           img_aspect: Square
           top-space-padding: 2
           bottom-space-padding: 2
-          color-scheme: dark
+          color-scheme: leaf-500
       - label: Video banner
         picker_preview:
           text: Video banner
@@ -282,7 +282,7 @@ _structures:
           min-height: 90vh
           top-space-padding: 10
           bottom-space-padding: 5
-          color-scheme: dark
+          color-scheme: leaf-500
       - label: text block
         picker_preview: 
           text: text block
@@ -301,7 +301,7 @@ _structures:
           _id: text-block
           block-content-html:
           text-alignment: center
-          color-scheme: base
+          color-scheme: leaf-100
           max-width:
       - label: slider
         picker_preview: 
@@ -337,7 +337,7 @@ _structures:
             - image: https://picsum.photos/id/687/1200/630
               block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               link: base
-          color-scheme: dark
+          color-scheme: leaf-500
 
       - label: Grid
         picker_preview: 
@@ -363,7 +363,7 @@ _structures:
           grid-mobile-columns: 2
           grid-gap: 1rem
           columns:
-          color-scheme: dark
+          color-scheme: leaf-500
       - label: html block
         value:
           _id: liquid-block
@@ -374,7 +374,7 @@ _structures:
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           cape-width: true
           vertical-padding: true
-          color-scheme: featured
+          color-scheme: leaf-300
       - label: Horizontal scroll grid
         value:
           _id: horizontal-scroll-basic
@@ -415,7 +415,7 @@ _structures:
                 consectetur asperiores voluptates obcaecati nobis libero
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
-          color-scheme: base
+          color-scheme: leaf-100
       - label: Horizontal scroll grid with inline text box
         value:
           _id: horizontal-scroll-inline-text-box
@@ -457,7 +457,7 @@ _structures:
                 consectetur asperiores voluptates obcaecati nobis libero
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
-          color-scheme: base
+          color-scheme: leaf-100
       - label: Accordion
         value:
           _id: accordion
@@ -470,7 +470,7 @@ _structures:
         value:
           _id: timeline
           block-content-html:
-          color-scheme: base
+          color-scheme: leaf-100
           max-width-timeline:
           time-line-points:
             - heading:
@@ -484,7 +484,7 @@ _structures:
               url:
             - text: clickable message
               url: google.com
-          color-scheme: dark
+          color-scheme: leaf-500
   columns:
     style: modal
     values:
@@ -502,7 +502,7 @@ _structures:
           block-content-html:
           icon-path:
           icon-alt:
-          color-scheme: featured
+          color-scheme: leaf-300
           col-width: 1
           col-height: 1
       - label: video

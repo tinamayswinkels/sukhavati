@@ -34,6 +34,22 @@
     opacity: 1;
     margin-top: 0.5rem;
   }
+
+  a.button-featured {
+    font-family: var(--body-font-family);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    color: var(--colored-button-text);
+    background-color: var(--colored-button-bg);
+    border: 1px solid var(--colored-button-bg);
+    display:inline-block;
+    opacity: 1;
+    margin-top: 0.5rem;
+  }
   
 
   p.p-subtle {

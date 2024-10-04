@@ -68,6 +68,8 @@ hr {
 }
 
 
+
+
 section,header,footer{
     padding: var(--vert-gap) var(--side-gap);
     background-size: cover;
