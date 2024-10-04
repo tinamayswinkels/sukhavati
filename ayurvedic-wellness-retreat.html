@@ -72,49 +72,17 @@ blocks:
         bottom-space-padding: 10
         color-scheme: base
     -
-        _id: horizontal-scroll-basic
-        heading: block heading
-        block-content-html: <h2 class="heading-lg">quick heading</h2><p>filler text</p>
-        image-width: 250px
-        img_aspect: square
-        scroll-items:
-            -
-                heading: first
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-            -
-                heading: second
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-            -
-                heading: third
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-            -
-                heading: fourth
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-        color-scheme: featured
+        _id: grid
+        block-content-html: >-
+            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2
+            class="heading">A personalised wellness retreat, tailored to you.
+            </h2>
+        text-alignment: center
+        grid-desktop-columns: 4
+        grid-mobile-columns: 2
+        grid-gap: 1rem
+        columns:
+        color-scheme: dark
     -
         _id: banner-split
         block-content-html: >-
@@ -240,18 +208,6 @@ blocks:
                 image: https://picsum.photos/id/687/1200/630
                 block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
                 link: base
-        color-scheme: dark
-    -
-        _id: grid
-        block-content-html: >-
-            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2
-            class="heading">A personalised wellness retreat, tailored to you.
-            </h2>
-        text-alignment: center
-        grid-desktop-columns: 4
-        grid-mobile-columns: 2
-        grid-gap: 1rem
-        columns:
         color-scheme: dark
 seo:
     title: advanced title
