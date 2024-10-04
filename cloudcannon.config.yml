@@ -472,6 +472,9 @@ _structures:
           block-content-html:
           color-scheme: base
           max-width-timeline:
+          time-line-points:
+            - heading:
+              paragraph: 
       - label: Ticket banner
         value:
           _id: ticket-banner
