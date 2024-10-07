@@ -196,7 +196,7 @@ _structures:
   blocks:
     style: modal
     values:
-      - label: Text Banner
+      - label: Text banner
         picker_preview:
           text: Simple banner
           subtext:
@@ -304,7 +304,7 @@ _structures:
           text-alignment: center
           color-scheme: leaf-100
           max-width:
-      - label: slider
+      - label: Clickable slider
         picker_preview:
           text: Slider
           subtext:
@@ -317,6 +317,7 @@ _structures:
             icon:
             icon_color:
             fit:
+        tags:
         value:
           _id: slider
           block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
@@ -375,7 +376,8 @@ _structures:
           cape-width: true
           vertical-padding: true
           color-scheme: leaf-300
-      - label: Horizontal scroll grid
+      - label: Scrolling grid
+        tags:
         value:
           _id: horizontal-scroll-basic
           heading: block heading
@@ -416,7 +418,8 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
           color-scheme: leaf-100
-      - label: Horizontal scroll grid with inline text box
+      - label: Scrolling grid with inline text box
+        tags:
         value:
           _id: horizontal-scroll-inline-text-box
           heading: block heading
@@ -466,7 +469,8 @@ _structures:
             - button-text: question that you might have
               block-content-html: <p>answer to that question </p>
           color-scheme: <p></p>
-      - label: timeline
+      - label: Timeline
+        tags:
         value:
           _id: timeline
           block-content-html:
