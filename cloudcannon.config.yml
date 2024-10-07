@@ -223,7 +223,7 @@ _structures:
           top-space-padding: 10
           bottom-space-padding: 10
           color-scheme: leaf-100
-      - label: Text & grid
+      - label: Text & image grid
         picker_preview:
           text: text and grid
           subtext:
