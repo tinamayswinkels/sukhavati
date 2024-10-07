@@ -1,3 +1,4 @@
+_schema: _schema
 paths:
   uploads: uploads
   static: ''
@@ -195,7 +196,7 @@ _structures:
   blocks:
     style: modal
     values:
-      - label: Simple banner
+      - label: Text Banner
         picker_preview:
           text: Simple banner
           subtext:
@@ -284,12 +285,12 @@ _structures:
           bottom-space-padding: 5
           color-scheme: leaf-500
       - label: text block
-        picker_preview: 
+        picker_preview:
           text: text block
           subtext:
           icon:
           icon_color:
-          image: 
+          image:
           metadata:
           gallery:
             image: /uploads/banner-preveiw.png
@@ -304,12 +305,12 @@ _structures:
           color-scheme: leaf-100
           max-width:
       - label: slider
-        picker_preview: 
+        picker_preview:
           text: Slider
           subtext:
           icon:
           icon_color:
-          image: 
+          image:
           metadata:
           gallery:
             image: /uploads/slider-preview.png
@@ -338,14 +339,13 @@ _structures:
               block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               link: base
           color-scheme: leaf-500
-
       - label: Grid
-        picker_preview: 
+        picker_preview:
           text: grid
           subtext:
           icon:
           icon_color:
-          image: 
+          image:
           metadata:
           gallery:
             image: /uploads/grid-preview.png
@@ -474,7 +474,7 @@ _structures:
           max-width-timeline:
           time-line-points:
             - heading:
-              paragraph: 
+              paragraph:
       - label: Ticket banner
         value:
           _id: ticket-banner
