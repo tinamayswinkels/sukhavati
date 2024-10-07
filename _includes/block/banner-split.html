@@ -39,7 +39,7 @@
     }
 
     #section-{{forloop.index}} .picture{
-      aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
+      aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %};
       align-self:center;
       order:2;
       {% if block.desktop-collapse-bg-padding == false %}
@@ -64,6 +64,7 @@
           order:3;
       {% endif %}
       }
+      
       #section-{{forloop.index}} .picture{
 
         {% if block.mobile-collapse-bg-padding == false %}
