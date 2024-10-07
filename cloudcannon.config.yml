@@ -380,7 +380,6 @@ _structures:
         tags:
         value:
           _id: horizontal-scroll-basic
-          heading: block heading
           block-content-html: <h3> lorem </h3> <h2>  experiences  </h2>
           image-width: 250px
           img_aspect: square
