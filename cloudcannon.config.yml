@@ -1,3 +1,4 @@
+_schema: _schema
 paths:
   uploads: uploads
   static: ''
@@ -195,7 +196,7 @@ _structures:
   blocks:
     style: modal
     values:
-      - label: Simple banner
+      - label: Text banner
         picker_preview:
           text: Simple banner
           subtext:
@@ -222,7 +223,7 @@ _structures:
           top-space-padding: 10
           bottom-space-padding: 10
           color-scheme: leaf-100
-      - label: Text & grid
+      - label: Text & image grid
         picker_preview:
           text: text and grid
           subtext:
@@ -284,12 +285,12 @@ _structures:
           bottom-space-padding: 5
           color-scheme: leaf-500
       - label: text block
-        picker_preview: 
+        picker_preview:
           text: text block
           subtext:
           icon:
           icon_color:
-          image: 
+          image:
           metadata:
           gallery:
             image: /uploads/banner-preveiw.png
@@ -303,19 +304,20 @@ _structures:
           text-alignment: center
           color-scheme: leaf-100
           max-width:
-      - label: slider
-        picker_preview: 
+      - label: Clickable slider
+        picker_preview:
           text: Slider
           subtext:
           icon:
           icon_color:
-          image: 
+          image:
           metadata:
           gallery:
             image: /uploads/slider-preview.png
             icon:
             icon_color:
             fit:
+        tags:
         value:
           _id: slider
           block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
@@ -338,14 +340,13 @@ _structures:
               block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               link: base
           color-scheme: leaf-500
-
       - label: Grid
-        picker_preview: 
+        picker_preview:
           text: grid
           subtext:
           icon:
           icon_color:
-          image: 
+          image:
           metadata:
           gallery:
             image: /uploads/grid-preview.png
@@ -375,7 +376,8 @@ _structures:
           cape-width: true
           vertical-padding: true
           color-scheme: leaf-300
-      - label: Horizontal scroll grid
+      - label: Scrolling grid
+        tags:
         value:
           _id: horizontal-scroll-basic
           heading: block heading
@@ -416,7 +418,8 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
           color-scheme: leaf-100
-      - label: Horizontal scroll grid with inline text box
+      - label: Scrolling grid with inline text box
+        tags:
         value:
           _id: horizontal-scroll-inline-text-box
           heading: block heading
@@ -466,7 +469,8 @@ _structures:
             - button-text: question that you might have
               block-content-html: <p>answer to that question </p>
           color-scheme: <p></p>
-      - label: timeline
+      - label: Timeline
+        tags:
         value:
           _id: timeline
           block-content-html:
@@ -474,7 +478,7 @@ _structures:
           max-width-timeline:
           time-line-points:
             - heading:
-              paragraph: 
+              paragraph:
       - label: Ticket banner
         value:
           _id: ticket-banner
