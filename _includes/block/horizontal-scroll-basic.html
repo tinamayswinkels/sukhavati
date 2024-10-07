@@ -13,7 +13,7 @@
       {% for col in block.scroll-items %}
         <div class="shrink-0 {% if forloop.first  %} ml-full-side {% endif %} {% if forloop.last  %} mr-full-side {% endif %}" style="width: {{block.image-width}};">
           {% if col.link %}<a href="{{col.link}}">{% endif%}
-            <div class="image-sizer relative">
+            <div class="image-sizer relative mb-small">
               <img class="object-cover object-center absolute inset-0 h-full" src="https://picsum.photos/id/1025/600/400" alt="">
             </div>
           <h3>{{col.heading}}</h3>
