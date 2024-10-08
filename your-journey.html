@@ -18,8 +18,8 @@ blocks:
         overlay-color: '#ffffff'
         overlay-opacity: 0
         min-height: 90vh
-        top-space-padding: 10
-        bottom-space-padding: 10
+        top-space-padding: 5
+        bottom-space-padding: 5
         color-scheme: leaf-300
     -
         _id: banner-split
@@ -88,36 +88,38 @@ blocks:
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
     -
-        _id: slider
+        _id: horizontal-scroll-basic
+        heading:
         block-content-html: >-
             <h3 class="sub-heading">PERSONALISED FOR YOUR NEEDS</h3><h2
             class="heading-lg">Your Wellness Goals</h2><p class="p-subtle">Lorem
             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.</p>
-        text-alignment: left
-        text-box-max-width: 500px
+            ea commodo consequat. </p>
+        image-width: 250px
         img_aspect: Portraight
-        slider_column_count: 4
-        slider_col_color_scheme: leaf-300
-        slider:
+        scroll-items:
             -
+                heading: STRESS
                 image: https://picsum.photos/id/684/1200/630
-                block-content-html: <h3 class="sub-heading">STRESS</h3>
-                link: base
+                description:
+                link:
             -
-                image: https://picsum.photos/id/686/1200/630
-                block-content-html: <h3 class="sub-heading">DETOX</h3>
-                link: base
+                heading: DETOX
+                image: https://picsum.photos/id/684/1200/630
+                description:
+                link:
             -
-                image: https://picsum.photos/id/685/1200/630
-                block-content-html: <h3 class="sub-heading">WEIGHT LOSS</h3>
-                link: base
+                heading: WEIGHT LOSS
+                image: https://picsum.photos/id/684/1200/630
+                description:
+                link:
             -
-                image: https://picsum.photos/id/687/1200/630
-                block-content-html: <h3 class="sub-heading">REJUVENATION</h3>
-                link: base
+                heading: REJUVENATION
+                image: https://picsum.photos/id/684/1200/630
+                description:
+                link:
         color-scheme: leaf-300
     -
         _id: banner-split
@@ -246,12 +248,12 @@ blocks:
         background-alt: bg-alt
         desktop-collapse-bg-padding: true
         desktop-image-position: left
-        section-gap: 1rem
+        section-gap: 2rem
         text-alignment: left
         vert-alignment: bottom
         mobile-image-position: bottom
         mobile-collapse-bg-padding: false
-        img_aspect: Portraight
+        img_aspect: Tall Portraight
         top-space-padding: 3
         bottom-space-padding: 3
         color-scheme: leaf-100
@@ -302,44 +304,10 @@ blocks:
         vert-alignment: middle
         overlay-color: '#000000'
         overlay-opacity: 0
-        min-height: 90vh
+        min-height: 50vh
         top-space-padding: 10
         bottom-space-padding: 10
         color-scheme: leaf-600
-    -
-        _id: horizontal-scroll-basic
-        heading:
-        block-content-html: >-
-            <h3 class="sub-heading">PERSONALISED FOR YOUR NEEDS</h3><h2
-            class="heading-lg">Your Wellness Goals</h2><p class="p-subtle">Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. </p>
-        image-width: 250px
-        img_aspect: Portraight
-        scroll-items:
-            -
-                heading: STRESS
-                image: https://picsum.photos/id/684/1200/630
-                description:
-                link:
-            -
-                heading: DETOX
-                image: https://picsum.photos/id/684/1200/630
-                description:
-                link:
-            -
-                heading: WEIGHT LOSS
-                image: https://picsum.photos/id/684/1200/630
-                description:
-                link:
-            -
-                heading: REJUVENATION
-                image: https://picsum.photos/id/684/1200/630
-                description:
-                link:
-        color-scheme: leaf-300
 seo:
     title: advanced title
     description: advanced description
