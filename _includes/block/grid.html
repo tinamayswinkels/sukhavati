@@ -47,9 +47,12 @@
       grid-template-columns: repeat({{block.grid-mobile-columns}}, 1fr);
     }
 
+    {% if block.text-col-padding == 'true' %}
     #section-{{forloop.index}} .col-padded{
         padding: {{block.grid-gap}};
     }
+    {% endif %}
+
     {% if block.icon-width %}
     #section-{{forloop.index}} .icon{
 max-width: min(100%, {{block.icon-width}});

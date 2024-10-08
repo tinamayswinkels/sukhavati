@@ -502,6 +502,7 @@ _structures:
         value:
           col-type: text
           block-content-html:
+          vert-alignment:
           icon-path:
           icon-alt:
           color-scheme: leaf-300
