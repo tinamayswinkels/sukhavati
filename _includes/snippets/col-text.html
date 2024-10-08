@@ -15,7 +15,12 @@
             <img class="icon" src="{{col.icon-path}}" alt="{{col.icon-alt}}">
         </div>
         {% endif %}
-        <div style="text-align: {{col.text-alignment}};">
+        <div
+        {% if block.col-internal-padding == 'true' %}
+        class="px-small pb-small"
+    
+        {% endif %}
+          style="text-align: {{col.text-alignment}};">
             {{col.block-content-html}}
         </div>
         
