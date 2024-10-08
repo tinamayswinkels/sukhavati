@@ -37,8 +37,8 @@ schemes:
   - scheme_name: dark
     bg-color: '#272724'
     text-color: '#f3f3f0'
-    colored-button-bg-color:
-    colored-button-text-color:
+    colored-button-bg-color: '#ece5dd'
+    colored-button-text-color: '#3e3e3e'
 max-width: 1280
 animation-speed: .4s
 small-padding: 1rem
