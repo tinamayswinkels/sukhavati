@@ -421,7 +421,6 @@ _structures:
         tags:
         value:
           _id: horizontal-scroll-inline-text-box
-          heading: block heading
           block-content-html: <h3> lorem </h3> <h2>  experiences  </h2>
           text-box-width: 350px
           image-width: 250px
