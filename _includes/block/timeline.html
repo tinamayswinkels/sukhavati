@@ -4,7 +4,7 @@
           <div class="text-center mb-vert">
             {{block.block-content-html }}
           </div>
-          <div class="mx-auto grid timeline-grid"  style="max-width: {{block.time-line-width}} ">
+          <div class="mx-auto grid timeline-grid"  style="max-width: {{block.max-width-timeline}} ">
               {% for point in block.time-line-points %}
             <div class="relative">
               <svg class="block mx-auto mt-2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,8 +15,8 @@
               {% endunless %}
             </div>
             <div class="mb-small">
-              <h3 class="heading-md">{{point.heading}}</h3>
-              <p>{{point.paragraph}}</p>
+              <h3 class="sub-heading">{{point.heading}}</h3>
+              <p class="pb-small mb-small">{{point.paragraph}}</p>
             </div>
               {% endfor %}
           </div>

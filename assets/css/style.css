@@ -713,6 +713,13 @@ header{
     padding: 0 var(--side-gap)
 }
 
+header a {
+  font-size: 15.13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
+}
+
 .standard-padding{
     padding: var(--vert-gap) var(--side-gap);
 }

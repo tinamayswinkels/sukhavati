@@ -11,6 +11,16 @@
     font-size: 1.8rem;
   }
 
+  h2.banner-heading{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+  }
+
   h3.sub-heading {
     font-family: var(--body-font-family);
     font-weight: 600;
@@ -19,6 +29,7 @@
     letter-spacing: 0.15em;
     margin-bottom: 1em;
   }
+
 
   a.button {
     font-family: var(--body-font-family);
