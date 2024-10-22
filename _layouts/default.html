@@ -212,17 +212,7 @@
     </footer>
   </div>
 
-  {% for link in site.data.navigation.footer_social_links %}
-  <a class="inline-block p-4" href="{{link.link}}">
-    <img src="{{link.icon_link}}" alt="">
-  </a>
-  {% endfor %}
 
-  <style>
-    #footer .grid {
-      grid-template-columns: {{site.data.navigation.footer-logo-size}} 1fr 1fr;
-    }
-  </style>
 
 </body>
 

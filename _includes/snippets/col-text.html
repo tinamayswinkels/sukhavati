@@ -16,11 +16,9 @@
         </div>
         {% endif %}
         <div
-        {% if block.col-internal-padding == 'true' %}
+        {% if block.col-internal-padding == true %}
         class="px-small pb-small"
-    
-        {% endif %}
-          style="text-align: {{col.text-alignment}};">
+        {% endif %}>
             {{col.block-content-html}}
         </div>
         

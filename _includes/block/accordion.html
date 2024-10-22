@@ -24,39 +24,3 @@
       </div>
     </section>
 
-    <style>
-     
-
-     .expandButton{
-      border: 1px solid var(--text-color);
-      border-bottom: 0 solid;
-      padding: var(--small-padding);
-      display: flex;
-      justify-content: space-between;
-     }
-
-     .drop-sec{
-       padding-left: var(--small-padding);
-       padding-right: var(--small-padding);
-       border-left: 1px solid var(--text-color);
-       border-right: 1px solid var(--text-color);
-       border-top: 0 solid;
-       transition: padding-top var(--animation-speed), padding-bottom var(--animation-speed), border var(--animation-speed), height var(--animation-speed);
-      }
-      
-      .accordion-parent > :last-child .drop-sec{
-          border-bottom:  1px solid var(--text-color);
-      }
-
-      .drop-sec:not(.collapsed){
-        padding: var(--small-padding);
-     }
-
-     .expandButton span::after{
-      content: "+";
-     }
-     .expandButton.open span::after{
-      content: "-";
-     }
-
-    </style>

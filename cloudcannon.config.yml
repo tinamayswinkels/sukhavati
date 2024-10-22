@@ -363,6 +363,7 @@ _structures:
           grid-desktop-columns: 4
           grid-mobile-columns: 2
           grid-gap: 1rem
+          col-internal-padding: true        
           columns:
           color-scheme: leaf-500
       - label: html block
@@ -502,6 +503,7 @@ _structures:
         value:
           col-type: text
           block-content-html:
+          text-alignment: center
           vert-alignment:
           icon-path:
           icon-alt:
