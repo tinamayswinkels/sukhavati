@@ -40,7 +40,7 @@ schemes:
     colored-button-bg-color: '#ece5dd'
     colored-button-text-color: '#3e3e3e'
   - scheme_name: white
-    bg-color: '#ffffff'
+    bg-color: '#000000'
     text-color: '#f5f0ea'
     colored-button-bg-color: '#ffffff'
     colored-button-text-color:
