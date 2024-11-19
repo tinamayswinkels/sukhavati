@@ -97,7 +97,8 @@ header a {
 
 .max-width{ 
     max-width: var(--max-width);
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .color-set{

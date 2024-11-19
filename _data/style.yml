@@ -46,6 +46,6 @@ schemes:
     colored-button-text-color:
 max-width: 1280
 animation-speed: .4s
-small-padding: 1rem
+small-padding: 2rem
 vertical-padding: min( 5vw , 4rem)
 horizontal-padding: 5vw
