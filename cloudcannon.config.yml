@@ -56,13 +56,13 @@ _inputs:
       initial_height: 320
       center: text-center
       format: p h2 h3 a img
+      bulletedlist: true
+      numberedlist: true
       horizontalrule: true
       image: true
       image_size_attributes: true
-      left: text-left
       link: true
       resize_style: contain
-      right: text-right
       snippet: false
       styles: /editor.css
     label: Content

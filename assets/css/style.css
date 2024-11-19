@@ -492,6 +492,9 @@ video {
 .flex {
   display: flex;
 }
+.table {
+  display: table;
+}
 .grid {
   display: grid;
 }
@@ -633,6 +636,9 @@ video {
 }
 .font-bold {
   font-weight: 700;
+}
+.outline {
+  outline-style: solid;
 }
 
 
