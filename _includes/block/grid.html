@@ -1,6 +1,6 @@
 
 <section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %}">
-      <div class="max-width mb-small 
+      <div class="max-width mb-8 
       {% case block.text-alignment %}
       {% when 'left' %}
       {% when 'center' %}
@@ -26,7 +26,7 @@
           {% assign colWidth = block.grid-mobile-columns %}
             mob-col-w-{{colWidth}}
           {% endif %}
-          col-h-{{col.col-height}} relative {% if col.color-scheme %} scheme-{{col.color-scheme}} {% endif %}  " style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %};">
+          col-h-{{col.col-height}} relative {% if col.color-scheme %} scheme-{{col.color-scheme}} {% endif %}  " {% if block.img-mixed-aspect == false %} style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %};" {% endif %}>
           <!-- {{col.col-type}} -->
                 {% case col.col-type %}
                 {% when 'img' %}

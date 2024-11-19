@@ -36,6 +36,20 @@
 
 
     <style>
+
+      .slider:has(> .scheme-{{block.slider_col_color_scheme}}) {
+        display:flex;
+        justify-content: flex-start
+      }
+
+    .slider > .scheme-{{block.slider_col_color_scheme}} {
+      display: inline-block;
+      width: 33%;
+     } 
+     .slider > .scheme-{{block.slider_col_color_scheme}}:nth-child(n+4){
+      display: none;
+     }
+
       #section-{{forloop.index}} .image-sizer {
       aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
     }

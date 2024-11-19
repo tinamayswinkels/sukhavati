@@ -1,0 +1,27 @@
+
+<section>
+  <div class="max-width">
+      <div class="">
+        <div class="text-box col-w-{{block.block-content-width}}">
+          {{block.block-content-html}}
+       </div>
+        <div class="relative col-w-{{block.video-col-width}}" style="aspect-ratio: {{block.video-aspect}} ;">
+          {{block.embed_code}}
+        </div>
+
+      </div>
+  </div>
+</section>
+
+
+<style>
+
+
+    #section-{{forloop.index}} iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+</style>

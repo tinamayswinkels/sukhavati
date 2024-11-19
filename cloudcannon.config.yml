@@ -364,6 +364,7 @@ _structures:
           grid-mobile-columns: 2
           grid-gap: 1rem
           col-internal-padding: true        
+          img-mixed-aspect: false
           columns:
           color-scheme: leaf-500
       - label: html block
