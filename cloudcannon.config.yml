@@ -286,7 +286,7 @@ _structures:
           color-scheme: leaf-500
       - label: youtube banner
         picker_preview:
-          text: Simple banner
+          text: youtube banner
           subtext:
           icon:
           icon_color:
