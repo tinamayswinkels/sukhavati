@@ -30,22 +30,17 @@ blocks:
         columns:
         color-scheme: leaf-700
     -
-        _id: grid
-        block-content-html: <h3 class="sub-heading"></h3>
-        text-alignment: center
-        grid-desktop-columns: 1
-        grid-mobile-columns: 1
-        grid-gap: 1rem
-        col-internal-padding: true
-        img-mixed-aspect: true
-        columns:
-            -
-                col-type: img
-                image: /uploads/sukhavati-villa-4.jpg
-                image_alt:
-                img_aspect: Landscape
-                col-width: 2
-                col-height: 2
+        _id: banner-youtube
+        block-content-html: <h2></h2>
+        text-alignment: right
+        embed_code: >-
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/74qoqck7JVw?si=Q8EtE8su1RUk--ts"
+            title="YouTube video player" frameborder="0" allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         color-scheme: leaf-100
     -
         _id: banner-split
@@ -150,31 +145,57 @@ blocks:
                 link: base
         color-scheme: leaf-300
     -
-        _id: banner-split
-        block-content-html: >-
-            <h3 class="sub-heading">expert support</h3><h2
-            class="heading-md">International medical expertise &amp;
-            practices.</h2><p class="p-subtle">At the heart of Sukhavati Bali is
-            a team of expert Ayurvedic doctors and health experts. Dr Komang
-            Sudarmi has over 11 years of international training. Along with Dr
-            Dwija Permana, they offer highly effective and holistic medical
-            outcomes . Together with Mark Bunn, an international wellness
-            author, speaker &amp; Head of Ayurvedic Education at Sukhavati, you
-            are in great hands,</p>
-        background-desktop-image: /uploads/test-1.png
-        background-mobile-image: /uploads/test-1-1.png
-        background-alt: bg-alt
-        desktop-collapse-bg-padding: true
-        desktop-image-position: left
-        section-gap: 1rem
-        text-alignment: left
-        vert-alignment: middle
-        mobile-image-position: bottom
-        mobile-collapse-bg-padding: false
-        img_aspect: Square
-        top-space-padding: 5
-        bottom-space-padding: 5
-        color-scheme: leaf-100
+        _id: grid
+        block-content-html: <h3 class="sub-heading"></h3>
+        text-alignment: center
+        grid-desktop-columns: 4
+        grid-mobile-columns: 2
+        grid-gap: 1rem
+        col-internal-padding: true
+        img-mixed-aspect: false
+        columns:
+            -
+                col-type: img
+                image: /uploads/dsc07539.jpg
+                image_alt:
+                img_aspect: Tall Portraight
+                col-width: 1
+                col-height: 2
+            -
+                col-type: img
+                image: /uploads/dsc07449.jpg
+                image_alt:
+                img_aspect: Square
+                col-width: 1
+                col-height: 1
+            -
+                col-type: text
+                block-content-html: >-
+                    <h3 class="sub-heading">expert support</h3><h2
+                    class="heading-md">International medical expertise &amp;
+                    practices.</h2><p class="p-subtle">At the heart of Sukhavati
+                    Bali is a team of expert Ayurvedic doctors and health
+                    experts. Dr Komang Sudarmi has over 11 years of
+                    international training. Along with Dr Dwija Permana, they
+                    offer highly effective and holistic medical outcomes .
+                    Together with Mark Bunn, an international wellness author,
+                    speaker &amp; Head of Ayurvedic Education at Sukhavati, you
+                    are in great hands,</p>
+                text-alignment: left
+                vert-alignment: middle
+                icon-path:
+                icon-alt:
+                color-scheme: leaf-200
+                col-width: 2
+                col-height: 2
+            -
+                col-type: img
+                image: /uploads/dsc07454.jpg
+                image_alt:
+                img_aspect: Square
+                col-width: 1
+                col-height: 1
+        color-scheme: leaf-200
     -
         _id: banner-split
         block-content-html: >-
@@ -248,58 +269,6 @@ blocks:
         min-height: 90vh
         top-space-padding: 10
         bottom-space-padding: 10
-        color-scheme: leaf-200
-    -
-        _id: grid
-        block-content-html: <h3 class="sub-heading"></h3>
-        text-alignment: center
-        grid-desktop-columns: 4
-        grid-mobile-columns: 2
-        grid-gap: 1rem
-        col-internal-padding: true
-        img-mixed-aspect: false
-        columns:
-            -
-                col-type: img
-                image: /uploads/dsc06971.jpg
-                image_alt:
-                img_aspect: Tall Portraight
-                col-width: 1
-                col-height: 2
-            -
-                col-type: img
-                image: /uploads/dsc06909.jpg
-                image_alt:
-                img_aspect: Square
-                col-width: 1
-                col-height: 1
-            -
-                col-type: text
-                block-content-html: >-
-                    <h3 class="sub-heading">expert support</h3><h2
-                    class="heading-md">International medical expertise &amp;
-                    practices.</h2><p class="p-subtle">At the heart of Sukhavati
-                    Bali is a team of expert Ayurvedic doctors and health
-                    experts. Dr Komang Sudarmi has over 11 years of
-                    international training. Along with Dr Dwija Permana, they
-                    offer highly effective and holistic medical outcomes .
-                    Together with Mark Bunn, an international wellness author,
-                    speaker &amp; Head of Ayurvedic Education at Sukhavati, you
-                    are in great hands,</p>
-                text-alignment: left
-                vert-alignment: middle
-                icon-path:
-                icon-alt:
-                color-scheme: leaf-200
-                col-width: 2
-                col-height: 2
-            -
-                col-type: img
-                image: /uploads/2v0a9420.jpg
-                image_alt:
-                img_aspect: Square
-                col-width: 1
-                col-height: 1
         color-scheme: leaf-200
 seo:
     title: advanced title
