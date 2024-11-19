@@ -30,22 +30,17 @@ blocks:
         columns:
         color-scheme: leaf-700
     -
-        _id: grid
-        block-content-html: <h3 class="sub-heading"></h3>
-        text-alignment: center
-        grid-desktop-columns: 1
-        grid-mobile-columns: 1
-        grid-gap: 1rem
-        col-internal-padding: true
-        img-mixed-aspect: true
-        columns:
-            -
-                col-type: img
-                image: /uploads/sukhavati-villa-4.jpg
-                image_alt:
-                img_aspect: Landscape
-                col-width: 2
-                col-height: 2
+        _id: banner-youtube
+        block-content-html: <h2></h2>
+        text-alignment: right
+        embed_code: >-
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/74qoqck7JVw?si=Q8EtE8su1RUk--ts"
+            title="YouTube video player" frameborder="0" allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
         color-scheme: leaf-100
     -
         _id: banner-split
@@ -275,19 +270,6 @@ blocks:
         top-space-padding: 10
         bottom-space-padding: 10
         color-scheme: leaf-200
-    -
-        _id: banner-youtube
-        block-content-html: <h2></h2>
-        text-alignment: right
-        embed_code: >-
-            <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/74qoqck7JVw?si=Q8EtE8su1RUk--ts"
-            title="YouTube video player" frameborder="0" allow="accelerometer;
-            autoplay; clipboard-write; encrypted-media; gyroscope;
-            picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
-        color-scheme: leaf-100
 seo:
     title: advanced title
     description: advanced description
