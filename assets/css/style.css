@@ -704,6 +704,11 @@ p {
   font-weight:350;
 }
 
+body ul{
+  list-style: disc;
+  margin-left: 1rem;
+}
+
 /* editor styles for none content uses */
 
 .heading-md {
