@@ -459,6 +459,9 @@ video {
   margin-left: var(--max-width-side-padding);
   margin-right: var(--max-width-side-padding);
 }
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .mb-small {
   margin-bottom: var(--small-padding);
 }
@@ -482,9 +485,6 @@ video {
 }
 .mt-2 {
   margin-top: 0.5rem;
-}
-.mb-8 {
-  margin-bottom: 2rem;
 }
 .block {
   display: block;
@@ -636,6 +636,9 @@ video {
 }
 .pt-0 {
   padding-top: 0px;
+}
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;

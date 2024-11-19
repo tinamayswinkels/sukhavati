@@ -284,6 +284,26 @@ _structures:
           top-space-padding: 10
           bottom-space-padding: 5
           color-scheme: leaf-500
+      - label: youtube banner
+        picker_preview:
+          text: Simple banner
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/banner-preveiw.png
+            icon:
+            icon_color:
+            fit:
+        tags:
+        value:
+          _id: banner-youtube
+          block-content-html: <h2> Simple heading </h2>
+          text-alignment: right
+          embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/81vugfyEt5E?si=9tavipgzzvGWmnln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          color-scheme: leaf-300
       - label: text block
         picker_preview:
           text: text block
