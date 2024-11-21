@@ -2,22 +2,18 @@
 layout: default
 blocks:
     -
-        _id: banner-video
-        block-content-html: <p><a class="button" href="/">Book Now</a></p>
-        videos:
-            -
-                video_path: /uploads/sea-24216-360p.mp4
-                video_type: mp4
-        controls: false
-        autoplay: true
-        text-alignment: center
-        vert-alignment: middle
-        overlay-color: '#000000'
-        overlay-opacity: 0.5
-        min-height: 90vh
-        top-space-padding: 10
-        bottom-space-padding: 5
-        color-scheme: leaf-500
+        _id: banner-youtube
+        block-content-html: <h2><a class="button" href="/">BOOK NOW</a></h2>
+        text-alignment: right
+        embed_code: >-
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/AMJjcDtQbPo?si=Gvq2bmGBjqa7KtcL"
+            title="YouTube video player" frameborder="0" allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+        color-scheme: leaf-300
     -
         _id: banner-split
         block-content-html: >-
@@ -163,19 +159,6 @@ blocks:
                 block-content-html: "<p class=\"float-images-right\"><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /><img src=\"/uploads/star.svg\" alt=\"star\" title=\"star\" /></p><p class=\"p-subtle\">This is a short blurb about just how much \LI loved my Sukhavati experience.</p><h3 class=\"sub-heading\">Sandra, Australia</h3>"
                 link: base
         color-scheme: leaf-500
-    -
-        _id: banner-youtube
-        block-content-html: <h2><a class="button" href="/">BOOK NOW</a></h2>
-        text-alignment: right
-        embed_code: >-
-            <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/AMJjcDtQbPo?si=Gvq2bmGBjqa7KtcL"
-            title="YouTube video player" frameborder="0" allow="accelerometer;
-            autoplay; clipboard-write; encrypted-media; gyroscope;
-            picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
-        color-scheme: leaf-300
 seo:
     title: advanced title
     description: advanced description
