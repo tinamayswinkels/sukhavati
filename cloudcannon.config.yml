@@ -582,8 +582,8 @@ _structures:
     values:
       - label: simple link
         value:
-          link: /
           text: home
+          link: /
       - label: link with sublinks
         value:
           text: home
