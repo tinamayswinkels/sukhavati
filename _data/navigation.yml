@@ -15,26 +15,18 @@ header_links:
     text: blog
   - link: /about
     text: about
-footer-logo-image: https://picsum.photos/id/684/1200/630
+footer-logo-image: /assets/images/sukhavati.png
 footer-logo-size: 450px
 footer_nav_bar: 
-      - text: link 1
+      - text: navigation link
         link: /
-      - text: link 2
+      - text: navigation link
         link: /
-      - text: link 3
+      - text: navigation link
         link: /
-      - text: link 4
+      - text: navigation link
         link: /
-      - text: link 5
-        link: /
-      - text: link 6
-        link: /
-      - text: link 7
-        link: /
-      - text: link 8
-        link: /
-      - text: link 9
+      - text: navigation link
         link: /
 footer-location-html: <p>21 Lorem ipsum drive,</p><p>adipiscing elit 1234</p><p>eiusmod tempor</p>
 footer-contact-links:

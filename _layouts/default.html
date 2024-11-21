@@ -162,22 +162,22 @@
         </div>
         
         
-          <nav class="flex justify-center gap-small px-full-side border-y-2">
+          <nav class="sm:flex flex-wrap justify-center gap-small px-full-side border-y-2 ">
             {% for link in site.data.navigation.footer_nav_bar %}
             <a class="block p-small" href="{{link.link}}">{{link.text}}</a>
           {% endfor %}
 
           </nav>
 
-          <div class="grid grid-cols-3 py-small">
+          <div class="grid justify-center items-center text-left sm:text-center sm:grid-cols-3 py-small">
 
-            <div class="p-small border-r-2">
+            <div class="p-small  sm:border-r-2">
               <h3 class="heading-md"> Location </h3>
               <div class="footer-grid-col">
                 {{site.data.navigation.footer-location-html}}
               </div>
             </div>
-            <div class="p-small border-r-2">
+            <div class="p-small sm:border-r-2">
               <h3 class="heading-md"> Contact </h3>
               <div class="footer-grid-col">
                 <p>
@@ -352,7 +352,29 @@ tickerBanners.forEach(banner => {
            infinite: true,
            speed: 500,
            fade: false,
-           cssEase: 'linear'
+           cssEase: 'linear',
+           responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+              }]
           });
           
           {% endif %}

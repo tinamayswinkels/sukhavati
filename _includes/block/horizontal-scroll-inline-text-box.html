@@ -25,6 +25,9 @@
 <style>
 
 
+  #section-{{forloop.index}} .image-sizer {
+    aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
+  }
   
   @media (min-width: 768px) {
   
@@ -32,9 +35,6 @@
     grid-template-columns: {{block.text-box-width}} 1fr;
   }
 
-  #section-{{forloop.index}} .image-sizer {
-    aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
-  }
 
 }
 
