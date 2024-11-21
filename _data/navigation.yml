@@ -1,6 +1,6 @@
 logo_image: /assets/images/sukhavati.png
 logo_alt: Logo
-header_logo_width: 4rem
+header_logo_width: 12rem
 header_links:
   - text: Ayuvedic Wellness Retreat
     link: /
@@ -17,20 +17,16 @@ header_links:
         link: /
       - text: Our Bali Retreat Center
         link: ''
-  - link: /blog
-    text: blog
-  - link: /about
-    text: about
-  - link: /
-    text: Journey
-  - link: /
-    text: Wellness Goals
-  - link: /
-    text: Treatments & Practices
-  - link: /
-    text: Resources
-  - link: Book Now
-    text: home
+  - text: Your Journey
+    link: /
+  - text: Wellness Goals
+    link: /
+  - text: Treatments & Practices
+    link: /
+  - text: Resources
+    link: /
+  - text: Book Now
+    link: /
 footer-logo-image: /assets/images/sukhavati.png
 footer-logo-size: 450px
 footer_nav_bar:
