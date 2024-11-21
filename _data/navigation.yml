@@ -1,41 +1,57 @@
-logo_image: 
+logo_image: /assets/images/sukhavati.png
 logo_alt: Logo
 header_logo_width: 4rem
 header_links:
-  - link: /
-    text: home
+  - text: Ayuvedic Wellness Retreat
+    link: /
     sub_links:
-      - text: sublink 1
+      - text: Our Wellness Retreat
+        link: /ayurvedic-wellness-retreat.html
+      - text: Our Story
         link: /
-      - text: sublink 2
+      - text: Our Approach
+        link:
+      - text: Our  Treatments
+        link: /treatment-pages.html
+      - text: Our Team
         link: /
-      - text: sublink 3
-        link: /
+      - text: Our Bali Retreat Center
+        link: ''
   - link: /blog
     text: blog
   - link: /about
     text: about
+  - link: /
+    text: Journey
+  - link: /
+    text: Wellness Goals
+  - link: /
+    text: Treatments & Practices
+  - link: /
+    text: Resources
+  - link: Book Now
+    text: home
 footer-logo-image: /assets/images/sukhavati.png
 footer-logo-size: 450px
-footer_nav_bar: 
-      - text: navigation link
-        link: /
-      - text: navigation link
-        link: /
-      - text: navigation link
-        link: /
-      - text: navigation link
-        link: /
-      - text: navigation link
-        link: /
+footer_nav_bar:
+  - text: navigation link
+    link: /
+  - text: navigation link
+    link: /
+  - text: navigation link
+    link: /
+  - text: navigation link
+    link: /
+  - text: navigation link
+    link: /
 footer-location-html: <p>21 Lorem ipsum drive,</p><p>adipiscing elit 1234</p><p>eiusmod tempor</p>
 footer-contact-links:
-    phone-number-text:  0800 0000 0000
-    phone-number:  080000000000
-    whatsApp-text:  0800 0000 0000
-    whatsApp-link-number: 080000000000
-    whatsApp-link-initial-message: What you want the whatsapp first message received is
-    email:   info@emailaddress.com
+  phone-number-text: 0800 0000 0000
+  phone-number: 80000000000
+  whatsApp-text: 0800 0000 0000
+  whatsApp-link-number: 80000000000
+  whatsApp-link-initial-message: What you want the whatsapp first message received is
+  email: info@emailaddress.com
 footer_social_links:
   - link: /
     text: instagram
@@ -43,4 +59,3 @@ footer_social_links:
     text: facebook
   - link: /
     text: X
-
