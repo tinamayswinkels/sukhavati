@@ -25,17 +25,17 @@
                 {% endif %}
                 {% if col.youtube_embed %}
 
-                <div class="relative" style="aspect-ratio: 1.8;">
-                  {{block.embed_code}}
-                </div>
+                  <div class="relative" style="aspect-ratio: .563;">
+                    {{col.youtube_embed}}
+                  </div>
 
+                  {% endif %}
 
-                {% endif %}
-
+                {% if col.block-content-html %}
                 <div class="p-small star-aligner">
                   {{col.block-content-html}}
-                </span>    
                 </div>
+                {% endif %}
               </div>
             </div>
             {% endfor %}
