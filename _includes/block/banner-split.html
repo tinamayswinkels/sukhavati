@@ -21,8 +21,6 @@
 
     #section-{{forloop.index}} div.grid{
       gap: {{block.section-gap}};
-      padding-top: {{block.top-space-padding}}rem;
-      padding-bottom: {{block.bottom-space-padding}}rem;
     } 
 
     #section-{{forloop.index}} .text-block {
@@ -57,9 +55,9 @@
     }
 
     @media (max-width: 750px) {
-      #section-{{forloop.index}} section{
+      /* #section-{{forloop.index}} section{
         flex-direction: column;
-      }
+      } */
       #section-{{forloop.index}} .text-block{
         /* padding-left: var(--max-width-side-padding); */
         /* padding-right: var(--max-width-side-padding); */
