@@ -489,7 +489,7 @@ _structures:
           drop_down:
             - button-text: question that you might have
               block-content-html: <p>answer to that question </p>
-          color-scheme: <p></p>
+          color-scheme: 
       - label: Timeline
         tags:
         value:
