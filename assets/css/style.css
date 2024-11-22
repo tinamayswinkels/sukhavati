@@ -880,8 +880,8 @@ float: right
   .burger-menu {
     position: fixed;
     top: 0vh;
-    padding: var(--vert-gap) 5% 5%;
-    left:100vw;
+    padding: 4rem 5% 5%;
+    /* left:100vw; */
     right: -100vw;
     bottom: 0vh;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
@@ -889,7 +889,7 @@ float: right
     transition:1s;
   }
   .burger-menu.active{
-    left:50vw;
+    /* left:50vw; */
     right:0;
   }
 
