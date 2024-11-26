@@ -124,6 +124,16 @@ _inputs:
         90vh: Just short of Full Screen
         100vh: Full Screen
     cascade: true
+  overlay-opacity:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        0: no overlay
+        0.2: slight tint
+        0.5: medium tint
+        .75: heavy tint
+    cascade: true
   text-alignment:
     type: select
     options:
