@@ -559,6 +559,11 @@ _structures:
           img_aspect: Square
           col-width: 2
           col-height: 2
+          hide-on-mobile: false
+          mobile-first: true
+          image-position: 50% 50%
+          
+          
       - label: Text Block
         value:
           col-type: text
@@ -570,6 +575,8 @@ _structures:
           color-scheme: leaf-300
           col-width: 1
           col-height: 1
+          hide-on-mobile: false
+          mobile-first: true
       - label: video
         value:
           col-type: video
@@ -581,6 +588,8 @@ _structures:
           img_aspect: Square
           col-width: 1
           col-height: 1
+          hide-on-mobile: false
+          mobile-first: true
   header_links:
     style: modal
     values:

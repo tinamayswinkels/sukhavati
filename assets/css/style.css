@@ -450,6 +450,9 @@ video {
 .z-\[1000\] {
   z-index: 1000;
 }
+.-order-1 {
+  order: -1;
+}
 .-mx-small {
   margin-left: calc(var(--small-padding) * -1);
   margin-right: calc(var(--small-padding) * -1);
@@ -655,9 +658,6 @@ video {
 }
 .font-bold {
   font-weight: 700;
-}
-.uppercase {
-  text-transform: uppercase;
 }
 .mix-blend-multiply {
   mix-blend-mode: multiply;
@@ -1058,6 +1058,9 @@ float: right
   }
 }
 @media (min-width: 768px) {
+  .md\:order-\[0\] {
+    order: 0;
+  }
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
