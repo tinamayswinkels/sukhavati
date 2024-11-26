@@ -246,7 +246,6 @@ _structures:
           background-alt: 
           desktop-collapse-bg-padding: true
           desktop-image-position: right
-          section-gap: 1rem
           text-alignment: center
           vert-alignment: bottom
           mobile-image-position: bottom

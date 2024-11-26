@@ -604,19 +604,15 @@ video {
 .p-4 {
   padding: 1rem;
 }
-.p-small {
-  padding: var(--small-padding);
-}
 .p-\[15px\] {
   padding: 15px;
+}
+.p-small {
+  padding: var(--small-padding);
 }
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-.px-\[15px\] {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .px-full-side {
   padding-left: var(--max-width-side-padding);
@@ -763,11 +759,43 @@ header a {
 }
 
 footer .main-link {
-font-size: 15.13px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
+}
+
+
+footer .heading-md{
+  color: #61625A;
+  text-align: center;
+  /* Subheading - small */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.32px;
+  text-transform: uppercase;
+}
+
+footer .footer-bold {
+  color: #87897D;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 167.8%; /* 20.136px */
+  letter-spacing: 0.54px;
+}
+
+footer .footer-generic, footer .footer-generic p{
+  color: #87897D;
+font-family: "Helvetica Neue";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.54px;
 }
 
 .standard-padding{

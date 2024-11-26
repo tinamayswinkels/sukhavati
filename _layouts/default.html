@@ -161,7 +161,7 @@
 
             <div class="p-small  sm:border-r-2">
               <h3 class="heading-md"> Location </h3>
-              <div class="footer-grid-col">
+              <div class="footer-grid-col footer-generic">
                 {{site.data.navigation.footer-location-html}}
               </div>
             </div>
@@ -169,14 +169,14 @@
               <h3 class="heading-md"> Contact </h3>
               <div class="footer-grid-col">
                 <p>
-                  <a href="tel:{{site.data.navigation.footer-contact-links.phone-number}}"><span class="font-bold">Phone:</span> {{site.data.navigation.footer-contact-links.phone-number-text}}</a>
+                  <a class="footer-generic" href="tel:{{site.data.navigation.footer-contact-links.phone-number}}"><span class="footer-bold">Phone:</span> {{site.data.navigation.footer-contact-links.phone-number-text}}</a>
                 </p>
                 <p>
-                  <a href="https://wa.me/{{site.data.navigation.footer-contact-links.whatsApp-link-number}}?text={{site.data.navigation.footer-contact-links.whatsApp-link-initial-message | replace: ' ', '%20'}}"><span class="font-bold">WhatsApp:</span> {{site.data.navigation.footer-contact-links.whatsApp-text}}</a>
+                  <a class="footer-generic" href="https://wa.me/{{site.data.navigation.footer-contact-links.whatsApp-link-number}}?text={{site.data.navigation.footer-contact-links.whatsApp-link-initial-message | replace: ' ', '%20'}}"><span class="font-bold">WhatsApp:</span> {{site.data.navigation.footer-contact-links.whatsApp-text}}</a>
                 
                 </p>
                 <p>
-                  <a href="mailto:{{site.data.navigation.footer-contact-links.email}}"><span class="font-bold">Email:</span> {{site.data.navigation.footer-contact-links.email}}</a>
+                  <a class="footer-generic" href="mailto:{{site.data.navigation.footer-contact-links.email}}"><span class="font-bold">Email:</span> {{site.data.navigation.footer-contact-links.email}}</a>
                 </p>
 
               </div>
@@ -186,7 +186,7 @@
               <div class="footer-grid-col">
                 {% for link in site.data.navigation.footer_social_links %}
                 <p>
-                  <a href="{{link.link}}">{{link.text}}</a>
+                  <a class="footer-generic" href="{{link.link}}">{{link.text}}</a>
                 </p>
               {% endfor %}
 
@@ -203,7 +203,6 @@
 
 </body>
 
-{{hasSlider}}
 
 {% if hasSlider == true %}
 <!-- slick css -->
