@@ -177,11 +177,11 @@ float: right
 /* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
 
 .burger-button {
-    position:fixed;
-    top: 2vh;
-    right: 2vh;
-    z-index: 901;
-    padding: 8px;
+  position: relative;
+  top: 0vh;
+  right: 0;
+  z-index: 901;
+  padding: 8px;
   }
   /*this is where you can change the color of the buttons*/
   .burger-button span{
@@ -233,7 +233,7 @@ float: right
   .burger-menu {
     position: fixed;
     top: 0vh;
-    padding: 4rem 5% 5%;
+    padding: 8rem 5% 5%;
     /* left:100vw; */
     right: -100vw;
     bottom: 0vh;

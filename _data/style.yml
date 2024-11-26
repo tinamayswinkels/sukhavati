@@ -44,6 +44,16 @@ schemes:
     text-color: '#f5f0ea'
     colored-button-bg-color: '#ffffff'
     colored-button-text-color:
+  - scheme_name: header
+    bg-color: '#E6E7E1'
+    text-color: '#61625A'
+    colored-button-bg-color: '#ffffff'
+    colored-button-text-color:
+  - scheme_name: footer
+    bg-color: '#F5F0EA'
+    text-color: '#87897D'
+    colored-button-bg-color: '#ffffff'
+    colored-button-text-color:
 max-width: 1280
 animation-speed: .4s
 small-padding: 1rem
