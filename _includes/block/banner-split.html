@@ -57,14 +57,17 @@
     @media  (min-width: 750px) {
       
 
-    #section-{{forloop.index}} section{
-
-    padding-top: {{block.top-space-padding}}%;
-    padding-bottom: {{block.bottom-space-padding}}%;
-
+      #section-{{forloop.index}} section{
+        {% if block.collapse-top-space == true %}
+          padding-top: 0;
+        {% endif %}
+      
+        {% if block.collapse-bottom-space == true %}
+            padding-bottom: 0%;
+        {% endif %}
+      
+      }
     }
-
-}
 
     @media (max-width: 750px) {
       /* #section-{{forloop.index}} section{

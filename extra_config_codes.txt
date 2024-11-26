@@ -20,8 +20,8 @@
           mobile-image-position: bottom
           mobile-collapse-bg-padding: false
           img_aspect: Square
-          top-space-padding: 2
-          bottom-space-padding: 2
+          collapse-top-space: false
+          collapse-bottom-space: false
           color-scheme: leaf-500
 
 

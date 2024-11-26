@@ -32,16 +32,7 @@
       }
       #section-{{forloop.index}} .max-width{
         min-height: {{block.min-height}};
-        {% if block.top-space-padding == '0' %}
-        padding-top: {{block.top-space-padding}};
-        {% else %}
-        padding-top: var(--vert-gap);
-        {% endif %}
-        {% if block.bottom-space-padding == '0' %}
-        padding-bottom: {{block.bottom-space-padding}};
-        {% else %}
-        padding-bottom: var(--vert-gap);
-        {% endif %}
+
       }
 
       {% if block.overlay-opacity > 0 %}

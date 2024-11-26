@@ -119,10 +119,10 @@ _inputs:
     options:
       allow_empty: true
       values:
-        50vh: half screen height
-        75vh: three quater screen height
-        90vh: just short of full screen
-        100vh: full screen
+        50vh: Half Screen
+        75vh: Three Quarter Screen
+        90vh: Just short of Full Screen
+        100vh: Full Screen
     cascade: true
   text-alignment:
     type: select
@@ -150,22 +150,6 @@ _inputs:
         - middle
         - bottom
     cascade: true
-  top-space-padding:
-    type: number
-    cascade: true
-    unit: vh
-    option:
-      min: 0
-      max: 100
-      step: 1
-  bottom-space-padding:
-    type: number
-    cascade: true
-    unit: vh
-    option:
-      min: 0
-      max: 100
-      step: 1
   img_aspect:
     type: select
     options:
@@ -221,8 +205,6 @@ _structures:
           overlay-color: '#000000'
           overlay-opacity: 0.5
           min-height: 90vh
-          top-space-padding: 10
-          bottom-space-padding: 10
           color-scheme: leaf-100
       - label: Text & image grid
         picker_preview:
@@ -251,8 +233,8 @@ _structures:
           mobile-image-position: bottom
           mobile-collapse-bg-padding: false
           img_aspect: Square
-          top-space-padding: 2
-          bottom-space-padding: 2
+          collapse-top-space: false
+          collapse-bottom-space: false
           color-scheme: leaf-500
       - label: Video banner
         picker_preview:
@@ -281,8 +263,8 @@ _structures:
           overlay-color: black
           overlay-opacity: 0.5
           min-height: 90vh
-          top-space-padding: 10
-          bottom-space-padding: 5
+          
+          
           color-scheme: leaf-500
       - label: youtube banner
         picker_preview:
@@ -544,8 +526,8 @@ _structures:
           mobile-image-position: bottom
           mobile-collapse-bg-padding: false
           img_aspect: Square
-          top-space-padding: 2
-          bottom-space-padding: 2
+          collapse-top-space: false
+          collapse-bottom-space: false
           color-scheme: leaf-500
   columns:
     style: modal
