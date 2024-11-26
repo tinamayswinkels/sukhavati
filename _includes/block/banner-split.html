@@ -19,12 +19,7 @@
 
     <style>
 
-#section-{{forloop.index}} section{
 
-  padding-top: {{block.top-space-padding}}%;
-  padding-bottom: {{block.bottom-space-padding}}%;
-
-}
 
     #section-{{forloop.index}} div.grid{
       gap: {{block.section-gap}};
@@ -60,6 +55,18 @@
          {% endif %}
       {% endif %}
     }
+
+    @media  (min-width: 750px) {
+      
+
+    #section-{{forloop.index}} section{
+
+    padding-top: {{block.top-space-padding}}%;
+    padding-bottom: {{block.bottom-space-padding}}%;
+
+    }
+
+}
 
     @media (max-width: 750px) {
       /* #section-{{forloop.index}} section{
