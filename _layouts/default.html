@@ -68,7 +68,7 @@
 </head>
 
 <body>
-  <div class="scheme-header relative" id="header">
+  <div class="scheme-header relative z-50" id="header">
   <header>
     <div class="max-width flex justify-between items-center">
       <div class="flex-1">
@@ -79,7 +79,7 @@
       <nav class="text-right hidden right-0 top-0 lg:block shrink-0">
         {% for link in site.data.navigation.header_links %}
         <span 
-        class="inline-block drop-finder px-[15px] {% if forloop.last %} pr-0 {% endif %}
+        class="inline-block drop-finder p-[15px] {% if forloop.last %} pr-0 {% endif %}
         {% if link.sub_links %}
           relative
         {% endif %}

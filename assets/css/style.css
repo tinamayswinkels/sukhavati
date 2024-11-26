@@ -447,6 +447,9 @@ video {
 .z-10 {
   z-index: 10;
 }
+.z-50 {
+  z-index: 50;
+}
 .z-\[1000\] {
   z-index: 1000;
 }
@@ -603,6 +606,9 @@ video {
 }
 .p-small {
   padding: var(--small-padding);
+}
+.p-\[15px\] {
+  padding: 15px;
 }
 .px-0 {
   padding-left: 0px;
