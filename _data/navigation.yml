@@ -47,7 +47,7 @@ footer_nav_bar:
   - text: 'benefits '
     link: /explore-benefits.html
   - text: treatments
-    link: /treatment-pages.html
+    link: /treatment.html
 footer-location-html: <p>21 Lorem ipsum drive,</p><p>adipiscing elit 1234</p><p>eiusmod tempor</p>
 footer-contact-links:
   phone-number-text: 0800 0000 0000
