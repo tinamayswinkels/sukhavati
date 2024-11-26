@@ -346,24 +346,24 @@ _structures:
           text-box-max-width: 500px
           img_aspect: Square
           slider_column_count: 3
-          slider_col_color_scheme: base
+          slider_col_color_scheme: leaf-500
           slider:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image: https://picsum.photos/id/684/1200/630
-              link: base
+              image: 
+              link: leaf-500
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image: https://picsum.photos/id/684/1200/630
-              link: base
+              image: 
+              link: leaf-500
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image: https://picsum.photos/id/684/1200/630
-              link: base
+              image: 
+              link: leaf-500
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image: https://picsum.photos/id/684/1200/630
-              link: base
+              image: 
+              link: leaf-500
           color-scheme: leaf-500
       - label: Grid
         picker_preview:
@@ -560,10 +560,8 @@ _structures:
           col-width: 2
           col-height: 2
           hide-on-mobile: false
-          mobile-first: true
+          mobile-first: false
           image-position: 50% 50%
-          
-          
       - label: Text Block
         value:
           col-type: text
@@ -576,7 +574,7 @@ _structures:
           col-width: 1
           col-height: 1
           hide-on-mobile: false
-          mobile-first: true
+          mobile-first: false
       - label: video
         value:
           col-type: video
@@ -584,7 +582,7 @@ _structures:
             - video_path: /uploads/sea-24216-360p.mp4
               video_type: mp4
           video_controls: false
-          video_autoplay: true
+          video_autoplay: false
           img_aspect: Square
           col-width: 1
           col-height: 1
