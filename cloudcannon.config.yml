@@ -129,10 +129,10 @@ _inputs:
     options:
       allow_empty: true
       values:
-        0: no overlay
-        0.2: slight tint
-        0.5: medium tint
-        .75: heavy tint
+        '0': no overlay
+        '0.2': slight tint
+        '0.5': medium tint
+        '0.75': heavy tint
     cascade: true
   text-alignment:
     type: select
