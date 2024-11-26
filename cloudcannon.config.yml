@@ -119,8 +119,8 @@ _inputs:
     options:
       allow_empty: true
       values:
-        50vh: half screen min-min
-        75vh: three quater screen min-min
+        50vh: half screen height
+        75vh: three quater screen height
         90vh: just short of full screen
         100vh: full screen
     cascade: true
