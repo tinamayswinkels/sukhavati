@@ -270,7 +270,7 @@ float: right
 /* accordian */
 .drop-sec{
     overflow: hidden;
-    height: calc(var(--true-height) + calc(var(--small-padding) * 2));
+    height: calc(var(--true-height) + var(--small-padding));
     /* transition: max-height 2s; */
    }
 
@@ -301,7 +301,7 @@ float: right
     }
 
     .drop-sec:not(.collapsed){
-      padding: var(--small-padding);
+      padding-bottom: var(--small-padding);
    }
 
    .expandButton span::after{
