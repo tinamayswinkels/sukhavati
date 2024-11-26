@@ -26,7 +26,7 @@
           {% assign colWidth = block.grid-mobile-columns %}
             mob-col-w-{{colWidth}}
           {% endif %}
-          col-h-{{col.col-height}} relative {% if col.color-scheme %} scheme-{{col.color-scheme}} {% endif %}  " {% if block.img-mixed-aspect == false %} style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %};" {% endif %}>
+          col-h-{{col.col-height}} relative {% if col.color-scheme %} scheme-{{col.color-scheme}} {% endif %}  {% if col.hide-on-mobile == true %} hidden md:block {% endif %}" {% if block.img-mixed-aspect == false %} style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %};" {% endif %}>
           <!-- {{col.col-type}} -->
                 {% case col.col-type %}
                 {% when 'img' %}
@@ -63,7 +63,6 @@ max-width: min(100%, {{block.icon-width}});
     {% if block.background-mobile-image %} {% if block.background-desktop-image %}
     @media (min-width: 765px) {
       #section-{{forloop.index}} section {
-        
         background-image: url( {{block.background-desktop-image}} );
       }
     }

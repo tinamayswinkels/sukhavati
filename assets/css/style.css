@@ -605,6 +605,10 @@ video {
   padding-left: 0px;
   padding-right: 0px;
 }
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .px-full-side {
   padding-left: var(--max-width-side-padding);
   padding-right: var(--max-width-side-padding);
@@ -624,10 +628,6 @@ video {
 .py-small {
   padding-top: var(--small-padding);
   padding-bottom: var(--small-padding);
-}
-.px-\[15px\] {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .pb-0 {
   padding-bottom: 0px;
@@ -655,6 +655,9 @@ video {
 }
 .font-bold {
   font-weight: 700;
+}
+.uppercase {
+  text-transform: uppercase;
 }
 .mix-blend-multiply {
   mix-blend-mode: multiply;
@@ -751,6 +754,14 @@ header a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;  
+}
+
+footer .main-link {
+font-size: 15.13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
 }
 
 .standard-padding{
@@ -1056,6 +1067,9 @@ float: right
   }
   .md\:ml-0 {
     margin-left: 0px;
+  }
+  .md\:block {
+    display: block;
   }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));

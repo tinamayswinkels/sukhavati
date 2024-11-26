@@ -96,6 +96,14 @@ header a {
   line-height: normal;  
 }
 
+footer .main-link {
+font-size: 15.13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
 .standard-padding{
     padding: var(--vert-gap) var(--side-gap);
 }
