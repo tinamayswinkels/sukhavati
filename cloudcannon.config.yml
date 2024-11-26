@@ -129,10 +129,10 @@ _inputs:
     options:
       allow_empty: true
       values:
-        '0': no overlay
-        '0.2': slight tint
-        '0.5': medium tint
-        '0.75': heavy tint
+        0: no overlay
+        0.2op: slight tint
+        0.5op: medium tint
+        0.75op: heavy tint
     cascade: true
   text-alignment:
     type: select
@@ -213,7 +213,7 @@ _structures:
           text-alignment: center
           vert-alignment: middle
           overlay-color: '#000000'
-          overlay-opacity: 0.5
+          overlay-opacity: 0.5op
           min-height: 90vh
           color-scheme: leaf-100
       - label: Text & image grid
@@ -271,7 +271,7 @@ _structures:
           text-alignment: center
           vert-alignment: middle
           overlay-color: black
-          overlay-opacity: 0.5
+          overlay-opacity: 0.5op
           min-height: 90vh
           
           
