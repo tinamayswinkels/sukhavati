@@ -30,16 +30,24 @@ header_links:
 footer-logo-image: /assets/images/sukhavati.png
 footer-logo-size: 450px
 footer_nav_bar:
-  - text: navigation link
-    link: /
-  - text: navigation link
-    link: /
-  - text: navigation link
-    link: /
-  - text: navigation link
-    link: /
-  - text: navigation link
-    link: /
+  - text: AYUVEDIC WELLNESS RETREAT
+    link: /ayurvedic-wellness-retreat.html
+  - text: Your journey
+    link: /your-journey.html
+  - text: Explore benefits
+    link: /explore-benefits.html
+  - text: information page
+    link: /information-page.html
+  - text: your experience
+    link: /your-retreat-experience.html
+  - text: Villa with pool
+    link: /private-pool-villas.html
+  - text: villa 2
+    link: /villas-without-pool.html
+  - text: 'benefits '
+    link: /explore-benefits.html
+  - text: treatments
+    link: /treatment-pages.html
 footer-location-html: <p>21 Lorem ipsum drive,</p><p>adipiscing elit 1234</p><p>eiusmod tempor</p>
 footer-contact-links:
   phone-number-text: 0800 0000 0000
