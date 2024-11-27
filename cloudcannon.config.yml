@@ -78,7 +78,22 @@ _inputs:
   color-scheme:
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
+      values:
+        - leaf-100
+        - leaf-200
+        - leaf-300
+        - leaf-400
+        - leaf-500
+        - leaf-600
+        - leaf-700
+        - dark
+        - white
+    cascade: true
+  slider_col_color_scheme:
+    type: select
+    options:
+      allow_empty: false
       values:
         - leaf-100
         - leaf-200
