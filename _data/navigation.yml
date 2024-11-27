@@ -2,51 +2,54 @@ logo_image: /assets/images/sukhavati.png
 logo_alt: Logo
 header_logo_width: 12rem
 header_links:
-  - text: Ayuvedic Wellness Retreat
+  - text: Our Program
     link: /
     sub_links:
       - text: Our Wellness Retreat
-        link: /ayurvedic-wellness-retreat.html
+        link: /ayurvedic-wellness-retreat
       - text: Our Story
         link: /
       - text: Our Approach
         link:
       - text: Our  Treatments
-        link: /treatment-pages.html
+        link: /treatments
       - text: Our Team
         link: /
-      - text: Our Bali Retreat Center
-        link: ''
   - text: Your Journey
-    link: /your-journey.html
+    link: /your-journey
   - text: Wellness Goals
     link: /
-  - text: Treatments & Practices
-    link: /
+    sub_links:
+      - text: Weight Loss
+        link: /benefits-pages-individual.html
+      - text: Explore all benefits
+        link: /explore-benefits.html
   - text: Resources
     link: /
   - text: Book Now
     link: /
+  - text: Our Treatments
+    link: /treatment
 footer-logo-image: /assets/images/sukhavati.png
 footer-logo-size: 450px
 footer_nav_bar:
   - text: AYUVEDIC WELLNESS RETREAT
     link: /ayurvedic-wellness-retreat.html
-  - text: Your journey
-    link: /your-journey.html
+  - text: Your Journey
+    link: /your-journey
   - text: Explore benefits
     link: /explore-benefits.html
-  - text: information page
+  - text: About Ayuveda
     link: /information-page.html
-  - text: your experience
+  - text: Your Retreat Experience
     link: /your-retreat-experience.html
-  - text: Villa with pool
+  - text: Private Pool Villas
     link: /private-pool-villas.html
-  - text: villa 2
+  - text: Garden Villas
     link: /villas-without-pool.html
-  - text: 'benefits '
+  - text: 'Explore Benefits '
     link: /explore-benefits.html
-  - text: treatments
+  - text: Our Treatments
     link: /treatment.html
 footer-location-html: <p>21 Lorem ipsum drive,</p><p>adipiscing elit 1234</p><p>eiusmod tempor</p>
 footer-contact-links:
