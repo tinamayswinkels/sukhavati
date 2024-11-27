@@ -724,6 +724,17 @@ body ul{
   margin-left: 1rem;
 }
 
+
+/* form */
+input, textarea {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid;
+  background: transparent;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
 /* editor styles for none content uses */
 
 .heading-md {
