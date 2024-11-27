@@ -207,6 +207,13 @@ _inputs:
       - vertical
       - horizontal
     cascade: true
+  mobile-image-position:
+    type: select
+    options:
+      allow_empty: false
+      values: 
+        - bottom
+        - top
   float-direction:
     type: select
     options:
@@ -267,7 +274,7 @@ _structures:
           background-alt: 
           desktop-collapse-bg-padding: true
           desktop-image-position: right
-          text-alignment: center
+          text-alignment: left
           vert-alignment: bottom
           mobile-image-position: bottom
           mobile-collapse-bg-padding: false
