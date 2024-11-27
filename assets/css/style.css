@@ -658,6 +658,9 @@ video {
 .pb-0 {
   padding-bottom: 0px;
 }
+.pb-12 {
+  padding-bottom: 3rem;
+}
 .pb-\[100\%\] {
   padding-bottom: 100%;
 }
@@ -669,9 +672,6 @@ video {
 }
 .pt-0 {
   padding-top: 0px;
-}
-.pb-12 {
-  padding-bottom: 3rem;
 }
 .text-left {
   text-align: left;

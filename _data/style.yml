@@ -59,3 +59,4 @@ animation-speed: .4s
 small-padding: 1rem
 vertical-padding: min( 5vw , 4rem)
 horizontal-padding: max(5vw , 2rem)
+split_banner_gap: 2rem
