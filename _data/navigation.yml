@@ -1,5 +1,5 @@
 logo_image: /assets/images/sukhavati.png
-logo_alt: Logo
+logo_alt: Sukhavati Logo
 header_logo_width: 12rem
 header_links:
   - text: Our Program
@@ -51,18 +51,21 @@ footer_nav_bar:
     link: /explore-benefits.html
   - text: Our Treatments
     link: /treatment.html
-footer-location-html: <p>21 Lorem ipsum drive,</p><p>adipiscing elit 1234</p><p>eiusmod tempor</p>
+footer-location-html: >-
+  <p>Br Bebengan Tangeb Abianbase<br />Mengwi Badung 80351</p><p>Bali,
+  Indonesia</p>
 footer-contact-links:
-  phone-number-text: 0800 0000 0000
-  phone-number: 80000000000
+  phone-number-text: +62 361 900 6128
+  phone-number: 623619006128
   whatsApp-text: 0800 0000 0000
   whatsApp-link-number: 80000000000
   whatsApp-link-initial-message: What you want the whatsapp first message received is
-  email: info@emailaddress.com
+  email: rejuvenation@sukhavatibali.com
 footer_social_links:
-  - link: /
-    text: instagram
-  - link: /
-    text: facebook
-  - link: /
-    text: X
+  - link: >-
+      https://www.tripadvisor.com.au/Hotel_Review-g1025508-d3247603-Reviews-Sukhavati_Ayurvedic_Retreat_And_Spa-Mengwi_Bali.html
+    text: trip advisor
+  - link: https://www.instagram.com/sukhavati_bali/
+    text: Instagram
+  - link: https://www.facebook.com/Sukhavatibali/
+    text: Facebook
