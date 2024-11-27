@@ -345,6 +345,28 @@ _structures:
           text-alignment: center
           color-scheme: leaf-100
           max-width:
+          min-height: 50vh
+      - label: Contact form
+        picker_preview:
+          text: Contact form
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: 
+            icon:
+            icon_color:
+            fit:
+        tags:
+        value:
+          _id: contact
+          block-content-html:
+          text-alignment: center
+          color-scheme: leaf-100
+          max-width: 660px
+          form-max-width: 900px
       - label: Clickable slider
         picker_preview:
           text: Slider
