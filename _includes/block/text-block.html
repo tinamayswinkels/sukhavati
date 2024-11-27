@@ -1,5 +1,5 @@
 
-<section>
+<section class="flex justify-center items-center">
       <div class="max-width
       {% case block.text-alignment %}
       {% when 'right' %}
@@ -17,3 +17,8 @@
     </section>
 
 
+<style>
+       #section-{{forloop.index}} .max-width{
+        min-height: {{block.min-height}};
+      }
+</style>
