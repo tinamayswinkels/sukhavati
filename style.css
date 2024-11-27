@@ -73,6 +73,16 @@ input, textarea {
   margin-bottom: 30px;
 }
 
+input[type="submit"]{
+  border: 1px solid;
+  padding: 10px 20px
+}
+
+input:focus, input:focus-within,
+textarea:focus, textarea:focus-within{
+  outline: none;
+}
+
 /* editor styles for none content uses */
 
 .heading-md {

@@ -1,31 +1,28 @@
 
-<section class="flex justify-center items-center">
-      <div class="max-width
- 
-      ">
+<section class="">
+      <div class="max-width">
           <div class="{% case block.text-alignment %}
           {% when 'right' %}
               text-right
           {% when 'center' %}
               text-center
           {% else %}
-          {% endcase %}  " {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
+          {% endcase %}  pb-12 mx-auto" {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
             {{block.block-content-html }}
           </div>
-            <form method="post" action="/success.html" {% if block.form-max-width %} style="max-width: {{block.form-max-width}} "{% endif %}>
-              <input type="text" name="name" placeholder="NAME">
-              <input type="email" name="email" placeholder="EMAIL">
-              <input type="tel" name="number" placeholder="NUMBER">
+            <form method="post" action="/success.html" class="mx-auto" {% if block.form-max-width %} style="max-width: {{block.form-max-width}} "{% endif %}>
+              <input class="placeholder:text-inherit" type="text" name="name" placeholder="NAME">
+              <input class="placeholder:text-inherit" type="email" name="email" placeholder="EMAIL">
+              <input class="placeholder:text-inherit" type="tel" name="number" placeholder="NUMBER">
 
-              <textarea name="message" placeholder="MESSAGE"></textarea>
-              <input type="checkbox" name="urgent">
+              <textarea class="placeholder:text-inherit resize-none" rows="4" name="message" placeholder="MESSAGE"></textarea>
             
               <input type="hidden" name="inbox_key" value="contact_inbox">
               <input type="hidden" name="_to" value="sales@example.com,support@example.com">
               <input type="hidden" name="_cc" value="sales.tracker@example.com">
               <input type="text" name="_gotcha" style="display: none;">
             
-              <input type="submit" value="Send Message">
+              <input class="border border-[currentcolor] border-solid px-5 py-2 w-min" type="submit" value="Send Message">
 
             
           </form>
