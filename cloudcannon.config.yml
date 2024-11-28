@@ -149,7 +149,7 @@ _inputs:
       allow_empty: true
       values:
         50vh: Half Screen
-        75vh: Three Quarter Screen
+        75vh: Three-Quarter Screen
         90vh: Just short of Full Screen
         100vh: Full Screen
     cascade: true
@@ -330,7 +330,7 @@ _structures:
           _id: banner-youtube
           block-content-html: <h2> Simple heading </h2>
           text-alignment: right
-          embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/81vugfyEt5E?si=9tavipgzzvGWmnln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/74qoqck7JVw?si=Q8EtE8su1RUk--ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           color-scheme: leaf-300
       - label: text block
         picker_preview:
@@ -493,7 +493,7 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
           color-scheme: leaf-100
-      - label: Scrolling grid with inline text box
+      - label: Scrolling grid with an inline text box
         tags:
         value:
           _id: horizontal-scroll-inline-text-box
@@ -540,7 +540,7 @@ _structures:
           _id: accordion
           block-content-html: <h2 class="heading-lg"> FREQUENTLY ASKED QUESTIONS </h2>
           drop_down:
-            - button-text: question that you might have
+            - button-text: a question that you might have
               block-content-html: <p>answer to that question </p>
           color-scheme: 
       - label: Timeline
@@ -563,9 +563,9 @@ _structures:
             - text: clickable message
               url: google.com
           color-scheme: leaf-500
-      - label: Text & image grid with experience feilds
+      - label: Text & image grid with experience fields
         picker_preview:
-          text: text and grid with experience feilds
+          text: text and grid with experience fields
           subtext:
           icon:
           icon_color:
