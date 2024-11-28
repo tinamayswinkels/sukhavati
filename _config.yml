@@ -1,0 +1,7 @@
+collections:
+  post:
+    output: true
+  treatments:
+    output: true
+  benefits:
+    output: true
