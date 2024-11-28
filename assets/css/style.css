@@ -815,7 +815,7 @@ text-transform: uppercase;
 footer .heading-md{
   color: #61625A;
   text-align: center;
-  /* Subheading - small */
+  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -835,8 +835,7 @@ footer .footer-bold {
 }
 
 footer .footer-generic, footer .footer-generic p{
-  color: #87897D;
-font-family: "Helvetica Neue";
+color: #87897D;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
