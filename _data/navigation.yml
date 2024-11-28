@@ -9,14 +9,23 @@ header_links:
         link: /ayurvedic-wellness-retreat
       - text: Our Story
         link: /
-      - text: Our Approach
-        link:
       - text: Our  Treatments
         link: /treatments
       - text: Our Team
-        link: /
+        link: /our-team
+      - text: 'Private Pool Villas '
+        link: /private-pool-villas.html
+      - text: Garden Villas
+        link: /garden-villas.html
   - text: Your Journey
-    link: /your-journey
+    link: /your-journey.html
+    sub_links:
+      - text: Your Journey at Sukhavati
+        link: /your-journey.html
+      - text: A day in the life at Sukhavati
+        link: /your-retreat-experience.html
+      - text: Benefits of an Ayurvedic Retreat
+        link: /explore-benefits.html
   - text: Wellness Goals
     link: /
     sub_links:
@@ -24,12 +33,10 @@ header_links:
         link: /benefits-pages-individual.html
       - text: Explore all benefits
         link: /explore-benefits.html
-  - text: Resources
-    link: /
+  - text: Contact Us
+    link: /contact.html
   - text: Book Now
     link: /
-  - text: Our Treatments
-    link: /treatment
 footer-logo-image: /assets/images/sukhavati.png
 footer-logo-size: 450px
 footer_nav_bar:
