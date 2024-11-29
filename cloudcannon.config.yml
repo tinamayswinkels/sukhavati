@@ -374,7 +374,6 @@ _structures:
           content-max-width:
           text-alignment: center
           color-scheme: leaf-100
-          max-width:
           min-height: 50vh
       - label: Contact form
         picker_preview:
