@@ -200,6 +200,7 @@ _inputs:
         - Landscape
         - Wide Landscape
         - Extra Tall
+        - Original
     cascade: true
   video-orientation:
     type: select
