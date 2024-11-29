@@ -233,6 +233,15 @@ _inputs:
           - small
           - medium
           - large
+  content-max-width:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        300px: small
+        600px: medium
+        900px: large
+
 
 _structures:
   blocks:
@@ -255,6 +264,7 @@ _structures:
         value:
           _id: banner
           block-content-html: <h2> banner heading </h2> <p> subtext </p>
+          content-max-width:
           background-desktop-image: 
           background-mobile-image: 
           text-alignment: center
@@ -310,6 +320,7 @@ _structures:
         value:
           _id: banner-video
           block-content-html:
+          content-max-width:
           videos:
             - video_path: /uploads/sea-24216-360p.mp4
               video_type: mp4
@@ -360,6 +371,7 @@ _structures:
         value:
           _id: text-block
           block-content-html:
+          content-max-width:
           text-alignment: center
           color-scheme: leaf-100
           max-width:

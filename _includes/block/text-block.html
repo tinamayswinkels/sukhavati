@@ -7,9 +7,8 @@
       {% when 'center' %}
           text-center
       {% else %}
-      {% endcase %}
-          
-      " {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
+      {% endcase %}"
+       {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
           <div class="">
             {{block.block-content-html }}
           </div>
