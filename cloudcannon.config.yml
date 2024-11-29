@@ -238,9 +238,9 @@ _inputs:
     options:
       allow_empty: true
       values:
-        300px: small
-        600px: medium
-        900px: large
+        24rem: small
+        28rem: medium
+        32rem: large
 
 
 _structures:
