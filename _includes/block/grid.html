@@ -1,6 +1,8 @@
 
 <section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %} flex flex-col justify-center">
-      <div class="max-width      
+  <div class="max-width">
+
+      <div class="      
       {% case block.gap-between-text-box-and-grid %}
       {% when 'small' %}
       mb-8
@@ -19,7 +21,7 @@
       ">
         {{block.block-content-html}}
       </div>
-      <div class="max-width grid">
+      <div class="grid">
           {% for col in block.columns %}
           
             <div class="
@@ -47,6 +49,8 @@
             </div>
           {% endfor %}
     </div>
+    
+  </div>
 </section>
 
 <style>
