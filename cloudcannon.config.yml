@@ -196,8 +196,8 @@ _inputs:
       allow_empty: false
       values:
         - Square
-        - Tall portrait
-        - portrait
+        - Tall Portrait
+        - Portrait
         - Landscape
         - Wide Landscape
         - Extra Tall

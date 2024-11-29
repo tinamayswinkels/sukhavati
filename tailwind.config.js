@@ -47,8 +47,8 @@ module.exports = {
       },
       aspectRatio: {
         'landscape': '3 / 2',
-        'portrait-tall': '5/8',
-        'portrait': '4/5',
+        'Portrait-tall': '5/8',
+        'Portrait': '4/5',
       },
     },
   },
