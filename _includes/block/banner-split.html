@@ -6,7 +6,7 @@
     <div class="picture relative">
       <picture >
         <source srcset="{{block.background-desktop-image}}" media="(min-width: 750px)" />
-        <img class="absolute inset-0 h-full w-full object-cover object-center" src="{{block.background-mobile-image}}" alt="{{block.background-alt}}" />
+        <img class="{% unless block.img_aspect == 'Original'} absolute inset-0 h-full w-full object-cover object-center {% endunless %}" src="{{block.background-mobile-image}}" alt="{{block.background-alt}}" />
       </picture>
       
     </div>
@@ -42,7 +42,9 @@
     }
 
     #section-{{forloop.index}} .picture{
+      {% unless block.img_aspect == 'Original'}
       aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %};
+      {% endunless %}
       align-self:center;
       order:2;
       {% if block.desktop-collapse-bg-padding == false %}
