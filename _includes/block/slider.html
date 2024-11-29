@@ -20,7 +20,7 @@
               <div class="color-set">
                 {% if col.image %}
                 <div class="image-sizer relative">
-                  <img class="absolute inset-0 object-cover object-center h-full w-full" src="{{col.image}}" alt="">
+                  <img class="{% unless block.img_aspect == 'Original' %} absolute inset-0 object-cover object-center h-full w-full {% endunless %}" src="{{col.image}}" alt="">
                 </div>
                 {% endif %}
                 {% if col.youtube_embed %}

@@ -12,7 +12,7 @@
         <div class="shrink-0 {% if forloop.first  %} ml-full-side md:ml-0 {% endif %} {% if forloop.last  %} mr-full-side {% endif %}" style="width: {{block.image-width}};">
           {% if col.link %}<a href="{{col.link}}">{% endif%}
             <div class="image-sizer relative">
-              <img class="object-cover object-center absolute inset-0 w-full h-full" src="{{col.image}}" alt="">
+              <img class=" {% unless block.img_aspect == 'Original' %} object-cover object-center absolute inset-0 h-full{% endunless %} w-full" src="{{col.image}}" alt="">
             </div>
 
           <h3>{{col.heading}}</h3>
@@ -24,11 +24,11 @@
 
 <style>
 
-
+{% unless block.img_aspect == 'Original' %}
   #section-{{forloop.index}} .image-sizer {
     aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
   }
-  
+  {% endunless %}
   @media (min-width: 768px) {
   
   #section-{{forloop.index}} .grid {
