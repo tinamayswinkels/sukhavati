@@ -1,6 +1,14 @@
 
 <section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %}">
-      <div class="max-width mb-8 
+      <div class="max-width      
+      {% case block.gap-between-text-box-and-grid %}
+      {% when 'small' %}
+      mb-8
+      {% when 'medium' %}
+      mb-12
+      {% when 'large' %}
+      mb-16
+      {% endcase %}
       {% case block.text-alignment %}
       {% when 'left' %}
       {% when 'center' %}

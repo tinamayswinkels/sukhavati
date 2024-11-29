@@ -148,6 +148,7 @@ _inputs:
     options:
       allow_empty: true
       values:
+        0vh: Content height
         50vh: Half Screen
         75vh: Three-Quarter Screen
         90vh: Just short of Full Screen
@@ -224,6 +225,15 @@ _inputs:
         - right
     cascade: true
     default: left
+  gap-between-text-box-and-grid:
+    type: select
+    options: 
+      allow_empty: false
+        values:
+          - small
+          - medium
+          - large
+
 _structures:
   blocks:
     style: modal
@@ -442,6 +452,8 @@ _structures:
           img-mixed-aspect: false
           columns:
           color-scheme: leaf-500
+          min-height: 0vh
+          gap-between-text-box-and-grid: small
       - label: html block
         value:
           _id: liquid-block
