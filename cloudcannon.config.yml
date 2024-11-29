@@ -229,7 +229,7 @@ _inputs:
     type: select
     options: 
       allow_empty: false
-        values:
+      values:
           - small
           - medium
           - large
