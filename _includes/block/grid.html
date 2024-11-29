@@ -1,5 +1,5 @@
 
-<section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %}">
+<section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %} flex flex-col justify-center">
       <div class="max-width      
       {% case block.gap-between-text-box-and-grid %}
       {% when 'small' %}
@@ -50,7 +50,7 @@
 </section>
 
 <style>
-      #section-{{forloop.index}} .max-width{
+      #section-{{forloop.index}} section{
         min-height: {{block.min-height}};
       }
 
