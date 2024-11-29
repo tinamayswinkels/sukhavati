@@ -448,10 +448,10 @@ _structures:
           grid-gap: 1rem
           col-internal-padding: true        
           img-mixed-aspect: false
-          columns:
-          color-scheme: leaf-500
           min-height: 0vh
           gap-between-text-box-and-grid: small
+          columns:
+          color-scheme: leaf-500
       - label: html block
         value:
           _id: liquid-block

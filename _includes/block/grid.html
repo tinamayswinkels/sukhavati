@@ -50,6 +50,10 @@
 </section>
 
 <style>
+      #section-{{forloop.index}} .max-width{
+        min-height: {{block.min-height}};
+      }
+
     #section-{{forloop.index}} .grid {
         gap: {{block.grid-gap}};
       grid-template-columns: repeat({{block.grid-mobile-columns}}, 1fr);
