@@ -1,9 +1,26 @@
 
 <section class="">
-      <div class="max-width" 
+      <div class="max-width " 
       {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
-          <div class="">
+          <div class="blog-content">
             {{content}}
           </div>
       </div>
 </section>
+
+
+<style>
+
+.blog-content h1 {
+  font-size: 2.5rem;
+}
+.blog-content h2 {
+  font-size: 2rem;
+}
+.blog-content h3 {
+  font-size: 1.5rem;
+}
+
+
+
+</style>
