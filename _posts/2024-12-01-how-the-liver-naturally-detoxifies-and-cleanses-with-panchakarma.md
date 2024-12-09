@@ -6,9 +6,13 @@ blocks:
         max-width: 24rem
         color-scheme: leaf-100
 seo:
-    title:
-    description: advanced description
-    image: https://picsum.photos/id/1025/600/400
+    title: How the Liver Naturally Detoxifies and Cleanses with Panchakarma
+    description: >-
+        Discover how Panchakarma, an Ayurvedic detox treatment, supports liver
+        health by eliminating toxins, improving digestion, and restoring
+        balance. Learn safe daily liver cleanse tips and the science behind this
+        holistic approach to wellness.
+    image:
     favicon:
     index: true
 ---
