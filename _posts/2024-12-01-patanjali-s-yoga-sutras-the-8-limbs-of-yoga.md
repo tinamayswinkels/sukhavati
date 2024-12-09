@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 100 Wonderful Ways to Live to 100
-featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/01/100-ways-to-be-healthy-1462836494-medium.jpg
+title: 'Patanjali’s Yoga Sutras: The 8 limbs of Yoga'
+featured_image: https://www.sukhavatibali.com/wp-content/uploads/2017/09/sep-sukhavati-newsletter-images-yoga-1505717927-medium-v2.jpg
 blocks:
     -
         _id: blog-content-block

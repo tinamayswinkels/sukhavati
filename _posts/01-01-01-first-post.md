@@ -1,7 +1,7 @@
 ---
 layout: default
-title:
-
+title: example title
+featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/01/100-ways-to-be-healthy-1462836494-medium.jpg
 blocks:
     -
         _id: blog-content-block
