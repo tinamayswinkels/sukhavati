@@ -46,6 +46,8 @@
 
     <style>
 
+
+
 #section-{{forloop.index}} iframe{
       width: 100%;
       height: 100%;
@@ -69,5 +71,21 @@
 
       #section-{{forloop.index}} .image-sizer {
       aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
+    }
+
+
+    @media  (min-width: 750px) {
+      
+
+      #section-{{forloop.index}} section{
+        {% if block.collapse-top-space == true %}
+          padding-top: 0;
+        {% endif %}
+      
+        {% if block.collapse-bottom-space == true %}
+            padding-bottom: 0%;
+        {% endif %}
+      
+      }
     }
   </style>
