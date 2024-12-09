@@ -167,4 +167,8 @@ temp
 8) done.
 9) this one need much more details. are they asking us to add more links or to change them or to check them? whats the plan on footer links?
 10) removed from pages and added to extra_codes.txt
-11) I'm assuming are we talking a more full button on hover for the buttons in the grid view of the villas with pools and villas no pools pages right and not a different set of buttons 
+11) I'm assuming are we talking a more full button on hover for the buttons in the grid view of the villas with pools and villas no pools pages right and not a different set of buttons
+12) so they are seeing something here that im not. what is it you think we should change
+13) which is the leaf in question?
+14) bg or text?
+15) have they given us access?

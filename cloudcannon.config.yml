@@ -418,7 +418,7 @@ _structures:
         tags:
         value:
           _id: blog-content-block
-          post_content:
+          max-width: 24rem
           color-scheme: leaf-100
       - label: Contact form
         picker_preview:
