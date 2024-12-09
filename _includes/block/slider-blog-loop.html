@@ -15,9 +15,9 @@
             {{block.block-content-html }}
           </div>
           <div class="-mx-small slider mb-vert">
-            {% for post in site.posts %}
+            {% for post in site.posts | limit: 4 %}
             <div class="p-small h-full scheme-{{block.slider_col_color_scheme}}">
-              <a href="">
+              <a href="{{post.url}}">
 
               <div class="color-set">
                 <div class="image-sizer relative">
