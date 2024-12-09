@@ -3,6 +3,8 @@ layout: default
 blocks:
     -
         _id: blog-content-block
+        max-width: 24rem
+        
         color-scheme: leaf-100
 seo:
     title:
