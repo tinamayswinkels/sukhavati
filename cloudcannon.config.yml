@@ -383,6 +383,23 @@ _structures:
           text-alignment: center
           color-scheme: leaf-100
           min-height: 50vh
+      - label: Post content block
+        picker_preview:
+          text: Post content block
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/banner-preveiw.png
+            icon:
+            icon_color:
+            fit:
+        tags:
+        value:
+          _id: blog-content-block
+          color-scheme: leaf-100
       - label: Contact form
         picker_preview:
           text: Contact form

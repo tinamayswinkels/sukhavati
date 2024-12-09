@@ -112,23 +112,23 @@
 
   {% if page.blocks %}
     
-  {% for block in page.blocks %}
-        <div class="scheme-{{block.color-scheme}} relative" id="section-{{forloop.index}}">
-          {% comment %} to figure out what block you added in inspect {% endcomment %}
-            <!--{{block._id}} -->
-            {% include /block/{{block._id}}.html %}
-        </div>
-        <!-- script check -->
-        {% if block._id == 'accordion' %}
-          {% assign hasAccordion = true %}
-        {% endif %}
+    {% for block in page.blocks %}
+          <div class="scheme-{{block.color-scheme}} relative" id="section-{{forloop.index}}">
+            {% comment %} to figure out what block you added in inspect {% endcomment %}
+              <!--{{block._id}} -->
+              {% include /block/{{block._id}}.html %}
+          </div>
+          <!-- script check -->
+          {% if block._id == 'accordion' %}
+            {% assign hasAccordion = true %}
+          {% endif %}
 
-        {% if block._id == 'ticket-banner' %}
-          {% assign hasTicketBanner = true %}
+          {% if block._id == 'ticket-banner' %}
+            {% assign hasTicketBanner = true %}
+          {% endif %}
+          {% if block._id == 'slider' %}
+          {% assign hasSlider = true %}
         {% endif %}
-        {% if block._id == 'slider' %}
-        {% assign hasSlider = true %}
-      {% endif %}
     {% endfor %}
 
   {% else %}
