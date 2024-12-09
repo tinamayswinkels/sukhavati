@@ -45,7 +45,7 @@ schemes:
     colored-button-bg-color: '#ffffff'
     colored-button-text-color:
   - scheme_name: header
-    bg-color: '#E6E7E1'
+    bg-color: '#D4D6CA'
     text-color: '#61625A'
     colored-button-bg-color: '#ffffff'
     colored-button-text-color:
