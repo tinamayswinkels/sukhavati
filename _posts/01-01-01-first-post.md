@@ -1,5 +1,7 @@
 ---
 layout: default
+title:
+
 blocks:
     -
         _id: blog-content-block
