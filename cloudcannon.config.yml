@@ -203,6 +203,14 @@ _inputs:
         - Extra Tall
         - Original
     cascade: true
+  video_aspect:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - Testimonials
+        - Educational
+    cascade: true
   video-orientation:
     type: select
     options:
@@ -416,25 +424,26 @@ _structures:
           text-alignment: right
           text-box-max-width: 500px
           img_aspect: Square
+          video_aspect: Testimonials        
           slider_column_count: 3
           slider_col_color_scheme: leaf-500
           slider:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
               image: 
-              link: leaf-500
+              link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
               image: 
-              link: leaf-500
+              link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
               image: 
-              link: leaf-500
+              link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
               image: 
-              link: leaf-500
+              link:
           color-scheme: leaf-500
       - label: Grid
         picker_preview:

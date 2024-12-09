@@ -25,7 +25,7 @@
                 {% endif %}
                 {% if col.youtube_embed %}
 
-                  <div class="relative" style="aspect-ratio: .563;">
+                  <div class="relative" style="aspect-ratio:{% if block.video_aspect == 'Testimonials' %} .563; {% else %} 2 {% endif %}">
                     {{col.youtube_embed}}
                   </div>
 
