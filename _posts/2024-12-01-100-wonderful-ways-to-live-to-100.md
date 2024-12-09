@@ -6,9 +6,13 @@ blocks:
         max-width: 24rem
         color-scheme: leaf-100
 seo:
-    title:
-    description: advanced description
-    image: https://picsum.photos/id/1025/600/400
+    title: 100 Wonderful Ways to Live to 100
+    description: >-
+        Discover 100 research-backed ways to live a longer, healthier life. From
+        quitting smoking and embracing a Mediterranean diet to staying active
+        and cultivating optimism, this comprehensive guide reveals science-based
+        tips to boost longevity and happiness.
+    image:
     favicon:
     index: true
 ---
@@ -268,4 +272,4 @@ In our asset-driven life, we can unequivocally say the health, if we empirically
 
 The tips discussed have proved to be a life altering experience for many. Try some and change your life, too. We wish you good luck.
 
-##
+\##
