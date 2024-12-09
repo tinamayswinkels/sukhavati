@@ -505,23 +505,6 @@ _structures:
           video_aspect: Testimonials        
           slider_column_count: 3
           slider_col_color_scheme: leaf-500
-          slider:
-            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-              youtube_embed:
-              image: 
-              link:
-            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-              youtube_embed:
-              image: 
-              link:
-            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-              youtube_embed:
-              image: 
-              link:
-            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-              youtube_embed:
-              image: 
-              link:
           color-scheme: leaf-500
       - label: Grid
         picker_preview:

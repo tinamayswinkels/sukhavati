@@ -15,7 +15,8 @@
             {{block.block-content-html }}
           </div>
           <div class="-mx-small slider mb-vert">
-            {% for post in site.posts | limit: 4 %}
+            {% for post in site.posts | limit: 10 %}
+            {% unless page.url == post.url %}
             <div class="p-small h-full scheme-{{block.slider_col_color_scheme}}">
               <a href="{{post.url}}">
 
@@ -34,6 +35,7 @@
             </a>
 
             </div>
+            {% endunless %}
             {% endfor %}
           </div>
       </div>
