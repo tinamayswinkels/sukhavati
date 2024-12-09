@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+permalink: 
 ---
 # Respiratory System Support
 

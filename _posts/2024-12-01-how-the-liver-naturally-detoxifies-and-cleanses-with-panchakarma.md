@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+permalink: 
 ---
 # How the Liver Naturally Detoxifies and Cleanses with Panchakarma
 

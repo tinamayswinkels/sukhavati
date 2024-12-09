@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+permalink: 
 ---
 # The 6 tastes: A Guide Map to Ultimate Nutrition
 

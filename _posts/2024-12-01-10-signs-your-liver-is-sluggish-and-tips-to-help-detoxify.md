@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+permalink: 
 ---
 # 10 Signs Your Liver is Sluggish and Tips to Help Detoxify
 
