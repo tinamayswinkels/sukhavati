@@ -129,6 +129,9 @@
           {% if block._id == 'slider' %}
           {% assign hasSlider = true %}
         {% endif %}
+        {% if block._id == 'slider-blog-loop' %}
+        {% assign hasSlider = true %}
+      {% endif %}
     {% endfor %}
 
   {% else %}
@@ -204,7 +207,7 @@
 </body>
 
 
-{% if hasSlider == true %}
+{% if hasSlider == true  %}
 <!-- slick css -->
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -365,6 +368,44 @@ tickerBanners.forEach(banner => {
           });
           
           {% endif %}
-          {% endfor %}
+
+          {% if block._id == 'slider' %}
+    
+         $('#section-{{forloop.index}} .slider').slick({
+           dots: false,
+           arrows: true,
+           slidesToShow: {{block.slider_column_count}},
+           slidesToScroll: 1,
+           dragable: true,
+           infinite: true,
+           speed: 500,
+           fade: false,
+           cssEase: 'linear',
+           responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+              }]
+          });
+          
+          {% endif %}
+    {% endfor %}
 });
 </script>

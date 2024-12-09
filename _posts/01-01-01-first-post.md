@@ -12,6 +12,7 @@ seo:
     image: https://picsum.photos/id/1025/600/400
     favicon:
     index: true
+permalink: 
 ---
 # How the Liver Naturally Detoxifies and Cleanses with Panchakarma
 

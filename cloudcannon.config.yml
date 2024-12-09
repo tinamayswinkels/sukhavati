@@ -482,6 +482,47 @@ _structures:
               image: 
               link:
           color-scheme: leaf-500
+      - label: blog post loop
+        picker_preview:
+          text: blog post loop
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/slider-preview.png
+            icon:
+            icon_color:
+            fit:
+        tags:
+        value:
+          _id: slider-blog-loop
+          block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
+          text-alignment: right
+          text-box-max-width: 500px
+          img_aspect: Square
+          video_aspect: Testimonials        
+          slider_column_count: 3
+          slider_col_color_scheme: leaf-500
+          slider:
+            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              youtube_embed:
+              image: 
+              link:
+            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              youtube_embed:
+              image: 
+              link:
+            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              youtube_embed:
+              image: 
+              link:
+            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              youtube_embed:
+              image: 
+              link:
+          color-scheme: leaf-500
       - label: Grid
         picker_preview:
           text: grid

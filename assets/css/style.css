@@ -746,7 +746,7 @@ p:not(:last-child) {
 
 
 
-p {
+p,li {
   font-size: 0.9rem;
   line-height: 150%;
   font-weight:350;
