@@ -7,11 +7,11 @@
           </h2>
       </div>
     </div>
-    <div class="gap-4 flex flex-nowrap overflow-scroll no-scrollbar" {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
+    <div class="gap-4 flex flex-nowrap overflow-scroll no-scrollbar" {% if block.max-width %} style="max-width:  {{block.max-width}} 500px"{% endif %}>
 
 
       {% for col in block.scroll-items %}
-        <div class="shrink-0 {% if forloop.first  %} ml-full-side {% endif %} {% if forloop.last  %} mr-full-side {% endif %}" style="width: {{block.image-width}};">
+        <div class="shrink-0 {% if forloop.first  %} ml-full-side {% endif %} {% if forloop.last  %} mr-full-side {% endif %}" style="width: min( {{block.image-width}} , 500px );">
           {% if col.link %}<a href="{{col.link}}">{% endif%}
             <div class="image-sizer relative mb-small">
               <img class="{% unless block.img_aspect == 'Original' %} object-cover object-center absolute inset-0 h-full {% endunless %} w-full" src="{{col.image}}" alt="">
