@@ -186,7 +186,7 @@ Our Villas /private-pool-villas
 Other Services /other-services - needs content update
 
 <Your Journey> no link 
-Your Stay at Sukhavati - /your-journey - needs content update
+Your Stay at Sukhavati - /your-journey
 // base on /your-journey.html
 Your Daily Schedule /daily-schedule  - needs content update
 Your Wellness Goals  /goals  - needs content update
