@@ -450,9 +450,6 @@ video {
 .z-50 {
   z-index: 50;
 }
-.z-\[1000\] {
-  z-index: 1000;
-}
 .-order-1 {
   order: -1;
 }
@@ -724,6 +721,10 @@ body{
   overflow-X: hidden;
 }
 
+body.locked{
+  overflow-Y:hidden;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--heading-font-family);
   font-optical-sizing: auto;
@@ -812,7 +813,7 @@ header{
     padding: 0 var(--side-gap)
 }
 
-header a {
+header a,header .unlinked {
   font-size: 15.13px;
   font-style: normal;
   font-weight: 400;
@@ -1002,6 +1003,7 @@ float: right
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
     z-index: 801;
     transition:1s;
+    overflow: scroll;
   }
   .burger-menu.active{
     /* left:50vw; */
