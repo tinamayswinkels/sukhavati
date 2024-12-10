@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  'The 6 tastes: A Guide Map to Ultimate Nutrition'
-featured_image: https://www.sukhavatibali.com/wp-content/uploads/2018/06/dsc8731-1528872035-medium-v2.jpg
+title: 'The 6 tastes: A Guide Map to Ultimate Nutrition'
+featured_image: >-
+    https://www.sukhavatibali.com/wp-content/uploads/2018/06/dsc8731-1528872035-medium-v2.jpg
 blocks:
     -
         _id: blog-content-block
@@ -17,7 +18,7 @@ seo:
     image:
     favicon:
     index: true
-permalink: 
+permalink: the-6-tastes-a-guide-map-to-ultimate-nutrition/
 ---
 # The 6 tastes: A Guide Map to Ultimate Nutrition
 
