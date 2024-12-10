@@ -43,9 +43,7 @@ seo:
     index: true
 permalink:
 ---
-**Panchakarma**
-
-&nbsp;
+**Panchakarma**&nbsp;
 
 Panchakarma – what is it, how does it work, and why is it so powerful?
 
@@ -111,69 +109,21 @@ All these steps are crucial to properly preparing the body eliminating deep-seat
 
 <u>Stage 2. Panchakarma: The Detox and Cleansing Procedures</u>&nbsp;
 
-In this stage, a diverse range of detox methods is used to address deeply embedded toxins. These can include internal and external oil treatments, such as imbibing oil or
-
-ghee (clarified butter that has medicinal qualities), adding ghee to food, or treatments
-
-like oil enemas, massages, ear or nose drops, or medicinal baths. There may also
-
-be localised oil treatments to treat specific problem areas like the neck, knees, heart
-
-or lower back.
-
-&nbsp;
+In this stage, a diverse range of detox methods is used to address deeply embedded toxins. These can include internal and external oil treatments, such as imbibing oil or ghee (clarified butter that has medicinal qualities), adding ghee to food, or treatments like oil enemas, massages, ear or nose drops, or medicinal baths. There may also be localised oil treatments to treat specific problem areas like the neck, knees, heart or lower back.&nbsp;
 
 Bastis or medicated enemas:
 
-&nbsp;
+One of the foundations of the success of Ayurvedic detox (panchakarma) is the wise use of Bastis or medicated enemas. This involves administering herbal concoctions via enemas to cleanse the colon, address long-standing imbalances relating to the nervous system, digestion and strength, as well as promoting relief from arthritis, constipation, and lower back pain.
 
-One of the foundations of the success of Ayurvedic detox (panchakarma) is the wise
+&nbsp;<u>Stage 3. Post Detox Rejuvenation (Paschat Karma):</u>
 
-use of Bastis or medicated enemas. This involves administering herbal concoctions
-
-via enemas to cleanse the colon, address long-standing imbalances relating to the
-
-nervous system, digestion and strength, as well as promoting relief from arthritis,
-
-constipation, and lower back pain.
-
-&nbsp;
-
-<u>Stage 3. Post Detox Rejuvenation (Paschat Karma):</u>
-
-&nbsp;
-
-Once complete detoxification has been achieved, the focus turns to rebuilding,
-
-rejuvenation and maximising strength. Here, treatments include:
-
-&nbsp;
+Once complete detoxification has been achieved, the focus turns to rebuilding, rejuvenation and maximising strength. Here, treatments include:
 
 * **Diet**: Gradually reintroducing regular foods, starting with light and easily digestible items and following specific dietary guidelines to maintain the balance and digestive health.
 * **Herbal Supplements**: Use of herbal formulations to enhance digestion, boost immunity, and support overall health.
 * **Rasayana Therapy** (Rejuvenation Therapy): Administration of special Ayurvedic rejuvenative herbs and tonics to promote vitality and longevity.
 * **Lifestyle Recommendations**: Guidance on maintaining a balanced daily routine and seasonal regimen along with recommendations for sleep, exercise, and stress management.
 
-&nbsp;
-
-These practices collectively help reinforce the body’s natural defences, maintain the
-
-benefits of detoxification, and prevent the recurrence of imbalance and disease. By
-
-gradually reintroducing normal dietary and lifestyle habits, the final stage of the
-
-Panchakarma process ensures a smooth transition back to everyday life, making the
-
-detoxification effects sustainable. This phase is critical because it solidifies the gains
-
-from the previous stages and supports ongoing health and vitality. This is why having
-
-an extra day or two at the end of your stay to just rest and integrate is extremely
-
-powerful. Rather than racing to the airport and diving straight back into family or work
-
-commitments, guests who stay on just a little bit longer say it was one of the best
-
-decisions they made.
+These practices collectively help reinforce the body’s natural defences, maintain the benefits of detoxification, and prevent the recurrence of imbalance and disease. By gradually reintroducing normal dietary and lifestyle habits, the final stage of the Panchakarma process ensures a smooth transition back to everyday life, making the detoxification effects sustainable. This phase is critical because it solidifies the gains from the previous stages and supports ongoing health and vitality. This is why having an extra day or two at the end of your stay to just rest and integrate is extremely powerful. Rather than racing to the airport and diving straight back into family or work commitments, guests who stay on just a little bit longer say it was one of the best decisions they made.
 
 <br>
