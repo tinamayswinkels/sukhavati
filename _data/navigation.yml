@@ -2,37 +2,47 @@ logo_image: /assets/images/sukhavati.png
 logo_alt: Sukhavati Logo
 header_logo_width: 12rem
 header_links:
-  - text: Our Program
-    link: /
+  - text: About Sukhavati
+    link:
     sub_links:
-      - text: Our Wellness Retreat
-        link: /ayurvedic-wellness-retreat
       - text: Our Story
         link: /
-      - text: Our  Treatments
-        link: /treatments
+      - text: Our Program
+        link: ''
       - text: Our Team
         link: /team
-      - text: 'Private Pool Villas '
+      - text: Our  Treatments
+        link: /treatments
+      - text: Our Villas
         link: /private-pool-villas.html
-      - text: Garden Villas
-        link: /garden-villas.html
+      - text: Other Services
+        link:
   - text: Your Journey
     link: /your-journey.html
     sub_links:
-      - text: Your Journey at Sukhavati
+      - text: Your Stay at Sukhavati
         link: /your-journey.html
-      - text: A day in the life at Sukhavati
+      - text: Your Daily Schedule
         link: /your-retreat-experience.html
-      - text: Benefits of an Ayurvedic Retreat
+      - text: Your Wellness Goals
         link: /explore-benefits.html
   - text: Your Wellness Goals
-    link: /
+    link:
     sub_links:
-      - text: Weight Loss
+      - text: Detox
+        link: ''
+      - text: Burnout & Fatigue
+        link: ''
+      - text: ''
+        link: ''
+      - text: Stress, Anxiety, Insomnia
         link: /benefits-pages-individual.html
-      - text: Explore all benefits
+      - text: Weight Loss
         link: /explore-benefits.html
+      - text: Autoimmune Conditions
+        link: ''
+      - text: Arthritis & Pain
+        link: ''
   - text: Contact Us
     link: /contact.html
   - text: Book Now
