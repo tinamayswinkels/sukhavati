@@ -95,6 +95,8 @@ strengthens the mind and nervous system, promotes mental clarity, and supports t
 
 body’s ability to burn fat and self-cleanse once treatments have finished. It also improves the gut-brain axis and helps rebalance the gut microbiota.
 
+&nbsp;
+
 <u>What’s involved?</u>
 
 &nbsp;
@@ -125,7 +127,7 @@ on restoring strength and promoting ongoing health.
 
 &nbsp;
 
-Once at Sukhavati, our Ayurvedic doctors will explain specific do’s and don'ts during
+Once at Sukhavati, our Ayurvedic doctors will explain specific do’s and don’ts during
 
 Panchakarma. These include avoiding excessive sun or wind exposure,
 
