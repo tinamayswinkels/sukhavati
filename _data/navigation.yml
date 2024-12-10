@@ -25,7 +25,7 @@ header_links:
       - text: Your Daily Schedule
         link: /daily-schedule
       - text: Your Wellness Goals
-        link: /goals
+        link: /explore-benefits
   - text: Your Wellness Goals
     link:
     sub_links:
@@ -47,7 +47,7 @@ header_links:
       - text: What is Ayurveda?
         link: /about-ayurveda
       - text: Panchakarma
-        link:
+        link: /panchakarma
       - text: Benefits
         link: /explore-benefits
       - text: Treatments
