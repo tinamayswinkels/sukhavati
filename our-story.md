@@ -126,6 +126,8 @@ Once complete detoxification has been achieved, the focus turns to rebuilding, r
 * **Rasayana Therapy** (Rejuvenation Therapy): Administration of special Ayurvedic rejuvenative herbs and tonics to promote vitality and longevity.
 * **Lifestyle Recommendations**: Guidance on maintaining a balanced daily routine and seasonal regimen along with recommendations for sleep, exercise, and stress management.
 
+&nbsp;
+
 These practices collectively help reinforce the body’s natural defences, maintain the benefits of detoxification, and prevent the recurrence of imbalance and disease. By gradually reintroducing normal dietary and lifestyle habits, the final stage of the Panchakarma process ensures a smooth transition back to everyday life, making the detoxification effects sustainable. This phase is critical because it solidifies the gains from the previous stages and supports ongoing health and vitality. This is why having an extra day or two at the end of your stay to just rest and integrate is extremely powerful. Rather than racing to the airport and diving straight back into family or work commitments, guests who stay on just a little bit longer say it was one of the best decisions they made.
 
 <br>
