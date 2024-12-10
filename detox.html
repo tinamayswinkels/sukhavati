@@ -2,209 +2,132 @@
 layout: default
 blocks:
     -
-        _id: banner-video
-        block-content-html: <h2>Welcome to Sukhavati</h2>
-        videos:
-            -
-                video_path: /uploads/sea-24216-360p.mp4
-                video_type: mp4
-        controls: false
-        autoplay: true
+        _id: text-block
+        block-content-html: >-
+            <h2 class="heading-md">Weight loss</h2><h3 class="sub-heading">AT
+            OUR AYURVEDIC WELLNESS RETREAT</h3><p>Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        content-max-width: 28rem
         text-alignment: center
-        vert-alignment: middle
-        overlay-color: '#000000'
-        overlay-opacity: 0.5op
-        min-height: 90vh
-        color-scheme: leaf-500
+        color-scheme: leaf-400
+        min-height: 75vh
     -
         _id: banner-split
-        block-content-html: <h2 class="heading-lg">quick heading</h2><p>filler text</p>
-        background-desktop-image: https://picsum.photos/id/1023/600/400
-        background-mobile-image: https://picsum.photos/id/1024/600/400
+        block-content-html: >-
+            <h2 class="heading-lg">A holistic approach to long-lasting weight
+            loss.</h2><h3 class="sub-heading">a Side Benefit - not the Main
+            Goal</h3><p>At Sukhavati, we understand that many people come to
+            health retreats specifically wanting to lose weight. In many
+            cases<br />(80-90%) our guests do lose weight. However, it is
+            important to note that this is not the primary focus here.<br /><br
+            />From the Ayurvedic perspective, the main goal is to help you
+            achieve your optimal state of mental, physical, and emotional
+            balance. When our bodies are in their optimal state of balance, they
+            naturally detox on a daily basis, they are naturally resistant to
+            stress and effortlessly maintain an ideal weight.<br /><br
+            />According to their constitution and current state of balance or
+            imbalance, some people do need to lose weight to achieve<br
+            />balance. Others do not. By focusing holistically and using the
+            deeper wisdom of Ayurveda, we restore the doshas to balance. As a
+            natural result, our health at every level improves.</p>
+        background-desktop-image: /uploads/dsc06804.jpg
+        background-mobile-image: /uploads/dsc06804.jpg
         background-alt:
         desktop-collapse-bg-padding: true
         desktop-image-position: left
-        section-gap: 1rem
-        text-alignment: center
-        vert-alignment: middle
+        text-alignment: left
+        vert-alignment: bottom
         mobile-image-position: bottom
         mobile-collapse-bg-padding: false
-        img_aspect: Original
-        collapse-bottom-space: false10
-        color-scheme: leaf-500
-    -
-        _id: banner-split
-        block-content-html: <h2 class="heading-lg">quick heading</h2><p>filler text</p>
-        background-desktop-image: https://picsum.photos/id/1023/600/400
-        background-mobile-image: https://picsum.photos/id/1024/600/400
-        background-alt:
-        desktop-collapse-bg-padding: true
-        desktop-image-position: right
-        section-gap: 1rem
-        text-alignment: center
-        vert-alignment: middle
-        mobile-image-position: bottom
-        mobile-collapse-bg-padding: false
-        img_aspect: Square
+        img_aspect: Extra Tall
+        collapse-top-space: false
         collapse-bottom-space: false
         color-scheme: leaf-500
     -
-        _id: horizontal-scroll-basic
-        heading: block heading
-        block-content-html: <h2 class="heading-lg">quick heading</h2><p>filler text</p>
-        image-width: 250px
-        img_aspect: Original
-        scroll-items:
-            -
-                heading: first
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-            -
-                heading: second
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-            -
-                heading: third
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-            -
-                heading: fourth
-                image: https://picsum.photos/id/684/1200/630
-                description: >-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                    corporis obcaecati doloremque optio! Unde accusantium, esse
-                    consectetur asperiores voluptates obcaecati nobis libero
-                    necessitatibus vero labore quod eaque. Illum, tenetur alias!
-                link:
-        color-scheme: leaf-100
-    -
-        _id: banner
-        block-content-html: <h2 class="heading-lg">quick heading</h2><p>filler text</p>
-        content-max-width:
-        background-desktop-image: https://picsum.photos/id/1023/600/400
-        background-mobile-image: https://picsum.photos/id/1024/600/400
-        text-alignment: center
-        vert-alignment: middle
-        overlay-color: '#000000'
-        overlay-opacity: 0.5op
-        min-height: 90vh
-        color-scheme: white
-    -
-        _id: slider
-        block-content-html: <h2 class="heading-lg">quick heading</h2><p>filler text</p>
-        text-align: right
-        text-box-max-width: 500px
-        img_aspect: Original
-        slider_column_count: 3
-        slider_col_color_scheme: featured
-        slider:
-            -
-                image: https://picsum.photos/id/684/1200/630
-                youtube_embed:
-                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                link: base
-            -
-                image: https://picsum.photos/id/685/1200/630
-                youtube_embed:
-                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                link: base
-            -
-                image: https://picsum.photos/id/686/1200/630
-                youtube_embed:
-                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                link: base
-            -
-                image: https://picsum.photos/id/687/1200/630
-                youtube_embed:
-                block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-                link: base
-        color-scheme: leaf-100
-    -
-        _id: slider
-        block-content-html: <h2 class="heading-lg">quick heading</h2><p>filler text</p>
-        text-align: right
-        text-box-max-width: 500px
-        img_aspect: Square
-        slider_column_count: 3
-        slider_col_color_scheme: base
-        slider:
-            -
-                image: https://picsum.photos/id/684/1200/630
-                youtube_embed:
-                block-content-html: >-
-                    <h3> lorem </h3><h2>  experiences  </h2><p
-                    class="float-images-right"><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /></p><p></p><p>" clients comments
-                    "</p>
-                link: base
-            -
-                image: https://picsum.photos/id/685/1200/630
-                youtube_embed:
-                block-content-html: >-
-                    <h3> lorem </h3><h2>  experiences  </h2><p
-                    class="float-images-right"><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /></p><p></p><p>" clients comments
-                    "</p>
-                link: base
-            -
-                image: https://picsum.photos/id/686/1200/630
-                youtube_embed:
-                block-content-html: >-
-                    <h3> lorem </h3><h2>  experiences  </h2><p
-                    class="float-images-right"><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /></p><p></p><p>" clients comments
-                    "</p>
-                link: base
-            -
-                image: https://picsum.photos/id/687/1200/630
-                youtube_embed:
-                block-content-html: >-
-                    <h3> lorem </h3><h2>  experiences  </h2><p
-                    class="float-images-right"><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /><img src="/uploads/star.svg"
-                    alt="star" title="star" /></p><p></p><p>" clients comments
-                    "</p>
-                link: base
+        _id: banner-split
+        block-content-html: >-
+            <p>Our focus at Sukhavati is on guiding you toward true balance and
+            optimal health rather than solely focusing on specific outcomes like
+            weight loss or temporary stress relief. <br /><br />Our timeless
+            approach addresses the root cause of imbalances in the body and
+            mind, allowing you to naturally return to your healthiest, most
+            vibrant state. In this state of balance, unnecessary weight is shed,
+            and stress is naturally dissolved. <br /><br />Other benefits
+            include:</p><ul><li><p>Feeling lighter and more
+            energized</p></li><li><p>Improved digestion and
+            elimination</p></li><li><p>Being the perfect weight for your body
+            type</p></li><li><p>Clearer, more radiant
+            skin</p></li><li><p>Deeper, more rejuvenative
+            sleep</p></li><li><p>Increased happiness and
+            positivity</p></li><li><p>Improved resilience to
+            stress</p></li><li><p>Better relationships, stemming from feeling
+            better within yourself</p><p></p></li></ul>
+        background-desktop-image: /uploads/dsc06804.jpg
+        background-mobile-image: /uploads/dsc06804.jpg
+        background-alt:
+        desktop-collapse-bg-padding: true
+        desktop-image-position: right
+        text-alignment: left
+        vert-alignment: bottom
+        mobile-image-position: bottom
+        mobile-collapse-bg-padding: false
+        img_aspect: Portrait
+        collapse-top-space: false
+        collapse-bottom-space: false
         color-scheme: leaf-500
     -
-        _id: slider-blog-loop
-        block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
-        text-alignment: right
-        text-box-max-width: 500px
-        img_aspect: Square
-        video_aspect: Testimonials
-        slider_column_count: 3
-        slider_col_color_scheme: leaf-500
+        _id: accordion
+        block-content-html: <h2 class="heading-lg">THE AYURVEDIC APPROACH TO WEIGHTLOSS</h2>
+        drop_down:
+            -
+                button-text: Understand your body type
+                block-content-html: >-
+                    <p>Each and every Ayurvedic health tool has been designed
+                    for those already with an idea of their mind-body type,
+                    which is known as Dosha. Understanding your Dosha can help
+                    you determine what foods, lifestyle choices and even body
+                    shape are healthiest for your individual self. Knowing your
+                    Dosha can help you cut through the maze of media spin when
+                    it comes to information on the latest fad diets or healthy
+                    eating practices. This can then enable you to make educated
+                    judgements that lead to healthy weight loss based on your
+                    mind-body type.<br /><br />Once you know your Dosha and have
+                    adapted to living in a way that meets your biological needs
+                    rather than disturbs them, you will arrive at the perfect
+                    weight for you, naturally. Following a detailed consultation
+                    with our Ayurvedic Doctor, you’ll learn the type of
+                    mind-body you have and which foods best support it.</p>
+            -
+                button-text: Stimulate the metabolism
+                block-content-html: ''
+            -
+                button-text: Ensure you move daily
+                block-content-html: ''
+            -
+                button-text: Reduce the Kapha from your diet
+                block-content-html: ''
+            -
+                button-text: Cleansing Practices
+                block-content-html: ''
+        color-scheme: leaf-100
+    -
+        _id: banner-split
+        block-content-html: "<h3 class=\"sub-heading\">ABOUT SUHKAVATI</h3><h2 class=\"heading-md\">A personalised \Lwellness retreat</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br /><a class=\"button\" href=\"/\">LEARN MORE</a></p>"
+        background-desktop-image: /uploads/dsc06804.jpg
+        background-mobile-image: /uploads/dsc06804.jpg
+        background-alt:
+        desktop-collapse-bg-padding: true
+        desktop-image-position: right
+        text-alignment: left
+        vert-alignment: bottom
+        mobile-image-position: bottom
+        mobile-collapse-bg-padding: false
+        img_aspect: Portrait
+        collapse-top-space: false
+        collapse-bottom-space: false
         color-scheme: leaf-500
 seo:
     title:
