@@ -172,3 +172,40 @@ temp
 13) which is the leaf in question?
 14) bg or text?
 15) have they given us access?
+
+nav
+
+home / 
+
+<About Sukhavati> no link 
+Our Story /our-story - needs content update
+Our Program - /ayurvedic-wellness-retreat - needs content update
+Our Team   /team
+Our Treatments /treatments
+Our Villas /private-pool-villas
+Other Services /other-services - needs content update
+
+<Your Journey> no link 
+Your Stay at Sukhavati - /your-journey - needs content update
+// base on /your-journey.html
+Your Daily Schedule /daily-schedule  - needs content update
+Your Wellness Goals  /explore-benefits  - needs content update
+
+<Wellness Goals> no link 
+  // base on Benefits Pages - Individual
+Detox - /detox
+Burnout & Fatigue -
+Stress, Anxiety, Insomnia -
+Weight Loss -
+Autoimmune Conditions -
+Arthritis & Pain  -
+ 
+
+<Ayurveda> no link 
+    // base on Information page example - about Ayuveda
+What is Ayurveda? -
+Panchakarma -
+
+Benefits /explore-benefits
+Treatments /treatments
+Videos & Articles /education
