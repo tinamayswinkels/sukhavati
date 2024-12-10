@@ -99,6 +99,8 @@ During your detox, your diet should be light and easy to digest, avoiding anythi
 * Medicated Ghee or Oils: Small doses of medicated ghee or oils are used internally to enhance digestion and aid herbal medicine absorption.
 * Spices and Condiments: Using digestive spices like turmeric, coriander, fennel, and cardamom in meals to aid digestion and boost metabolism.
 
+&nbsp;
+
 ii) Lubrication of the Body (Oleation or Snehana)&nbsp;
 
 This phase involves the use of oils or ghee to soften and mobilise the toxins in the body. This process can be performed both internally and externally. Internal oleation helps to loosen the toxins from the tissues and prepare them for elimination. External oleation, e.g through various types of massages, helps to lubricate and soften the body tissues, making it easier for toxins to move towards the gastrointestinal tract for elimination.
