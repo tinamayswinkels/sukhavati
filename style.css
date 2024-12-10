@@ -403,6 +403,8 @@ float: right
   body .slick-prev,body .slick-next {
     top: 100%;
     z-index: 99;
+    height: 50px;
+    width: 50px;
   }
   body .slick-prev {
   left: var(--small-padding);
@@ -414,6 +416,7 @@ float: right
   body .slick-next::before, body .slick-prev::before{
     font-family: inherit;
     color: var(--text-color);
+    font-size: 50px;
   }
 
   .star-aligner img {
