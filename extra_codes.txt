@@ -193,7 +193,7 @@ Your Wellness Goals  /goals  - needs content update
 
 <Wellness Goals> no link 
   // base on Benefits Pages - Individual
-  // all need content
+  // all need more content
 Detox - /detox
 Burnout & Fatigue - /burnout-fatigue
 Stress, Anxiety, Insomnia - /stress-anxiety-insomnia
@@ -210,3 +210,6 @@ Panchakarma - needs clarification
 Benefits /explore-benefits
 Treatments /treatments
 Videos & Articles /education
+
+<contact> - /contact
+<book now> - needs link

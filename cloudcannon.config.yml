@@ -555,7 +555,7 @@ _structures:
           img_aspect: Square
           scroll-items:
             - heading: first
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -563,7 +563,7 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
             - heading: second
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -571,7 +571,7 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
             - heading: third
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -579,7 +579,7 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
             - heading: fourth
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -597,7 +597,7 @@ _structures:
           img_aspect: Square
           scroll-items:
             - heading: first
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -605,7 +605,7 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
             - heading: second
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -613,7 +613,7 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
             - heading: third
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -621,7 +621,7 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
             - heading: fourth
-              image: https://picsum.photos/id/684/1200/630
+              image: /uploads/bp4a8582-hdr.jpg
               description: >-
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
                 corporis obcaecati doloremque optio! Unde accusantium, esse
@@ -677,8 +677,8 @@ _structures:
           size: 40m2
           bed: KING
           type: Pool Suite
-          background-desktop-image: https://picsum.photos/id/1023/600/400
-          background-mobile-image: https://picsum.photos/id/1024/600/400
+          background-desktop-image: /uploads/bp4a8582-hdr.jpg
+          background-mobile-image: /uploads/bp4a8582-hdr.jpg
           background-alt: 
           desktop-collapse-bg-padding: true
           desktop-image-position: right
@@ -697,7 +697,7 @@ _structures:
       - label: Image
         value:
           col-type: img
-          image: https://picsum.photos/id/1023/600/400
+          image: /uploads/bp4a8582-hdr.jpg
           image_alt:
           img_aspect: Square
           col-width: 2

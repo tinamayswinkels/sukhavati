@@ -11,7 +11,7 @@ blocks:
 seo:
     title:
     description: advanced description
-    image: https://picsum.photos/id/1025/600/400
+    image:
     favicon:
     index: true
 permalink: 
