@@ -83,17 +83,18 @@
           {% if link.sub_links %}
             relative
           {% endif %}
-          "> {% if link.link %}
-          <a href="{{link.link}}">
-          {% else %}
-          <span class="unlinked">
-          {% endif %}
-             {{link.text}}
-          {% if link.link %}
-        </a>
-          {% else %}
-         </span>
-          {% endif %}
+          ">
+              {% if link.link %}
+              <a href="{{link.link}}">
+              {% else %}
+              <div class="unlinked">
+              {% endif %}
+                {{link.text}}
+              {% if link.link %}
+              </a>
+              {% else %}
+              </div>
+              {% endif %}
           {% if link.sub_links %} 
               <div class="absolute left-0 top-12 z-10 drop-down color-set min-w-min hidden">
                 {% for sub-link in link.sub_links %}
