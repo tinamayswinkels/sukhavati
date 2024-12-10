@@ -6,43 +6,54 @@ header_links:
     link:
     sub_links:
       - text: Our Story
-        link: /
+        link: /our-story
       - text: Our Program
-        link: ''
+        link: /ayurvedic-wellness-retreat
       - text: Our Team
         link: /team
       - text: Our  Treatments
         link: /treatments
       - text: Our Villas
-        link: /private-pool-villas.html
+        link: /private-pool-villas
       - text: Other Services
-        link:
+        link: /other-services
   - text: Your Journey
     link: /your-journey.html
     sub_links:
       - text: Your Stay at Sukhavati
         link: /your-journey.html
       - text: Your Daily Schedule
-        link: /your-retreat-experience.html
+        link: /daily-schedule
       - text: Your Wellness Goals
-        link: /explore-benefits.html
+        link: /goals
   - text: Your Wellness Goals
     link:
     sub_links:
       - text: Detox
         link: ''
       - text: Burnout & Fatigue
-        link: ''
-      - text: ''
-        link: ''
+        link: /burnout-fatigue
       - text: Stress, Anxiety, Insomnia
-        link: /benefits-pages-individual.html
+        link: /stress-anxiety-insomnia
       - text: Weight Loss
-        link: /explore-benefits.html
+        link: /weight-loss
       - text: Autoimmune Conditions
-        link: ''
+        link: /autoimmune-conditions
       - text: Arthritis & Pain
-        link: ''
+        link: /arthritis-pain
+  - text: Ayurveda
+    link:
+    sub_links:
+      - text: What is Ayurveda?
+        link: /about-ayurveda
+      - text: Panchakarma
+        link:
+      - text: Benefits
+        link: /explore-benefits
+      - text: Treatments
+        link: /treatments
+      - text: Videos & Articles
+        link: /education
   - text: Contact Us
     link: /contact.html
   - text: Book Now
