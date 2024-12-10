@@ -67,6 +67,8 @@ Panchakarma comprises three main stages:
 2. The second stage, *Panchakarma* (detox & cleansing procedures), consists of the core detoxification procedures that eliminate the toxins from the body.
 3. The third stage, *Paschat Karma* (rejuvenation procedures), focuses on restoring strength and promoting ongoing health.
 
+&nbsp;
+
 &nbsp;<u>Ideal protocol</u>
 
 &nbsp;Once at Sukhavati, our Ayurvedic doctors will explain specific do’s and don’ts during Panchakarma. These include avoiding excessive sun or wind exposure, getting plenty of rest, and avoiding long excursions or shopping trips. A digital/technology detox is also recommended, as it is often a source of stress and anxiety while shifting your focus away from your goals – the world can wait while you invest in yourself and your wellbeing.
