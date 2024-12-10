@@ -193,17 +193,18 @@ Your Wellness Goals  /explore-benefits  - needs content update
 
 <Wellness Goals> no link 
   // base on Benefits Pages - Individual
+  // all need content
 Detox - /detox
-Burnout & Fatigue -
-Stress, Anxiety, Insomnia -
-Weight Loss -
-Autoimmune Conditions -
-Arthritis & Pain  -
+Burnout & Fatigue - /Burnout-Fatigue
+Stress, Anxiety, Insomnia - /stress-anxiety-insomnia
+Weight Loss - /weight-loss
+Autoimmune Conditions - /autoimmune-conditions
+Arthritis & Pain  - /arthritis-pain.html
  
 
 <Ayurveda> no link 
     // base on Information page example - about Ayuveda
-What is Ayurveda? -
+What is Ayurveda? - 
 Panchakarma -
 
 Benefits /explore-benefits
