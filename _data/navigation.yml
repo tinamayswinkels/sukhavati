@@ -30,7 +30,7 @@ header_links:
     link:
     sub_links:
       - text: Detox
-        link: ''
+        link: /detox
       - text: Burnout & Fatigue
         link: /burnout-fatigue
       - text: Stress, Anxiety, Insomnia
