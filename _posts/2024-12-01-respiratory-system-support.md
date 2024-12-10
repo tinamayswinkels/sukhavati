@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Respiratory System Support
-featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/11/Respiratory-Support.png
+featured_image: >-
+    https://www.sukhavatibali.com/wp-content/uploads/2019/11/Respiratory-Support.png
 blocks:
     -
         _id: blog-content-block
@@ -17,7 +18,7 @@ seo:
     image:
     favicon:
     index: true
-permalink: 
+permalink: respiratory-system-support/
 ---
 # Respiratory System Support
 
