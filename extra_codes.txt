@@ -189,13 +189,13 @@ Other Services /other-services - needs content update
 Your Stay at Sukhavati - /your-journey - needs content update
 // base on /your-journey.html
 Your Daily Schedule /daily-schedule  - needs content update
-Your Wellness Goals  /explore-benefits  - needs content update
+Your Wellness Goals  /goals  - needs content update
 
 <Wellness Goals> no link 
   // base on Benefits Pages - Individual
   // all need content
 Detox - /detox
-Burnout & Fatigue - /Burnout-Fatigue
+Burnout & Fatigue - /burnout-fatigue
 Stress, Anxiety, Insomnia - /stress-anxiety-insomnia
 Weight Loss - /weight-loss
 Autoimmune Conditions - /autoimmune-conditions
@@ -204,8 +204,8 @@ Arthritis & Pain  - /arthritis-pain.html
 
 <Ayurveda> no link 
     // base on Information page example - about Ayuveda
-What is Ayurveda? - 
-Panchakarma -
+What is Ayurveda? - /about-ayurveda
+Panchakarma - needs clarification
 
 Benefits /explore-benefits
 Treatments /treatments
