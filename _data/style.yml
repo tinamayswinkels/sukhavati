@@ -29,11 +29,6 @@ schemes:
     text-color: '#f3f3f0'
     colored-button-bg-color: '#ece5dd'
     colored-button-text-color: '#3e3e3e'
-  - scheme_name: leaf-700
-    bg-color: '#d8dace'
-    text-color: '#3e3e3e'
-    colored-button-bg-color:
-    colored-button-text-color:
   - scheme_name: dark
     bg-color: '#272724'
     text-color: '#f3f3f0'
