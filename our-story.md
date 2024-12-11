@@ -33,7 +33,7 @@ blocks:
         color-scheme: leaf-500
 seo:
     title:
-    description: advanced description
+    description: 
     image:
     favicon:
     index: true

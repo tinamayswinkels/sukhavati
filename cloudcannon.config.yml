@@ -86,7 +86,6 @@ _inputs:
         - leaf-400
         - leaf-500
         - leaf-600
-        - leaf-700
         - dark
         - white
     cascade: true
@@ -101,7 +100,6 @@ _inputs:
         - leaf-400
         - leaf-500
         - leaf-600
-        - leaf-700
         - dark
         - white
     cascade: true

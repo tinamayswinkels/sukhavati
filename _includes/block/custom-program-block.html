@@ -1,0 +1,72 @@
+
+<section class="flex justify-center items-center">
+  <div class="max-width
+      {% case block.text-alignment %}
+      {% when 'right' %}
+          text-right
+      {% when 'center' %}
+          text-center
+      {% else %}
+      {% endcase %}">
+    <div class="">
+      <select id="option-selector-{{forloop.index}}" name="days" class="input">
+        {% for option in block.options %}
+
+        <option id="option-{{forloop.index}}" value="{{forloop.index}}" {% if forloop.index == 1 %} selected="" {% endif %}>{{option.days}} Day Program</option>
+        {% endfor %}
+      </select>
+      
+      <div class="rates-filter-{{forloop.index}}">
+        <div class="flex justify-between gap-small">
+          <span>
+            Inclusions
+          </span>
+          <span>
+            Rates
+          </span>
+        </div>
+        {% for option in block.options %}
+        <div class="day-holder {% if forloop.index == 1 %} shown {% endif %}" data-option="{{forloop.index}}">
+          days: {{option.days}}
+          nights: {{option.nights}}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+            
+  </div>
+</section>
+
+
+<style>
+
+.day-holder {
+  display: none;
+}
+.day-holder.shown{
+  display: block;
+}
+
+</style>
+
+<script>
+const daysInput = document.querySelector('#option-selector-{{forloop.index}}')
+const dayOptions = document.querySelectorAll('.rates-filter-{{forloop.index}} .day-holder')
+let target
+console.log(daysInput,dayOptions)
+
+daysInput.addEventListener('change', (e) => {
+  target = this.value
+
+  
+  dayOptions.forEach(option => {
+    console.log('i changed', this, target, option.dataset.option )
+    if (option.dataset.option == target) {
+      option.classList.add('shown')
+    } else {
+      option.classList.remove('shown')
+    }
+  });
+})
+
+</script>

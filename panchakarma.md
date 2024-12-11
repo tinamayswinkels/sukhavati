@@ -7,7 +7,7 @@ blocks:
         color-scheme: leaf-100
 seo:
     title:
-    description: advanced description
+    description: 
     image:
     favicon:
     index: true
