@@ -8,14 +8,16 @@
           text-center
       {% else %}
       {% endcase %}">
-    <div class="">
-      <select id="option-selector-{{forloop.index}}" name="days" class="input">
+    <div class="flex justify-center gap-4 p-4 bg-[#87897d]">
+      <p class="!mb-0"> Please Select Day Program </p>
+      <select id="option-selector-{{forloop.index}}" name="days" class="input bg-inherit">
         {% for option in block.options %}
 
         <option id="option-{{forloop.index}}" value="{{forloop.index}}" {% if forloop.index == 1 %} selected="" {% endif %}>{{option.days}} Day Program</option>
         {% endfor %}
       </select>
-      
+      </div>
+      <div>
       <div class="rates-filter-{{forloop.index}}">
         <div class="flex justify-between gap-small">
           <span>
@@ -55,18 +57,20 @@ const dayOptions = document.querySelectorAll('.rates-filter-{{forloop.index}} .d
 let target
 console.log(daysInput,dayOptions)
 
-daysInput.addEventListener('change', (e) => {
+function selectProgram(){
   target = this.value
 
   
-  dayOptions.forEach(option => {
-    console.log('i changed', this, target, option.dataset.option )
-    if (option.dataset.option == target) {
-      option.classList.add('shown')
-    } else {
-      option.classList.remove('shown')
-    }
-  });
-})
+dayOptions.forEach(option => {
+  console.log('i changed', this, target, option.dataset.option )
+  if (option.dataset.option == target) {
+    option.classList.add('shown')
+  } else {
+    option.classList.remove('shown')
+  }
+});
+}
+
+daysInput.addEventListener('change', selectProgram)
 
 </script>
