@@ -432,8 +432,9 @@ float: right
 
   /* slider */
 
-  body .slick-prev,body .slick-next {
-    top: 100%;
+  body .slick-prev, body .slick-next {
+    top: initial;
+    bottom: -70px;
     z-index: 99;
     height: 50px;
     width: 50px;
@@ -449,6 +450,7 @@ float: right
     font-family: inherit;
     color: var(--text-color);
     font-size: 50px;
+    content: '';
   }
 
   .star-aligner img {

@@ -161,20 +161,131 @@
     {% endfor %}
 
 
+<div class="scheme-leaf-500 relative" id="section-c1">
+            
+      <!--banner-split -->
+      
+<section class=" ">
+<div class="max-width mx-auto">
+<div class="grid md:grid-cols-2" style="gap: 5%">
 
+<div class="picture relative">
+<picture>
+<source srcset="/uploads/dsc06804.jpg" media="(min-width: 750px)">
+<img class=" absolute inset-0 h-full w-full object-cover object-center " src="/uploads/dsc06804.jpg" alt="">
+</picture>
+
+</div>
+<div class="text-block">
+<h3 class="sub-heading">ABOUT SUHKAVATI</h3><h2 class="heading-lg">A personalised wellness retreat</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br><a class="button" href="/">LEARN MORE</a></p>
+</div>
+</div>
+</div>
+</section>
+
+<style>
+#section-c1 .text-block {
+text-align: left;
+align-self: center;
+}
+
+#section-c1 .picture{
+aspect-ratio: 4/5;
+align-self:center;
+order:2;
+
+}
+
+
+@media (max-width: 750px) {
+/* #section-4 section{
+flex-direction: column;
+} */
+#section-4 .text-block{
+/* padding-left: var(--max-width-side-padding); */
+/* padding-right: var(--max-width-side-padding); */
+
+  order: 1;
+
+}
+
+#section-4 .picture{
+
+
+width: calc(100vw - calc( var(--side-gap) * 2));
+/* margin-left: var(--side-gap); */
+ 
+}
+
+}
+
+
+</style>
+  </div>
+
+
+<div class="scheme-leaf-300 relative" id="section-c2">
+            
+      <!--horizontal-scroll-basic -->
+      
+<section class="px-0 ">
+<div class="px-side mb-8">
+<div class="max-width">
+  <h2>
+    </h2><h3 class="sub-heading">ALL-INCLUSIVE WELLNESS RETREAT</h3><h2 class="heading-md">Explore More Benefits</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  
+</div>
+</div>
+<div class="gap-4 flex flex-nowrap overflow-scroll no-scrollbar">
+
+
+{% for benifit in site.benefits %}
+  <div class="shrink-0 {% if forloop.index == 1 %} ml-full-side {% endif %} {% if forloop.last %} mr-full-side {% endif %}  " style="width: min( 33vw , 500px );">
+    <a href="{{benifit.url}}">
+      <div class="image-sizer relative mb-small">
+        <img class=" object-cover object-center absolute inset-0 h-full  w-full" src="{{benifit.featured_image}}" alt="">
+      </div>
+    <h3 class="sub-heading">{{benifit.title}}</h3>
+    <p>
+      
+    </p>
+    </a>
+  </div>
+{% endfor %}
+
+</div>
+</section>
+
+
+  <style>
+   #section-c2 .image-sizer {aspect-ratio:1;}
+  </style>
+</div>
     
 
 
-    <section class="flex justify-center items-center">
-      <div class="max-width
-      
-          text-center
-      ">
-          <div class="">
-            <h2 class="heading-md editable">Weight loss</h2><h3 class="sub-heading editable">AT OUR AYURVEDIC WELLNESS RETREAT</h3><p class="editable">A stronger, more vibrant and healthier you is only a booking away.Contact us to book your stay or to ask your questions and find out more about how a program can benefit you.</p><p><a class="button editable" href="/">BOOK YOUR PERSONALISED RETREAT</a></p>
-          </div>
-      </div>
-    </section>
+<div class="scheme-leaf-400 relative" id="section-c3">
+            
+  <!--text-block -->
+  
+<section class="flex justify-center items-center">
+<div class="max-width
+
+text-center
+">
+<div class="">
+<h2 class="heading-md">Weight loss</h2><h3 class="sub-heading">AT OUR AYURVEDIC WELLNESS RETREAT</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+</section>
+
+
+<style>
+#section-c3 section{
+min-height: 75vh;
+}
+</style>
+</div>
 
   {% else %}
     <section>

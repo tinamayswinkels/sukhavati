@@ -222,8 +222,11 @@
               </div>
             </div>
           </div>
-
-        </div>
+      </div>
+      <div class="text-center">
+        <p>
+          © 2024 - Sukhavati Ayurvedic Wellness Retreat Bali. All Rights Reserved.
+        </p>
       </div>
     </footer>
   </div>
@@ -366,6 +369,8 @@ console.log('#section-{{forloop.index}} has slider')
          $('#section-{{forloop.index}} .slider').slick({
            dots: false,
            arrows: true,
+           prevArrow:  `<button type="button" class="slick-prev"><svg width="50px" height="50px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="var(--text-color)"><path d="M21 12L3 12M3 12L11.5 3.5M3 12L11.5 20.5" stroke="var(--text-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>`,
+           nextArrow: `<button type="button" class="slick-next"><svg width="50px" height="50px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="var(--text-color)"><path d="M3 12L21 12M21 12L12.5 3.5M21 12L12.5 20.5" stroke="var(--text-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>`,
            slidesToShow: {{block.slider_column_count}},
            slidesToScroll: 1,
            dragable: true,
