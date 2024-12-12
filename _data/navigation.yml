@@ -61,13 +61,13 @@ header_links:
 footer-logo-image: /assets/images/sukhavati.png
 footer-logo-size: 450px
 footer_nav_bar:
-  - text: AYUVEDIC WELLNESS RETREAT
+  - text: AYURVEDIC WELLNESS RETREAT
     link: /ayurvedic-wellness-retreat.html
   - text: Your Journey
     link: /your-journey
   - text: Explore benefits
     link: /explore-benefits.html
-  - text: About Ayuveda
+  - text: About Ayurveda
     link: /information-page.html
   - text: Your Retreat Experience
     link: /your-retreat-experience.html
@@ -85,9 +85,9 @@ footer-location-html: >-
 footer-contact-links:
   phone-number-text: +62 361 900 6128
   phone-number: 623619006128
-  whatsApp-text: 0800 0000 0000
-  whatsApp-link-number: 80000000000
-  whatsApp-link-initial-message: What you want the whatsapp first message received is
+  whatsApp-text: +62 819-1622-1559
+  whatsApp-link-number: 6281916221559
+  whatsApp-link-initial-message: Hi, I would like more information about your retreat
   email: rejuvenation@sukhavatibali.com
 footer_social_links:
   - link: >-
