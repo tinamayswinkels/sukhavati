@@ -501,6 +501,12 @@ video {
 .mr-full-side {
   margin-right: var(--max-width-side-padding);
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .block {
   display: block;
 }
@@ -889,6 +895,21 @@ letter-spacing: 0.54px;
 }
 
 /* extra for editor */
+
+a.button, span.button {
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.15em;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid;
+  display:inline-block;
+  opacity: 1;
+  margin-top: 0.5rem;
+}
 
 a.button:hover {
   opacity:0.5;

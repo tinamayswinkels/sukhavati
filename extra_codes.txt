@@ -203,7 +203,7 @@ Arthritis & Pain  - /arthritis-pain.html
  
 
 <Ayurveda> no link 
-    // base on Information page example - about Ayuveda
+    // base on Information page example - about Ayurveda
 What is Ayurveda? - /about-ayurveda
 Panchakarma - needs clarification
 

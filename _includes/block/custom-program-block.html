@@ -7,11 +7,11 @@
       {% when 'center' %}
           text-center
       {% else %}
-      {% endcase %}">
+      {% endcase %}" style="max-width: 660px;">
       <div>
 
-        <div class="flex justify-center p-4 bg-[#87897d]">
-          <p class="!mb-0"> Please Select Day Program </p>
+        <div class="flex justify-center p-4 gap-4 mb-4">
+          <p class="!mb-0"> Please Select Day Program: </p>
           <select id="option-selector-{{forloop.index}}" name="days" class="input bg-inherit">
             {% for option in block.options %}
             
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="rates-filter-{{forloop.index}} inclusions">
-        <div class="flex justify-center gap-small">
+        <div class="flex justify-center gap-4 mb-8">
           <span class="button tab-select" data-tab="inclusions">
             Inclusions
           </span>
