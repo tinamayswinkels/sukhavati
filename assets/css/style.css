@@ -477,6 +477,9 @@ video {
 .mb-32 {
   margin-bottom: 8rem;
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -500,12 +503,6 @@ video {
 }
 .mr-full-side {
   margin-right: var(--max-width-side-padding);
-}
-.mb-4 {
-  margin-bottom: 1rem;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 .block {
   display: block;
@@ -620,10 +617,6 @@ video {
 }
 .border-\[currentcolor\] {
   border-color: currentcolor;
-}
-.bg-\[\#87897d\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(135 137 125 / var(--tw-bg-opacity));
 }
 .bg-inherit {
   background-color: inherit;

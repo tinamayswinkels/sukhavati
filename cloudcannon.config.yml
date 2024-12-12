@@ -400,7 +400,37 @@ _structures:
           text-alignment: center
           color-scheme: leaf-100
           min-height: 50vh
-      - label: Post content block
+      - label: program block
+        picker_preview:
+          text: program block
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/banner-preveiw.png
+            icon:
+            icon_color:
+            fit:
+        tags:
+        value:
+          _id: custom-program-block
+          options:
+            - days: 2
+              nights: 2
+              massage-count: 1
+              single-occupancy-luxury-price: 890
+              couple-occupancy-luxury-price: 710
+              single-occupancy-pool-price: 965
+              couple-occupancy-pool-price: 815
+            - days: 5
+              nights: 4
+              massage-count: 2
+              single-occupancy-luxury-price: 890
+              couple-occupancy-luxury-price: 710
+              single-occupancy-pool-price: 965
+              couple-occupancy-pool-price: 815
         picker_preview:
           text: Post content block
           subtext:
