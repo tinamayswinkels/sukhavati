@@ -361,6 +361,8 @@ tickerBanners.forEach(banner => {
     
     {% if block._id == 'slider' %}
     
+console.log('#section-{{forloop.index}} has slider')
+
          $('#section-{{forloop.index}} .slider').slick({
            dots: false,
            arrows: true,

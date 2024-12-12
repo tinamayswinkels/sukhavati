@@ -263,9 +263,10 @@ _inputs:
     options:
       allow_empty: true
       values:
-        24rem: small
-        28rem: medium
-        32rem: large
+        500px: small
+        640px : medium
+        768px: large
+        1024px: Extra large
 
 
 _structures:

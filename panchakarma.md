@@ -23,13 +23,13 @@ At Sukhavati, we recommend a minimum of 7 - 10 days to complete a Panchakarma pr
 
 If you wish to come for a shorter period, it will still be greatly beneficial and gently detoxifying, and will be focused more on the rejuvenation process.
 
-&nbsp;<u>The holistic benefits of Panchakarma</u>&nbsp;
+&nbsp;The holistic benefits of Panchakarma&nbsp;
 
 Panchakarma offers a complete mind and body makeover with benefits ranging from deeply detoxifying the body, powerfully boosting immune function, enhancing mental and emotional wellbeing by removing ‘emotional toxins’, balancing digestion, metabolism and therefore weight, as well as improving cellular health.
 
 Panchakarma also reduces stress hormones, balances the endocrine system, strengthens the mind and nervous system, promotes mental clarity, and supports the body’s ability to burn fat and self-cleanse once treatments have finished. It also improves the gut-brain axis and helps rebalance the gut microbiota.&nbsp;
 
-<u>What’s involved?</u>
+What’s involved?
 
 Panchakarma comprises three main stages:
 
@@ -39,7 +39,7 @@ Panchakarma comprises three main stages:
 
 &nbsp;
 
-&nbsp;<u>Ideal protocol</u>
+&nbsp;Ideal protocol
 
 &nbsp;Once at Sukhavati, our Ayurvedic doctors will explain specific do’s and don’ts during Panchakarma. These include avoiding excessive sun or wind exposure, getting plenty of rest, and avoiding long excursions or shopping trips. A digital/technology detox is also recommended, as it is often a source of stress and anxiety while shifting your focus away from your goals – the world can wait while you invest in yourself and your wellbeing.
 
@@ -55,7 +55,7 @@ In consultation with you and your desires and goals, our doctors will consider y
 
 **The 3 stages of Panchakarma:**&nbsp;
 
-<u>Stage 1. Purvakarma: the preparatory procedures.</u>
+Stage 1. Purvakarma: the preparatory procedures.
 
 Here, the body and mind are prepared for optimal cleansing. Various practices and herbal substances are consumed help to loosen long-standing impurities and dislodge deep-seated toxins to make them ready for easy elimination. The main preparatory procedures include:
 
@@ -81,7 +81,7 @@ The next stage is the process of inducing sweating to loosen the toxins further 
 
 All these steps are crucial to properly preparing the body eliminating deep-seated toxins. Once your body is ready, the appropriate detox method will be chosen for you. Sometimes toxins are already prepared for removal, so you might not need oil treatments or fomentation. In such cases, it’s important to remove the toxins quickly.
 
-<u>Stage 2. Panchakarma: The Detox and Cleansing Procedures</u>&nbsp;
+Stage 2. Panchakarma: The Detox and Cleansing Procedures&nbsp;
 
 In this stage, a diverse range of detox methods is used to address deeply embedded toxins. These can include internal and external oil treatments, such as imbibing oil or ghee (clarified butter that has medicinal qualities), adding ghee to food, or treatments like oil enemas, massages, ear or nose drops, or medicinal baths. There may also be localised oil treatments to treat specific problem areas like the neck, knees, heart or lower back.&nbsp;
 
@@ -89,7 +89,7 @@ Bastis or medicated enemas:
 
 One of the foundations of the success of Ayurvedic detox (panchakarma) is the wise use of Bastis or medicated enemas. This involves administering herbal concoctions via enemas to cleanse the colon, address long-standing imbalances relating to the nervous system, digestion and strength, as well as promoting relief from arthritis, constipation, and lower back pain.
 
-&nbsp;<u>Stage 3. Post Detox Rejuvenation (Paschat Karma):</u>
+&nbsp;Stage 3. Post Detox Rejuvenation (Paschat Karma):
 
 Once complete detoxification has been achieved, the focus turns to rebuilding, rejuvenation and maximising strength. Here, treatments include:
 
