@@ -608,9 +608,9 @@ video {
 .border {
   border-width: 1px;
 }
-.border-y-2 {
-  border-top-width: 2px;
-  border-bottom-width: 2px;
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 .border-solid {
   border-style: solid;
@@ -953,6 +953,10 @@ float: right
     .mob-col-w-4{grid-column:span 4;}
     .mob-col-w-5{grid-column:span 5;}
     .mob-col-w-6{grid-column:span 6;}
+
+    h2.heading-lg {
+      font-size: 1.8rem;
+    }
   }
 
 .col-h-2{grid-row: span 2 ;}
@@ -977,8 +981,8 @@ float: right
   /*this is where you can change the color of the buttons*/
   .burger-button span{
     width: 40px;
-    border: 2px solid black;
-    background-color: black;
+    border: 1px solid var(--text-color);
+    background-color: var(--text-color);
     display: block;
     border-radius: 22px;
     transition: 2s;
@@ -1024,8 +1028,8 @@ float: right
   .burger-menu {
     position: fixed;
     top: 0vh;
-    padding: 8rem 5% 5%;
-    /* left:100vw; */
+    padding:6rem 5% 5%;
+    left:100vw;
     right: -100vw;
     bottom: 0vh;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
@@ -1034,7 +1038,7 @@ float: right
     overflow: scroll;
   }
   .burger-menu.active{
-    /* left:50vw; */
+    left:0;
     right:0;
   }
 
@@ -1046,7 +1050,7 @@ float: right
 
   .burger-menu a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 0.9rem;
     font-weight: 300;
     display:block;
     padding:5px 15px;
@@ -1187,8 +1191,8 @@ float: right
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .sm\:border-r-2 {
-    border-right-width: 2px;
+  .sm\:border-r {
+    border-right-width: 1px;
   }
   .sm\:text-center {
     text-align: center;
@@ -1216,6 +1220,9 @@ float: right
   }
   .md\:pl-full-side {
     padding-left: var(--max-width-side-padding);
+  }
+  .md\:text-center {
+    text-align: center;
   }
 }
 @media (min-width: 1024px) {
