@@ -114,7 +114,8 @@
       </div>
        <div class="burger-menu color-set">
         {% for link in site.data.navigation.header_links %}
-        <a  href="{{link.link}}">{{link.text}}</a>
+
+        <a class="main-link" href="{{link.link}}">{{link.text}}</a>
         {% if link.sub_links %}
           <div class="ml-small">
             {% for sub-link in link.sub_links %}

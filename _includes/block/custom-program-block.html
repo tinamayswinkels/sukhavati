@@ -8,34 +8,71 @@
           text-center
       {% else %}
       {% endcase %}">
-    <div class="flex justify-center gap-4 p-4 bg-[#87897d]">
-      <p class="!mb-0"> Please Select Day Program </p>
-      <select id="option-selector-{{forloop.index}}" name="days" class="input bg-inherit">
-        {% for option in block.options %}
-
-        <option id="option-{{forloop.index}}" value="{{forloop.index}}" {% if forloop.index == 1 %} selected="" {% endif %}>{{option.days}} Day Program</option>
-        {% endfor %}
-      </select>
-      </div>
       <div>
-      <div class="rates-filter-{{forloop.index}}">
-        <div class="flex justify-between gap-small">
-          <span>
+
+        <div class="flex justify-center p-4 bg-[#87897d]">
+          <p class="!mb-0"> Please Select Day Program </p>
+          <select id="option-selector-{{forloop.index}}" name="days" class="input bg-inherit">
+            {% for option in block.options %}
+            
+            <option id="option-{{forloop.index}}" value="{{forloop.index}}" {% if forloop.index == 1 %} selected="" {% endif %}>{{option.days}} Day Program</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="rates-filter-{{forloop.index}} inclusions">
+        <div class="flex justify-center gap-small">
+          <span class="button tab-select" data-tab="inclusions">
             Inclusions
           </span>
-          <span>
+          <span class="button tab-select" data-tab="rates">
             Rates
           </span>
         </div>
         {% for option in block.options %}
         <div class="day-holder {% if forloop.index == 1 %} shown {% endif %}" data-option="{{forloop.index}}">
-          days: {{option.days}}
-          nights: {{option.nights}}
+          <div class="inclusions-tab">
+            <ul style="column-count:2">
+              <li>{{option.nights}} Night Private Villa Accommodation</li>
+              <li>Ayurvedic consultation and outline of your personal rejuvenation program along with a follow up consultation and weekly Ayurvedic Seminar (attendance dependent on the timing of your stay).</li>
+              <li>90 minutes of comprehensive daily prescribed Ayurvedic treatments tailored by our Ayurvedic Doctor</li>
+              <li>Twice daily yoga sessions</li>
+              <li>{{option.massage-count}} Ayurvedic Facial &amp; Foot Massage</li>
+              <li>Freshly prepared Ayurvedic dishes for breakfast, lunch and dinner</li>
+              <li>Fresh Juices and Herbal Teas</li>
+              <li>Return airport or hotel transfers</li>
+              <li>Complimentary bike hire</li>
+              <li>Complimentary Wi-Fi internet connection</li>
+          </ul>
         </div>
-        {% endfor %}
+        <div class="rates-tab" data-tab="rates">
+          <p>
+            We have two types of villa choices available in this package (luxury and private pool).
+          </p>
+          <p>
+            {{options.days}} Day Rejuvenation Program with One Bedroom Luxury Villa Accommodation
+          </p>
+          <p>
+            Single Occupancy: USD {{options.single-occupancy-luxury-price}} + 15% Government Taxes & Service Surcharge
+          </p>
+          <p>
+            Couple Occupancy: USD {{options.couple-occupancy-luxury-price}} per person, + 15% Government Taxes & Service Surcharge
+          </p>
+
+          <p>
+            {{options.days}} Day Rejuvenation Program with One Bedroom Private Pool Villa Accommodation
+          </p>
+          <p>
+            Single Occupancy: USD {{options.single-occupancy-pool-price}} + 15% Government Taxes & Service Surcharge
+          </p>
+          <p>
+            Couple Occupancy: USD {{options.couple-occupancy-pool-price}} per person, + 15% Government Taxes & Service Surcharge
+          </p>
+
+        </div>
       </div>
+      {% endfor %}
     </div>
-            
   </div>
 </section>
 
@@ -49,12 +86,25 @@
   display: block;
 }
 
+.inclusions-tab, .rates-tab{
+  display: none;
+}
+.inclusions .inclusions-tab,.rates .rates-tab{
+  display: block;
+}
+
 </style>
 
 <script>
+const ratesFilterParent = document.querySelector('.rates-filter-{{forloop.index}}')
 const daysInput = document.querySelector('#option-selector-{{forloop.index}}')
-const dayOptions = document.querySelectorAll('.rates-filter-{{forloop.index}} .day-holder')
+const dayOptions = ratesFilterParent.querySelectorAll('.day-holder')
 let target
+
+
+
+
+
 console.log(daysInput,dayOptions)
 
 function selectProgram(){
@@ -72,5 +122,27 @@ dayOptions.forEach(option => {
 }
 
 daysInput.addEventListener('change', selectProgram)
+
+const tabButtons = ratesFilterParent.querySelectorAll(' .tab-select')
+
+console.log(tabButtons)
+
+function selectTab() {
+  if (this.dataset.tab == 'inclusions') {
+    ratesFilterParent.classList.add('inclusions')
+    ratesFilterParent.classList.remove('rates')
+  } else {
+    ratesFilterParent.classList.remove('inclusions')
+    ratesFilterParent.classList.add('rates')
+
+  }
+    
+} 
+
+tabButtons.forEach(button => {
+  button.addEventListener('click', selectTab)
+
+})
+
 
 </script>

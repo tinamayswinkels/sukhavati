@@ -315,6 +315,12 @@ float: right
     right:0;
   }
 
+  .burger-menu .main-link{
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.5rem; 
+  }
+
   .burger-menu a {
     text-decoration: none;
     font-size: 20px;
