@@ -173,7 +173,7 @@
     <footer class="px-0 pb-small">
       <div class="">
         <div class="mb-vert px-full-side">
-            <a class="mx-auto inline-block" href="/">
+            <a class="mx-auto inline-block px-6" href="/">
               <img class="inline-block mix-blend-multiply" style="max-width: min({{site.data.navigation.footer-logo-size}}, 100%)" src="{{site.data.navigation.footer-logo-image}}" alt="{{site.data.navigation.logo_alt}}">
             </a>
         </div>
@@ -181,20 +181,20 @@
         
           <nav class="sm:flex flex-wrap justify-center gap-small px-full-side border-y">
             {% for link in site.data.navigation.footer_nav_bar %}
-            <a class="block p-small main-link" href="{{link.link}}">{{link.text}}</a>
+            <a class="block py-2 px-6 main-link" href="{{link.link}}">{{link.text}}</a>
           {% endfor %}
 
           </nav>
 
-          <div class="grid justify-center items-center text-left sm:text-center sm:grid-cols-3 py-small">
+          <div class="sm:grid px-full-side sm:px-0 justify-center items-center text-left sm:text-center sm:grid-cols-3 py-small">
 
-            <div class="p-small  sm:border-r">
+            <div class="p-6  sm:border-r">
               <h3 class="heading-md"> Location </h3>
               <div class="footer-grid-col footer-generic">
                 {{site.data.navigation.footer-location-html}}
               </div>
             </div>
-            <div class="p-small sm:border-r">
+            <div class="p-6 sm:border-r">
               <h3 class="heading-md"> Contact </h3>
               <div class="footer-grid-col">
                 <p>
@@ -210,7 +210,7 @@
 
               </div>
             </div>
-            <div class="p-small">
+            <div class="p-6">
               <h3 class="heading-md"> Follow us </h3>
               <div class="footer-grid-col">
                 {% for link in site.data.navigation.footer_social_links %}
@@ -223,8 +223,8 @@
             </div>
           </div>
       </div>
-      <div class="text-center">
-        <p>
+      <div class="px-full-side text-left">
+        <p class="px-6 sm:px-0" style="font-size: .7rem;">
           © 2024 - Sukhavati Ayurvedic Wellness Retreat Bali. All Rights Reserved.
         </p>
       </div>
