@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Ayurvedic Exercise: The Best Exercise for Your Body Type'
-featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/01/exercise-final-mailchimp-1458272984-medium.jpg
+featured_image: /uploads/ayurvedic-exercise-the-best-exercise-for-your-body-type.jpg
 blocks:
     -
         _id: blog-content-block

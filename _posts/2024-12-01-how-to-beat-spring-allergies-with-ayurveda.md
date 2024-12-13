@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Beat Spring Allergies with Ayurveda
-featured_image: https://www.sukhavatibali.com/wp-content/uploads/2014/10/38.jpg
+featured_image: /uploads/how-to-beat-spring-allergies-with-ayurveda.jpg
 blocks:
     -
         _id: blog-content-block

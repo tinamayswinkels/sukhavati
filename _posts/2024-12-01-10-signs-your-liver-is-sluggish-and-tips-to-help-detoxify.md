@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 10 Signs Your Liver is Sluggish and Tips to Help Detoxify
-featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/01/detox-diets-1484264559-medium.jpg
+featured_image: /uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg
 blocks:
     -
         _id: blog-content-block
@@ -17,7 +17,7 @@ seo:
     image:
     favicon:
     index: true
-permalink: 
+permalink:
 ---
 # 10 Signs Your Liver is Sluggish and Tips to Help Detoxify
 

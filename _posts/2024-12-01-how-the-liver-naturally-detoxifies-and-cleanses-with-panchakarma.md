@@ -2,7 +2,7 @@
 layout: default
 title: How the Liver Naturally Detoxifies and Cleanses with Panchakarma
 featured_image: >-
-    https://www.sukhavatibali.com/wp-content/uploads/2024/04/Ayurvedic-Medicine-Panchakarma.jpg
+    /uploads/how-the-liver-naturally-detoxifies-and-cleanses-with-panchakarma.jpg
 blocks:
     -
         _id: blog-content-block

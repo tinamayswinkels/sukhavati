@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Learn to Meditate
-featured_image: >-
-    https://www.sukhavatibali.com/wp-content/uploads/2019/01/100-ways-to-be-healthy-1462836494-medium.jpg
+featured_image: /uploads/learn-to-meditate.png
 blocks:
     -
         _id: blog-content-block
@@ -30,7 +29,7 @@ These include;
 
 #### Transcendental Meditation
 
-![Meditation area at Sukhavati Ayurvedic Retreat &amp; Spa](https://www.sukhavatibali.com/wp-content/uploads/2019/03/veda-wellness-1-1472098572-medium-300x193.png){: width="300" height="193"}<br>Transcendental Meditation or TM has been the go-to meditation technique for many of the world’s highest performers over several decades. The likes of Hugh Jackman, Katy Perry, Jerry Seinfeld, Arianna Huffington, Ellen DeGeneres, and Ray Dalio, have practised the technique for decades and public promote it as one of the key reasons for their sustained success.
+<br>Transcendental Meditation or TM has been the go-to meditation technique for many of the world’s highest performers over several decades. The likes of Hugh Jackman, Katy Perry, Jerry Seinfeld, Arianna Huffington, Ellen DeGeneres, and Ray Dalio, have practised the technique for decades and public promote it as one of the key reasons for their sustained success.
 
 *“Meditation Has Changed My Life.*” Hugh Jackman
 
