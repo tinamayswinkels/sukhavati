@@ -121,6 +121,10 @@ header a,header .unlinked {
   line-height: normal;  
 }
 
+header a:hover, header .unlinked:hover {
+  opacity: .6;
+}
+
 footer * {
   border-color: initial;
 }
