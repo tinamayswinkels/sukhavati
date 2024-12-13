@@ -135,38 +135,92 @@ blocks:
         collapse-bottom-space: false
         color-scheme: leaf-100
     -
-        _id: horizontal-scroll-basic
-        block-content-html: >-
-            <h3 class="sub-heading">ALL-INCLUSIVE WELLNESS RETREAT</h3><h2
-            class="heading-lg">Wellness Facilities</h2><p>During your stay, you
-            can enjoy daily yoga classes with our expert instructors, swimming
-            in our magnesium mineral pool, and bathe in the sounds of Bali’s
-            serene nature from our Riverview spa, and relaxation areas. Unwind
-            in our lounge, complete with comfortable sofas and a library of
-            books on Ayurveda, meditation, and wellness.</p>
-        image-width: 25%
-        img_aspect: Portrait
-        scroll-items:
+        _id: grid
+        block-content-html: ''
+        text-alignment: left
+        grid-desktop-columns: 4
+        grid-mobile-columns: 2
+        grid-gap: 1rem
+        col-internal-padding: true
+        img-mixed-aspect: false
+        min-height: 0vh
+        gap-between-text-box-and-grid: small
+        columns:
             -
-                heading: yoga shala
-                image: /uploads/bp4a9218-hdr.jpg
-                description:
-                link:
+                col-type: text
+                block-content-html: >-
+                    <h2 class="heading-lg">Beautiful Quiet
+                    Location</h2><p>Nestled in a quiet Balinese village,
+                    Sukhavati offers a true sanctuary surrounded by lush nature.
+                    The serene setting, away from the bustle of city life,
+                    immerses you in an atmosphere of peace and tranquility.
+                    Unlike other resorts in the heart of busy Bali, you will be
+                    encircled by tropical gardens, a flowing river, rice paddies
+                    and open skies. The healing powers of nature are a beautiful
+                    compliment to your wellness experience with us.</p>
+                text-alignment: left
+                vert-alignment: bottom
+                icon-path:
+                icon-alt:
+                color-scheme: leaf-300
+                col-width: 4
+                col-height: 1
+                hide-on-mobile: false
+                mobile-first: false
             -
-                heading: magnesium pools
-                image: /uploads/bp4a7846-hdr-1.jpg
-                description:
+                col-type: text
+                block-content-html: <h3 class="sub-heading">yoga shala</h3>
                 link:
+                text-alignment: left
+                vert-alignment:
+                icon-path: /uploads/bp4a9218-hdr.jpg
+                icon-alt:
+                color-scheme: leaf-300
+                col-width: 1
+                col-height: 1
+                hide-on-mobile: false
+                mobile-first: false
             -
-                heading: relaxing areas
-                image: /uploads/bp4a7638-hdr-1.jpg
-                description:
+                col-type: text
+                block-content-html: <h3 class="sub-heading">magnesium pools</h3>
                 link:
+                text-alignment: left
+                vert-alignment:
+                icon-path: /uploads/bp4a7846-hdr-1.jpg
+                icon-alt:
+                color-scheme: leaf-300
+                col-width: 1
+                col-height: 1
+                hide-on-mobile: false
+                mobile-first: false
             -
-                heading: riverview spa
-                image: /uploads/dsc06125.jpg
-                description:
+                col-type: text
+                block-content-html: <h3 class="sub-heading">relaxing areas</h3>
                 link:
+                text-alignment: left
+                vert-alignment:
+                icon-path: /uploads/bp4a7638-hdr.jpg
+                icon-alt:
+                color-scheme: leaf-300
+                col-width: 1
+                col-height: 1
+                hide-on-mobile: false
+                mobile-first: false
+            -
+                col-type: text
+                block-content-html: <h3 class="sub-heading">riverview spa</h3>
+                link:
+                text-alignment: left
+                vert-alignment:
+                icon-path: /uploads/dsc06125.jpg
+                icon-alt:
+                color-scheme: leaf-300
+                col-width: 1
+                col-height: 1
+                hide-on-mobile: false
+                mobile-first: false
+        collapse-top-space: false
+        collapse-bottom-space: false
         color-scheme: leaf-300
     -
         _id: timeline
@@ -236,81 +290,6 @@ blocks:
         overlay-opacity: 0.5op
         min-height: 50vh
         color-scheme: leaf-600
-    -
-        _id: grid
-        block-content-html: ''
-        text-alignment: left
-        grid-desktop-columns: 4
-        grid-mobile-columns: 2
-        grid-gap: 1rem
-        col-internal-padding: true
-        img-mixed-aspect: false
-        min-height: 0vh
-        gap-between-text-box-and-grid: small
-        columns:
-            -
-                col-type: text
-                block-content-html: >-
-                    <h2 class="heading-lg">Beautiful Quiet
-                    Location</h2><p>Nestled in a quiet Balinese village,
-                    Sukhavati offers a true sanctuary surrounded by lush nature.
-                    The serene setting, away from the bustle of city life,
-                    immerses you in an atmosphere of peace and tranquility.
-                    Unlike other resorts in the heart of busy Bali, you will be
-                    encircled by tropical gardens, a flowing river, rice paddies
-                    and open skies. The healing powers of nature are a beautiful
-                    compliment to your wellness experience with us.</p>
-                text-alignment: left
-                vert-alignment: bottom
-                icon-path:
-                icon-alt:
-                color-scheme: leaf-300
-                col-width: 4
-                col-height: 1
-                hide-on-mobile: false
-                mobile-first: false
-            -
-                col-type: text
-                block-content-html: <h3 class="sub-heading">yoga shala</h3>
-                link:
-                text-alignment: left
-                vert-alignment:
-                icon-path: /uploads/bp4a9218-hdr.jpg
-                icon-alt:
-                color-scheme: leaf-300
-                col-width: 1
-                col-height: 1
-                hide-on-mobile: false
-                mobile-first: false
-            -
-                col-type: text
-                block-content-html: <h3 class="sub-heading">yoga shala</h3>
-                link:
-                text-alignment: left
-                vert-alignment:
-                icon-path: /uploads/bp4a9218-hdr.jpg
-                icon-alt:
-                color-scheme: leaf-300
-                col-width: 1
-                col-height: 1
-                hide-on-mobile: false
-                mobile-first: false
-            -
-                col-type: text
-                block-content-html: <h3 class="sub-heading">yoga shala</h3>
-                link:
-                text-alignment: left
-                vert-alignment:
-                icon-path: /uploads/bp4a9218-hdr.jpg
-                icon-alt:
-                color-scheme: leaf-300
-                col-width: 1
-                col-height: 1
-                hide-on-mobile: false
-                mobile-first: false
-        collapse-top-space: false
-        collapse-bottom-space: false
-        color-scheme: leaf-300
 seo:
     title:
     description:
