@@ -1,4 +1,4 @@
-<div class="color-set col-padded min-h-full flex">
+<div class="color-set col-padded min-h-full flex {% if col.link %} block hover:shadow-lg shadow-black transition-all duration-500 {% endif %}">
     <div class="
     {% case col.vert-alignment %}
     {% when 'top' %}
@@ -11,7 +11,7 @@
     ">
 
         {% if col.link %} 
-        <a href="{{col.link}}" class="block hover:shadow-lg shadow-black transition-all duration-500">
+        <a href="{{col.link}}" >
         {% endif %}
             {% if col.icon-path %}
             <div class="flex justify-center mb-small">
