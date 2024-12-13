@@ -51,6 +51,9 @@
     margin-top: 0.5rem;
   }
   
+  a.simple_link{
+    text-decoration: underline;
+  }
 
   p.p-subtle {
     opacity: 0.8;
