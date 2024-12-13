@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" class="hide-scrollbars">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
     <!-- google fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
     
 
 
-    <link rel="icon" type="image/x-icon" href="{{page.seo.favicon | default: site.data.seo.favicon_image}}">
+    <link rel="icon" type="image/x-icon" href="{{page.seo.favicon | default: site.data.seo.favicon_image}}" />
     
     
     
-    <link rel="stylesheet" href="/editor.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/editor.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     
     <!-- meta-fields -->
     <title>{{page.seo.title | default: site.data.seo.title }}</title>
-    <meta name="description" content="{{page.seo.description | default: site.data.seo.description}}">
-    <meta property="og:image" content="{{page.data.seo.image | default: site.data.seo.image}}"/>
+    <meta name="description" content="{{page.seo.description | default: site.data.seo.description}}" />
+    <meta property="og:image" content="{{page.data.seo.image | default: site.data.seo.image}}" />
     
-    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="nositelinkssearchbox" />
     {% if site.data.seo.google-site-verification %}
-      <meta name="google-site-verification" content="{{site.data.seo.google-site-verification}}">
+      <meta name="google-site-verification" content="{{site.data.seo.google-site-verification}}" />
     {% endif %}
     
     
     {% if page.seo.index == true %}
-      <meta name="robots" content="all">
+      <meta name="robots" content="all" />
     {% else %}
-      <meta name="robots" content="none">
+      <meta name="robots" content="none" />
     {% endif %}
 
 
@@ -73,13 +73,12 @@
     <div class="max-width flex justify-between items-center">
       <div class="flex-1">
         <a class="p-4" href="/">
-          <img class="mix-blend-multiply" style="max-width: min({{site.data.navigation.header_logo_width}}, 100%)" src="{{site.data.navigation.logo_image}}" alt="{{site.data.navigation.logo_alt}}">
+          <img class="mix-blend-multiply" style="max-width: min({{site.data.navigation.header_logo_width}}, 100%)" src="{{site.data.navigation.logo_image}}" alt="{{site.data.navigation.logo_alt}}" />
         </a>
       </div>
       <nav class="text-right hidden right-0 top-0 lg:block shrink-0">
         {% for link in site.data.navigation.header_links %}
-        <span 
-        class="text-left inline-block drop-finder p-[15px] {% if forloop.last %} pr-0 {% endif %}
+        <span class="text-left inline-block drop-finder p-[15px] {% if forloop.last %} pr-0 {% endif %}
           {% if link.sub_links %}
             relative
           {% endif %}
@@ -115,7 +114,7 @@
        <div class="burger-menu color-set">
 
         <a href="/">
-          <img class="mix-blend-multiply" style="max-width: min({{site.data.navigation.header_logo_width}}, 100%)" src="{{site.data.navigation.logo_image}}" alt="{{site.data.navigation.logo_alt}}">
+          <img class="mix-blend-multiply" style="max-width: min({{site.data.navigation.header_logo_width}}, 100%)" src="{{site.data.navigation.logo_image}}" alt="{{site.data.navigation.logo_alt}}" />
         </a>
         {% for link in site.data.navigation.header_links %}
 
@@ -171,13 +170,13 @@
 
 <div class="picture relative">
 <picture>
-<source srcset="/uploads/dsc06804.jpg" media="(min-width: 750px)">
-<img class=" absolute inset-0 h-full w-full object-cover object-center " src="/uploads/dsc06804.jpg" alt="">
+<source srcset="/uploads/dsc06804.jpg" media="(min-width: 750px)" />
+<img class=" absolute inset-0 h-full w-full object-cover object-center " src="/uploads/dsc06804.jpg" alt="" />
 </picture>
 
 </div>
 <div class="text-block">
-<h3 class="sub-heading">ABOUT SUHKAVATI</h3><h2 class="heading-lg">A personalised wellness retreat</h2><p>Discover the life-changing benefits of holistic wellness. From renewed energy and improved digestion to a clearer mind and uplifted spirit, experience profound, lasting transformations that will enhance every aspect of your wellbeing.<br><a class="button" href="/contact">LEARN MORE</a></p>
+<h3 class="sub-heading">ABOUT SUHKAVATI</h3><h2 class="heading-lg">A personalised wellness retreat</h2><p>Discover the life-changing benefits of holistic wellness. From renewed energy and improved digestion to a clearer mind and uplifted spirit, experience profound, lasting transformations that will enhance every aspect of your wellbeing.<br /><a class="button" href="/contact">LEARN MORE</a></p>
 </div>
 </div>
 </div>
@@ -231,7 +230,7 @@ width: calc(100vw - calc( var(--side-gap) * 2));
 <section class="px-0 ">
 <div class="px-side mb-8">
 <div class="max-width">
-  <div  style="margin-left:0;max-width: 600px;" class="editable">
+  <div style="margin-left:0;max-width: 600px;" class="editable">
 
     <h3 class="sub-heading">ALL-INCLUSIVE WELLNESS RETREAT</h3><h2 class="heading-md">Explore More Benefits</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
@@ -245,7 +244,7 @@ width: calc(100vw - calc( var(--side-gap) * 2));
   <div class="shrink-0 {% if forloop.index == 1 %} ml-full-side {% endif %} {% if forloop.last %} mr-full-side {% endif %}  " style="width: min( 33vw , 500px );">
     <a href="{{benifit.url}}">
       <div class="image-sizer relative mb-small">
-        <img class=" object-cover object-center absolute inset-0 h-full  w-full" src="{{benifit.featured_image}}" alt="">
+        <img class=" object-cover object-center absolute inset-0 h-full  w-full" src="{{benifit.featured_image}}" alt="" />
       </div>
     <h3 class="sub-heading">{{benifit.title}}</h3>
     <p>
@@ -273,9 +272,9 @@ width: calc(100vw - calc( var(--side-gap) * 2));
 <section class="flex justify-center items-center">
 <div class="max-width text-center">
 <div class=" editable">
-<h2 class="heading-md">Ready to change your life?</h2><p>A stronger, more vibrant and healthier you is only a booking away. 
-  Contact us to book your stay or to ask your questions and find out more about how a program can benefit you.</p>
-  <p><a href="/contact" class="button">BOOK YOUR PERSONALISED RETREAT</a></p>
+    <h2 class="heading-md">Ready to change your life?</h2>
+    <p>A stronger, more vibrant and healthier you is only a booking away. Contact us to book your stay or to ask your questions and find out more about how a program can benefit you.</p>
+    <p><a href="/contact" class="button">BOOK YOUR PERSONALISED RETREAT</a></p>
 </div>
 </div>
 </section>
@@ -299,10 +298,10 @@ min-height: 75vh;
 
   <div class="scheme-footer relative md:text-center" id="footer">
     <footer class="px-0 pb-small">
-      <div class="">
+      <div>
         <div class="mb-vert px-full-side">
             <a class="mx-auto inline-block" href="/">
-              <img class="inline-block mix-blend-multiply" style="max-width: min({{site.data.navigation.footer-logo-size}}, 100%)" src="{{site.data.navigation.footer-logo-image}}" alt="{{site.data.navigation.logo_alt}}">
+              <img class="inline-block mix-blend-multiply" style="max-width: min({{site.data.navigation.footer-logo-size}}, 100%)" src="{{site.data.navigation.footer-logo-image}}" alt="{{site.data.navigation.logo_alt}}" />
             </a>
         </div>
         
@@ -352,9 +351,9 @@ min-height: 75vh;
           </div>
 
         </div>
-      </div>
-    </footer>
-  </div>
+      </footer></div>
+    
+  
 
 
 
@@ -563,4 +562,4 @@ tickerBanners.forEach(banner => {
           {% endif %}
     {% endfor %}
 });
-</script>
+</script></html>
