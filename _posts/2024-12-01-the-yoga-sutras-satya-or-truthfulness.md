@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'The Yoga Sutras: Satya or ‘truthfulness’'
-featured_image:
+featured_image: /uploads/the-yoga-sutras-satya-or-truthfulness.jpg
 blocks:
     -
         _id: blog-content-block
