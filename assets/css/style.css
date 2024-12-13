@@ -1148,7 +1148,7 @@ float: right
 
   body .slick-prev, body .slick-next {
     top: initial;
-    bottom: -70px;
+    bottom: -90px;
     z-index: 99;
     height: 50px;
     width: 50px;

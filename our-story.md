@@ -4,7 +4,7 @@ blocks:
     -
         _id: banner-split
         block-content-html: >-
-            <h2 class="heading-lg"><strong>Our Story</strong></h2><p>Nestled in
+            <h2 class="heading-lg">Our Story</h2><p>Nestled in
             the lush, tropical paradise of Bali, Sukhavati – the ‘Abode of
             Bliss’ - has been a sanctuary for healing and rejuvenation since
             2011.</p><p>Our goal is to provide a serene space where people can
@@ -30,7 +30,7 @@ blocks:
         img_aspect: Square
         collapse-top-space: false
         collapse-bottom-space: false
-        color-scheme: leaf-500
+        color-scheme: leaf-300
 seo:
     title:
     description: 
