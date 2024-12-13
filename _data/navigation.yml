@@ -65,14 +65,12 @@ footer_nav_bar:
     link: /ayurvedic-wellness-retreat.html
   - text: Your Journey
     link: /your-journey
-  - text: Explore benefits
+  - text: Your Retreat Experience
+    link: /your-retreat-experience.html
+  - text: Your Wellness Goals
     link: /explore-benefits.html
   - text: About Ayurveda
     link: /information-page.html
-  - text: Your Retreat Experience
-    link: /your-retreat-experience.html
-  - text: Our Treatments
-    link: /treatment.html
 footer-location-html: >-
   <p>Br Bebengan Tangeb Abianbase<br />Mengwi Badung 80351</p><p>Bali,
   Indonesia</p>
