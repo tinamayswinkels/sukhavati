@@ -504,6 +504,9 @@ video {
 .mr-full-side {
   margin-right: var(--max-width-side-padding);
 }
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
 .block {
   display: block;
 }
@@ -601,6 +604,9 @@ video {
 }
 .self-center {
   align-self: center;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
 .overflow-scroll {
   overflow: scroll;
