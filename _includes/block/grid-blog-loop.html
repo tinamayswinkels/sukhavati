@@ -1,5 +1,5 @@
 
-<section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %} flex flex-col justify-center">
+<section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %}">
   <div class="max-width">
 
       <div class="      
@@ -42,7 +42,7 @@
                     </div>
                     <div
                     {% if block.col-internal-padding == true %}
-                    class="px-small pb-small"
+                    class="pb-small"
                     {% endif %} style="text-align: {{col.text-alignment}}">
                     <h3 class="sub-heading">
                       {{col.title}}
