@@ -1,8 +1,7 @@
 ---
 layout: default
 title: 'Nadi Shodhana Pranayama: Alternate Nostril Breathing'
-featured_image: >-
-    https://www.sukhavatibali.com/wp-content/uploads/2019/01/100-ways-to-be-healthy-1462836494-medium.jpg
+featured_image:
 blocks:
     -
         _id: blog-content-block
