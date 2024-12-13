@@ -241,7 +241,7 @@ width: calc(100vw - calc( var(--side-gap) * 2));
 
 
 {% for benifit in site.benefits %}
-  <div class="shrink-0 {% if forloop.index == 1 %} ml-full-side {% endif %} {% if forloop.last %} mr-full-side {% endif %}  " style="width: min( 33vw , 500px );">
+  <div class="shrink-0 {% if forloop.index == 1 %} ml-full-side {% endif %} {% if forloop.last %} mr-full-side {% endif %}  " style="width: min( 32vw , 500px );">
     <a href="{{benifit.url}}">
       <div class="image-sizer relative mb-small">
         <img class=" object-cover object-center absolute inset-0 h-full  w-full" src="{{benifit.featured_image}}" alt="" />
