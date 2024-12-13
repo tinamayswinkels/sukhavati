@@ -55,7 +55,7 @@ header_links:
       - text: Treatments
         link: /treatments
       - text: Videos & Articles
-        link: /education
+        link: /Videos-and-Article
   - text: Contact
     link: /contact.html
 footer-logo-image: /uploads/logo-footer.png
