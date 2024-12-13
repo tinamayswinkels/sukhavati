@@ -40,10 +40,10 @@ schemes:
     colored-button-bg-color: '#ffffff'
     colored-button-text-color:
   - scheme_name: header
-    bg-color: '#61625a'
-    text-color: '#f3f3f0'
-    colored-button-bg-color: '#ffffff'
-    colored-button-text-color: '#61625a'
+    bg-color: '#f3f3f0'
+    text-color: '#61625a'
+    colored-button-bg-color: '#61625a'
+    colored-button-text-color: '#f3f3f0'
   - scheme_name: footer
     bg-color: '#F5F0EA'
     text-color: '#87897D'
