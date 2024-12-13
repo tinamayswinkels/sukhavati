@@ -22,7 +22,7 @@ permalink:
 
 September 18,2017
 
-![Patanjali’s Yoga Sutras](https://www.sukhavatibali.com/wp-content/uploads/2017/09/sep-sukhavati-newsletter-images-yoga-1505717927-medium-v2.jpg){: width="899" height="295"}
+{% include snippets/imgGallery3.html first-image="/uploads/patanjali-s-yoga-sutras-the-8-limbs-of-yoga.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 ## **Yoga is more than bending, stretching, relaxation and yoga pants.**
 

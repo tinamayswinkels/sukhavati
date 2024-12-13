@@ -23,7 +23,7 @@ permalink: the-6-tastes-a-guide-map-to-ultimate-nutrition/
 
 June 13,2018
 
-![Ayurvedic nutrition](https://www.sukhavatibali.com/wp-content/uploads/2018/06/dsc8731-1528872035-medium-v2.jpg){: width="900" height="600"}
+{% include snippets/imgGallery3.html first-image="/uploads/the-6-tastes-a-guide-map-to-ultimate-nutrition.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 ## **Much of the wisdom of Ayurvedic nutrition rests on the tip of your tongue, literally!**
 

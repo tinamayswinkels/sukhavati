@@ -23,7 +23,7 @@ permalink: /ayurvedic-exercise-the-best-exercise-for-your-body-type/
 
 March 10,2016
 
-![](https://www.sukhavatibali.com/wp-content/uploads/2019/01/exercise-final-mailchimp-1458272984-medium.jpg){: width="678" height="475"}
+{% include snippets/imgGallery3.html first-image="" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 ## **Our bodies are designed to move**
 

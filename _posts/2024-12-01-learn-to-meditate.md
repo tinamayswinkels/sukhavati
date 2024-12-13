@@ -21,6 +21,8 @@ permalink: /learn-to-meditate/
 ---
 # Learn to Meditate
 
+{% include snippets/imgGallery3.html first-image="/uploads/learn-to-meditate.png" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+
 ## Learn to Meditate at Sukhavati
 
 Here at Sukhavati, we are pleased to provide the opportunity to learn the wonderful, health-promoting benefits of meditation during your stay. We offer a few different practices to cater for one’s individual preferences.

@@ -22,7 +22,7 @@ permalink: /nadi-shodhana-pranayama-alternate-nostril-breathing/
 
 July 16,2018
 
-![Alternate Nostril Breathing](https://www.sukhavatibali.com/wp-content/uploads/2018/07/breathing-1531723301-medium-v2.jpg){: width="398" height="597"}
+{% include snippets/imgGallery3.html first-image="/uploads/nadi-shodhana-pranayama-alternate-nostril-breathing.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 *“When the Breath wanders, the mind is unsteady but when the Breath is still, so is the mind still.”* <br>– **Hatha Yoga Pradipika**
 

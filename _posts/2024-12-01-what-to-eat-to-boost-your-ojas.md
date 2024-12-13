@@ -22,7 +22,7 @@ permalink: /what-to-eat-to-boost-your-ojas/
 
 June 9,2017
 
-![](https://www.sukhavatibali.com/wp-content/uploads/2019/02/ojas-1496973448-medium.jpg){: width="900" height="600"}
+{% include snippets/imgGallery3.html first-image="/uploads/what-to-eat-to-boost-your-ojas.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 ## **Ojas is a Sanskrit term that means ‘vigour’ or ‘vitality’.**
 

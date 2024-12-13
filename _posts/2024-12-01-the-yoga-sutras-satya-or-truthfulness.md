@@ -22,7 +22,7 @@ permalink: /the-yoga-sutras-satya-truth/
 
 February 22,2018
 
-![](https://www.sukhavatibali.com/wp-content/uploads/2019/01/jay-castor-140248-002-1519260414-medium.jpg){: width="900" height="600"}
+{% include snippets/imgGallery3.html first-image="/uploads/the-yoga-sutras-satya-or-truthfulness.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 ## **Satya is often thought of as not ‘lying’: Telling the truth and being honest.**
 

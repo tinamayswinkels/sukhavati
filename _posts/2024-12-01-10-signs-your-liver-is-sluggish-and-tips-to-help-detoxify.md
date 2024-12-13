@@ -23,7 +23,7 @@ permalink:
 
 January 17,2017
 
-![10 signs your liver needs detoxing liver cleanse](https://www.sukhavatibali.com/wp-content/uploads/2019/01/detox-diets-1484264559-medium.jpg){: width="900" height="329"}
+{% include snippets/imgGallery3.html first-image="/uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 ## **The liver is the biggest organ of detoxification in your body.**
 

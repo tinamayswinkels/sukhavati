@@ -24,7 +24,7 @@ permalink: /detoxify-liver-naturally-panchakarma/
 
 April 19,2024
 
-![liver detox panchakarma](https://www.sukhavatibali.com/wp-content/uploads/2024/04/Ayurvedic-Medicine-Panchakarma.jpg){: width="1800" height="600"}
+{% include snippets/imgGallery3.html first-image="/uploads/how-the-liver-naturally-detoxifies-and-cleanses-with-panchakarma.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
 The liver serves as the body’s primary detoxification organ and plays a crucial role in processing and filtering toxins from the blood, as well as metabolising substances to be excreted.
 
