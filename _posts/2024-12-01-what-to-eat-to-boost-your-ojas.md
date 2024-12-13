@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What to Eat to Boost your Ojas
-featured_image:
+featured_image: /uploads/what-to-eat-to-boost-your-ojas.jpg
 blocks:
     -
         _id: blog-content-block

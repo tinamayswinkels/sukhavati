@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Nadi Shodhana Pranayama: Alternate Nostril Breathing'
-featured_image:
+featured_image: /uploads/nadi-shodhana-pranayama-alternate-nostril-breathing.jpg
 blocks:
     -
         _id: blog-content-block

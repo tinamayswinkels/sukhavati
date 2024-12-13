@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 100 Wonderful Ways to Live to 100
-featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/01/100-ways-to-be-healthy-1462836494-medium.jpg
+featured_image: /uploads/100-wonderful-ways-to-live-to-100.jpg
 blocks:
     -
         _id: blog-content-block
@@ -17,7 +17,7 @@ seo:
     image:
     favicon:
     index: true
-permalink: 
+permalink:
 ---
 # 100 Wonderful Ways to Live to 100
 
