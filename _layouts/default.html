@@ -169,67 +169,7 @@
   {% endif %}
 
 
-  <div class="scheme-footer relative md:text-center" id="footer">
-    <footer class="px-0 pb-small">
-      <div class="">
-        <div class="mb-vert px-full-side">
-            <a class="mx-auto inline-block px-6" href="/">
-              <img class="inline-block mix-blend-multiply" style="max-width: min({{site.data.navigation.footer-logo-size}}, 100%)" src="{{site.data.navigation.footer-logo-image}}" alt="{{site.data.navigation.logo_alt}}">
-            </a>
-        </div>
-        
-        
-          <nav class="sm:flex flex-wrap justify-center gap-small px-full-side border-y">
-            {% for link in site.data.navigation.footer_nav_bar %}
-            <a class="block py-2 px-6 main-link" href="{{link.link}}">{{link.text}}</a>
-          {% endfor %}
-
-          </nav>
-
-          <div class="sm:grid px-full-side sm:px-0 justify-center items-center text-left sm:text-center sm:grid-cols-3 py-small">
-
-            <div class="p-6  sm:border-r">
-              <h3 class="heading-md"> Location </h3>
-              <div class="footer-grid-col footer-generic">
-                {{site.data.navigation.footer-location-html}}
-              </div>
-            </div>
-            <div class="p-6 sm:border-r">
-              <h3 class="heading-md"> Contact </h3>
-              <div class="footer-grid-col">
-                <p>
-                  <a class="footer-generic" href="tel:{{site.data.navigation.footer-contact-links.phone-number}}"><span class="footer-bold">Phone:</span> {{site.data.navigation.footer-contact-links.phone-number-text}}</a>
-                </p>
-                <p>
-                  <a class="footer-generic" href="https://wa.me/{{site.data.navigation.footer-contact-links.whatsApp-link-number}}?text={{site.data.navigation.footer-contact-links.whatsApp-link-initial-message | replace: ' ', '%20'}}"><span class="font-bold">WhatsApp:</span> {{site.data.navigation.footer-contact-links.whatsApp-text}}</a>
-                
-                </p>
-                <p>
-                  <a class="footer-generic" href="mailto:{{site.data.navigation.footer-contact-links.email}}"><span class="font-bold">Email:</span> {{site.data.navigation.footer-contact-links.email}}</a>
-                </p>
-
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="heading-md"> Follow us </h3>
-              <div class="footer-grid-col">
-                {% for link in site.data.navigation.footer_social_links %}
-                <p>
-                  <a class="footer-generic" href="{{link.link}}">{{link.text}}</a>
-                </p>
-              {% endfor %}
-
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="px-full-side text-left">
-        <p class="px-6 sm:px-0" style="font-size: .7rem;">
-          © 2024 - Sukhavati Ayurvedic Wellness Retreat Bali. All Rights Reserved.
-        </p>
-      </div>
-    </footer>
-  </div>
+{% include footer.html %}
 
 
 

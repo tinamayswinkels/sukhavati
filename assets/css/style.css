@@ -682,6 +682,10 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .py-small {
   padding-top: var(--small-padding);
   padding-bottom: var(--small-padding);
