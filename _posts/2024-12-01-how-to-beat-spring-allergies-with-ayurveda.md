@@ -59,6 +59,8 @@ Ayurvedic treatment and prevention for allergies include a holistic program addr
 2. Investigate
 3. Supplement
 
+&nbsp;
+
 ### 1\. Cleanse to decrease Kapha and Ama
 
 * Avoid heavy foods since they will aggravate allergies, water retention and sluggishness. This includes all dairy, wheat, yeasted breads, meat, refined and processed food, leftovers, canned food, baked goods, refined sugar and oily food. Even bananas this time of year are best to avoid.
