@@ -746,6 +746,7 @@ _structures:
         value:
           col-type: text
           block-content-html:
+          link:
           text-alignment: center
           vert-alignment:
           icon-path:

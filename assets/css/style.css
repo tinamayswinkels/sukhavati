@@ -935,6 +935,14 @@ a.button:hover {
   opacity:0.5;
 }
 
+.shadow-hover{
+  display: block;
+  transition: box-shadow .5s;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.shadow-hover:hover{
+  box-shadow: 5px 5px 5px #61625a, -5px 5px 5px #61625a;
+}
 
 /* floating images */
 
@@ -948,6 +956,8 @@ float: right
     .post-content > * {
         clear: both;
     }
+
+
 
 
     /* header nav */

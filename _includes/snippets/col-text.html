@@ -10,17 +10,30 @@
     {% endcase %}
     ">
 
-        {% if col.icon-path %}
-        <div class="flex justify-center mb-small">
-            <img class="icon" src="{{col.icon-path}}" alt="{{col.icon-alt}}">
-        </div>
+        {% if col.link %} 
+        <a href="{{col.link}}" class="shadow-hover">
         {% endif %}
-        <div
-        {% if block.col-internal-padding == true %}
-        class="px-small pb-small"
-        {% endif %} style="text-align: {{col.text-alignment}}">
-            {{col.block-content-html}}
+            {% if col.icon-path %}
+            <div class="flex justify-center mb-small">
+                <img class="icon" src="{{col.icon-path}}" alt="{{col.icon-alt}}">
+            </div>
+            {% endif %}
+            <div
+            {% if block.col-internal-padding == true %}
+            class="px-small pb-small"
+            {% endif %} style="text-align: {{col.text-alignment}}">
+            {{col.block-content-html}}{% if col.link %}<p>
+                <span class="button">See Details</span>            
+            </p>
+
+            {% endif %}
+
         </div>
-        
+        {% if col.link %} 
+        </a>
+        {% endif %}
+
     </div>
+            
+    
 </div>
