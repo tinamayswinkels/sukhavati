@@ -1,4 +1,4 @@
-logo_image: /uploads/logo-header-1.png
+logo_image: /uploads/logo-header-darker.png
 logo_alt: Sukhavati Logo
 header_logo_width: 15rem
 header_links:
@@ -14,7 +14,7 @@ header_links:
       - text: Our  Treatments
         link: /treatments
       - text: Our Villas
-        link: /private-pool-villas
+        link: /your-retreat-experience#section-3
       - text: Other Services
         link: /other-services
   - text: Your Journey
