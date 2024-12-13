@@ -616,6 +616,14 @@ _structures:
                 necessitatibus vero labore quod eaque. Illum, tenetur alias!
               link:
           color-scheme: leaf-100
+      - label: Scrolling grid - benefits
+        tags:
+        value:
+          _id: horizontal-scroll-benefits-loop
+          block-content-html: <h3> lorem </h3> <h2>  experiences  </h2>
+          image-width: 250px
+          img_aspect: Square
+          color-scheme: leaf-100
       - label: Scrolling grid with an inline text box
         tags:
         value:

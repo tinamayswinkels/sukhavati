@@ -1,0 +1,31 @@
+
+<section class="px-0 ">
+  <div class="px-side mb-8">
+      <div class="max-width">
+          <h2>
+            {{block.block-content-html}}
+          </h2>
+      </div>
+    </div>
+    <div class="gap-4 flex flex-nowrap overflow-scroll no-scrollbar" {% if block.max-width %} style="max-width:  {{block.max-width}} 500px"{% endif %}>
+
+
+      {% for col in site.benefits %}
+        <div class="shrink-0 {% if forloop.first  %} ml-full-side {% endif %} {% if forloop.last  %} mr-full-side {% endif %}" style="width: min( {{block.image-width}} , 500px );">
+          {% if col.link %}<a href="{{col.link}}">{% endif%}
+            <div class="image-sizer relative mb-small">
+              <img class="{% unless block.img_aspect == 'Original' %} object-cover object-center absolute inset-0 h-full {% endunless %} w-full" src="{{col.featured_image}}" alt="">
+            </div>
+          <h3 class="sub-heading">{{col.title}}</h3>
+          {% if col.link %}</a>{% endif%}
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+
+<style>
+    #section-{{forloop.index}} .image-sizer {
+    aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
+  }
+</style>
