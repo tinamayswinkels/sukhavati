@@ -1,4 +1,4 @@
-<div class="color-set col-padded min-h-full flex {% if col.link %} block hover:shadow-lg shadow-black transition-all duration-500 {% endif %}">
+<div class="color-set col-padded min-h-full {% if col.link %} hover:shadow-lg shadow-black transition-all duration-500 {% endif %}">
     <div class="
     {% case col.vert-alignment %}
     {% when 'top' %}
@@ -14,8 +14,8 @@
         <a href="{{col.link}}" >
         {% endif %}
             {% if col.icon-path %}
-            <div class="flex justify-center mb-small {% unless col.img_aspect == 'original' %} relative" style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %}; {% endunless %}">
-                <img class="icon {% unless col.img_aspect == 'original' %} absolute w-full h-full inset-0  {% endunless %} " src="{{col.icon-path}}" alt="{{col.icon-alt}}">
+            <div class="mb-small {% unless col.img_aspect == 'Original' %} relative" style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %}; {% endunless %}">
+                <img class="icon {% unless col.img_aspect == 'Original' %} absolute w-full h-full inset-0 object-cover object-center  {% endunless %} " src="{{col.icon-path}}" alt="{{col.icon-alt}}">
             </div>
             {% endif %}
             <div

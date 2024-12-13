@@ -751,6 +751,7 @@ _structures:
           vert-alignment:
           icon-path:
           icon-alt:
+          img_aspect: Original
           color-scheme: leaf-300
           col-width: 1
           col-height: 1
