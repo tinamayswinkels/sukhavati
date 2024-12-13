@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Buckley’s Self-Discovery Takes Him Within Sight of the Holy Grail
-featured_image:
+featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/02/dac4daace9bbbe8b628afd4d706e2af0168fa7ec.jpeg
 blocks:
     -
         _id: blog-content-block

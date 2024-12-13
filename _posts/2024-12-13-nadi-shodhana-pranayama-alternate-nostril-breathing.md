@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Nadi Shodhana Pranayama: Alternate Nostril Breathing'
-featured_image:
+featured_image: https://www.sukhavatibali.com/wp-content/uploads/2018/07/breathing-1531723301-medium-v2.jpg
 blocks:
     -
         _id: blog-content-block

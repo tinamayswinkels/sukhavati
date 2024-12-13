@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'The Yoga Sutras: Satya or ‘truthfulness’'
-featured_image:
+featured_image: https://www.sukhavatibali.com/wp-content/uploads/2019/01/jay-castor-140248-002-1519260414-medium.jpg
 blocks:
     -
         _id: blog-content-block
