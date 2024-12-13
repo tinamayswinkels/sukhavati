@@ -5,7 +5,7 @@ featured_image:
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        max-width: 500px
         color-scheme: leaf-100
 seo:
     title: How to Beat Spring Allergies with Ayurveda
