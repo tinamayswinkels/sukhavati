@@ -1,7 +1,6 @@
 
 <section class="">
-      <div class="max-width " 
-      {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
+      <div class="max-w-screen-md">
           <div class="blog-content">
             {{content}}
           </div>
@@ -19,6 +18,15 @@
 }
 .blog-content h3 {
   font-size: 1.5rem;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin-bottom: 1rem;
+}
+
+.blog-content img {
+  margin: 1rem 0;
 }
 
 
