@@ -56,9 +56,7 @@ header_links:
         link: /treatments
       - text: Videos & Articles
         link: /education
-  - text: Contact Us
-    link: /contact.html
-  - text: Book Now
+  - text: Contact
     link: /contact.html
 footer-logo-image: /uploads/logo-footer.png
 footer-logo-size: 450px
