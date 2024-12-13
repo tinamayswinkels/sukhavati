@@ -130,9 +130,9 @@ footer * {
 }
 
 footer .main-link {
-font-size: 1rem;
+font-size: 0.9rem;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
 text-transform: uppercase;
 }
