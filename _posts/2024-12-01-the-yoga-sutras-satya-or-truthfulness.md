@@ -5,7 +5,7 @@ featured_image:
 blocks:
     -
         _id: blog-content-block
-        max-width:
+        max-width: 1000px
         color-scheme: leaf-100
 seo:
     title: 'The Yoga Sutras: Satya or ‘truthfulness’'
