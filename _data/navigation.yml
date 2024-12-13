@@ -59,7 +59,7 @@ header_links:
   - text: Contact Us
     link: /contact.html
   - text: Book Now
-    link: /
+    link: /contact.html
 footer-logo-image: /uploads/logo-footer.png
 footer-logo-size: 450px
 footer_nav_bar:
