@@ -22,8 +22,10 @@ header_links:
     sub_links:
       - text: Your Stay at Sukhavati
         link: /your-journey.html
+      - text: Your Retreat Experience
+        link: /your-retreat-experience
       - text: Your Daily Schedule
-        link: /daily-schedule
+        link: /your-retreat-experience#section-6
       - text: Your Wellness Goals
         link: /explore-benefits
   - text: Your Wellness Goals
