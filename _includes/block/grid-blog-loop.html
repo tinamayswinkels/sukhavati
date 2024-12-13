@@ -1,0 +1,118 @@
+
+<section class="{% if block.top-space-collapse  == true %} pt-0 {% endif %} {% if block.bottom-space-collapse  == true %} pb-0 {% endif %} flex flex-col justify-center">
+  <div class="max-width">
+
+      <div class="      
+      {% case block.gap-between-text-box-and-grid %}
+      {% when 'small' %}
+      mb-8
+      {% when 'medium' %}
+      mb-16
+      {% when 'large' %}
+      mb-32
+      {% endcase %}
+      {% case block.text-alignment %}
+      {% when 'left' %}
+      {% when 'center' %}
+      text-center
+      {% when 'right' %}
+      text-right
+      {% endcase %}
+      ">
+        {{block.block-content-html}}
+      </div>
+      <div class="grid">
+          {% for col in site. %}
+          
+            <div class=" relative" >
+          <!-- {{col.col-type}} -->
+          <div class="color-set col-padded min-h-full flex {% if col.link %} hover:shadow-lg shadow-black transition-all duration-500 {% endif %}">
+            <div class="w-full
+            {% case col.vert-alignment %}
+            {% when 'top' %}
+            self-start
+            {% when 'middle' %}
+            self-center
+            {% when 'bottom' %}
+            self-end
+            {% endcase %}
+            ">
+                <a href="{{col.url}}" >
+                    <div class="mb-small relative" style="aspect-ratio: 1;">
+                        <img class="icon absolute w-full h-full inset-0 object-cover object-center" src="{{col.Featured_image}}" alt="{{col.icon-alt}}">
+                    </div>
+                    {% endif %}
+                    <div
+                    {% if block.col-internal-padding == true %}
+                    class="px-small pb-small"
+                    {% endif %} style="text-align: {{col.text-alignment}}">
+                      <h2>{{col.title}}</h2>
+                    <p>
+                        <span class="button">read more</span>            
+                    </p>
+        
+                    {% endif %}
+        
+                </div>
+              
+                </a>
+        
+            </div>
+                    
+            
+        </div>
+      </div>
+        {% endfor %}
+    </div>
+    
+  </div>
+</section>
+
+<style>
+      #section-{{forloop.index}} section{
+        min-height: {{block.min-height}};
+      }
+
+    #section-{{forloop.index}} .grid {
+        gap: {{block.grid-gap}};
+      grid-template-columns: repeat({{block.grid-mobile-columns}}, 1fr);
+    }
+
+    {% if block.icon-width %}
+    #section-{{forloop.index}} .icon{
+max-width: min(100%, {{block.icon-width}});
+    }
+    {% endif %}
+
+
+    @media (min-width: 765px) {
+      #section-{{forloop.index}} .grid {
+        gap: {{block.grid-gap}};
+      grid-template-columns: repeat({{block.grid-desktop-columns}}, 1fr);
+    }
+    }
+    {% if block.background-mobile-image %} {% if block.background-desktop-image %}
+    @media (min-width: 765px) {
+      #section-{{forloop.index}} section {
+        background-image: url( {{block.background-desktop-image}} );
+      }
+    }
+    {% endif %} {% endif %}
+
+    
+    @media  (min-width: 750px) {
+      
+
+      #section-{{forloop.index}} section{
+        {% if block.collapse-top-space == true %}
+          padding-top: 1px;
+        {% endif %}
+      
+        {% if block.collapse-bottom-space == true %}
+            padding-bottom: 1px;
+        {% endif %}
+      
+      }
+    }
+
+  </style>

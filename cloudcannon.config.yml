@@ -563,6 +563,34 @@ _structures:
           collapse-top-space: false
           collapse-bottom-space: false
           color-scheme: leaf-500
+      - label: Grid - blog loop
+        picker_preview:
+          text: grid
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/grid-preview.png
+            icon:
+            icon_color:
+            fit:
+        value:
+          _id: grid
+          block-content-html: >-
+            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2>A personalised wellness blog, tailored to you.</h2>
+          text-alignment: center
+          grid-desktop-columns: 6
+          grid-mobile-columns: 2
+          grid-gap: 1rem
+          col-internal-padding: true        
+          img-mixed-aspect: false
+          min-height: 0vh
+          gap-between-text-box-and-grid: small
+          collapse-top-space: false
+          collapse-bottom-space: false
+          color-scheme: leaf-500
       - label: html block
         value:
           _id: liquid-block
