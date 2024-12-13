@@ -13,12 +13,12 @@
 
       {% for col in site.benefits %}
         <div class="shrink-0 {% if forloop.first  %} ml-full-side {% endif %} {% if forloop.last  %} mr-full-side {% endif %}" style="width: min( {{block.image-width}} , 500px );">
-          {% if col.link %}<a href="{{col.link}}">{% endif%}
+          <a href="{{col.url}}">
             <div class="image-sizer relative mb-small">
               <img class="{% unless block.img_aspect == 'Original' %} object-cover object-center absolute inset-0 h-full {% endunless %} w-full" src="{{col.featured_image}}" alt="">
             </div>
           <h3 class="sub-heading">{{col.title}}</h3>
-          {% if col.link %}</a>{% endif%}
+          </a>
         </div>
       {% endfor %}
     </div>
