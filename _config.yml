@@ -1,5 +1,5 @@
 collections:
-  post:
+  posts:
     output: true
   treatments:
     output: true
