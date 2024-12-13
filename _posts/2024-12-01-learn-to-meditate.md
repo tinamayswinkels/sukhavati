@@ -30,7 +30,7 @@ These include;
 
 #### Transcendental Meditation
 
-![Meditation area at Sukhavati Ayurvedic Retreat &amp; Spa](https://www.sukhavatibali.com/wp-content/uploads/2019/03/veda-wellness-1-1472098572-medium-300x193.png){: width="300" height="193"}Transcendental Meditation or TM has been the go-to meditation technique for many of the world’s highest performers over several decades. The likes of Hugh Jackman, Katy Perry, Jerry Seinfeld, Arianna Huffington, Ellen DeGeneres, and Ray Dalio, have practised the technique for decades and public promote it as one of the key reasons for their sustained success.
+![Meditation area at Sukhavati Ayurvedic Retreat &amp; Spa](https://www.sukhavatibali.com/wp-content/uploads/2019/03/veda-wellness-1-1472098572-medium-300x193.png){: width="300" height="193"}<br>Transcendental Meditation or TM has been the go-to meditation technique for many of the world’s highest performers over several decades. The likes of Hugh Jackman, Katy Perry, Jerry Seinfeld, Arianna Huffington, Ellen DeGeneres, and Ray Dalio, have practised the technique for decades and public promote it as one of the key reasons for their sustained success.
 
 *“Meditation Has Changed My Life.*” Hugh Jackman
 
@@ -42,7 +42,7 @@ A simple, effortless technique that anyone can do, TM is taught over 4 consecuti
 
 [![Sukhavati Wellness Retreat Bali introduction to meditation](https://img.youtube.com/vi/uP2gLEDl7jI/sddefault.jpg)](https://www.youtube.com/embed/uP2gLEDl7jI&amp;t=1s;autoplay=0?autoplay=1&amp;rel=0&amp;showinfo=0 "Play")
 
-#### ![Transcendental Meditation teacher Wayan Sutrisna](https://www.sukhavatibali.com/wp-content/uploads/2019/04/Wayan.jpg){: width="200" height="267"}Meet Our Teacher
+#### ![Transcendental Meditation teacher Wayan Sutrisna](https://www.sukhavatibali.com/wp-content/uploads/2019/04/Wayan.jpg){: width="200" height="267"}<br>Meet Our Teacher
 
 Transcendental Meditation at Sukhavati is taught by one of Bali’s leading teachers – Wayan Sutrisna.
 
@@ -56,7 +56,7 @@ Wayan has been a teacher of TM since 2006 and has taught hundreds of business pe
 
 # **Learn to Meditate Online**
 
-![Sam Healy, Meditation Specialist](https://www.sukhavatibali.com/wp-content/uploads/2019/04/sam-259x300.jpg){: width="259" height="300"}Sam Healy, Meditation Specialist and Founder of Be & Co Meditation is committed to normalising meditation within communities so that together, we can strengthen our self-awareness, develop the abilities to keep progressing and live genuinely.
+![Sam Healy, Meditation Specialist](https://www.sukhavatibali.com/wp-content/uploads/2019/04/sam-259x300.jpg){: width="259" height="300"}<br>Sam Healy, Meditation Specialist and Founder of Be & Co Meditation is committed to normalising meditation within communities so that together, we can strengthen our self-awareness, develop the abilities to keep progressing and live genuinely.
 
 As a former teacher and wellbeing leader, Sam has over ten years of experience working with children, educators, leaders and families. Be & Co Meditation’s Progression Meditation course includes:
 
