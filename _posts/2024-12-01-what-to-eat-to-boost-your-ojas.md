@@ -5,7 +5,7 @@ featured_image: /uploads/what-to-eat-to-boost-your-ojas.jpg
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: What to Eat to Boost your Ojas

@@ -5,7 +5,7 @@ featured_image: /uploads/patanjali-s-yoga-sutras-the-8-limbs-of-yoga.jpg
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: 'Patanjali’s Yoga Sutras: The 8 limbs of Yoga'

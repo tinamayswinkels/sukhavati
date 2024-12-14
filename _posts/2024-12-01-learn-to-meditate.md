@@ -5,7 +5,7 @@ featured_image: /uploads/learn-to-meditate.png
 blocks:
     -
         _id: blog-content-block
-        max-width: 500px
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: Learn to Meditate Online

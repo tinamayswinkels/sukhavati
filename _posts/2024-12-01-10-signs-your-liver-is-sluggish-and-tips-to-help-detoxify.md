@@ -5,7 +5,7 @@ featured_image: /uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxi
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: 10 Signs Your Liver is Sluggish and Tips to Help Detoxify

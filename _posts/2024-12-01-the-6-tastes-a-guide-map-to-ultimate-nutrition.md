@@ -5,7 +5,7 @@ featured_image: /uploads/the-6-tastes-a-guide-map-to-ultimate-nutrition.jpg
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: 'The 6 tastes: A Guide Map to Ultimate Nutrition'
