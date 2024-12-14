@@ -22,7 +22,7 @@ permalink: /the-yoga-sutras-satya-truth/
 
 February 22,2018
 
-{% include snippets/imgGallery3.html first-image="/uploads/the-yoga-sutras-satya-or-truthfulness.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/the-yoga-sutras-satya-or-truthfulness.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 ## **Satya is often thought of as not ‘lying’: Telling the truth and being honest.**
 

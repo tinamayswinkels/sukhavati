@@ -23,7 +23,7 @@ permalink: /news-post/buckleys-self-discovery/
 
 Sep, 2018
 
-{% include snippets/imgGallery3.html first-image="/uploads/buckley-s-self-discovery-takes-him-within-sight-of-the-holy-grail.jpeg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/buckley-s-self-discovery-takes-him-within-sight-of-the-holy-grail.jpeg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 Perhaps the first sign of a shift in Nathan Buckley’s approach – to himself, as much as to his players and staff – came in October last year when the coach went to Bali with his wife to practice yoga and meditation.
 

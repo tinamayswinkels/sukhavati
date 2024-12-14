@@ -22,7 +22,7 @@ permalink: /nadi-shodhana-pranayama-alternate-nostril-breathing/
 
 July 16,2018
 
-{% include snippets/imgGallery3.html first-image="/uploads/nadi-shodhana-pranayama-alternate-nostril-breathing.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/nadi-shodhana-pranayama-alternate-nostril-breathing.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 *“When the Breath wanders, the mind is unsteady but when the Breath is still, so is the mind still.”*
 

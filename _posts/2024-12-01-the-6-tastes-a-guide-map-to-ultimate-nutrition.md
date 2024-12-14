@@ -23,7 +23,7 @@ permalink: the-6-tastes-a-guide-map-to-ultimate-nutrition/
 
 June 13,2018
 
-{% include snippets/imgGallery3.html first-image="/uploads/the-6-tastes-a-guide-map-to-ultimate-nutrition.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/the-6-tastes-a-guide-map-to-ultimate-nutrition.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 ## **Much of the wisdom of Ayurvedic nutrition rests on the tip of your tongue, literally!**
 

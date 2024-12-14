@@ -23,7 +23,7 @@ permalink: respiratory-system-support/
 
 November 28,2019
 
-{% include snippets/imgGallery3.html first-image="/uploads/respiratory-system-support.png" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/respiratory-system-support.png" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 With the prevalence of bush and wildfires occurring worldwide, comes a lot of smoke and debris in the air which when inhaled, is a serious health concern.
 

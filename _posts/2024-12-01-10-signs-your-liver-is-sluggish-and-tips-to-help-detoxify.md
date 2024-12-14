@@ -23,7 +23,7 @@ permalink:
 
 January 17,2017
 
-{% include snippets/imgGallery3.html first-image="/uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 ## **The liver is the biggest organ of detoxification in your body.**
 

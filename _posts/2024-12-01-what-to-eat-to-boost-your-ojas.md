@@ -22,7 +22,7 @@ permalink: /what-to-eat-to-boost-your-ojas/
 
 June 9,2017
 
-{% include snippets/imgGallery3.html first-image="/uploads/what-to-eat-to-boost-your-ojas.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/what-to-eat-to-boost-your-ojas.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 ## **Ojas is a Sanskrit term that means ‘vigour’ or ‘vitality’.**
 

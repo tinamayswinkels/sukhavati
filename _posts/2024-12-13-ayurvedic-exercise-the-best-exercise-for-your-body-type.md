@@ -23,7 +23,7 @@ permalink: /ayurvedic-exercise-the-best-exercise-for-your-body-type/
 
 March 10,2016
 
-{% include snippets/imgGallery3.html first-image="" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 ## **Our bodies are designed to move**
 

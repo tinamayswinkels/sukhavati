@@ -959,6 +959,65 @@ a.button:hover {
   box-shadow: 5px 5px 5px #61625a, -5px 5px 5px #61625a;
 } */
 
+/* blog content */
+
+.blog-content h1 {
+  font-size: 2.5rem;
+}
+.blog-content h2 {
+  font-size: 2rem;
+}
+.blog-content h3 {
+  font-size: 1.5rem;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin-bottom: 1rem;
+}
+
+.blog-content img {
+  margin: 1rem 0;
+}
+
+.blog-3-col-grid .Square {
+aspect-ratio: 1;
+position: relative;
+}
+.blog-3-col-grid .Tall.Portrait {
+aspect-ratio: 9/16;
+position: relative;
+}
+.blog-3-col-grid .Extra.Tall {
+aspect-ratio: 9/25;
+position: relative;
+}
+.blog-3-col-grid .Portrait:not(.Tall) {
+aspect-ratio: 4/5;
+position: relative;
+}
+.blog-3-col-grid .Wide.Landscape {
+aspect-ratio: 16/9;
+position: relative;
+}
+.blog-3-col-grid .Landscape:not(.Wide) {
+  aspect-ratio: 5/4;
+  position: relative;
+  }
+
+
+.blog-3-col-grid > .flex-1 > :not(.Original) > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  }
+
+
 /* floating images */
 
 .float-images-right img{

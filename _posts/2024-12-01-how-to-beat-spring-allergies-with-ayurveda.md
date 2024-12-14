@@ -23,7 +23,7 @@ permalink: /how-to-beat-spring-allergies-with-ayurveda/
 
 October 15,2014
 
-{% include snippets/imgGallery3.html first-image="/uploads/how-to-beat-spring-allergies-with-ayurveda.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/how-to-beat-spring-allergies-with-ayurveda.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 ## **Here in the southern hemisphere, spring is in the air and so too is a whole lot of pollen!**
 

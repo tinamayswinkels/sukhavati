@@ -24,7 +24,7 @@ permalink: /detoxify-liver-naturally-panchakarma/
 
 April 19,2024
 
-{% include snippets/imgGallery3.html first-image="/uploads/how-the-liver-naturally-detoxifies-and-cleanses-with-panchakarma.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/how-the-liver-naturally-detoxifies-and-cleanses-with-panchakarma.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 The liver serves as the body’s primary detoxification organ and plays a crucial role in processing and filtering toxins from the blood, as well as metabolising substances to be excreted.
 

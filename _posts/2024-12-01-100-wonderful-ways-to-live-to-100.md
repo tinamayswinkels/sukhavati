@@ -23,7 +23,7 @@ permalink:
 
 May 10,2016
 
-{% include snippets/imgGallery3.html first-image="/uploads/100-wonderful-ways-to-live-to-100.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/100-wonderful-ways-to-live-to-100.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
 
 The most redundant advice, either from parents, teachers, physicians or health fanatics, tossed around is ways to live a long life, happily and healthily. Everyone has their obsession to talk about; some even touches the boundaries of absurdity, some seems rational, as they have been dolled since antiquity, and there are some that we all believe in just because it is a common knowledge.
 
