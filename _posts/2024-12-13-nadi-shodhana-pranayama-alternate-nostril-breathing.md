@@ -24,7 +24,9 @@ July 16,2018
 
 {% include snippets/imgGallery3.html first-image="/uploads/nadi-shodhana-pranayama-alternate-nostril-breathing.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" image_size_ratio="" %}
 
-*“When the Breath wanders, the mind is unsteady but when the Breath is still, so is the mind still.”* <br>– **Hatha Yoga Pradipika**
+*“When the Breath wanders, the mind is unsteady but when the Breath is still, so is the mind still.”*
+
+<br>– **Hatha Yoga Pradipika**
 
 Shodhana means to cleanse or to purify and this pranayama is used to purify pranic channels (Nadis). It is an important pranayama practiced by alternating inhalation and exhalation between the right and left nostrils to influence the ida and pingala nadis, to restore equilibrium, bring balance and harmony to the body’s physical and mental systems. It vitalises pranic energies and helps to heal almost all physical and mental disorders. It awakens the dormant energy (shakti) in mooladhara chakra and directs it through sushumna leading to deep states of meditation.
 
