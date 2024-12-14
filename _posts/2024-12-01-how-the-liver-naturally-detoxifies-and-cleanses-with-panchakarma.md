@@ -6,7 +6,7 @@ featured_image: >-
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: How the Liver Naturally Detoxifies and Cleanses with Panchakarma

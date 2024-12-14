@@ -5,7 +5,7 @@ featured_image: /uploads/ayurvedic-exercise-the-best-exercise-for-your-body-type
 blocks:
     -
         _id: blog-content-block
-        max-width: 500px
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: 'Ayurvedic Exercise: The Best Exercise for Your Body Type'

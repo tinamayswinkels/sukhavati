@@ -5,7 +5,7 @@ featured_image: /uploads/how-to-beat-spring-allergies-with-ayurveda.jpg
 blocks:
     -
         _id: blog-content-block
-        max-width: 500px
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: How to Beat Spring Allergies with Ayurveda

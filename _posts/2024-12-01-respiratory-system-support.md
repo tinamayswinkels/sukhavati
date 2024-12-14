@@ -5,7 +5,7 @@ featured_image: /uploads/respiratory-system-support.png
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: Respiratory System Support

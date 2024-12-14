@@ -5,7 +5,7 @@ featured_image: /uploads/100-wonderful-ways-to-live-to-100.jpg
 blocks:
     -
         _id: blog-content-block
-        max-width: 24rem
+        content-max-width: 640px
         color-scheme: leaf-100
 seo:
     title: 100 Wonderful Ways to Live to 100
