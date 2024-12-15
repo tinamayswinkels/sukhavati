@@ -132,7 +132,7 @@ footer * {
 footer .main-link {
 font-size: 0.9rem;
 font-style: normal;
-font-weight: 300;
+font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
 }
@@ -140,7 +140,6 @@ text-transform: uppercase;
 
 footer .heading-md{
   color: #61625A;
-  text-align: center;
   font-family: inherit;
   font-size: 16px;
   font-style: normal;
@@ -150,15 +149,7 @@ footer .heading-md{
   text-transform: uppercase;
 }
 
-footer .footer-bold {
-  color: #87897D;
-  text-align: center;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 167.8%; /* 20.136px */
-  letter-spacing: 0.54px;
-}
+
 
 footer .footer-generic, footer .footer-generic p{
 color: #87897D;
@@ -167,6 +158,22 @@ font-style: normal;
 font-weight: 400;
 letter-spacing: 0.54px;
 }
+
+
+
+@media (max-width: 768px ) {
+  footer .footer-generic, footer .footer-generic p, footer .main-link, .footer .location p{
+    font-size: .9rem;
+    line-height: 1;
+    font-weight: 400;
+  }
+  footer .footer-generic, footer .main-link,  footer .footer-generic, footer .location p{
+    padding-top:.5rem;
+    padding-bottom: .5rem;
+    display: block;
+  }
+}
+
 
 .standard-padding{
     padding: var(--vert-gap) var(--side-gap);
