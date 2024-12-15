@@ -21,7 +21,7 @@ permalink: /learn-to-meditate/
 ---
 # Learn to Meditate
 
-
+{% include snippets/imgGallery3.html first-image="/uploads/learn-to-meditate.png" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="Original" %}
 
 ## Learn to Meditate at Sukhavati
 
