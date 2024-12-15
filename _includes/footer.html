@@ -8,7 +8,7 @@
         </div>
         
         
-          <nav class="sm:flex flex-wrap justify-center gap-small py-8 px-full-side border-y ">
+          <nav class="sm:flex flex-wrap justify-center gap-small py-8 px-full-side border-y border-[#c1c4b3]">
             {% for link in site.data.navigation.footer_nav_bar %}
             <a class="block px-6 main-link" href="{{link.link}}">{{link.text}}</a>
           {% endfor %}
@@ -17,13 +17,13 @@
 
           <div class="sm:grid px-full-side sm:px-0 justify-center items-center text-left sm:text-center sm:grid-cols-3 py-small">
 
-            <div class="p-6  sm:border-r">
+            <div class="p-6 border-[#c1c4b3] sm:border-r">
               <h3 class="heading-md"> Location </h3>
               <div class="footer-grid-col footer-generic location">
                 {{site.data.navigation.footer-location-html}}
               </div>
             </div>
-            <div class="p-6 sm:border-r">
+            <div class="p-6 border-[#c1c4b3] sm:border-r">
               <h3 class="heading-md"> Contact </h3>
               <div class="footer-grid-col">
                 <p>
@@ -52,7 +52,7 @@
             </div>
           </div>
       </div>
-      <div class="px-full-side text-left">
+      <div class="px-full-side text-left md:text-center">
         <p class="px-6 sm:px-0" style="font-size: .7rem;">
           © 2024 - Sukhavati Ayurvedic Wellness Retreat Bali. All Rights Reserved.
         </p>
