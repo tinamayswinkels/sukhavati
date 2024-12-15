@@ -14,8 +14,8 @@
       ">
         {{block.block-content-html}}
       </div>
-      <div class="grid" 
-       style="grid-template-columns: repeat(2, 1fr)"
+      <div class="grid gap-8" 
+       style="grid-template-columns: repeat(3, 1fr)"
       
       >
       <!--  style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))" -->
@@ -62,24 +62,12 @@
 <style>
 
 
-    #section-{{forloop.index}} .grid {
-        gap: {{block.grid-gap}};
-      grid-template-columns: repeat({{block.grid-mobile-columns}}, 1fr);
-    }
-
     {% if block.icon-width %}
     #section-{{forloop.index}} .icon{
 max-width: min(100%, {{block.icon-width}});
     }
     {% endif %}
 
-
-    @media (min-width: 765px) {
-      #section-{{forloop.index}} .grid {
-        gap: 1rem;
-      grid-template-columns: repeat({{block.grid-desktop-columns}}, 1fr);
-    }
-    }
 
 
     
