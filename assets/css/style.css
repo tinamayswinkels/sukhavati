@@ -1272,6 +1272,20 @@ float: right
     content: '';
   }
 
+
+  @media (max-width: 768px ) {
+  body .slick-prev, body .slick-next {
+    bottom: -60px;
+    height: 20px;
+    width: 20px;
+    }
+
+  body .slick-prev svg, body .slick-next svg {
+    width: 20px;
+    height: 20px;
+  }
+  }
+
   .star-aligner img {
     float: left;
   }

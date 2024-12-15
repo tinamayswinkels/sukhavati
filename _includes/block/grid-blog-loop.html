@@ -3,14 +3,7 @@
   <div class="max-width">
 
       <div class="      
-      {% case block.gap-between-text-box-and-grid %}
-      {% when 'small' %}
       mb-8
-      {% when 'medium' %}
-      mb-16
-      {% when 'large' %}
-      mb-32
-      {% endcase %}
       {% case block.text-alignment %}
       {% when 'left' %}
       {% when 'center' %}
@@ -21,11 +14,15 @@
       ">
         {{block.block-content-html}}
       </div>
-      <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))">
+      <div class="grid" 
+       style="grid-template-columns: repeat(2, 1fr)"
+      
+      >
+      <!--  style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))" -->
           {% for col in site.posts %}
             <div class=" relative" >
           <!-- {{col.col-type}} -->
-          <div class="color-set col-padded min-h-full flex {% if col.link %} hover:shadow-lg shadow-black transition-all duration-500 {% endif %}">
+          <div class="color-set col-padded min-h-full flex hover:shadow-lg shadow-black transition-all duration-500">
             <div class="w-full
             {% case col.vert-alignment %}
             {% when 'top' %}
@@ -37,13 +34,11 @@
             {% endcase %}
             ">
                 <a href="{{col.url}}" >
-                    <div class="mb-small relative" style="aspect-ratio: 1;">
+                    <div class="mb-small relative" style="aspect-ratio: 5/4;">
                         <img class="icon absolute w-full h-full inset-0 object-cover object-center" src="{{col.featured_image}}" alt="{{col.icon-alt}}">
                     </div>
                     <div
-                    {% if block.col-internal-padding == true %}
-                    class="pb-small"
-                    {% endif %} style="text-align: {{col.text-alignment}}">
+                    class="pb-small" style="text-align: {{col.text-alignment}}">
                     <h3 class="sub-heading">
                       {{col.title}}
                     </h3>
@@ -65,9 +60,7 @@
 </section>
 
 <style>
-      #section-{{forloop.index}} section{
-        min-height: {{block.min-height}};
-      }
+
 
     #section-{{forloop.index}} .grid {
         gap: {{block.grid-gap}};
@@ -83,32 +76,12 @@ max-width: min(100%, {{block.icon-width}});
 
     @media (min-width: 765px) {
       #section-{{forloop.index}} .grid {
-        gap: {{block.grid-gap}};
+        gap: 1rem;
       grid-template-columns: repeat({{block.grid-desktop-columns}}, 1fr);
     }
     }
-    {% if block.background-mobile-image %} {% if block.background-desktop-image %}
-    @media (min-width: 765px) {
-      #section-{{forloop.index}} section {
-        background-image: url( {{block.background-desktop-image}} );
-      }
-    }
-    {% endif %} {% endif %}
+
 
     
-    @media  (min-width: 750px) {
-      
-
-      #section-{{forloop.index}} section{
-        {% if block.collapse-top-space == true %}
-          padding-top: 1px;
-        {% endif %}
-      
-        {% if block.collapse-bottom-space == true %}
-            padding-bottom: 1px;
-        {% endif %}
-      
-      }
-    }
 
   </style>
