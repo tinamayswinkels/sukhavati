@@ -225,7 +225,7 @@ width: calc(100vw - calc( var(--side-gap) * 2));
   </div>
 
 
-<div class="scheme-leaf-300 relative" id="section-c2">
+<div class="scheme-leaf-400 relative" id="section-c2">
             
       <!--horizontal-scroll-basic -->
       
@@ -233,8 +233,12 @@ width: calc(100vw - calc( var(--side-gap) * 2));
 <div class="px-side mb-8">
 <div class="max-width">
   <div style="margin-left:0;max-width: 500px;" class="editable">
-
-    <h3 class="sub-heading">ALL-INCLUSIVE WELLNESS RETREAT</h3><h2 class="heading-md">Explore More Benefits</h2><p>Discover the life-changing benefits of holistic wellness. From renewed energy and improved digestion to a clearer mind and uplifted spirit, experience profound, lasting transformations that will enhance every aspect of your wellbeing.</p>
+    <h3 class="sub-heading">ALL-INCLUSIVE WELLNESS RETREAT</h3><h2
+    class="heading-lg">Explore Benefits</h2><p>Discover the
+    life-changing benefits of holistic wellness. From renewed energy and
+    improved digestion to a clearer mind and uplifted spirit, experience
+    profound, lasting transformations that will enhance every aspect of
+    your wellbeing.</p>
   </div>
   
 </div>
@@ -243,7 +247,7 @@ width: calc(100vw - calc( var(--side-gap) * 2));
 
 
 {% for benifit in site.benefits %}
-  <div class="shrink-0 {% if forloop.index == 1 %} ml-full-side {% endif %} {% if forloop.last %} mr-full-side {% endif %}  " style="width: min( 25% , 500px );">
+  <div class="shrink-0 {% if forloop.index == 1 %} ml-full-side {% endif %} {% if forloop.last %} mr-full-side {% endif %}  " style="width: min( max(25%, 8rem) , 500px );">
     <a href="{{benifit.url}}">
       <div class="image-sizer relative mb-small">
         <img class=" object-cover object-center absolute inset-0 h-full  w-full" src="{{benifit.featured_image}}" alt="" />
