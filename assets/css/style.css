@@ -507,9 +507,6 @@ video {
 .mr-full-side {
   margin-right: var(--max-width-side-padding);
 }
-.mt-8 {
-  margin-top: 2rem;
-}
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -659,9 +656,6 @@ video {
 }
 .border-\[currentcolor\] {
   border-color: currentcolor;
-}
-.border-\[initial\] {
-  border-color: initial;
 }
 .bg-inherit {
   background-color: inherit;

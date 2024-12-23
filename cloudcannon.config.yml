@@ -356,8 +356,6 @@ _structures:
           vert-alignment: middle
           overlay-opacity: 0.5op
           min-height: 90vh
-          
-          
           color-scheme: leaf-500
       - label: youtube banner
         picker_preview:
