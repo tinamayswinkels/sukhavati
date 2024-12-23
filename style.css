@@ -16,12 +16,16 @@
 
 img{max-width: 100%;}
 
+/* html {
+  scroll-padding-top: 107px;
+} */
+
 body{
   font-family:  var(--body-font-family);
   max-width: 100vw;
   overflow-X: hidden;
   /* Set padding equal to height of fixed header */
-  scroll-padding-top: 4rem;
+  scroll-padding-top: 107px;
 }
 
 body.locked{
