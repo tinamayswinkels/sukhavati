@@ -6,8 +6,14 @@ blocks:
         max-width: 660px
         color-scheme: leaf-100
 seo:
-    title:
-    description: 
+    title: >-
+        Panchakarma at Sukhavati Bali – Holistic Detox & Rejuvenation for Mind
+        and Body
+    description: >-
+        Discover the transformative benefits of Panchakarma at Sukhavati Bali.
+        Our holistic Ayurvedic detoxification therapy purifies the body, boosts
+        immunity, and rejuvenates your mind and body. Learn more about this
+        ancient healing process and its powerful stages.
     image:
     favicon:
     index: true
