@@ -30,9 +30,9 @@
           </span>
         </div>
         {% for option in block.options %}
-        <div class="day-holder {% if forloop.index == 1 %} shown {% endif %}" data-option="{{forloop.index}}">
-          <div class="inclusions-tab">
-            <ul style="column-count:2">
+        <div class="day-holder grid grid-cols-2 border-[initial] border {% if forloop.index == 1 %} shown {% endif %}" data-option="{{forloop.index}}">
+          <div class="p-4 border-r border-[initial]">
+            <ul>
               <li>{{option.nights}} Night Private Villa Accommodation</li>
               <li>Ayurvedic consultation and outline of your personal rejuvenation program along with a follow up consultation and weekly Ayurvedic Seminar (attendance dependent on the timing of your stay).</li>
               <li>90 minutes of comprehensive daily prescribed Ayurvedic treatments tailored by our Ayurvedic Doctor</li>
@@ -45,7 +45,7 @@
               <li>Complimentary Wi-Fi internet connection</li>
           </ul>
         </div>
-        <div class="rates-tab" data-tab="rates">
+        <div class="p-4">
           <p>
             We have two types of villa choices available in this package (luxury and private pool).
           </p>
@@ -83,15 +83,15 @@
   display: none;
 }
 .day-holder.shown{
-  display: block;
+  display: grid;
 }
 
-.inclusions-tab, .rates-tab{
+/* .inclusions-tab, .rates-tab{
   display: none;
 }
 .inclusions .inclusions-tab,.rates .rates-tab{
   display: block;
-}
+} */
 
 </style>
 
@@ -123,26 +123,26 @@ dayOptions.forEach(option => {
 
 daysInput.addEventListener('change', selectProgram)
 
-const tabButtons = ratesFilterParent.querySelectorAll(' .tab-select')
+// const tabButtons = ratesFilterParent.querySelectorAll(' .tab-select')
 
-console.log(tabButtons)
+// console.log(tabButtons)
 
-function selectTab() {
-  if (this.dataset.tab == 'inclusions') {
-    ratesFilterParent.classList.add('inclusions')
-    ratesFilterParent.classList.remove('rates')
-  } else {
-    ratesFilterParent.classList.remove('inclusions')
-    ratesFilterParent.classList.add('rates')
+// function selectTab() {
+//   if (this.dataset.tab == 'inclusions') {
+//     ratesFilterParent.classList.add('inclusions')
+//     ratesFilterParent.classList.remove('rates')
+//   } else {
+//     ratesFilterParent.classList.remove('inclusions')
+//     ratesFilterParent.classList.add('rates')
 
-  }
+//   }
     
-} 
+// } 
 
-tabButtons.forEach(button => {
-  button.addEventListener('click', selectTab)
+// tabButtons.forEach(button => {
+//   button.addEventListener('click', selectTab)
 
-})
+// })
 
 
 </script>
