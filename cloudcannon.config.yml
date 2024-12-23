@@ -167,8 +167,8 @@ _inputs:
       values:
         0vh: Content height
         50vh: Half Screen
-        75vh: Three-Quarter Screen
-        90vh: Just short of Full Screen
+        65vh: Three-Quarter Screen
+        80vh: Just short of Full Screen
         100vh: Full Screen
     cascade: true
   overlay-opacity:
@@ -297,7 +297,7 @@ _structures:
           vert-alignment: middle
           
           overlay-opacity: 0.5op
-          min-height: 90vh
+          min-height: 80vh
           color-scheme: leaf-100
       - label: Text & image grid
         picker_preview:
@@ -355,7 +355,7 @@ _structures:
           text-alignment: center
           vert-alignment: middle
           overlay-opacity: 0.5op
-          min-height: 90vh
+          min-height: 80vh
           color-scheme: leaf-500
       - label: youtube banner
         picker_preview:
