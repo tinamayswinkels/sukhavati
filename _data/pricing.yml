@@ -3,117 +3,137 @@
   price-double-occupancy-garden-villa: 810
   price-single-occupancy-pool-villa: 1150
   price-double-occupancy-pool-villa: 950
+  complimentary-arrival-night: false
 
 - days: 3
   price-single-occupancy-garden-villa: 1499
   price-double-occupancy-garden-villa: 1190
   price-single-occupancy-pool-villa: 1699
   price-double-occupancy-pool-villa: 1399
+  complimentary-arrival-night: false
 
 - days: 4
   price-single-occupancy-garden-villa: 1999
   price-double-occupancy-garden-villa: 1585
   price-single-occupancy-pool-villa: 2249
   price-double-occupancy-pool-villa: 1849
+  complimentary-arrival-night: false
 
 - days: 5
   price-single-occupancy-garden-villa: 2495
   price-double-occupancy-garden-villa: 1975
   price-single-occupancy-pool-villa: 2750
   price-double-occupancy-pool-villa: 2250
+  complimentary-arrival-night: false
 
 - days: 6
   price-single-occupancy-garden-villa: 2994
   price-double-occupancy-garden-villa: 2370
   price-single-occupancy-pool-villa: 3348
   price-double-occupancy-pool-villa: 2748
+  complimentary-arrival-night: false
 
 - days: 7
   price-single-occupancy-garden-villa: 3319
   price-double-occupancy-garden-villa: 2627
   price-single-occupancy-pool-villa: 3850
   price-double-occupancy-pool-villa: 3150
+  complimentary-arrival-night: true
 
 - days: 8
   price-single-occupancy-garden-villa: 3792
   price-double-occupancy-garden-villa: 3002
   price-single-occupancy-pool-villa: 4180
   price-double-occupancy-pool-villa: 3420
+  complimentary-arrival-night: true
 
 - days: 9
   price-single-occupancy-garden-villa: 4286
   price-double-occupancy-garden-villa: 3377
   price-single-occupancy-pool-villa: 4702
   price-double-occupancy-pool-villa: 3847
+  complimentary-arrival-night: true
 
 - days: 10
   price-single-occupancy-garden-villa: 4740
   price-double-occupancy-garden-villa: 3752
   price-single-occupancy-pool-villa: 5225
   price-double-occupancy-pool-villa: 4275
+  complimentary-arrival-night: true
 
 - days: 11
   price-single-occupancy-garden-villa: 5214
   price-double-occupancy-garden-villa: 4123
   price-single-occupancy-pool-villa: 5747
   price-double-occupancy-pool-villa: 4702
+  complimentary-arrival-night: true
 
 - days: 12
   price-single-occupancy-garden-villa: 5688
   price-double-occupancy-garden-villa: 4503
   price-single-occupancy-pool-villa: 6270
   price-double-occupancy-pool-villa: 5130
+  complimentary-arrival-night: true
 
 - days: 13
   price-single-occupancy-garden-villa: 6162
   price-double-occupancy-garden-villa: 4878
   price-single-occupancy-pool-villa: 6792
   price-double-occupancy-pool-villa: 5557
+  complimentary-arrival-night: true
 
 - days: 14
   price-single-occupancy-garden-villa: 6287
   price-double-occupancy-garden-villa: 5530
   price-single-occupancy-pool-villa: 6930
   price-double-occupancy-pool-villa: 5670
+  complimentary-arrival-night: true
 
 - days: 15
   price-single-occupancy-garden-villa: 6736
   price-double-occupancy-garden-villa: 5332
   price-single-occupancy-pool-villa: 7425
   price-double-occupancy-pool-villa: 6075
+  complimentary-arrival-night: true
 
 - days: 16
   price-single-occupancy-garden-villa: 7185
   price-double-occupancy-garden-villa: 5688
   price-single-occupancy-pool-villa: 7920
   price-double-occupancy-pool-villa: 6480
+  complimentary-arrival-night: true
 
 - days: 17
   price-single-occupancy-garden-villa: 7634
   price-double-occupancy-garden-villa: 6043
   price-single-occupancy-pool-villa: 8415
   price-double-occupancy-pool-villa: 6885
+  complimentary-arrival-night: true
 
 - days: 18
   price-single-occupancy-garden-villa: 8083
   price-double-occupancy-garden-villa: 6399
   price-single-occupancy-pool-villa: 8910
   price-double-occupancy-pool-villa: 7290
+  complimentary-arrival-night: true
 
 - days: 19
   price-single-occupancy-garden-villa: 8532
   price-double-occupancy-garden-villa: 6754
   price-single-occupancy-pool-villa: 9405
   price-double-occupancy-pool-villa: 7695
+  complimentary-arrival-night: true
 
 - days: 20
   price-single-occupancy-garden-villa: 8899
   price-double-occupancy-garden-villa: 7010
   price-single-occupancy-pool-villa: 9699
   price-double-occupancy-pool-villa: 7999
+  complimentary-arrival-night: true
 
 - days: 21
   price-single-occupancy-garden-villa: 8907
   price-double-occupancy-garden-villa: 7050
   price-single-occupancy-pool-villa: 9817
   price-double-occupancy-pool-villa: 8032
+  complimentary-arrival-night: true
