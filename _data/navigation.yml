@@ -28,6 +28,8 @@ header_links:
         link: /your-retreat-experience#section-6
       - text: Your Wellness Goals
         link: /explore-benefits
+      - text: Pricing & Inclusions
+        link: /your-journey#pricing
   - text: Your Wellness Goals
     link:
     sub_links:
@@ -72,9 +74,8 @@ footer_nav_bar:
   - text: About Ayurveda
     link: /information-page.html
 footer-location-html: >-
-      <p>Br Bebengan Tangeb Abianbase</p>
-      <p>Mengwi Badung 80351</p>
-      <p>Bali,Indonesia</p>
+  <p>Br Bebengan Tangeb Abianbase</p> <p>Mengwi Badung 80351</p>
+  <p>Bali,Indonesia</p>
 footer-contact-links:
   phone-number-text: +62 361 900 6128
   phone-number: 623619006128
