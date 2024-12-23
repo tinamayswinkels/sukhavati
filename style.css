@@ -16,9 +16,9 @@
 
 img{max-width: 100%;}
 
-/* html {
+html {
   scroll-padding-top: 107px;
-} */
+}
 
 body{
   font-family:  var(--body-font-family);
