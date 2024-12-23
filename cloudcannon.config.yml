@@ -424,6 +424,7 @@ _structures:
               couple-occupancy-luxury-price: 710
               single-occupancy-pool-price: 965
               couple-occupancy-pool-price: 815
+              arrival-night: false
             - days: 5
               nights: 4
               massage-count: 2
@@ -431,6 +432,7 @@ _structures:
               couple-occupancy-luxury-price: 710
               single-occupancy-pool-price: 965
               couple-occupancy-pool-price: 815
+              arrival-night: false
       - label: blog content block
         picker_preview:
           text: blog content block

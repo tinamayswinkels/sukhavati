@@ -49,7 +49,7 @@ h3:not(:last-child){
   margin-bottom:0.5em;
 }
 
-p:not(:last-child) {
+p:not(:last-child):not(.mb-0) {
   margin-bottom: 1rem;
 }
 
