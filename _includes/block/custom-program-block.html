@@ -13,7 +13,7 @@
         <div class="flex flex-col items-center justify-center p-4 gap-4 mb-4">
           <h2 class="text-center max-w-[25rem]">Book an all-inclusive ayuedic wellness retreat</h2>
           <select id="option-selector-{{forloop.index}}" name="days" class="p-4 input bg-inherit border border-[#87897D] ">
-            {% for option in block.options %}
+            {% for option in site.data.pricing %}
             
             <option id="option-{{forloop.index}}" value="{{forloop.index}}" {% if forloop.index == 1 %} selected="" {% endif %}>{{option.days}} Day Program</option>
             {% endfor %}
@@ -21,12 +21,12 @@
         </div>
       </div>
       <div class="rates-filter-{{forloop.index}} inclusions">
-        {% for option in block.options %}
+        {% for option in site.data.pricing %}
         <div class="day-holder grid grid-cols-2 border-[#C1C4B3] border {% if forloop.index == 1 %} shown {% endif %}" data-option="{{forloop.index}}">
           <div class="p-4 border-r border-[#C1C4B3]">
             <h3 class="sub-heading">Whats included</h3>
             <ul>
-              <li>{{option.nights}} Night Private Villa Accommodation</li>
+              <li>{% if option.complimentary-arrival-night == true %}{{option.days}}{% else %}{{option.days | minus: '1' }}{% endif %} Night Private Villa Accommodation</li>
               <li>Freshly prepared Ayurvedic dishes for breakfast, lunch and dinner</li>
               <li>Ayurvedic consultations and personalized program
               <li>Prescribed Ayurvedic treatments (90 minutes each day)
@@ -38,7 +38,7 @@
               <li>Complimentary bike hire
               <li>Complimentary Wi-Fi internet connection
               <li>Onsite weekly activities: Ayurvedic cooking class, educational seminar with the doctor, herb garden tour, cultural gala dinner, guided bicycle tour to the beach
-              {% if option.arrival-night == true %}
+              {% if option.complimentary-arrival-night == true %}
                 <li>Complimentary arrival night to settle in
               {% endif %}
           </ul>
@@ -49,16 +49,16 @@
             You can choose between a luxury private villa with a garden or one with it's own swimming pool. 
           </p>
           <p class="mb-0">
-            Single Occupancy In a Garden Villa - ${{option.single-occupancy-luxury-price}} per person
+            Single Occupancy In a Garden Villa - ${{option.price-single-occupancy-garden-villa}} per person
           </p>
           <p>
-            Double Occupancy In a Garden Villa - ${{option.couple-occupancy-luxury-price}} per person
+            Double Occupancy In a Garden Villa - ${{option.price-double-occupancy-garden-villa}} per person
           </p>
           <p class="mb-0">
-            Single Occupancy In a Pool Villa - ${{option.single-occupancy-pool-price}} per person
+            Single Occupancy In a Pool Villa - ${{option.price-single-occupancy-pool-villa}} per person
           </p>
           <p>
-            Double Occupancy In a Pool Villa - ${{option.couple-occupancy-pool-price}} per person
+            Double Occupancy In a Pool Villa - ${{option.price-double-occupancy-pool-villa}} per person
           </p>
           <p class="italic">
             Rates are in USDand are not inclusive of 15% Government Taxes & Service fee.
