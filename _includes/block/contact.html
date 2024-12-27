@@ -13,9 +13,9 @@
             <form method="post" action="/success" class="mx-auto" {% if block.form-max-width %} style="max-width: {{block.form-max-width}} "{% endif %}>
               <input class="placeholder:text-inherit" type="text" name="name" placeholder="NAME" required>
               <input class="placeholder:text-inherit" type="email" name="email" placeholder="EMAIL" required>
-              <input class="placeholder:text-inherit" type="tel" name="number" placeholder="NUMBER">
+              <input class="placeholder:text-inherit" type="tel" name="number" placeholder="NUMBER" required>
 
-              <textarea class="placeholder:text-inherit resize-none" rows="4" name="message" placeholder="MESSAGE"></textarea>
+              <textarea class="placeholder:text-inherit resize-none" rows="4" name="message" placeholder="MESSAGE" required></textarea>
             
               <!-- <input type="hidden" name="inbox_key" value="sukhavatibali"> -->
               <input type="hidden" name="_to" value="rejuvenation@sukhavatibali.com">
