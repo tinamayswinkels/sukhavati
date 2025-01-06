@@ -8,7 +8,9 @@ GEM
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x86-mingw32)
+    ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
@@ -63,6 +65,7 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-22
   x86-mingw32
 
 DEPENDENCIES
