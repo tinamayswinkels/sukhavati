@@ -438,8 +438,8 @@ video {
 .inset-0 {
   inset: 0px;
 }
-.bottom-0 {
-  bottom: 0px;
+.bottom-8 {
+  bottom: 2rem;
 }
 .left-0 {
   left: 0px;
@@ -458,9 +458,6 @@ video {
 }
 .top-4 {
   top: 1rem;
-}
-.bottom-8 {
-  bottom: 2rem;
 }
 .-z-10 {
   z-index: -10;
@@ -536,6 +533,9 @@ video {
 }
 .inline-block {
   display: inline-block;
+}
+.\!inline-block {
+  display: inline-block !important;
 }
 .flex {
   display: flex;
