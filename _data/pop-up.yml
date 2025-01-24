@@ -1,0 +1,6 @@
+block-content-html: <h2>New year<br>New you</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sit magnam consectetur harum laborum. Est culpa laboriosam illo perspiciatis. Facilis dolore perferendis vero ullam recusandae ducimus maiores vel libero quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sit magnam consectetur harum laborum. Est culpa laboriosam illo perspiciatis. Facilis dolore perferendis vero ullam recusandae ducimus maiores vel libero quisquam.</p><p><a class='button-featured'>find out more</a></p>
+featured-image: /uploads/patanjali-s-yoga-sutras-the-8-limbs-of-yoga.jpg
+pop-up-width: 750px
+hide-duration-in-days: 1
+popup-delay-in-seconds: 1
+shown: true

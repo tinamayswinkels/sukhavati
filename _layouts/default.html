@@ -77,7 +77,7 @@
       <nav class="text-right hidden right-0 top-0 lg:block shrink-0">
         {% for link in site.data.navigation.header_links %}
         <span 
-        class="text-left inline-block drop-finder p-[15px] {% if forloop.last %} pr-0 {% endif %}
+        class="text-left inline-block drop-finder p-[15px]
           {% if link.sub_links %}
             relative
           {% endif %}
@@ -103,6 +103,7 @@
             {% endif %}
         </span>
         {% endfor %}
+        <a href="https://bookings.sukhavatibali.com/en/product/panchakarma" class="button ml-[15px]">Book Now</a>
         </nav>
       <div class="lg:hidden">
         <div class="burger-button">
@@ -171,7 +172,7 @@
 
 
 
-</body>
+
 
 
 {% if hasSlider == true  %}
@@ -381,4 +382,14 @@ console.log('#section-{{forloop.index}} has slider')
           {% endif %}
     {% endfor %}
 });
+
 </script>
+
+
+{% if page.seo.permalink == 'temp' %}
+
+{% include popup-code.html %}
+
+{% endif %}
+
+</body>

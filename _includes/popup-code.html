@@ -1,0 +1,105 @@
+{% if site.data.pop-up.shown == true %}
+
+<div class="scheme-leaf-200">
+    <div id="popup" class="color-set grid grid-cols-2 fixed bottom-8 border border-black bg-white z-50">
+        <div class="p-8 relative color-set">
+            {{site.data.pop-up.block-content-html}}
+        </div>
+        <div class="relative image-div">
+            <img class="absolute inset-0 h-full w-full object-cover" src="{{site.data.pop-up.featured-image}}" alt="">
+        </div>
+        <svg class="absolute top-4 right-4 hide-button" width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        <div class="popup-overlay fixed inset-0 bg-black -z-10">
+
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+
+#popup {
+    right: -{{site.data.pop-up.pop-up-width}};
+    transition: right .5s;
+    max-width: min( calc(100vw - 4rem), {{site.data.pop-up.pop-up-width}})
+}
+#popup.appear {
+    right: 2rem;
+}
+
+#popup .popup-overlay{ 
+    left:100vw;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#popup.appear .popup-overlay{
+left:0;
+opacity: .6;
+}
+
+@media (max-width: {{site.data.pop-up.pop-up-width}}) {
+    #popup {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+</style>
+
+
+
+
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+  
+  
+  
+  
+    const cookieBanner = document.querySelector('#popup')
+    const hideButton = cookieBanner.querySelector('.hide-button')
+    const popUpLinks = 
+  
+    hideButton.addEventListener('click', () => {
+        createCookie(hidePopUp, true, {{site.data.pop-up.hide-duration-in-days}})
+        cookieBanner.classList.remove('appear')
+    })
+
+  
+      // popup delay
+  if (readCookie(hidePopUp = true)){
+      
+} else {
+    setTimeout(() => {
+        cookieBanner.classList.add('appear')
+      }, "{{site.data.pop-up.hide-duration-in-days | times: 1000 }}")
+}
+
+// removes cookies for testing
+document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
+        
+  </script>
+
+{% endif %}
