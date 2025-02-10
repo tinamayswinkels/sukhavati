@@ -9,6 +9,66 @@ blocks:
     text-alignment: center
     color-scheme: leaf-100
     min-height: 50vh
+  - _id: horizontal-scroll-inline-text-box
+    block-content-html: <h3> lorem </h3> <h2>  experiences  </h2>
+    text-box-width: 350px
+    image-width: max(25%, 8rem)
+    img_aspect: Square
+    scroll-items:
+      - heading: first
+        image: /uploads/bp4a8582-hdr.jpg
+        description: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis
+          obcaecati doloremque optio! Unde accusantium, esse consectetur
+          asperiores voluptates obcaecati nobis libero necessitatibus vero
+          labore quod eaque. Illum, tenetur alias!
+        link:
+      - heading: second
+        image: /uploads/bp4a8582-hdr.jpg
+        description: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis
+          obcaecati doloremque optio! Unde accusantium, esse consectetur
+          asperiores voluptates obcaecati nobis libero necessitatibus vero
+          labore quod eaque. Illum, tenetur alias!
+        link:
+      - heading: third
+        image: /uploads/bp4a8582-hdr.jpg
+        description: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis
+          obcaecati doloremque optio! Unde accusantium, esse consectetur
+          asperiores voluptates obcaecati nobis libero necessitatibus vero
+          labore quod eaque. Illum, tenetur alias!
+        link:
+      - heading: fourth
+        image: /uploads/bp4a8582-hdr.jpg
+        description: >-
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis
+          obcaecati doloremque optio! Unde accusantium, esse consectetur
+          asperiores voluptates obcaecati nobis libero necessitatibus vero
+          labore quod eaque. Illum, tenetur alias!
+        link:
+    color-scheme: leaf-100
+  - _id: accordion
+    block-content-html: <h2 class="heading-lg"> FREQUENTLY ASKED QUESTIONS </h2>
+    drop_down:
+      - button-text: a question that you might have
+        block-content-html: <p>answer to that question </p>
+    color-scheme:
+  - _id: timeline
+    block-content-html: ''
+    color-scheme: leaf-100
+    max-width-timeline:
+    time-line-points:
+      - heading:
+        paragraph:
+  - _id: ticket-banner
+    banner_speed_in_px: 50
+    banner_message:
+      - text: floating message
+        url:
+      - text: clickable message
+        url: google.com
+    color-scheme: leaf-500
 seo:
   title:
   description:
