@@ -529,7 +529,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/blog-loop-preview.png
+            image: /uploads/grid-preview.png
             icon:
             icon_color:
             fit:
@@ -565,7 +565,7 @@ _structures:
           color-scheme: leaf-300
       - label: Scrolling grid
         picker_preview:
-          text: grid
+          text: Scrolling grid
           subtext:
           icon:
           icon_color:
