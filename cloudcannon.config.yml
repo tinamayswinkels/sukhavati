@@ -54,14 +54,14 @@ _inputs:
       allow_custom_markup: false
       remove_custom_markup: false
       initial_height: 320
-      bulletedlist: true
       center: text-center
       format: p h2 h3 a img
+      bulletedlist: true
+      numberedlist: true
       horizontalrule: true
       image: true
       image_size_attributes: true
       link: true
-      numberedlist: true
       resize_style: contain
       snippet: false
       styles: /editor.css
@@ -75,7 +75,6 @@ _inputs:
         - style 1
         - style 2
         - style 3
-    cascade: true
   color-scheme:
     type: select
     options:
@@ -202,7 +201,6 @@ _inputs:
         - top
         - middle
         - bottom
-    label: Vertical Alignment
     cascade: true
   img_aspect:
     type: select
@@ -235,10 +233,9 @@ _inputs:
     type: select
     options:
       allow_empty: false
-      values:
+      values: 
         - bottom
         - top
-    cascade: true
   float-direction:
     type: select
     options:
@@ -250,23 +247,23 @@ _inputs:
     default: left
   gap-between-text-box-and-grid:
     type: select
-    options:
+    options: 
       allow_empty: false
       values:
-        - small
-        - medium
-        - large
-    cascade: true
+          - small
+          - medium
+          - large
   content-max-width:
     type: select
     options:
       allow_empty: true
       values:
         500px: small
-        640px: medium
+        640px : medium
         768px: large
         1024px: Extra large
-    cascade: true
+
+
 _structures:
   blocks:
     style: modal
@@ -289,10 +286,11 @@ _structures:
           _id: banner
           block-content-html: <h2> banner heading </h2> <p> subtext </p>
           content-max-width:
-          background-desktop-image:
-          background-mobile-image:
+          background-desktop-image: 
+          background-mobile-image: 
           text-alignment: center
           vert-alignment: middle
+          
           overlay-opacity: 0.5op
           min-height: 80vh
           color-scheme: leaf-100
@@ -315,7 +313,7 @@ _structures:
           block-content-html:
           background-desktop-image: /uploads/bp4a8582-hdr.jpg
           background-mobile-image: /uploads/bp4a8582-hdr.jpg
-          background-alt:
+          background-alt: 
           desktop-collapse-bg-padding: true
           desktop-image-position: right
           text-alignment: left
@@ -372,14 +370,7 @@ _structures:
           _id: banner-youtube
           block-content-html: <h2> Simple heading </h2>
           text-alignment: right
-          embed_code: >-
-            <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/74qoqck7JVw?si=Q8EtE8su1RUk--ts"
-            title="YouTube video player" frameborder="0" allow="accelerometer;
-            autoplay; clipboard-write; encrypted-media; gyroscope;
-            picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
+          embed_code: <iframe width="560" height="315" src="https://www.youtube.com/embed/74qoqck7JVw?si=Q8EtE8su1RUk--ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           color-scheme: leaf-300
       - label: text block
         picker_preview:
@@ -419,6 +410,7 @@ _structures:
         value:
           _id: custom-program-block
           color-scheme: leaf-200
+          
       - label: blog content block
         picker_preview:
           text: blog content block
@@ -446,11 +438,7 @@ _structures:
           image:
           metadata:
           gallery:
-<<<<<<< HEAD
             image: /uploads/contact-preview.png
-=======
-            image:
->>>>>>> f03c4a68d669037ad18c0b821a0578f80b284853
             icon:
             icon_color:
             fit:
@@ -482,54 +470,27 @@ _structures:
           text-alignment: right
           text-box-max-width: 500px
           img_aspect: Square
-          video_aspect: Testimonials
+          video_aspect: Testimonials        
           slider_column_count: 3
           slider_col_color_scheme: leaf-500
           slider:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image:
+              image: 
               link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image:
+              image: 
               link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image:
+              image: 
               link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image:
+              image: 
               link:
           color-scheme: leaf-500
-<<<<<<< HEAD
-=======
-      - label: blog post loop
-        picker_preview:
-          text: blog post loop
-          subtext:
-          icon:
-          icon_color:
-          image:
-          metadata:
-          gallery:
-            image: /uploads/slider-preview.png
-            icon:
-            icon_color:
-            fit:
-        tags:
-        value:
-          _id: slider-blog-loop
-          block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
-          text-alignment: right
-          text-box-max-width: 500px
-          img_aspect: Square
-          video_aspect: Testimonials
-          slider_column_count: 3
-          slider_col_color_scheme: leaf-500
-          color-scheme: leaf-500
->>>>>>> f03c4a68d669037ad18c0b821a0578f80b284853
       - label: Grid
         picker_preview:
           text: grid
@@ -546,13 +507,12 @@ _structures:
         value:
           _id: grid
           block-content-html: >-
-            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2>A
-            personalised wellness retreat, tailored to you.</h2>
+            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2>A personalised wellness retreat, tailored to you.</h2>
           text-alignment: center
           grid-desktop-columns: 4
           grid-mobile-columns: 2
           grid-gap: 1rem
-          col-internal-padding: true
+          col-internal-padding: true        
           img-mixed-aspect: false
           min-height: 0vh
           gap-between-text-box-and-grid: small
@@ -576,8 +536,7 @@ _structures:
         value:
           _id: grid-blog-loop
           block-content-html: >-
-            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2>A
-            personalised wellness blog, tailored to you.</h2>
+            <h3 class="sub-heading"> OUR HOLISTIC APPROACH </h3> <h2>A personalised wellness blog, tailored to you.</h2>
           text-alignment: center
           grid-gap: 1rem
           color-scheme: leaf-500
@@ -726,7 +685,7 @@ _structures:
           drop_down:
             - button-text: a question that you might have
               block-content-html: <p>answer to that question </p>
-          color-scheme:
+          color-scheme: 
       - label: Timeline
         tags:
         value:
@@ -769,7 +728,7 @@ _structures:
           type: Pool Suite
           background-desktop-image: /uploads/bp4a8582-hdr.jpg
           background-mobile-image: /uploads/bp4a8582-hdr.jpg
-          background-alt:
+          background-alt: 
           desktop-collapse-bg-padding: true
           desktop-image-position: right
           section-gap: 1rem
@@ -841,22 +800,7 @@ _structures:
               link: /
             - text: sublink 3
               link: /
-_snippets_templates:
-  jekyll_liquid_include:
-    snippet: '{% include [[name]] [[args]] %}'
-    params:
-      name:
-        parser: literal
-        options:
-          literal:
-            ref: include_name
-      args:
-        parser: key_values
-        options:
-          models:
-            ref: named_args
-          format:
-            ref: jekyll_liquid_format
+timezone: Etc/UTC
 _snippets_definitions:
   jekyll_liquid_format:
     root_value_delimiter: '='
@@ -874,6 +818,22 @@ _snippets_definitions:
       - '-%}'
       - '}}'
       - ','
+_snippets_templates:
+  jekyll_liquid_include:
+    snippet: '{% include [[name]] [[args]] %}'
+    params:
+      name:
+        parser: literal
+        options:
+          literal:
+            ref: include_name
+      args:
+        parser: key_values
+        options:
+          models:
+            ref: named_args
+          format:
+            ref: jekyll_liquid_format
 _snippets:
   image_grid:
     template: jekyll_liquid_include
@@ -913,4 +873,3 @@ _snippets:
           type: string
         - editor_key: max-width
           type: string
-timezone: Etc/UTC
