@@ -277,7 +277,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/banner-preveiw.png
+            image: /uploads/banner-preview.png
             icon:
             icon_color:
             fit:
@@ -361,7 +361,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/banner-preveiw.png
+            image: /uploads/banner-preview.png
             icon:
             icon_color:
             fit:
@@ -381,7 +381,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/banner-preveiw.png
+            image: /uploads/text-preview.png
             icon:
             icon_color:
             fit:
@@ -402,7 +402,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/banner-preveiw.png
+            image: /uploads/pricing-preview.png
             icon:
             icon_color:
             fit:
@@ -420,7 +420,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/banner-preveiw.png
+            image: /uploads/blog-preview.png
             icon:
             icon_color:
             fit:
@@ -438,7 +438,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: 
+            image: /uploads/contact-preview.png
             icon:
             icon_color:
             fit:
@@ -491,30 +491,6 @@ _structures:
               image: 
               link:
           color-scheme: leaf-500
-      - label: blog post loop
-        picker_preview:
-          text: blog post loop
-          subtext:
-          icon:
-          icon_color:
-          image:
-          metadata:
-          gallery:
-            image: /uploads/slider-preview.png
-            icon:
-            icon_color:
-            fit:
-        tags:
-        value:
-          _id: slider-blog-loop
-          block-content-html: <h2> Slider heading </h2><h3>  with subheading  </h3>
-          text-alignment: right
-          text-box-max-width: 500px
-          img_aspect: Square
-          video_aspect: Testimonials        
-          slider_column_count: 3
-          slider_col_color_scheme: leaf-500
-          color-scheme: leaf-500
       - label: Grid
         picker_preview:
           text: grid
@@ -553,7 +529,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/grid-preview.png
+            image: /uploads/blog-loop-preview.png
             icon:
             icon_color:
             fit:
@@ -565,6 +541,18 @@ _structures:
           grid-gap: 1rem
           color-scheme: leaf-500
       - label: html block
+        picker_preview:
+          text: grid
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/text-preview.png
+            icon:
+            icon_color:
+            fit:
         value:
           _id: liquid-block
           liquid_code: >-
@@ -576,6 +564,18 @@ _structures:
           vertical-padding: true
           color-scheme: leaf-300
       - label: Scrolling grid
+        picker_preview:
+          text: grid
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/horizontal-scrolling-grid-preview.png
+            icon:
+            icon_color:
+            fit:
         tags:
         value:
           _id: horizontal-scroll-basic
@@ -617,6 +617,18 @@ _structures:
               link:
           color-scheme: leaf-100
       - label: Scrolling grid - benefits
+        picker_preview:
+          text: grid
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/horizontal-scrolling-grid-preview.png
+            icon:
+            icon_color:
+            fit:
         tags:
         value:
           _id: horizontal-scroll-benefits-loop
