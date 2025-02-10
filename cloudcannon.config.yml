@@ -268,7 +268,7 @@ _structures:
   blocks:
     style: modal
     values:
-      - label: Text banner
+      - label: Simple banner
         picker_preview:
           text: Simple banner
           subtext:
@@ -296,7 +296,7 @@ _structures:
           color-scheme: leaf-100
       - label: Text & image grid
         picker_preview:
-          text: text and grid
+          text: Text and grid
           subtext:
           icon:
           icon_color:
@@ -333,7 +333,7 @@ _structures:
           image:
           metadata:
           gallery:
-            image: /uploads/split-grid-preview.png
+            image: /uploads/banner-preview.png
             icon:
             icon_color:
             fit:
@@ -411,9 +411,9 @@ _structures:
           _id: custom-program-block
           color-scheme: leaf-200
           
-      - label: blog content block
+      - label: Blog content block
         picker_preview:
-          text: blog content block
+          text: Blog content block
           subtext:
           icon:
           icon_color:
@@ -452,7 +452,7 @@ _structures:
           form-max-width: 900px
       - label: Clickable slider
         picker_preview:
-          text: Slider
+          text: Clickable slider
           subtext:
           icon:
           icon_color:
@@ -493,7 +493,7 @@ _structures:
           color-scheme: leaf-500
       - label: Grid
         picker_preview:
-          text: grid
+          text: Grid
           subtext:
           icon:
           icon_color:
@@ -522,7 +522,7 @@ _structures:
           color-scheme: leaf-500
       - label: Grid - blog loop
         picker_preview:
-          text: grid
+          text: Grid for the blog
           subtext:
           icon:
           icon_color:
@@ -542,7 +542,7 @@ _structures:
           color-scheme: leaf-500
       - label: html block
         picker_preview:
-          text: grid
+          text: html block
           subtext:
           icon:
           icon_color:
