@@ -618,7 +618,7 @@ _structures:
           color-scheme: leaf-100
       - label: Scrolling grid - benefits
         picker_preview:
-          text: grid
+          text: Scrolling grid for the benefits
           subtext:
           icon:
           icon_color:
@@ -637,6 +637,18 @@ _structures:
           img_aspect: Square
           color-scheme: leaf-100
       - label: Scrolling grid with an inline text box
+        picker_preview:
+          text: Scrolling grid with an inline text box
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+          gallery:
+            image: /uploads/horizontal-scrolling-grid-preview.png
+            icon:
+            icon_color:
+            fit:
         tags:
         value:
           _id: horizontal-scroll-inline-text-box
