@@ -531,11 +531,11 @@ video {
 .block {
   display: block;
 }
-.inline-block {
-  display: inline-block;
-}
 .\!inline-block {
   display: inline-block !important;
+}
+.inline-block {
+  display: inline-block;
 }
 .flex {
   display: flex;

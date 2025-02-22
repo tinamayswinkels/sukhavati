@@ -345,6 +345,7 @@ _structures:
           videos:
             - video_path: /uploads/sea-24216-360p.mp4
               video_type: mp4
+          placeholder_image: 
           controls: false
           autoplay: true
           text-alignment: center

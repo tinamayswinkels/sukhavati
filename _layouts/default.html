@@ -153,6 +153,9 @@
           {% if block._id == 'ticket-banner' %}
             {% assign hasTicketBanner = true %}
           {% endif %}
+          {% if block._id == 'banner-video' %}
+          {% assign hasVideo = true %}
+        {% endif %}
           {% if block._id == 'slider' %}
           {% assign hasSlider = true %}
         {% endif %}
@@ -172,10 +175,28 @@
 
 {% include footer.html %}
 
+{% if hasVideo == true  %}
 
 
 
+<script>
 
+addEventListener("load", (event) => {
+  const lazyVideos = document.querySelectorAll('.lazy-vid');
+  lazyVideos.forEach(vid => {
+    let sources = vid.querySelectorAll('source');
+    console.log(sources)
+    sources.forEach(source => {
+      source.src = source.dataset.src
+    })
+    
+    vid.load()
+  })
+
+})
+</script>
+
+{% endif %}
 
 {% if hasSlider == true  %}
 <!-- slick css -->
