@@ -483,6 +483,9 @@ video {
   margin-left: var(--max-width-side-padding);
   margin-right: var(--max-width-side-padding);
 }
+.\!mb-0 {
+  margin-bottom: 0px !important;
+}
 .mb-0 {
   margin-bottom: 0px;
 }
