@@ -74,6 +74,11 @@ body ul{
 
 
 /* form */
+
+label {
+  margin-bottom: 2rem;
+}
+
 input, textarea {
   display: block;
   width: 100%;
@@ -81,6 +86,7 @@ input, textarea {
   background: transparent;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  resize: none;
 }
 
 input[type="submit"]{

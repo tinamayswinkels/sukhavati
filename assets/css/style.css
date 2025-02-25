@@ -519,6 +519,9 @@ video {
 .ml-small {
   margin-left: var(--small-padding);
 }
+.mr-2 {
+  margin-right: 0.5rem;
+}
 .mr-auto {
   margin-right: auto;
 }
@@ -537,6 +540,9 @@ video {
 .inline-block {
   display: inline-block;
 }
+.inline {
+  display: inline;
+}
 .flex {
   display: flex;
 }
@@ -554,6 +560,9 @@ video {
 }
 .min-h-full {
   min-height: 100%;
+}
+.w-\[initial\] {
+  width: initial;
 }
 .w-full {
   width: 100%;
@@ -586,6 +595,9 @@ video {
 }
 .resize-none {
   resize: none;
+}
+.resize {
+  resize: both;
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -883,6 +895,11 @@ body ul{
 
 
 /* form */
+
+label {
+  margin-bottom: 2rem;
+}
+
 input, textarea {
   display: block;
   width: 100%;
@@ -890,6 +907,7 @@ input, textarea {
   background: transparent;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  resize: none;
 }
 
 input[type="submit"]{

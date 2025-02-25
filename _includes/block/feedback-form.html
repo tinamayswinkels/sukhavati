@@ -1,0 +1,119 @@
+<section class="">
+      <div class="max-width">
+          <div class="{% case block.text-alignment %}
+          {% when 'right' %}
+              text-right
+          {% when 'center' %}
+              text-center
+          {% else %}
+          {% endcase %}  pb-12 mx-auto" {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
+            {{block.block-content-html }}
+          </div>
+            <form method="post" action="/success" class="mx-auto" {% if block.form-max-width %} style="max-width: {{block.form-max-width}} "{% endif %}>
+              <div class="grid items-center gap-8" style="grid-template-columns: 6rem 1fr;">
+                <label for="name"><h3 class="sub-heading">Your Name</h3></label>
+                <input class="placeholder:text-inherit" type="text" id="name" name="name" required>
+
+              </div>
+              <label for="Overall-Experience">
+                <h3 class="sub-heading">Your Overall Experience</h3> 
+                <p>
+                  Please share your thoughts on your overall experience, such as the reception team, staff service, meals, accommodation, housekeeping, etc 
+                </p>
+              </label>
+              <textarea name="Overall Experience" id="Overall-Experience" rows="6" resize="none"></textarea>
+
+
+              <label for="Ayurvedic-Consultations/Education">
+                <h3 class="sub-heading">Ayurvedic Consultations/Education</h3> 
+                <p>
+                  How would you describe your experience with your Ayurvedic doctor, consultations & general Ayurvedic education? 
+                </p>
+              </label>
+              <textarea name="Ayurvedic Consultations/Education" id="Ayurvedic-Consultations/Education" rows="3" resize="none"></textarea>
+
+
+              <label for="Spa-Treatments">
+                <h3 class="sub-heading">Spa Treatments</h3> 
+                <p>
+                  Please provide your feedback on the treatments and spa staff?
+                </p>
+              </label>
+              <textarea name="Spa Treatments 
+              " id="Spa-Treatments" rows="3"></textarea>
+
+
+              <label for="Health-Improvements">
+                <h3 class="sub-heading">Health Improvements</h3> 
+                <p>
+                  Have you experienced a health change or transformation you'd like to share with us? 
+                </p>
+              </label>
+              <textarea name="Health Improvements" id="Health-Improvements" rows="3"></textarea>
+
+
+              
+              <label for="Areas-for-Improvement">
+                <h3 class="sub-heading">Areas for Improvement</h3> 
+                <p>
+                  Are there any areas we could improve upon to make your next visit even more enjoyable 
+                </p>
+              </label>
+              <textarea name="Areas for Improvement" id="Areas-for-Improvement" rows="3"></textarea>
+              <!-- <input type="hidden" name="inbox_key" value="sukhavatibali"> -->
+
+              
+              <div class="flex gap-4">
+              <p>
+                Can we feature your feedback on our website or social media platforms? 
+              </p>
+
+                <label for="can-feedback-be-used-on-socials-yes"><input type="radio" name="can-feedback-be-used-on-socials" id="can-feedback-be-used-on-socials-yes" value="yes" class="inline w-[initial] mr-2">Yes</label>
+                <label for="can-feedback-be-used-on-socials-no"><input type="radio" name="can-feedback-be-used-on-socials" id="can-feedback-be-used-on-socials-no" value="no" class="inline w-[initial] mr-2">No</label>
+
+              </div>
+
+              <h3 class="sub-heading">
+                Spreading the Gift of Good Health 
+              </h3>
+
+              <p>
+                <label for="I-would-like-links">
+                <input type="checkbox" name="I would like links" id="I-would-like-links" class="w-[initial] inline mr-2 mb-0">I have friends/family etc that I would like to tell about Sukhavati so would like some helpful links etc that I can easily send them about the resort and programs? 
+                </label>
+              </p>
+              <p>
+                I would like to receive them via
+              </p>
+              <div class="grid items-center gap-8" style="grid-template-columns: 3rem 1fr;">
+                <label for="email"><p>Email</p></label>
+                <input class="placeholder:text-inherit" type="email" id="email" name="email">
+              </div>
+              <div class="grid items-center gap-8" style="grid-template-columns: 3rem 1fr;">
+                <label for="Instagram"><p>Instagram</p></label>
+                <input class="placeholder:text-inherit" type="text" id="Instagram" name="instagram">
+              </div>
+              <div class="grid items-center gap-8" style="grid-template-columns: 3rem 1fr;">
+                <label for="WhatsApp"><p>WhatsApp</p></label>
+                <input class="placeholder:text-inherit" type="tel" id="WhatsApp" name="WhatsApp">
+              </div>
+              <p>
+                If you enjoyed your stay and would be happy to share your experience publicly, we'd be thrilled if you left us a <a href="https://www.google.com/maps/place/Sukhavati,+Br+Bebengan,+Jl.+Raya+Tangeb,+Abianbase,+Mengwi,+Badung+Regency,+Bali+80351/data=!4m2!3m1!1s0x2dd2391337397da7:0x526c2ee014762ae6?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBjI1LjcuMhgAIJ6dCip1LDk0MjU1NDQ2LDk0MjQyNDk5LDk0MjIzMjk5LDk0MjE2NDEzLDk0MjEyNDk2LDk0MjA3Mzk0LDk0MjA3NTA2LDk0MjA4NTA2LDk0MjE3NTIzLDk0MjE4NjUzLDk0MjI5ODM5LDQ3MDg0MzkzLDk0MjEzMjAwQgJJRA%3D%3D&skid=3c821f30-1169-41a6-9d68-8601565887b1&g_st=aw">Google Review</a>  or record a short Video Testimonial we can post to our socials (just tell Sri or Kadek at reception and they'll record it). 
+              </p>
+              <p>
+                If you are happy to either/both of the above, as a token of our appreciation, we'd love to gift you a complimentary copy of our 'Sukhavati Ayurvedic Cookbook' or Mark Bunn's 'Ancient Wisdom for Modern Health'. (Pick-up from Reception) 
+              </p>
+
+              <input type="hidden" name="_to" value="rejuvenation@sukhavatibali.com">
+              <input type="text" name="_gotcha" style="display: none;">
+            
+              <input class="border border-[currentcolor] border-solid px-5 py-2 w-min" type="submit" value="Submit">
+          </form>
+      </div>
+    </section>
+
+<style>
+  textarea{
+    padding-top: 1rem;
+  }
+</style>
