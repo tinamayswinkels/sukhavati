@@ -798,9 +798,6 @@ video {
 .italic {
   font-style: italic;
 }
-.\!underline {
-  text-decoration-line: underline !important;
-}
 .underline {
   text-decoration-line: underline;
 }
@@ -914,7 +911,6 @@ input, textarea {
   padding-bottom: 10px;
   margin-bottom: 30px;
   resize: none;
-  -webkit-appearance: none;
   border-radius: 0
 }
 
