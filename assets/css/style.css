@@ -798,6 +798,9 @@ video {
 .italic {
   font-style: italic;
 }
+.\!underline {
+  text-decoration-line: underline !important;
+}
 .underline {
   text-decoration-line: underline;
 }
