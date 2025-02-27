@@ -769,7 +769,7 @@ _structures:
         tags:
         value:
             _id: feedback-form
-            block-content-html: <h2> We greatly value your feedback </h2><h3 class="sub-heading">thank you for staying at Sukhavati</h3><p>Out mission is to be the world's leading boutique spa, dedicated to promoting health, disease prevention, and optimal rejuvenation through the wisdom of Ayurveda. As one of our valued guests, your feedback greatly helps us continually enhance your experience and create a truly blissful and transformative retreat.</p><p>We would love to receive your thoughts on the questions below: </p>
+            block-content-html: <h2> We greatly value your feedback </h2><h3 class="sub-heading">thank you for staying at Sukhavati</h3><p>Out mission is to be the world's leading boutique spa, dedicated to promoting health, disease prevention, and optimal rejuvenation through the wisdom of Ayurveda. As one of our valued guests, your feedback greatly helps us continually enhance your experience and create a truly blissful and transformative retreat.</p><p>We would love to receive your thoughts on the questions below </p>
             text-alignment: center
             color-scheme: leaf-100
             max-width: 660px
