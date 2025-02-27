@@ -1,0 +1,124 @@
+<div class="scheme-leaf-100 relative" id="section-c1">
+            
+      <!--banner-split -->
+      
+<section class=" ">
+<div class="max-width mx-auto">
+<div class="grid md:grid-cols-2 overflow-hidden md:overflow-auto" style="gap: 5%">
+
+<div class="picture relative">
+<picture>
+<source srcset="/uploads/dsc06512.jpg" media="(min-width: 750px)" />
+<img class=" absolute inset-0 h-full w-full object-cover object-center " src="/uploads/dsc06512.jpg" alt="" />
+</picture>
+
+</div>
+<div class="text-block">
+<h3 class="sub-heading editable">ABOUT SUHKAVATI</h3><h2 class="heading-lg editable">A personalised wellness retreat in Bali</h2><p class="editable">Sukhavati is a world-class, boutique retreat designed to help you achieve profound, life-changing health transformation in a serene, natural environment. Nestled in a quiet Balinese village, our luxurious sanctuary provides a peaceful escape from the demands of modern life. With personalized wellness and rejuvenating treatments, Sukhavati allows you to deeply relax, rejuvenate, heal, and begin to integrate a lifestyle of balance and vitality for your best long term well-being.</p>
+  <p><a class="button" href="/ayurvedic-wellness-retreat.html">LEARN MORE</a></p>
+
+</div>
+</div>
+</div>
+</section>
+
+<style>
+#section-c1 .text-block {
+text-align: left;
+align-self: center;
+}
+
+#section-c1 .picture{
+aspect-ratio: 4/5;
+align-self:center;
+order:2;
+
+}
+
+
+@media (max-width: 750px) {
+
+#section-4 .text-block{
+
+  order: 1;
+
+}
+
+#section-4 .picture{
+width: calc(100vw - calc( var(--side-gap) * 2));
+ 
+}
+
+}
+
+
+</style>
+  </div>
+
+
+<div class="scheme-leaf-400 relative" id="section-c2">
+      
+<section class="px-0 ">
+<div class="px-side mb-8">
+<div class="max-width">
+  <div style="margin-left:0;max-width: 500px;" class="editable">
+    <h3 class="sub-heading">ALL-INCLUSIVE WELLNESS RETREAT</h3><h2
+    class="heading-lg">Explore Benefits</h2><p>Discover the
+    life-changing benefits of holistic wellness. From renewed energy and
+    improved digestion to a clearer mind and uplifted spirit, experience
+    profound, lasting transformations that will enhance every aspect of
+    your wellbeing.</p>
+  </div>
+  
+</div>
+</div>
+<div class="gap-4 flex flex-nowrap overflow-scroll no-scrollbar">
+
+
+{% for benifit in site.benefits %}
+  <div class="shrink-0 {% if forloop.index == 1 %} ml-full-side {% endif %} {% if forloop.last %} mr-full-side {% endif %}  " style="width: min( max(25%, 8rem) , 500px );">
+    <a href="{{benifit.url}}">
+      <div class="image-sizer relative mb-small">
+        <img class=" object-cover object-center absolute inset-0 h-full  w-full" src="{{benifit.featured_image}}" alt="" />
+      </div>
+    <h3 class="sub-heading">{{benifit.title}}</h3>
+    <p>
+      
+    </p>
+    </a>
+  </div>
+{% endfor %}
+
+</div>
+</section>
+
+
+  <style>
+   #section-c2 .image-sizer {aspect-ratio:9/16;}
+  </style>
+
+</div>
+    
+
+
+<div class="scheme-leaf-400 relative" id="section-c3">
+            
+  <!--text-block -->
+  
+<section class="flex justify-center items-center">
+<div class="max-width text-center" style="max-width: 640px;">
+<div class="editable" >
+    <h2 class="heading-md">Ready to change your life?</h2>
+    <p >A stronger, more vibrant and healthier you is only a booking away. Contact us to book your stay or to ask your questions and find out more about how a program can benefit you.</p>
+    <p><a href="https://bookings.sukhavatibali.com/en/product/panchakarma" class="button">BOOK YOUR PERSONALISED RETREAT</a></p>
+</div>
+</div>
+</section>
+
+
+<style>
+#section-c3 section{
+min-height: 65vh;
+}
+</style>
+</div>

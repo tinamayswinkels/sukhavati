@@ -147,6 +147,8 @@
   </header>
 </div>
 
+
+
   {% if page.blocks %}
     
     {% for block in page.blocks %}
@@ -174,12 +176,18 @@
       {% endif %}
     {% endfor %}
 
+
   {% else %}
     <section>
       <div class="max-width">
         {{content}}
       </div>
     </section>
+  {% endif %}
+
+
+  {% if page.layout == 'benefits' %}
+    {% include benefits.html %}
   {% endif %}
 
 
