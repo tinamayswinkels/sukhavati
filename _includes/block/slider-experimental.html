@@ -1,0 +1,105 @@
+
+<section>
+      <div class="max-width mb-[60px]">
+          <div class="
+          {% case block.text-alignment %}
+          {% when 'left' %}
+          mr-auto
+          {% when 'center' %}
+           mx-auto text-center
+          {% when 'right' %}
+          ml-auto text-right
+          {% endcase %}
+          mb-8
+          " {% if block.text-box-max-width %} style="max-width: min({{block.text-box-max-width}}, 100%) "{% endif %}>
+           
+          {% if noH1 == true %}
+          {{block.block-content-html | replace: 'h2','h1'}}
+          {% else %}
+          {{block.block-content-html}}
+          {% endif %}
+    
+          {% if block.block-content-html contains "h2" %}
+            {% assign noH1 = false %}
+          {% endif %}
+          </div>
+          <div class="-mx-small slider mb-vert">
+            {% for col in block.slider %}
+            <div class="p-small h-full scheme-{{block.slider_col_color_scheme}} col-{{forloop.index}}" >
+              <div class="color-set">
+                {% if col.image %}
+                <div class="image-sizer relative">
+                  <img class="{% unless block.img_aspect == 'Original' %} absolute inset-0 object-cover object-center h-full w-full {% endunless %}" src="{{col.image}}" alt=""loading="lazy">
+                </div>
+                {% endif %}
+                {% if col.youtube_embed %}
+
+                  <div class="relative video-parent" style="aspect-ratio:{% if block.video_aspect == 'Testimonials' %} .563; {% else %} 2 {% endif %}" data-embed-code='{{col.youtube_embed}}'>
+                    <img src="{{col.youtube_placeholder}}" class="absolute inset-0 h-full w-full" alt="">
+
+                    <div class="video-target"></div>
+                  </div>
+
+                  {% endif %}
+
+                {% if col.block-content-html %}
+                <div class="p-small star-aligner">
+                  {{col.block-content-html}}
+                </div>
+                {% endif %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
+    </section>
+
+
+    <img src="/uploads/youtube-lindy.png" alt="">
+
+    <style>
+
+
+
+#section-{{forloop.index}} iframe{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+      .slider:has(> .scheme-{{block.slider_col_color_scheme}}) {
+        display:flex;
+        justify-content: flex-start
+      }
+
+    .slider > .scheme-{{block.slider_col_color_scheme}} {
+      display: inline-block;
+      width: 33%;
+     } 
+     .slider > .scheme-{{block.slider_col_color_scheme}}:nth-child(n+4){
+      display: none;
+     }
+
+      #section-{{forloop.index}} .image-sizer {
+      aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
+    }
+
+
+    @media  (min-width: 750px) {
+      
+
+      #section-{{forloop.index}} section{
+        {% if block.collapse-top-space == true %}
+          padding-top: 1px;
+        {% endif %}
+      
+        {% if block.collapse-bottom-space == true %}
+            padding-bottom: 1px;
+        {% endif %}
+      
+      }
+    }
+  </style>
+
