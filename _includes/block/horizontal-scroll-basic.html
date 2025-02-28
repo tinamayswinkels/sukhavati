@@ -22,7 +22,7 @@
         <div class="shrink-0 {% if forloop.first  %} ml-full-side {% endif %} {% if forloop.last  %} mr-full-side {% endif %}" style="width: min( {{block.image-width}} , 500px );">
           {% if col.link %}<a href="{{col.link}}">{% endif%}
             <div class="image-sizer relative mb-small">
-              <img class="{% unless block.img_aspect == 'Original' %} object-cover object-center absolute inset-0 h-full {% endunless %} w-full" src="{{col.image}}" alt="">
+              <img class="{% unless block.img_aspect == 'Original' %} object-cover object-center absolute inset-0 h-full {% endunless %} w-full" src="{{col.image}}" alt="" {% unless block.forloop.first %} loading="lazy"{% endunless %}>
             </div>
           <h3 class="sub-heading">{{col.heading}}</h3>
           <p>
