@@ -29,7 +29,7 @@
 
               <div class="color-set">
                 <div class="image-sizer relative">
-                  <img class="{% unless block.img_aspect == 'Original' %} absolute inset-0 object-cover object-center h-full w-full {% endunless %}" src="{{post.featured_image}}" alt="">
+                  <img class="{% unless block.img_aspect == 'Original' %} absolute inset-0 object-cover object-center h-full w-full {% endunless %}" src="{{post.featured_image}}" alt="" {% unless block.forloop.first %} loading="lazy"{% endunless %}>
                 </div>
 
                 <div class="p-small star-aligner">

@@ -1,4 +1,4 @@
 <div  {% if block.img-mixed-aspect == true %} class="pb-[100%] w-full" {% elsif col.img_aspect == 'Original' %} {% else %} class="w-full" style="aspect-ratio: {% include logic/aspect-logic.html aspect = col.img_aspect %}; {% endif %}">
 <img class="{% unless col.img_aspect == 'Original' %}object-cover object-center inset-0 absolute h-full
-{% endunless %} w-full" src="{{col.image}}" alt="{{col.image_alt}}" {% if col.image-position %} style="object-position: {{col.image-position}} " {% endif %}>
+{% endunless %} w-full" src="{{col.image}}" alt="{{col.image_alt}}" {% if col.image-position %} style="object-position: {{col.image-position}} " {% endif %} {% unless block.forloop.first %} loading="lazy"{% endunless %}>
 </div>
