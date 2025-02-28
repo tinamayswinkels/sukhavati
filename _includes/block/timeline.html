@@ -2,7 +2,15 @@
 <section id="schedule">
       <div class="max-width" {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
           <div class="text-center mb-vert">
-            {{block.block-content-html }}
+            {% if noH1 == true %}
+            {{block.block-content-html | replace: 'h2','h1'}}
+            {% else %}
+            {{block.block-content-html}}
+            {% endif %}
+      
+            {% if block.block-content-html contains "h2" %}
+              {% assign noH1 = false %}
+            {% endif %}
           </div>
           <div class="mx-auto grid timeline-grid"  style="max-width: {{block.max-width-timeline}} ">
               {% for point in block.time-line-points %}

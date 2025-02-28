@@ -2,7 +2,15 @@
 <section class="px-0 md:pl-full-side grid">
   <div class="mx-full-side md:mx-0 mb-small md:mb-0">
       <div>
-            {{block.block-content-html}}
+        {% if noH1 == true %}
+        {{block.block-content-html | replace: 'h2','h1'}}
+        {% else %}
+        {{block.block-content-html}}
+        {% endif %}
+  
+        {% if block.block-content-html contains "h2" %}
+          {% assign noH1 = false %}
+        {% endif %}
       </div>
     </div>
     <div class="gap-4 flex flex-nowrap overflow-scroll no-scrollbar" {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>

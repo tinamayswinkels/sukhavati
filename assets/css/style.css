@@ -783,9 +783,6 @@ video {
 .pb-small {
   padding-bottom: var(--small-padding);
 }
-.pr-0 {
-  padding-right: 0px;
-}
 .pt-0 {
   padding-top: 0px;
 }
@@ -931,6 +928,11 @@ textarea:focus, textarea:focus-within{
 
 .heading-md {
   font-size: 1.8rem;
+}
+
+.heading-lg {
+  font-size: 2.5rem;
+  letter-spacing: -0.01em;
 }
 
 hr {

@@ -8,7 +8,15 @@
         
       </div>
       <div class="text-block mb-small pb-small">
+        {% if noH1 == true %}
+        {{block.block-content-html | replace: 'h2','h1'}}
+        {% else %}
         {{block.block-content-html}}
+        {% endif %}
+  
+        {% if block.block-content-html contains "h2" %}
+          {% assign noH1 = false %}
+        {% endif %}
         <div class="grid-cols-3 grid" style="gap: {{site.data.style.split_banner_gap}}">
           <div>
             <h3 class="sub-heading">SIZE</h3>

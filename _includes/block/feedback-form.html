@@ -7,7 +7,15 @@
               text-center
           {% else %}
           {% endcase %}  pb-12 mx-auto" {% if block.max-width %} style="max-width: {{block.max-width}} "{% endif %}>
-            {{block.block-content-html }}
+          {% if noH1 == true %}
+          {{block.block-content-html | replace: 'h2','h1'}}
+          {% else %}
+          {{block.block-content-html}}
+          {% endif %}
+    
+          {% if block.block-content-html contains "h2" %}
+            {% assign noH1 = false %}
+          {% endif %}
           </div>
             <form method="post" action="/success" class="mx-auto" {% if block.form-max-width %} style="max-width: {{block.form-max-width}} "{% endif %}>
               <div class="grid items-center gap-8" style="grid-template-columns: 6rem 1fr;">

@@ -3,7 +3,15 @@
   <div class="px-side mb-8">
       <div class="max-width">
           <div style="max-width: 640px; margin-left: 0;">
+            {% if noH1 == true %}
+            {{block.block-content-html | replace: 'h2','h1'}}
+            {% else %}
             {{block.block-content-html}}
+            {% endif %}
+      
+            {% if block.block-content-html contains "h2" %}
+              {% assign noH1 = false %}
+            {% endif %}
           </div>
           
       </div>

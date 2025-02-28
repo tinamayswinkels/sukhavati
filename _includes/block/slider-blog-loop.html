@@ -11,8 +11,15 @@
           ml-auto text-right
           {% endcase %}
           " {% if block.text-box-max-width %} style="max-width: min({{block.text-box-max-width}}, 100%) "{% endif %}>
-           
-            {{block.block-content-html }}
+          {% if noH1 == true %}
+          {{block.block-content-html | replace: 'h2','h1'}}
+          {% else %}
+          {{block.block-content-html}}
+          {% endif %}
+    
+          {% if block.block-content-html contains "h2" %}
+            {% assign noH1 = false %}
+          {% endif %}
           </div>
           <div class="-mx-small slider mb-vert">
             {% for post in site.posts | limit: 10 %}
