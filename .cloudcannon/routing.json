@@ -1,29 +1,85 @@
 {
     "routes": [
       {
+        "from": "/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify/",
+        "to": "/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify",
+        "status": 301
+      },
+      {
+        "from": "https://www.sukhavatibali.com/the-6-tastes-a-guide-map-to-ultimate-nutrition/",
+        "to": "https://www.sukhavatibali.com/the-6-tastes-a-guide-map-to-ultimate-nutrition",
+        "status": 301
+      },
+      {
+        "from": "/patanjalis-yoga-sutras-the-8-limbs-of-yoga/",
+        "to": "/patanjalis-yoga-sutras-the-8-limbs-of-yoga",
+        "status": 301
+      },
+      {
+        "from": "/weight-loss-program/",
+        "to": "/weight-loss",
+        "status": 301
+      },
+      {
         "from": "/detox-wellness-program/",
         "to": "/detox",
         "status": 301
       },
       {
-        "from": "/upcoming-retreats-and-events/",
+        "from": "/upcoming-retreats-and-events",
         "to": "/",
         "status": 301
       },
       {
-        "from": "/why-stay-at-sukhavati-bali-retreat",
-        "to": "/your-journey",
+        "from": "/why-stay-at-sukhavati-bali-retreat/",
+        "to": "your-journey",
         "status": 301
       },
       {
-        "from": "/rheumatoid-arthritis//",
+        "from": "/rheumatoid-arthritis/",
         "to": "/arthritis-pain",
         "status": 301
       },
       {
-        "from": "/rheumatoid-arthritis//",
-        "to": "/Videos-and-Article",
+        "from": "/seek-from-chronic-pain/",
+        "to": "/arthritis-pain",
+        "status": 301
+      },
+      {
+        "from": "/our-story/",
+        "to": "/our-story",
+        "status": 301
+      },
+      {
+        "from": "/panchakarma-phases/",
+        "to": "/panchakarma",
+        "status": 301
+      },
+      {
+        "from": "/our-luxury-ayurveda-programs/",
+        "to": "/ayurvedic-wellness-retreat",
+        "status": 301
+      },
+      {
+        "from": "/100-wonderful-ways-to-live-to-100/",
+        "to": "/100-wonderful-ways-to-live-to-100",
+        "status": 301
+      },
+      {
+        "from": "/overcoming-adrenal-fatigue/",
+        "to": "/burnout-fatigue",
+        "status": 301
+      },
+      {
+        "from": "/stress-management-program/",
+        "to": "stress-anxiety-insomnia",
+        "status": 301
+      },
+      {
+        "from": "/our-team/",
+        "to": "/team",
         "status": 301
       }
     ]
   }
+
