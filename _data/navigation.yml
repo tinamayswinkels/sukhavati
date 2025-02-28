@@ -18,10 +18,10 @@ header_links:
       - text: Other Services
         link: /other-services
   - text: Your Journey
-    link: /your-journey.html
+    link: /your-journey 
     sub_links:
       - text: Your Stay at Sukhavati
-        link: /your-journey.html
+        link: /your-journey 
       - text: Your Retreat Experience
         link: /your-retreat-experience
       - text: Your Daily Schedule
@@ -59,18 +59,18 @@ header_links:
       - text: Videos & Articles
         link: /Videos-and-Article
   - text: Contact
-    link: /contact.html
+    link: /contact 
 footer-logo-image: /uploads/logo-footer.png
 footer-logo-size: 450px
 footer_nav_bar:
   - text: Our Program
-    link: /ayurvedic-wellness-retreat.html
+    link: /ayurvedic-wellness-retreat 
   - text: Your Journey
     link: /your-journey
   - text: Retreat Experience
-    link: /your-retreat-experience.html
+    link: /your-retreat-experience 
   - text: Wellness Goals
-    link: /explore-benefits.html
+    link: /explore-benefits 
   - text: About Ayurveda
     link: /about-ayurveda
 footer-location-html: >-

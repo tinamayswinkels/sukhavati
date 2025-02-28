@@ -1,0 +1,29 @@
+{
+    "routes": [
+      {
+        "from": "/detox-wellness-program/",
+        "to": "/detox",
+        "status": 301
+      },
+      {
+        "from": "/upcoming-retreats-and-events/",
+        "to": "/",
+        "status": 301
+      },
+      {
+        "from": "/why-stay-at-sukhavati-bali-retreat",
+        "to": "/your-journey",
+        "status": 301
+      },
+      {
+        "from": "/rheumatoid-arthritis//",
+        "to": "/arthritis-pain",
+        "status": 301
+      },
+      {
+        "from": "/rheumatoid-arthritis//",
+        "to": "/Videos-and-Article",
+        "status": 301
+      }
+    ]
+  }
