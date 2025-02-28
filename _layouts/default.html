@@ -400,7 +400,7 @@ console.log('#section-{{forloop.index}} has slider')
            slidesToShow: {{block.slider_column_count}},
            slidesToScroll: 1,
            dragable: true,
-           infinite: true,
+           infinite: false,
            speed: 500,
            fade: false,
            cssEase: 'linear',
@@ -436,7 +436,11 @@ console.log('#section-{{forloop.index}} has slider')
               let videoTarget = e.target.querySelector('.video-target')
               console.log(e.target,e.target.dataset.embedCode)
               videoTarget.innerHTML = e.target.dataset.embedCode
-              e.target.removeEventListener('mouseenter',triggerVideoLoad)
+              e.target.removeEventListener('mouseenter',triggerVideoLoad);
+              setTimeout(() => {
+                  videoTarget.style.opacity = 1;
+                }, 1000);
+              
             }
 
 

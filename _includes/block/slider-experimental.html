@@ -37,7 +37,7 @@
                   <div class="relative video-parent" style="aspect-ratio:{% if block.video_aspect == 'Testimonials' %} .563; {% else %} 2 {% endif %}" data-embed-code='{{col.youtube_embed}}'>
                     <img src="{{col.youtube_placeholder}}" class="absolute inset-0 h-full w-full" alt="">
 
-                    <div class="video-target"></div>
+                    <div class="video-target" ></div>
                   </div>
 
                   {% endif %}
@@ -85,6 +85,8 @@
       #section-{{forloop.index}} .image-sizer {
       aspect-ratio: {% include logic/aspect-logic.html aspect = block.img_aspect %} ;
     }
+
+    .video-target{opacity: 0; transition: all 1s;}
 
 
     @media  (min-width: 750px) {
