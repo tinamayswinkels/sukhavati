@@ -477,18 +477,22 @@ _structures:
           slider:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
+              youtube_placeholder:
+              image: 
+              link:
+            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
+              youtube_embed:              
+              youtube_placeholder: 
               image: 
               link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
+              youtube_placeholder:
               image: 
               link:
             - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
               youtube_embed:
-              image: 
-              link:
-            - block-content-html: <h3> lorem </h3><h2>  experiences  </h2>
-              youtube_embed:
+              youtube_placeholder:
               image: 
               link:
           color-scheme: leaf-500
