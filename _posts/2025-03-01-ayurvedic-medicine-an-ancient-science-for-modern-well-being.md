@@ -52,7 +52,7 @@ Since we are influenced by the same forces that shape the natural world, our hea
 
 ## **The Role of the Doshas in Ayurveda**
 
-Ayurveda categorizes the body’s constitution into three primary doshas—Vata, Pitta, and Kapha. These biological energies are derived from the five elements and influence everything from digestion and metabolism to mood and cognitive function.
+Ayurveda categorizes the body’s constitution into three primary [doshas—Vata, Pitta, and Kapha](/the-doshas/). These biological energies are derived from the five elements and influence everything from digestion and metabolism to mood and cognitive function.
 
 Each person has a unique balance of Vata (air & space), Pitta (fire & water), and Kapha (earth & water). When these energies are balanced, we thrive; when they are imbalanced, we experience illness, fatigue, or discomfort.
 
