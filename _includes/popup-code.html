@@ -1,6 +1,15 @@
-{% if site.data.pop-up.shown == true %}
+{% assign pop-up == false %}
 
-<div class="scheme-leaf-200">
+{% if site.data.pop-up.shown == true %}
+    {% assign pop-up = true %}
+{% endif %}
+
+{% if page.permalink == 'temp' %}
+    {% assign pop-up = true %}
+{% endif %}
+
+{% if pop-up == true %}
+<div class="scheme-{{site.data.pop-up.color-scheme}}">
     <div id="popup" class="color-set grid grid-cols-2 fixed bottom-8 border border-black bg-white z-50">
         <div class="p-8 relative color-set">
             {{site.data.pop-up.block-content-html}}
@@ -97,9 +106,17 @@ opacity: .6;
       }, "{{site.data.pop-up.hide-duration-in-days | times: 1000 }}")
 }
 
+
+ {% if site.data.pop-up.testing-mode == false %}
+
+
+
 // removes cookies for testing
 document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
         
+{% endif %}
+
   </script>
 
 {% endif %}
+
