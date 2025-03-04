@@ -18,7 +18,7 @@ seo:
     image:
     favicon:
     index: true
-permalink:
+permalink: /ayurvedic-medicine/
 ---
 # **Ayurvedic Medicine: An Ancient Science for Modern Well-being**
 
