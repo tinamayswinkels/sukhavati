@@ -1,8 +1,12 @@
-block-content-html: <h2>New year<br>New you</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sit magnam consectetur harum laborum. Est culpa laboriosam illo perspiciatis. Facilis dolore perferendis vero ullam recusandae ducimus maiores vel libero quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sit magnam consectetur harum laborum. Est culpa laboriosam illo perspiciatis. Facilis dolore perferendis vero ullam recusandae ducimus maiores vel libero quisquam.</p><p><a class='button-featured'>find out more</a></p>
-featured-image: /uploads/patanjali-s-yoga-sutras-the-8-limbs-of-yoga.jpg
+block-content-html: >-
+  <h2>March </h2><h2>Special Offer</h2><p>Stay at Sukhavati before March 21st
+  and receive 1 complimentary night for every 3 nights booked (e.g. book for 9
+  nights, pay for 6). </p><p>Message us now and mention "March Special" for
+  details and availability.</p>
+featured-image: /uploads/dsc06526.jpg
 pop-up-width: 750px
 hide-duration-in-days: 1
 popup-delay-in-seconds: 1
 pop-up.color-scheme: leaf-200
-testing-mode: true
-shown: false
+testing-mode: false
+shown: true
