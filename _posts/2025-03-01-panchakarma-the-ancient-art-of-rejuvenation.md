@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Panchakarma: The Ancient Art of Rejuvenation'
-featured_image:
+featured_image: /uploads/dji-0057.jpg
 blocks:
     -
         _id: blog-content-block
@@ -40,7 +40,7 @@ Sukhavati Ayurvedic Retreat and Spa in Bali is a little oasis for healing. ‘Su
 
 Panchakarma is a beautiful gift that Ayurveda has to offer the world. This sophisticated program explicitly developed for the treatment of illness and the attainment of vitality and longevity. Panchakarma treatments have been refined and developed over thousands of years.
 
-![](/uploads/300cf6b76317e28fdf479bd006ebfd48.jpeg)
+![Sukhavati Retreat](/uploads/300cf6b76317e28fdf479bd006ebfd48.jpeg)
 
 Ayurveda recommends that to keep up high levels of vitality, clarity and youthfulness, it is essential to purify the mind and body internally. Modern natural healing modalities call this detoxification.
 
