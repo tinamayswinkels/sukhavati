@@ -40,6 +40,8 @@ Sukhavati Ayurvedic Retreat and Spa in Bali is a little oasis for healing. ‘Su
 
 Panchakarma is a beautiful gift that Ayurveda has to offer the world. This sophisticated program explicitly developed for the treatment of illness and the attainment of vitality and longevity. Panchakarma treatments have been refined and developed over thousands of years.
 
+![](/uploads/300cf6b76317e28fdf479bd006ebfd48.jpeg)
+
 Ayurveda recommends that to keep up high levels of vitality, clarity and youthfulness, it is essential to purify the mind and body internally. Modern natural healing modalities call this detoxification.
 
 Detoxing or removing toxic build up from the body is beneficial in many ways. It creates an ideal environment so the body can function efficiently, it boosts the immune system, improves digestion, improves the clarity of mind, reduces stress, regulates weight, increases energy, and creates beautiful glowing skin, but most importantly, the process is removing the toxic material that causes us to become unwell. Detoxification is the most powerful tool for disease preventative.
