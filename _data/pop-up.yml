@@ -4,6 +4,7 @@ block-content-html: >-
   nights, pay for 6). </p><p>Message us now and mention "March Special" for
   details and availability.</p>
 featured-image: /uploads/dsc06190.jpg
+X-color: '#ffffff'
 pop-up-width: 750px
 hide-duration-in-days: 1
 popup-delay-in-seconds: 1
