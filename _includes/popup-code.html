@@ -4,9 +4,11 @@
     {% assign pop-up = true %}
 {% endif %}
 
-{% if page.permalink == 'temp' %}
+{% if page.allwaysShowPopUp == true %}
     {% assign pop-up = true %}
 {% endif %}
+
+{{page.allwaysShowPopUp}}
 
 {% if pop-up == true %}
 <div class="scheme-{{site.data.pop-up.color-scheme}}">
@@ -17,7 +19,7 @@
         <div class="relative image-div">
             <img class="absolute inset-0 h-full w-full object-cover" src="{{site.data.pop-up.featured-image}}" alt=""loading="lazy">
         </div>
-        <svg class="absolute top-4 right-4 hide-button" width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="{{site.data.pop-up.X-color}}"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="{{site.data.pop-up.X-color}}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        <svg class="absolute top-4 right-4 hide-button" width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="var(--X-color)"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="var(--X-color)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         <div class="popup-overlay fixed inset-0 bg-black -z-10">
 
         </div>
@@ -31,7 +33,8 @@
 #popup {
     right: -{{site.data.pop-up.pop-up-width}};
     transition: right .5s;
-    max-width: min( calc(100vw - 4rem), {{site.data.pop-up.pop-up-width}})
+    max-width: min( calc(100vw - 4rem), {{site.data.pop-up.pop-up-width}});
+    --X-color: {{site.data.pop-up.X-color}};
 }
 #popup.appear {
     right: 2rem;
@@ -51,7 +54,9 @@ opacity: .6;
 @media (max-width: {{site.data.pop-up.pop-up-width}}) {
     #popup {
         grid-template-columns: 1fr;
+        --X-color: var(--text-color);
     }
+    
 }
 
 
@@ -89,9 +94,15 @@ opacity: .6;
   
     const cookieBanner = document.querySelector('#popup')
     const hideButton = cookieBanner.querySelector('.hide-button')
-    const popUpLinks = 
+    const popupOverlay = cookieBanner.querySelector('.popup-overlay')
+    
   
     hideButton.addEventListener('click', () => {
+        createCookie(hidePopUp, true, {{site.data.pop-up.hide-duration-in-days}})
+        cookieBanner.classList.remove('appear')
+    })
+
+    popupOverlay.addEventListener('click', () => {
         createCookie(hidePopUp, true, {{site.data.pop-up.hide-duration-in-days}})
         cookieBanner.classList.remove('appear')
     })
@@ -107,7 +118,9 @@ opacity: .6;
 }
 
 
- {% if site.data.pop-up.testing-mode == false %}
+
+
+ {% if site.data.pop-up.testing-mode == true %}
 
 
 
@@ -116,7 +129,8 @@ document.cookie.split(";").forEach(function(c) { document.cookie = c.replace(/^ 
         
 {% endif %}
 
-  </script>
 
+
+  </script>
 {% endif %}
 
