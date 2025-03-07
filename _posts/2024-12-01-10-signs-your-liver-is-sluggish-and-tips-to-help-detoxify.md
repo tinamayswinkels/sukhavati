@@ -21,9 +21,7 @@ permalink:
 ---
 # 10 Signs Your Liver is Sluggish and Tips to Help Detoxify
 
-January 17,2017
-
-{% include snippets/imgGallery3.html first-image="/uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
+January 25, 2025
 
 ## **The liver is the biggest organ of detoxification in your body.**
 
@@ -64,7 +62,7 @@ When your liver is overwhelmed with the burden of high toxin exposure you start 
 
 If your liver is under stress for a long time a condition called fatty liver develops. Fatty liver is the build-up of excess fat in the liver. It’s a common condition in Western countries, affecting 1 in 10 people. Serious conditions such as diabetes, metabolic syndrome, cirrhosis and cancer ensue after fatty liver.
 
-[![signs your liver is struggling](https://www.sukhavatibali.com/wp-content/uploads/2017/01/signs-your-liver-is-struggling.jpg){: width="900" height="500"}](https://www.sukhavatibali.com/wp-content/uploads/2017/01/signs-your-liver-is-struggling.jpg)
+&nbsp;
 
 ## **Three tips to support liver detoxification**
 
@@ -74,7 +72,7 @@ If your liver is under stress for a long time a condition called fatty liver dev
 * Substitute toxic and poor quality fats and oils like canola oil, corn oil, margarine and trans fats for good quality oils such as ghee, butter, coconut oil or rice bran oil.
 * Decrease animal products, especially red meat and processed meats.
 * Eliminate or greatly reduce alcohol. If you have experienced 3 or more of the above symptoms end immediately.
-* Minimise/ Avoid coffee
+* Minimise / Avoid coffee
 
 ### Include foods into your diet that support liver and digestive function
 
@@ -83,7 +81,7 @@ If your liver is under stress for a long time a condition called fatty liver dev
 * Foods that support liver detoxification: Beetroot, turmeric, onion, garlic, broccoli, Brussel sprouts, cauliflower, green leafy vegetables (especially the bitter kind such as Rocket, endive, dandelion leaves), wheat germ, legumes, grapefruit, and lemon.
 * A fresh juice of beetroot, ginger, carrot and celery daily greatly assists.
 
-[![signs symptoms overworked liver sluggish helpful foods](https://www.sukhavatibali.com/wp-content/uploads/2017/01/foods-that-support-liver.jpg){: width="900" height="500"}](https://www.sukhavatibali.com/wp-content/uploads/2017/01/foods-that-support-liver.jpg)
+  &nbsp;
 
 ### Herbal Medicine
 
@@ -91,12 +89,12 @@ If your liver is under stress for a long time a condition called fatty liver dev
 
 St Mary’s thistle is also commonly known as Milk Thistle. It is the best herb to restore liver cells. The liver of course is the organ that can easily regenerate itself. Milk Thistle stimulates detoxification as its balancing for both phases of detoxification. It also helps the liver to deal with fat better. Research shows Milk Thistle is effective in treating fatty liver disease (Cacciapuoti, et al, 2013). It’s a potent antioxidant so protects the liver from harmful free radicals and chemicals.
 
-[![congested liver congestion symptoms helped with milk thistle](https://www.sukhavatibali.com/wp-content/uploads/2017/01/herbs-that-support-liver.jpg){: width="900" height="500"}](https://www.sukhavatibali.com/wp-content/uploads/2017/01/herbs-that-support-liver.jpg)
-
 #### Dandelion Root
 
 Traditionally Dandelion root is used to clear a sluggish or congested liver. In modern medicine it’s been shown to increases bile flow. Increased bile flow supports the removal of the packaged toxins through phase 2 to be eliminated from the body more efficiently. Increased bile flow also assists in strengthening digestive function and helps to relive constipation. Dandelion leaves are eaten as a bitter green in a salad and the dried root also makes a tea and is often used a coffee substitute.
 
-![sluggish liver](https://www.sukhavatibali.com/wp-content/uploads/2018/10/tegan-final2-2-1500357848-medium.jpg){: width="192" height="262"}
+### Personalised Wellness & Detox at Sukhavati
+
+Supporting your liver isn’t just about making changes at home—it’s about finding a holistic approach that nurtures your body, mind, and spirit. At Sukhavati Ayurvedic Wellness Retreat, we offer personalised detox programs tailored to your unique constitution and health goals. Our expert practitioners combine time-honored Ayurvedic therapies, nourishing meals, and guided practices to support deep healing and rejuvenation. Whether you’re looking to reset your health, restore vitality, or simply reconnect with yourself, our retreat provides the space and expertise to guide you on your journey to lasting wellness.
 
 Author: Tegan Wallis<br>Holistic Health Practitioner
