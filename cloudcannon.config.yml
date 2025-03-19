@@ -262,6 +262,9 @@ _inputs:
         640px : medium
         768px: large
         1024px: Extra large
+  youtube_placeholder:
+    type: image
+    cascade: true
 
 
 _structures:
