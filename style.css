@@ -143,6 +143,10 @@ header a:hover, header .unlinked:hover {
   opacity: .6;
 }
 
+#header{
+  z-index: 1000;
+}
+
 footer * {
   border-color: initial;
 }
