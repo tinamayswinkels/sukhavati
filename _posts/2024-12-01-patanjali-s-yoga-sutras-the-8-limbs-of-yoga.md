@@ -22,7 +22,7 @@ permalink:
 
 September 18,2017
 
-{% include snippets/imgGallery3.html first-image="/uploads/patanjali-s-yoga-sutras-the-8-limbs-of-yoga.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
+{% include snippets/imgGallery3.html first-image="/uploads/patanjali-s-yoga-sutras-the-8-limbs-of-yoga.jpg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="Original" %}
 
 ## **Yoga is more than bending, stretching, relaxation and yoga pants.**
 
