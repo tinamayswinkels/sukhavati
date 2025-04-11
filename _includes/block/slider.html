@@ -35,7 +35,7 @@
                 {% if col.youtube_embed %}
 
                   <div class="relative video-parent" style="aspect-ratio:{% if block.video_aspect == 'Testimonials' %} .563; {% else %} 2 {% endif %}" data-embed-code='{{col.youtube_embed}}'>
-                    <img src="{{col.youtube_placeholder}}" class="absolute inset-0 h-full w-full" alt="">
+                    <img src="{{col.youtube_placeholder}}" class="absolute inset-0 h-full w-full" alt="" loading="lazy">
 
                     <div class="video-target" ></div>
                   </div>
