@@ -79,7 +79,26 @@
         "from": "/our-team/",
         "to": "/team",
         "status": 301
+      },      
+      {
+        "from": "/media-hub/blog/news/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify/",
+        "to": "/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify",
+        "status": 301
+      },      
+      {
+        "from": "/wellness/ayurveda-retreat-health-program/",
+        "to": "/your-journey",
+        "status": 301
+      },      {
+        "from": "/program-category/one-day-taste-of-ayurveda-program/",
+        "to": "/your-journey",
+        "status": 301
+      },      {
+        "from": "/meet-dr-mithun-raju/ ",
+        "to": "/team",
+        "status": 301
       }
+
     ]
   }
 
