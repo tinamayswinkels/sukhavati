@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Are Liver Cleanse Supplements Safe? What Ayurveda Says
-featured_image: /uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg
+featured_image:
 blocks:
     -
         _id: blog-content-block
@@ -18,7 +18,7 @@ seo:
     index: true
 permalink:
 ---
-A quick online search for "liver detox" will give you thousands of results—most of them offering powders, pills, or tea blends claiming to "cleanse your liver fast." But how safe and effective are these supplements? And what does Ayurveda, the world’s oldest medical system, have to say about them?
+A quick online search for “liver detox” will give you thousands of results—most of them offering powders, pills, or tea blends claiming to “cleanse your liver fast.” But how safe and effective are these supplements? And what does Ayurveda, the world’s oldest medical system, have to say about them?
 
 ### The Problem With Over-the-Counter Liver Detox Products
 
@@ -56,7 +56,7 @@ That’s why self-prescribing is never recommended.
 
 ### Safer, Smarter Alternatives
 
-If you're looking for real, long-term support:
+If you’re looking for real, long-term support:
 
 * Focus on lifestyle and diet first (\[see this morning routine guide\])
 * Work with an Ayurvedic practitioner who can individualise your care
@@ -68,4 +68,4 @@ During your stay at Sukhavati, you’ll receive a tailored plan that may include
 
 **Confused by conflicting liver detox advice?**
 
-Book a free consultation with our team to understand what's right for *your* body, and discover a safer, more effective way to feel your best.
+Book a free consultation with our team to understand what’s right for *your* body, and discover a safer, more effective way to feel your best.
