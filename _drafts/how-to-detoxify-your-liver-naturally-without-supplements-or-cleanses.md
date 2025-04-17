@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Detoxify Your Liver Naturally (Without Supplements or Cleanses)
-featured_image:
+featured_image: /uploads/vitalii-pavlyshynets-kcrfw-hje8y-unsplash-min.jpg
 blocks:
     -
         _id: blog-content-block
@@ -18,7 +18,7 @@ seo:
     index: true
 permalink:
 ---
-Whether you're recovering from stress, feeling sluggish, or simply want to take better care of your liver, natural detox doesn’t need to be extreme. Ayurveda offers a safer, more sustainable path—one that helps your liver thrive without relying on supplements, powders, or strict cleanses.. According to Ayurveda, detoxification is not about extremes—it’s about creating balance, supporting digestion, and allowing the body’s natural intelligence to do what it does best: heal.
+Whether you’re recovering from stress, feeling sluggish, or simply want to take better care of your liver, natural detox doesn’t need to be extreme. Ayurveda offers a safer, more sustainable path—one that helps your liver thrive without relying on supplements, powders, or strict cleanses.. According to Ayurveda, detoxification is not about extremes—it’s about creating balance, supporting digestion, and allowing the body’s natural intelligence to do what it does best: heal.
 
 ### Why Harsh Detoxes May Do More Harm Than Good
 
