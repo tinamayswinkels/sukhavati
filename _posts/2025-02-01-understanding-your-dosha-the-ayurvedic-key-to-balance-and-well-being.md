@@ -20,7 +20,7 @@ seo:
     index: true
 permalink: /the-doshas/
 ---
-# **Understanding Your Dosha: The Ayurvedic Key to Balance and Well-being**
+# Understanding Your Dosha: The Ayurvedic Key to Balance and Well-being
 
 Have you ever noticed how some people seem naturally energetic and spontaneous, while others are calm and steady? Ayurveda, the ancient system of natural healing, explains these differences through the concept of Doshas—your unique mind-body constitution that influences everything from your digestion to your emotions and overall well-being.
 
