@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ayurvedic Herbs That Support Liver Health (and How to Use Them Safely)
-featured_image:
+featured_image: /uploads/meg-jenson-9sjpkjr4x3m-unsplash-min.jpg
 blocks:
     -
         _id: blog-content-block
