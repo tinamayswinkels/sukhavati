@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Recipe of the Month: Chai Tea'
-featured_image:
+featured_image: /uploads/annie-spratt-wkd68ga2hac-unsplash-min.jpg
 blocks:
     -
         _id: blog-content-block
