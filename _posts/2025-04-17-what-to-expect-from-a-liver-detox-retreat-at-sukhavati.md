@@ -20,6 +20,8 @@ seo:
     index: true
 permalink:
 ---
+# What to Expect from a Liver Detox Retreat at Sukhavati
+
 Curious about what actually happens on a liver detox retreat? At Sukhavati, we don’t believe in crash cleanses or one-size-fits-all solutions. Our Ayurvedic detox programs are designed to be personalised, nourishing, and deeply restorative—supporting not just your liver, but your whole system: body, mind, and spirit.
 
 ### Your Journey Begins with a Consultation
