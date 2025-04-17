@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Yoga for Digestion
-featured_image:
+featured_image: /uploads/kike-vega-f2qh3yjz6jk-unsplash-min.jpg
 blocks:
     -
         _id: blog-content-block
