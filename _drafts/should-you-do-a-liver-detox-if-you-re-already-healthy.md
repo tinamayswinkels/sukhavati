@@ -42,7 +42,7 @@ A preventative liver detox can help:
 
 Seasonal transitions—especially spring and early autumn—are ideal for preventative detox. These are natural moments of change, and Ayurveda recommends cleansing during these windows to clear accumulated toxins and prepare for the season ahead.
 
-Learn more about how seasonal rhythms affect liver health in our \[Ayurvedic Approach to Liver Health\].
+Learn more about how seasonal rhythms affect liver health in our [Ayurvedic Approach to Liver Health.](https://able-javelin.cloudvent.net/detoxify-liver-naturally-panchakarma/)
 
 ### Is Panchakarma Only for People With Health Issues?
 
