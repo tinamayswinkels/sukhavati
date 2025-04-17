@@ -38,7 +38,7 @@ Based on your consultation, your liver detox plan may include:
 * **Daily yoga and meditation** to calm the nervous system and aid emotional detox
 * **Nature immersion**: rice paddy walks, garden tours, river views and fresh air
 
-Want to know more about these therapies? See our post on \[Panchakarma and Liver Health: Detox at a Deep Cellular Level\].
+Want to know more about these therapies? See our post on [Panchakarma and Liver Health: Detox at a Deep Cellular Level.](https://able-javelin.cloudvent.net/panchakarma-and-liver-health-detox-at-a-deep-cellular-level)
 
 ### Safe, Supervised, and Deeply Nourishing
 
