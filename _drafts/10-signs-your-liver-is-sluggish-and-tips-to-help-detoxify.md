@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 10 Signs Your Liver is Sluggish and Tips to Help Detoxify
-featured_image: /uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg
+featured_image:
 blocks:
     -
         _id: blog-content-block
@@ -14,8 +14,8 @@ seo:
         naturally. Explore tips to support liver health with dietary changes,
         herbal remedies like Milk Thistle and Dandelion Root, and practical
         lifestyle habits for improved detoxification.
-    image: null
-    favicon: null
+    image:
+    favicon:
     index: true
-permalink: null
+permalink:
 ---
