@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What to Expect from a Liver Detox Retreat at Sukhavati
-featured_image:
+featured_image: /uploads/katherine-hanlon-mod2s3-qfoc-unsplash-min.jpg
 blocks:
     -
         _id: blog-content-block
