@@ -16,8 +16,10 @@ seo:
     image:
     favicon:
     index: true
-permalink:
+permalink: ayurvedic-herbs-liver-support-liver
 ---
+# Ayurvedic Herbs That Support Liver Health (and How to Use Them Safely)
+
 If you’ve been exploring natural ways to support your liver, you may have come across Ayurvedic herbs like **kutki**, **bhumyamalaki**, or **turmeric**. These powerful plants have been used for centuries in Ayurveda to restore balance, support detoxification, and strengthen digestion. But how do you know which ones are right for you—and how to use them safely?
 
 Here’s what you need to know.
