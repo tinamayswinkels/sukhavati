@@ -26,7 +26,7 @@ Panchakarma is a comprehensive Ayurvedic detox and rejuvenation program tailored
 
 Unlike one-size-fits-all cleanses, Panchakarma is conducted under medical supervision and uses natural therapies to gradually and gently detoxify the entire body—including the liver.
 
-Learn more about the Ayurvedic philosophy behind detox in our \[Ayurvedic Approach to Liver Health\].
+Learn more about the Ayurvedic philosophy behind detox in our [Ayurvedic Approach to Liver Health](/ayurvedic-approach-to-liver-health-a-natural-path-to-detox-and-balance).
 
 ### How Panchakarma Supports the Liver
 
@@ -51,13 +51,17 @@ These therapies work synergistically to reduce the toxic burden on the liver, wh
 
 At Sukhavati, Panchakarma is experienced in one of Bali’s most tranquil natural settings. Surrounded by tropical gardens, flowing rivers, and open skies, your retreat becomes not just a detox—but a full reset for body and mind.
 
-Each guest stays in a private luxury villa and enjoys Ayurvedic meals, daily yoga, and the restorative rhythm of nature. \[See what a typical day looks like here.\]
+Each guest stays in a private luxury villa and enjoys Ayurvedic meals, daily yoga, and the restorative rhythm of nature. Explore our schedule and see what a [typical day at our holistic wellness retreat](/your-retreat-experience.html) is like.
 
 ### Scientific Support for Panchakarma
 
 Research has shown that Panchakarma is effective in removing persistent environmental pollutants and heavy metals from the body—toxins that conventional methods often can’t reach.
 
-Want to understand the science behind this time-honoured practice? Read our guide on \[Why Detox Retreats Work Better Than DIY Cleanses\].
+While Ayurveda is rooted in thousands of years of tradition, modern science is beginning to validate what practitioners have known for centuries. A landmark study published in the journal *Alternative Therapies in Health and Medicine* (2002) found that Panchakarma significantly reduced levels of lipid-soluble toxicants—such as PCBs, DDE, and dioxins—which tend to accumulate in fat tissue and are often resistant to elimination through conventional detox methods.
+
+Unlike most standard cleanses, which target water-soluble waste, Panchakarma uses medicated ghee and other therapies to mobilize fat-soluble toxins from deep tissues so they can be safely eliminated. This makes it a uniquely effective approach for clearing long-stored environmental pollutants, heavy metals, and chemical residues from the body.
+
+At Sukhavati, our detox programs draw on these clinically backed techniques, adapted with care to your constitution and supported by expert Ayurvedic doctors.
 
 ### When Is Panchakarma Recommended?
 
@@ -71,7 +75,7 @@ Panchakarma is especially supportive for individuals experiencing:
 
 It’s also an ideal preventative reset for maintaining long-term vitality and liver function.
 
-While benefits can be felt within days, a full Panchakarma process typically unfolds over 7–14 days to allow for deep detoxification and true rejuvenation. You can also stay up to 28 days for deeper rejuvenation and long-lasting healing. Learn more about \[what to expect from a Liver Detox Retreat at Sukhavati\].
+While benefits can be felt within days, a full Panchakarma process typically unfolds over 7–14 days to allow for deep detoxification and true rejuvenation. You can also stay up to 28 days for deeper rejuvenation and long-lasting healing. Learn more about [what to expect from a Liver Detox Retreat at Sukhavati](/what-to-expect-from-a-liver-detox-retreat-at-sukhavati).
 
 ---
 
