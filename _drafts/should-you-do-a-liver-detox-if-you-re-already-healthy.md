@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Should You Do a Liver Detox if You’re Already Healthy?
-featured_image:
+featured_image: /uploads/kellice-chua-phqqyzrtarq-unsplash-min.jpg
 blocks:
     -
         _id: blog-content-block
