@@ -28,7 +28,7 @@ Curious about what actually happens on a liver detox retreat? At Sukhavati, we d
 
 Every guest at Sukhavati starts with a one-on-one consultation with our Ayurvedic doctor. This isn’t a surface-level intake form—we look at your health history, digestion, energy levels, emotional patterns, and doshic constitution to design a program that meets you where you are.
 
-Your retreat could be 3–5 days for rest and rejuvenation, 7–14 days for a full Panchakarma detox, or up to 28 days for deep healing and transformation. Explore our retreat lengths and wellness goals.
+Your retreat could be 3–5 days for rest and rejuvenation, 7–14 days for a full Panchakarma detox, or up to 28 days for deep healing and transformation. Explore our retreat lengths and [wellness goals](/your-retreat-experience.html).
 
 ### A Personalised Detox Plan
 
@@ -46,7 +46,7 @@ Want to know more about these therapies? See our post on [Panchakarma and Liver 
 
 Unlike many detox programs that rely on supplements or extreme fasting, our retreats are designed to be deeply nourishing. All therapies are supervised by medical professionals, ensuring your safety and comfort throughout. Our team includes internationally trained doctors like Dr. Komang Sudarmi and Dr. Dwija Permana, who guide every guest with care and expertise.
 
-This is particularly important if you’ve ever tried a DIY cleanse or supplement-based detox and experienced side effects. Learn why \[Detox Retreats Work Better Than DIY Cleanses\] when it comes to liver support.
+This is particularly important if you’ve ever tried a DIY cleanse or supplement-based detox and experienced side effects.
 
 ### A Day in the Life
 
@@ -69,4 +69,4 @@ You’ll also receive personalised wellness strategies to take home, helping you
 
 **Experience the full mind-body-spirit reset your system deserves.**
 
-Explore our Liver Detox Retreat Program or book a free consultation to find the perfect length and focus for your stay.
+Explore our [Retreat Program](/ayurvedic-wellness-retreat.html "Ayurvedic Retreat Program") or book a free consultation to find the perfect length and focus for your stay.
