@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Should You Do a Liver Detox if You’re Already Healthy?
-featured_image: /uploads/kellice-chua-phqqyzrtarq-unsplash-min.jpg
+featured_image: /uploads/dose-juice-sTPy-oeA3h0-unsplash.jpg
 blocks:
     -
         _id: blog-content-block
@@ -20,6 +20,8 @@ seo:
     index: true
 permalink:
 ---
+# Should You Do a Liver Detox if You’re Already Healthy?
+
 If you’re eating well, exercising regularly, and feeling pretty good overall, you might wonder—do I *really* need to detox? It’s a fair question, and one we hear often. While most people associate liver detox with fixing something that’s broken, in Ayurveda, detox isn’t just reactive—it’s preventative.
 
 Just like we clean our homes even when they’re not visibly dirty, the body benefits from regular tune-ups that help it function at its best. A seasonal liver detox can support deeper balance, boost energy, and help you stay resilient through life’s inevitable ups and downs.
@@ -48,7 +50,7 @@ Learn more about how seasonal rhythms affect liver health in our [Ayurvedic Appr
 
 Not at all. At Sukhavati, many of our guests are health-conscious people who want to maintain their vitality, not just restore it. Panchakarma is tailored to your unique needs—whether you’re looking to shift fatigue, deepen clarity, or simply give your body a chance to rest and reset.
 
-Explore the benefits of \[Panchakarma for liver health\] and how it works even when you feel “fine.”
+Explore the benefits of [Panchakarma for liver health](/the-ancient-art-of-rejuvenation-panchakarma/) and how it works even when you feel “fine.”
 
 ---
 
