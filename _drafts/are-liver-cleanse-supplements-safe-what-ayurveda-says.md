@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Are Liver Cleanse Supplements Safe? What Ayurveda Says
-featured_image:
+featured_image: /uploads/supliful-supplements-on-demand-2qi-vb-fkyg-unsplash-min.jpg
 blocks:
     -
         _id: blog-content-block
