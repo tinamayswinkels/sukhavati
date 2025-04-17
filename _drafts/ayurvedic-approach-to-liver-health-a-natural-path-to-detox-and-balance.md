@@ -13,7 +13,7 @@ seo:
         Support your liver the Ayurvedic way—no harsh cleanses, just holistic,
         natural detox. Learn how daily habits, herbs, and Panchakarma can
         restore energy and balance.
-    image:
+    image: /uploads/dominik-martin-jyfmyif4n70-unsplash-min.jpg
     favicon:
     index: true
 permalink:
