@@ -1,6 +1,6 @@
 ---
 layout: default
-title: '**Panchakarma and Liver Health: Detox at a Deep Cellular Level**'
+title: 'Panchakarma and Liver Health: Detox at a Deep Cellular Level'
 featured_image:
 blocks:
     -
