@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Ayurvedic Approach to Liver Health: A Natural Path to Detox and Balance'
-featured_image:
+featured_image: /uploads/dominik-martin-jyfmyif4n70-unsplash-min-1.jpg
 blocks:
     -
         _id: blog-content-block
@@ -13,7 +13,7 @@ seo:
         Support your liver the Ayurvedic way—no harsh cleanses, just holistic,
         natural detox. Learn how daily habits, herbs, and Panchakarma can
         restore energy and balance.
-    image: /uploads/dominik-martin-jyfmyif4n70-unsplash-min-1.jpg
+    image:
     favicon:
     index: true
 permalink:
