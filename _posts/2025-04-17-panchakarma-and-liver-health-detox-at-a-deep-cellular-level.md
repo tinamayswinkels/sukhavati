@@ -18,6 +18,8 @@ seo:
     index: true
 permalink:
 ---
+# Panchakarma and Liver Health: Detox at a Deep Cellular Level
+
 Modern detoxes may offer short-term relief, but Ayurveda looks deeper. When it comes to liver health, the ancient practice of *Panchakarma* offers a safe, effective, and truly holistic solution that addresses the root causes of imbalance and toxicity—not just the symptoms.
 
 ### What Is Panchakarma?
