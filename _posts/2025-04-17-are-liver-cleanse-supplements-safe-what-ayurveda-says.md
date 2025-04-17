@@ -18,6 +18,8 @@ seo:
     index: true
 permalink:
 ---
+# Are Liver Cleanse Supplements Safe? What Ayurveda Says
+
 A quick online search for “liver detox” will give you thousands of results—most of them offering powders, pills, or tea blends claiming to “cleanse your liver fast.” But how safe and effective are these supplements? And what does Ayurveda, the world’s oldest medical system, have to say about them?
 
 ### The Problem With Over-the-Counter Liver Detox Products
@@ -32,7 +34,7 @@ Some may contain:
 
 According to recent studies, up to 20% of drug-induced liver injuries are linked to herbal and dietary supplements.
 
-Read more about safe, gentle alternatives in our article on \[How to Detoxify Your Liver Naturally (Without Supplements or Cleanses)\].
+Read more about safe, gentle alternatives in our article on [How to Detoxify Your Liver Naturally (Without Supplements or Cleanses)](/how-to-detoxify-your-liver-naturally-without-supplements-or-cleanses).
 
 ### The Ayurvedic Perspective
 
@@ -44,7 +46,7 @@ Instead of one-size-fits-all solutions, Ayurveda may recommend:
 * Cleansing foods like bitter greens and warm cooked meals
 * Daily routines to support agni (digestive fire) and reduce *ama* (toxins)
 
-Explore our guide to \[Ayurvedic Herbs That Support Liver Health\] for more insight.
+Explore our guide to [Ayurvedic Herbs That Support Liver Health](/ayurvedic-herbs-liver-support-liver) for more insight.
 
 ### When Supplements Might Be Helpful
 
@@ -58,9 +60,9 @@ That’s why self-prescribing is never recommended.
 
 If you’re looking for real, long-term support:
 
-* Focus on lifestyle and diet first (\[see this morning routine guide\])
-* Work with an Ayurvedic practitioner who can individualise your care
-* Consider a full \[Panchakarma program\] if deeper detox is needed
+* Focus on lifestyle and diet first
+* Work with an Ayurvedic practitioner who can personalise your care
+* Consider a full [Panchakarma program](/your-journey.html) if deeper detox is needed
 
 During your stay at Sukhavati, you’ll receive a tailored plan that may include herbal support, nourishing meals, daily therapies, and expert guidance—without the guesswork or risk.
 
@@ -68,4 +70,4 @@ During your stay at Sukhavati, you’ll receive a tailored plan that may include
 
 **Confused by conflicting liver detox advice?**
 
-Book a free consultation with our team to understand what’s right for *your* body, and discover a safer, more effective way to feel your best.
+Book a [free consultation](/contact.html) with our team to understand what’s right for *your* body, and discover a safer, more effective way to feel your best.
