@@ -18,6 +18,8 @@ seo:
     index: true
 permalink: /the-ancient-art-of-rejuvenation-panchakarma/
 ---
+# Panchakarma: The Ancient Art of Rejuvenation
+
 Do you sometimes feel like life is on fast forward? Are you constantly rushing around, ticking off your ‘to do’ list and feel like there is no moment to pause?
 
 Have you been feeling tired for a while now and maybe you are getting sick more often? Are you not feeling quite yourself or aren’t as sweet or as loving as perhaps you usually are?
