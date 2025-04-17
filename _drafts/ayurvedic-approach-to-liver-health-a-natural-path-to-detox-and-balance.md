@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Ayurvedic Approach to Liver Health: A Natural Path to Detox and Balance'
-featured_image: /uploads/10-signs-your-liver-is-sluggish-and-tips-to-help-detoxify.jpg
+featured_image:
 blocks:
     -
         _id: blog-content-block
@@ -45,7 +45,7 @@ Learn more about these early warning signs in our article on \[10 Signs Your Liv
 * Support emotional balance and mental clarity
 * Strengthen long-term liver function naturally
 
-Rather than targeting the liver in isolation, Ayurvedic detoxification works to restore the digestive fire (*agni*), eliminate built-up toxins, and strengthen the body's natural cleansing systems. The liver is supported, not stressed.
+Rather than targeting the liver in isolation, Ayurvedic detoxification works to restore the digestive fire (*agni*), eliminate built-up toxins, and strengthen the body’s natural cleansing systems. The liver is supported, not stressed.
 
 Some key principles include:
 
