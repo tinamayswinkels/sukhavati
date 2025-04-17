@@ -8,7 +8,7 @@ blocks:
         content-max-width: 640px
         color-scheme: leaf-100
 seo:
-    title: 'op Ayurvedic Herbs for Liver Health: Benefits, Uses & How to Stay Safe'
+    title: 'Top Ayurvedic Herbs for Liver Health: Benefits, Uses & How to Stay Safe'
     description: >-
         Explore Ayurvedic herbs like kutki, turmeric, and bhumyamalaki to
         support liver detox and balance. Learn how to use them safely for your
