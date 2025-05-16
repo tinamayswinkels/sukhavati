@@ -40,4 +40,4 @@ When trying to cut out coffee or sugary snacks during the day, it can be hard to
 
 **Serves 1.**
 
-For more delicious recipes you can purchase our Ayurvedic Cookbook. Please contact rejuvenation@sukhavatibali.com or contact us here, today for more information!
+For more delicious recipes you can purchase our Ayurvedic Cookbook. Please contact rejuvenation@sukhavatibali.com or contact us here, today for more information.
