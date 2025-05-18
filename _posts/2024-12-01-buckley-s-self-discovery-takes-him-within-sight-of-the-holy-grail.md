@@ -23,9 +23,9 @@ permalink: /news-post/buckleys-self-discovery/
 
 Sep, 2018
 
-{% include snippets/imgGallery3.html first-image="/uploads/buckley-s-self-discovery-takes-him-within-sight-of-the-holy-grail.jpeg" first-alt="" second-image="" second-alt="" third-image="" third-alt="" img_aspect="" %}
-
 Perhaps the first sign of a shift in Nathan Buckley’s approach – to himself, as much as to his players and staff – came in October last year when the coach went to Bali with his wife to practice yoga and meditation.
+
+![Nathan Buckley](/uploads/nathan-buckley.webp)
 
 Buckley and wife Tania went with Luke Darcy and his wife Bec to “Sukhavati Bali”, near Seminyak, where Darcy had purchased an old Buddhist retreat that had belonged to the former Seeker, Bruce Woodley and turned it into a venue for yoga and Balinese relaxation.
 
@@ -61,7 +61,9 @@ The Courage to be Disliked by Ichiro Kishimi and Fumitake Koga is a Japanese sel
 
 One of the major themes from The Courage to be Disliked is that one cannot be overly concerned with what others think of you, or indeed, with what they decide to do with their lives. It encourages readers to be themselves, that they cannot please everyone and – crucially – that seeking recognition is an egotistical trap.
 
-![Cover of &quot;The Courage To Be Disliked&quot; by Ichiro Kishimi](https://www.sukhavatibali.com/wp-content/uploads/2019/02/8b85debf67ec9a0715bf96ac961de1f11665b0cc.jpeg){: width="394" height="592"}The book, while Japanese, draws on the popular theories of famed 19th century Austrian psychotherapist Alfred Alder, who founded the concept of “individual pyschology”.
+![Cover of &quot;The Courage To Be Disliked&quot; by Ichiro Kishimi](https://www.sukhavatibali.com/wp-content/uploads/2019/02/8b85debf67ec9a0715bf96ac961de1f11665b0cc.jpeg){: width="394" height="592"}
+
+The book, while Japanese, draws on the popular theories of famed 19th century Austrian psychotherapist Alfred Alder, who founded the concept of “individual pyschology”.
 
 During a pre-season camp on the Gold Coast this year, Buckley mentioned in passing his own 2008 book, All I Can Be, a searingly candid account of his struggles to become a champion footballer in which the most interesting subplot is how the young Bucks was shaped largely by his overbearing and hard-marking father Ray. Yet All I Can Be, as Buckley told one person at the Gold Coast camp, was another example of something he’d done in the past to gain recognition and feed the ego.
 
@@ -73,7 +75,7 @@ Buckley acknowledged at the coaches’ awards on Tuesday night (when he was name
 
 One of the striking features of this grand final week has been that, while many Victorians and people within the AFL universe retain that historic distaste for Collingwood, there is a far greater affection from the non-Collingwood public for Nathan Buckley.
 
-![Nathan Buckley talks about Sukhavati Ayurvedic Wellness Retreat Bali and its benefits.](https://www.sukhavatibali.com/wp-content/uploads/2019/02/59f75aafac97bd34dfbb84813103fbafbe3033be.jpeg){: width="800" height="450"}
+&nbsp;
 
 **Nathan Buckley and this year’s most famous footy beard**
 
