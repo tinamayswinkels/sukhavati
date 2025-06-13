@@ -19,6 +19,8 @@
     
     <link rel="stylesheet" href="/editor.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+    <link rel="preload" fetchpriority="high" as="image" href="/uploads/video-hero-image.png" type="image">
     
     <!-- meta-fields -->
     <title>{{page.seo.title | default: site.data.seo.title }}</title>
