@@ -1,13 +1,13 @@
 
 <section class="py-0" style="text-align: {{block.text-alignment}};">
     <video width="320" height="240" 
-    class="absolute inset-0 h-full w-full object-cover object-center lazy-vid" 
+    class="absolute inset-0 h-full w-full object-cover object-center" 
     {% if block.controls == true %} controls {% endif %} {% if block.autoplay == true %}autoplay="" muted {% endif %} loop playsinline
     poster="{{block.placeholder_image}}"
     preload="metadata"
     >
       {% for video in block.videos %}
-      <source data-src="{{video.video_path}}" type="video/{{video.video_type}}">
+      <source src="{{video.video_path}}" type="video/{{video.video_type}}">
       {% endfor %}
     </video>
       <div class="max-width {% if block.overlay-opacity != 0p %}relative z-10{% endif %}
