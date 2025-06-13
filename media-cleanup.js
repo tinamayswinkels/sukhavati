@@ -17,7 +17,7 @@ const config = {
     rootDirectory: '.',  
     mediaFolders: ["uploads", "assets"],  
     mediaTypes: ["png", "jpg", "jpeg", "webp", "svg", "mov", "mp4"],  
-    scanFileTypes: ["html", "md", "css", "scss"],
+    scanFileTypes: ["html", "md", "css", "scss", 'yml'],
     excludedFolders: ["node_modules", "_site", "_media-archive"]
 };
 
