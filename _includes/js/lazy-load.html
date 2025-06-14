@@ -1,0 +1,48 @@
+<script defer>
+window.addEventListener('load', () => {
+  const lazyVideos = Array.from(document.querySelectorAll('video.lazy-vid'));
+  if (!lazyVideos.length) return;
+
+  const loadAndPlay = vid => {
+    vid.querySelectorAll('source').forEach(src => {
+      const url = src.dataset.src || src.src;
+      if (url && src.src !== url) src.src = url;
+    });
+    // optional: vid.preload = 'auto';
+    vid.load();
+    vid.play().catch(e => console.warn('[LazyVid] play failed:', e));
+  };
+
+  // 1) load any videos already in-view
+  const offscreen = [];
+  lazyVideos.forEach(vid => {
+    const rect = vid.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      console.log('[LazyVid] in-view on load, loading:', vid);
+      loadAndPlay(vid);
+    } else {
+      offscreen.push(vid);
+    }
+  });
+
+  if (!offscreen.length) return;
+
+  // 2) observe the rest as they scroll into view
+  const io = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const vid = entry.target;
+        console.log('[LazyVid] scrolled into view, loading:', vid);
+        loadAndPlay(vid);
+        obs.unobserve(vid);
+      }
+    });
+  }, {
+    root: null,
+    rootMargin: '200px',
+    threshold: 0.01
+  });
+
+  offscreen.forEach(vid => io.observe(vid));
+});
+</script>

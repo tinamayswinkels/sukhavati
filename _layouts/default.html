@@ -21,7 +21,7 @@
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
     
     <!-- TO DO IMPORTANT LOAD HERO IMAGE HERE, ADAPT THE CODE TO REFLECT THE HERO IMAGE OF EACH PAGE -->
-    <link rel="preload" fetchpriority="high" as="image" href="/uploads/video-hero-image.avif">
+    <link rel="preload" fetchpriority="high" as="image" href="/uploads/video-hero-image.avif" type="image/avif">
     
     <!-- meta-fields -->
     <title>{{page.seo.title | default: site.data.seo.title }}</title>
@@ -66,7 +66,6 @@
     {% endfor %}
 
 </style>
-
 
 </head>
 
@@ -143,7 +142,6 @@
     </div>
   </header>
 </div>
-
 
 
   {% if page.blocks %}
