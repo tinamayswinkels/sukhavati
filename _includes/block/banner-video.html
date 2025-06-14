@@ -9,7 +9,10 @@ style="background-image: url('{{block.placeholder_image}}');"
     preload="none"
     >
       {% for video in block.videos %}
-      <source data-src="{{video.video_path}}" type="video/{{video.video_type}}">
+      <source 
+      data-src="{{video.video_path}}" 
+      data-src-mobile="{{video.mobile_video_path}}"
+      type="video/{{video.video_type}}">
       {% endfor %}
     </video>
       <div class="max-width {% if block.overlay-opacity != 0p %}relative z-10{% endif %}
