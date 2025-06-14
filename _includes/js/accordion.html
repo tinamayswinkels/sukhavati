@@ -1,0 +1,94 @@
+{% if hasAccordion == true %}
+
+<script>
+
+
+;(function() {
+
+    // ── helper: copy content’s height up to the parent container ──
+
+  function passHeightUp(content) {
+    if (!content) return;
+    const panel = content.parentElement.parentElement;
+    panel.style.setProperty('--true-height', `${content.offsetHeight}px`);
+  }
+
+  const buttons  = Array.from(document.querySelectorAll('.expandButton'));
+  const dropSecs = Array.from(document.querySelectorAll('.drop-sec'));
+
+  if (!buttons.length || !dropSecs.length) {
+    console.warn('[Accordion] no buttons or drop-sections found.');
+    return;
+  }
+
+  // 1️⃣ Initial height setup
+  dropSecs.forEach(sec => {
+    const content = sec.querySelector('.content');
+    passHeightUp(content);
+  });
+
+  // 2️⃣ Recalc on resize
+  window.addEventListener('resize', () => {
+    dropSecs.forEach(sec => {
+      const content = sec.querySelector('.content');
+      passHeightUp(content);
+    });
+    console.log('[Accordion] heights recalculated on resize');
+  });
+
+  // 3️⃣ Toggle logic
+  function showMore() {
+    const drop = this.nextElementSibling;
+    if (!drop) return;
+
+    drop.classList.toggle('collapsed');
+    this.classList.toggle('open');
+    console.log('[Accordion] toggled:', this.textContent.trim());
+  }
+
+  buttons.forEach(btn => btn.addEventListener('click', showMore));
+})();
+</script>
+{% endif %}
+
+
+
+
+
+
+{% comment %}
+
+<!-- Daniel's initial accordion code for reference -->
+
+
+{% if hasAccordion == true %}
+<script
+  const buttons = document.querySelectorAll(".expandButton");
+  const dropSecs = document.querySelectorAll(".drop-sec");
+
+  dropSecs.forEach(sec => {
+    passHeightUp(sec.querySelector(".content"))
+  })
+
+  onresize = (event) => {
+    dropSecs.forEach(sec => {
+      passHeightUp(sec.querySelector(".content"))
+  })
+
+  };
+
+  
+  function showMore() {
+      this.nextElementSibling.classList.toggle('collapsed');
+      this.classList.toggle('open')
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener('click', showMore)
+  }
+  )
+</script>
+{% endif %}
+
+
+{% endcomment %}

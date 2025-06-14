@@ -1,0 +1,117 @@
+{% if hasTicketBanner == true %}
+
+/**
+ * Ticker Banner:
+ *  – Each banner needs a wrapping `<div class="tickerBanner" data-banner-speed="NUMBER">`
+ *  – Inside it, one or more `<div class="text-block">…</div>` elements to cycle
+ *  – `data-banner-speed` controls scroll speed (pixels per second)
+ */
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const tickerBanners = document.querySelectorAll('.tickerBanner');
+  if (!tickerBanners.length) return;
+
+  tickerBanners.forEach((banner, idx) => {
+    console.log(`🛠️  Initializing tickerBanner #${idx}`, banner);
+
+    const textBlocks = banner.querySelectorAll('.text-block');
+    if (!textBlocks.length) {
+      console.warn(`⚠️  No .text-block elements inside tickerBanner #${idx}`);
+      return;
+    }
+
+    // 1) Compute the width of one “cycle”
+    let baseBlockWidth = 0;
+    textBlocks.forEach(block => {
+      baseBlockWidth += block.offsetWidth;
+    });
+    console.log(`📏  baseBlockWidth for #${idx}:`, baseBlockWidth);
+
+    // 2) Read your speed (with a sensible fallback)
+    const speed = parseFloat(banner.dataset.bannerSpeed) || 100;
+    console.log(`⚡  Using bannerSpeed for #${idx}:`, speed);
+
+    // 3) Expose CSS vars for your animation
+    banner.style.setProperty('--bannerBlockLength', `${baseBlockWidth}px`);
+    banner.style.setProperty('--bannerBlockTime', `${baseBlockWidth / speed}s`);
+
+    // 4) Clone until full width + viewport width
+    function extendBanner() {
+      let total = baseBlockWidth;
+      while (total < window.innerWidth + baseBlockWidth) {
+        textBlocks.forEach(block => {
+          banner.appendChild(block.cloneNode(true));
+        });
+        total += baseBlockWidth;
+      }
+      console.log(`🔁  banner #${idx} extended to total width:`, total);
+      banner.classList.add('active');
+    }
+
+    extendBanner();
+  });
+});
+</script>
+{% endif %}
+
+
+
+
+{% comment %}
+
+<!-- Daniel's original code -->
+
+  {% if hasTicketBanner == true %}
+  const tickerBanners = document.querySelectorAll('.tickerBanner');
+
+tickerBanners.forEach(banner => {
+
+
+
+  let textBlock = banner.querySelectorAll('.text-block');
+
+  console.log(textBlock[1].offsetWidth)
+
+  let bannerBlock = 0;
+  textBlock.forEach( block => {
+    bannerBlock += block.offsetWidth
+  });
+
+  let bannerLength = bannerBlock
+  console.log(bannerBlock)
+  console.log(banner.dataset.bannerSpeed)
+  
+  
+  banner.style.setProperty('--bannerBlockLength', `${bannerBlock}px`);
+  banner.style.setProperty('--bannerBlockTime', `${(bannerBlock / banner.dataset.bannerSpeed )}s`);
+
+  
+  function extendBanner() {
+  if (bannerLength < (screen.width + bannerBlock) ) {
+    textBlock.forEach(block => {
+    console.log(block.innerHTML)
+    // add the newly created element and its content into the DOM
+    banner.appendChild(block.cloneNode(true));
+    // banner.querySelector('a:last-child').innerHTML = block.innerHTML
+    // banner.querySelector('a:last-child').href = block.href
+      
+    });
+    bannerLength += bannerBlock;
+    console.log(bannerLength) 
+    extendBanner()
+  } else {
+    banner.classList.add('active')
+  }
+}
+
+
+
+  extendBanner()
+
+  console.log(bannerLength)
+
+})
+  {% endif %}
+
+  {% endcomment %}
