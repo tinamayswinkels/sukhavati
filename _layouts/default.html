@@ -14,8 +14,25 @@
     
     <link rel="icon" type="image/x-icon" href="{{page.seo.favicon | default: site.data.seo.favicon_image}}">
     
-    <link rel="stylesheet" href="/editor.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link
+        rel="preload" 
+        as="style" 
+        href="/editor.css" 
+        onload="this.rel='stylesheet'; this.onload=null;">
+      <noscript>
+        <link rel="stylesheet" href="/editor.css">
+      </noscript>
+
+    <link
+      rel="preload" 
+      as="style" 
+      href="/assets/css/style.css" 
+      onload="this.rel='stylesheet'; this.onload=null;">
+    <noscript>
+      <link rel="stylesheet" href="/assets/css/style.css">
+    </noscript>
+
+
     <!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
     
     <!-- TO DO IMPORTANT LOAD HERO IMAGE HERE, ADAPT THE CODE TO REFLECT THE HERO IMAGE OF EACH PAGE -->
