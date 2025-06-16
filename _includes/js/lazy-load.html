@@ -1,35 +1,42 @@
-<script>
+<script defer>
 window.addEventListener('load', () => {
   const lazyVideos = Array.from(document.querySelectorAll('video.lazy-vid'));
   if (!lazyVideos.length) return;
 
-  // tweak this breakpoint to suit your “mobile” definition
-  const isMobile = window.innerWidth < 768;
+  // ── 1️⃣ Detect slow/metered connections ──
+  const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  const isSlow = conn
+    ? conn.saveData === true
+      || ['slow-2g', '2g'].includes(conn.effectiveType || '')
+    : false;
 
+  if (isSlow) {
+    console.log('[LazyVid] slow/metered connection—skipping video loads');
+    return;
+  }
+
+  // ── 2️⃣ Helper to swap-in the right src & play ──
   const loadAndPlay = vid => {
+    const isMobile = window.innerWidth < 768;
     vid.querySelectorAll('source').forEach(srcEl => {
-      // pick the mobile src if on phone and it exists, otherwise desktop
       const mobileUrl  = srcEl.dataset.srcMobile;
       const desktopUrl = srcEl.dataset.src;
       const url = (isMobile && mobileUrl) ? mobileUrl : (desktopUrl || srcEl.src);
-
       if (url && srcEl.src !== url) {
         console.log(`[LazyVid] swapping in ${isMobile ? 'mobile' : 'desktop'} src:`, url);
         srcEl.src = url;
       }
     });
-    // Optional if you want full buffering once we've swapped:
-    // vid.preload = 'auto';
     vid.load();
     vid.play().catch(e => console.warn('[LazyVid] play failed:', e));
   };
 
-  // 1) Immediately load any in‐view videos (e.g. hero at top)
+  // ── 3️⃣ Immediately load any in-view videos ──
   const offscreen = [];
   lazyVideos.forEach(vid => {
-    const rect = vid.getBoundingClientRect();
-    if (rect.top < window.innerHeight && rect.bottom > 0) {
-      console.log('[LazyVid] in-view on load, loading:', vid);
+    const r = vid.getBoundingClientRect();
+    if (r.top < window.innerHeight && r.bottom > 0) {
+      console.log('[LazyVid] hero/in-view on load, loading:', vid);
       loadAndPlay(vid);
     } else {
       offscreen.push(vid);
@@ -38,7 +45,7 @@ window.addEventListener('load', () => {
 
   if (!offscreen.length) return;
 
-  // 2) Observe the rest as they scroll into view
+  // ── 4️⃣ Intersection-observe the rest ──
   const io = new IntersectionObserver((entries, obs) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
