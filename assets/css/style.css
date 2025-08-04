@@ -589,14 +589,17 @@ video {
 .hidden {
   display: none;
 }
-.h-full {
-  height: 100%;
-}
 .h-16 {
   height: 4rem;
 }
+.h-full {
+  height: 100%;
+}
 .min-h-full {
   min-height: 100%;
+}
+.w-16 {
+  width: 4rem;
 }
 .w-\[initial\] {
   width: initial;
@@ -607,9 +610,6 @@ video {
 .w-min {
   width: -moz-min-content;
   width: min-content;
-}
-.w-16 {
-  width: 4rem;
 }
 .min-w-min {
   min-width: -moz-min-content;
