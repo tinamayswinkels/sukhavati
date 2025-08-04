@@ -466,6 +466,9 @@ video {
 .inset-0 {
   inset: 0px;
 }
+.bottom-4 {
+  bottom: 1rem;
+}
 .bottom-8 {
   bottom: 2rem;
 }
@@ -589,6 +592,9 @@ video {
 .h-full {
   height: 100%;
 }
+.h-16 {
+  height: 4rem;
+}
 .min-h-full {
   min-height: 100%;
 }
@@ -601,6 +607,9 @@ video {
 .w-min {
   width: -moz-min-content;
   width: min-content;
+}
+.w-16 {
+  width: 4rem;
 }
 .min-w-min {
   min-width: -moz-min-content;
