@@ -18,6 +18,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink: /ayurvedic-medicine/
 ---
 # **Ayurvedic Medicine: An Ancient Science for Modern Well-being**

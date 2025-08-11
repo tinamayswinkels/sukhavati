@@ -17,5 +17,6 @@ seo:
     image: null
     favicon: null
     index: true
+    specific_page_analitcs_liquid: >-
 permalink: null
 ---

@@ -16,6 +16,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink:
 ---
 # Panchakarma and Liver Health: Detox at a Deep Cellular Level

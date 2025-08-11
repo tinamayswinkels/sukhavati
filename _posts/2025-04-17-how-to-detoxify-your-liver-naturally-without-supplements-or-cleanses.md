@@ -16,6 +16,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink:
 ---
 # How to Detoxify Your Liver Naturally

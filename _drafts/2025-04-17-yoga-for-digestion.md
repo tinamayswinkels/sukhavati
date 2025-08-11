@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink:
 ---
 ## Digestive upset? Gas? Constipation? Bloating? These Yoga poses can help!

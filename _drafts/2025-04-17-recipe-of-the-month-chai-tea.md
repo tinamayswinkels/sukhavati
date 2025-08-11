@@ -18,6 +18,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink:
 ---
 When trying to cut out coffee or sugary snacks during the day, it can be hard to find something that hits the spot. Our Chai tea is not only nutritious but a great substitute for your afternoon cravings. Read the full recipe below and avoid those afternoon slumps.

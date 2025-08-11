@@ -16,6 +16,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink:
 ---
 # Ayurvedic Approach to Liver Health: A Natural Path to Detox and Balance

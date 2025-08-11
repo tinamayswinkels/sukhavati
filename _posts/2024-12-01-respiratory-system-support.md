@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink: respiratory-system-support/
 ---
 # Respiratory System Support

@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink: /ayurvedic-exercise-the-best-exercise-for-your-body-type/
 ---
 # Ayurvedic Exercise: The Best Exercise for Your Body Type

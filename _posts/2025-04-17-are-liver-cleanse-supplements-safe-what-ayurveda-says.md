@@ -16,6 +16,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink:
 ---
 # Are Liver Cleanse Supplements Safe? What Ayurveda Says

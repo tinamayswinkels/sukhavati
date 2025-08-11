@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink: /news-post/buckleys-self-discovery/
 ---
 # Buckley’s Self-Discovery Takes Him Within Sight of the Holy Grail

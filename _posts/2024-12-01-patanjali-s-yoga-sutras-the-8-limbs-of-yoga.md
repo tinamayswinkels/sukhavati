@@ -16,6 +16,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink:
 ---
 # Patanjali’s Yoga Sutras: The 8 limbs of Yoga

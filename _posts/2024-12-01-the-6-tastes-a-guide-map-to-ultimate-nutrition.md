@@ -17,6 +17,7 @@ seo:
     image:
     favicon:
     index: true
+    specific_page_analitcs_liquid: >-
 permalink: the-6-tastes-a-guide-map-to-ultimate-nutrition/
 ---
 # The 6 tastes: A Guide Map to Ultimate Nutrition
