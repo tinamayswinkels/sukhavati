@@ -10,4 +10,4 @@ favicon_image: /uploads/sukhavati-brandmark-leaf.png
 google-site-verification: >-
   <meta name="google-site-verification"
   content="XBoiBlNVrbEEBP4i0zaZIVekBssP-XajncSoiBvg-Tg" />
-Global_analitics_liquid: '  dan look here   <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Z3V0X1F5E"></script>   <script>     window.dataLayer = window.dataLayer || [];     function gtag(){dataLayer.push(arguments);}     gtag(''js'', new Date());     gtag(''config'', ''G-8Z3V0X1F5E'');   </script>'
+Global_analitics_liquid:
