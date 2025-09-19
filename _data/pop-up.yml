@@ -1,6 +1,6 @@
 block-content-html: >-
-  <h2>JULY 2025<br />Special Offer</h2><h3>for detox programs </h3><h3>between 7
-  - 14 days</h3><p>Contact us for details. </p>
+  <h2>FLASH SALE</h2><p>For last minute bookings until </p><p>September 25,
+  2025.</p><p>Contact us for details. </p>
 featured-image: /uploads/dsc07163-2.jpg
 X-color: '#ffffff'
 pop-up-width: 750px
@@ -8,4 +8,4 @@ hide-duration-in-days: 1
 popup-delay-in-seconds: 1
 pop-up.color-scheme: leaf-200
 testing-mode: false
-shown: false
+shown: true
