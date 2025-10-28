@@ -18,6 +18,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /the-yoga-sutras-satya-truth/
+order: 1
 ---
 # The Yoga Sutras: Satya or ‘truthfulness’
 

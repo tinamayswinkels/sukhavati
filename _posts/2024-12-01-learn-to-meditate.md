@@ -19,6 +19,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /learn-to-meditate/
+order: 1
 ---
 # Learn to Meditate
 

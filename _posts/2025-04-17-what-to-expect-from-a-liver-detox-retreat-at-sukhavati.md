@@ -20,6 +20,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink:
+order: 1
 ---
 # What to Expect from a Liver Detox Retreat at Sukhavati
 

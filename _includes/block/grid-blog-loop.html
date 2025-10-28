@@ -26,8 +26,9 @@
        style="grid-template-columns: repeat(3, 1fr)"
       
       >
+      {% assign articles = site.posts | sort: 'order'  %}
       <!--  style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))" -->
-          {% for col in site.posts %}
+          {% for col in articles %}
             <div class=" relative" >
           <!-- {{col.col-type}} -->
           <div class="color-set col-padded min-h-full flex hover:opacity-80 transition-all duration-500">

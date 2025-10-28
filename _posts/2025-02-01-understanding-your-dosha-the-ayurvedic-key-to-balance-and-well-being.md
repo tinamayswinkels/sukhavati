@@ -20,6 +20,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /the-doshas/
+order: 1
 ---
 # Understanding Your Dosha: The Ayurvedic Key to Balance and Well-being
 

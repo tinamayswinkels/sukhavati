@@ -19,6 +19,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /how-to-beat-spring-allergies-with-ayurveda/
+order: 1
 ---
 # How to Beat Spring Allergies with Ayurveda
 

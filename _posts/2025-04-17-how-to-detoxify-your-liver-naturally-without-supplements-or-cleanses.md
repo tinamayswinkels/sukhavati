@@ -18,6 +18,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink:
+order: 1
 ---
 # How to Detoxify Your Liver Naturally
 

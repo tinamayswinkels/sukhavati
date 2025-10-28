@@ -19,6 +19,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink:
+order: 1
 ---
 # 100 Wonderful Ways to Live to 100
 

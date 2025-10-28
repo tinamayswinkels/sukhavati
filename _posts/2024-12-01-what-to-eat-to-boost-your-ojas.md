@@ -18,6 +18,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /what-to-eat-to-boost-your-ojas/
+order: 1
 ---
 # What to Eat to Boost your Ojas
 

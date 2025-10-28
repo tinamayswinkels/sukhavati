@@ -20,6 +20,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink:
+order: 1
 ---
 # Should You Do a Liver Detox if You’re Already Healthy?
 

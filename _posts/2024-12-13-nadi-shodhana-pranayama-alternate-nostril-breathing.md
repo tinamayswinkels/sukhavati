@@ -18,6 +18,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /nadi-shodhana-pranayama-alternate-nostril-breathing/
+order: 1
 ---
 # Nadi Shodhana Pranayama: Alternate Nostril Breathing
 

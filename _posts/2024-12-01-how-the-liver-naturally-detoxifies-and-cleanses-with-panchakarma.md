@@ -20,6 +20,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /detoxify-liver-naturally-panchakarma/
+order: 1
 ---
 # How the Liver Naturally Detoxifies and Cleanses with Panchakarma
 

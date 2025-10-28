@@ -20,6 +20,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /ayurvedic-medicine/
+order: 1
 ---
 # **Ayurvedic Medicine: An Ancient Science for Modern Well-being**
 

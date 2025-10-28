@@ -18,6 +18,7 @@ seo:
     index: true
     specific_page_analitcs_liquid: >-
 permalink: /the-ancient-art-of-rejuvenation-panchakarma/
+order: 1
 ---
 # Panchakarma: The Ancient Art of Rejuvenation
 
