@@ -1,11 +1,13 @@
 block-content-html: >-
-  <h2>FLASH SALE</h2><p>For last minute bookings until </p><p>September 25,
-  2025.</p><p>Contact us for details. </p>
-featured-image: /uploads/dsc07163-2.jpg
+  <video style="width:1280px; max-width: 100%; max-height:100%" controls>
+    <source src="/uploads/welcome-to-sukhavati-bali.mp4" type="video/mp4">
+  </video>
+is-video: true
+featured-image:
 X-color: '#ffffff'
 pop-up-width: 750px
 hide-duration-in-days: 1
-popup-delay-in-seconds: 1
+popup-delay-in-seconds: 10
 pop-up.color-scheme: leaf-200
-testing-mode: false
+testing-mode: true
 shown: false
