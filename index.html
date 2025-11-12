@@ -81,6 +81,50 @@ blocks:
     -
         _id: horizontal-scroll-basic
         block-content-html: >-
+            <h2 class="heading-lg">Testimonials</h2>
+        image-width: max(33%,  10rem)
+        img_aspect: Portrait
+        scroll-items:
+            -
+                heading:
+                image: /uploads/NATHAN.jpg
+                description: Absolute luxury from start to finish. Divine. <br/> Nathan Buckley - AFL Legend
+                link:
+            -
+                heading:
+                image: /uploads/GUS.jpg
+                description: I’ve never been so pampered in all my life - lavish, indulgent, next level.<br/> Gus Worland - MMM Sydney & Gotcha4Life Founder
+                link:
+            -
+                heading: 
+                image: /uploads/LAURA.jpg
+                description: There’s nothing like the serenity of Sukhavati - a premiere Ayurvedic resort. <br/> Laura Poole - International Meditation teacher
+                link:
+            -
+                heading: 
+                image: /uploads/CODY.jpg
+                description: What brings me back each time is the all-round luxury here. No detail is spared.<br/> Cody Weightman - AFL star
+                link:
+        color-scheme: leaf-300
+    
+    -
+        _id: banner
+        block-content-html: >-
+            <h2 class='banner-heading'>A life-changing </h2><h2
+            class='banner-heading'>retreat for the soul</h2>
+        content-max-width:
+        background-desktop-image: /uploads/sukhavati-pool-villa-9.jpg
+        background-mobile-image: /uploads/sukhavati-pool-villa-9.jpg
+        text-alignment: center
+        vert-alignment: middle
+        overlay-opacity: 0.5op
+        min-height: 50vh
+        collapse-top-space: false
+        collapse-bottom-space: false
+        color-scheme: leaf-600
+    -
+        _id: horizontal-scroll-basic
+        block-content-html: >-
             <h3 class="sub-heading">ALL-INCLUSIVE WELLNESS RETREAT</h3><h2
             class="heading-lg">Program Overview</h2><p>At Sukhavati, we offer a
             range of transformative solutions tailored to your unique health
@@ -118,21 +162,6 @@ blocks:
                 description:
                 link:
         color-scheme: leaf-300
-    -
-        _id: banner
-        block-content-html: >-
-            <h2 class='banner-heading'>A life-changing </h2><h2
-            class='banner-heading'>retreat for the soul</h2>
-        content-max-width:
-        background-desktop-image: /uploads/sukhavati-pool-villa-9.jpg
-        background-mobile-image: /uploads/sukhavati-pool-villa-9.jpg
-        text-alignment: center
-        vert-alignment: middle
-        overlay-opacity: 0.5op
-        min-height: 50vh
-        collapse-top-space: false
-        collapse-bottom-space: false
-        color-scheme: leaf-600
     -
         _id: slider
         block-content-html: >-
