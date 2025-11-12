@@ -10,4 +10,4 @@ hide-duration-in-days: 1
 popup-delay-in-seconds: 10
 pop-up.color-scheme: leaf-200
 testing-mode: true
-shown: false
+shown: true
