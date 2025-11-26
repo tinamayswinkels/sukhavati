@@ -72,6 +72,14 @@ body ul{
   margin-left: 1rem;
 }
 
+.body-font{
+  font-family: var(--body-font-family);
+}
+
+.heading-font{
+  font-family: var(--heading-font-family);
+}
+
 
 /* form */
 

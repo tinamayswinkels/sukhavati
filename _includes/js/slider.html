@@ -125,7 +125,56 @@
           ]
         });
       {% endif %}
+
+      {% if block._id == 'slider-testimonials' %}
+        console.log('➡️  #section-{{forloop.index}} has a blog-loop slider');
+        $('#section-{{forloop.index}} .slider').slick({
+          dots:        false,
+          arrows:      false,
+          slidesToShow:      {{ block.slider_column_count }},
+          slidesToScroll:    1,
+          draggable:         true,
+          infinite:          true,
+          autoplay:          true,
+          autoplaySpeed:     2000,
+          
+          speed:             500,
+          fade:              false,
+          cssEase:           'linear',  
+        });
+
+      {% endif %}      
+
+      
     {% endfor %}
+
+
+        const testimonialSections = document.querySelectorAll('section.testimonial');
+        console.log('📝 Adjusting testimonial text box heights for:', testimonialSections);
+        testimonialSections.forEach(section => {
+          const testimonialTexts = section.querySelectorAll('.testimonial-text-box');
+          function resetHeights() {
+            testimonialTexts.forEach(textBox => {
+            textBox.style.height = 'auto';
+              let maxHeight = 0;
+
+          testimonialTexts.forEach(textBox => {
+            const boxHeight = textBox.offsetHeight;
+            if (boxHeight > maxHeight) {
+              maxHeight = boxHeight;
+            }
+          });
+
+          testimonialTexts.forEach(textBox => {
+            textBox.style.height = `${maxHeight}px`;
+          });
+            });
+          }
+          
+          resetHeights()
+        });
+
+
   });
 </script>
 

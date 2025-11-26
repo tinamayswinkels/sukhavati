@@ -79,33 +79,32 @@ blocks:
         collapse-bottom-space: false
         color-scheme: leaf-100
     -
-        _id: horizontal-scroll-basic
-        block-content-html: >-
-            <h2 class="heading-lg">Testimonials</h2>
-        image-width: max(33%,  10rem)
-        img_aspect: Portrait
-        scroll-items:
+        _id: slider-testimonials
+        heading: What our members are saying
+        text-alignment: center
+        slider_column_count: 2
+        slider:
+            -   
+                quote: Absolute luxury from start to finish. Divine.
+                author: Nathan Buckley - AFL Legend
+                author_image: /uploads/NATHAN.jpg
             -
-                heading:
-                image: /uploads/NATHAN.jpg
-                description: Absolute luxury from start to finish. Divine. <br/> Nathan Buckley - AFL Legend
-                link:
+                quote: I’ve never been so pampered in all my life - lavish, indulgent, next level.
+                author: Gus Worland - MMM Sydney & Gotcha4Life Founder
+                author_image: /uploads/GUS.jpg
+
             -
-                heading:
-                image: /uploads/GUS.jpg
-                description: I’ve never been so pampered in all my life - lavish, indulgent, next level.<br/> Gus Worland - MMM Sydney & Gotcha4Life Founder
-                link:
+                quote: There’s nothing like the serenity of Sukhavati - a premiere Ayurvedic resort.
+                author: Laura Poole - International Meditation teacher
+                author_image: /uploads/LAURA.jpg
+
             -
-                heading: 
-                image: /uploads/LAURA.jpg
-                description: There’s nothing like the serenity of Sukhavati - a premiere Ayurvedic resort. <br/> Laura Poole - International Meditation teacher
-                link:
-            -
-                heading: 
-                image: /uploads/CODY.jpg
-                description: What brings me back each time is the all-round luxury here. No detail is spared.<br/> Cody Weightman - AFL star
-                link:
+                quote: What brings me back each time is the all-round luxury here. No detail is spared.
+                author:  Cody Weightman - AFL star
+                author_image: /uploads/CODY.jpg
+
         color-scheme: leaf-300
+        slider_col_color_scheme: leaf-500
     
     -
         _id: banner
