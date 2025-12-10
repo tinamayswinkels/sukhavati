@@ -28,6 +28,10 @@
               <textarea class="placeholder:text-inherit resize-none" rows="4" name="message" placeholder="MESSAGE" required></textarea>
 
               <!-- <input type="hidden" name="inbox_key" value="sukhavatibali"> -->
+                       <!-- Other form fields here -->
+              <input type="hidden" id="utm_source" name="utm_source">
+              <input type="hidden" id="utm_medium" name="utm_medium">
+              <input type="hidden" id="utm_campaign" name="utm_campaign">
               <input type="hidden" name="_to" value="rejuvenation@sukhavatibali.com">
               <input type="text" name="_gotcha" style="display: none;">
             
@@ -36,3 +40,22 @@
       </div>
     </section>
 
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+
+            const utmSource = urlParams.get('utm_source');
+            const utmMedium = urlParams.get('utm_medium');
+            const utmCampaign = urlParams.get('utm_campaign');
+
+            if (utmSource) {
+                document.getElementById('utm_source').value = utmSource;
+            }
+            if (utmMedium) {
+                document.getElementById('utm_medium').value = utmMedium;
+            }
+            if (utmCampaign) {
+                document.getElementById('utm_campaign').value = utmCampaign;
+            }
+        });
+    </script>
