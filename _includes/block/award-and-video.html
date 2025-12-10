@@ -3,8 +3,8 @@
   <div class="max-width mx-auto">
     <div class="grid md:grid-cols-3 overflow-hidden" style="gap: {{site.data.style.split_banner_gap}}">
 
-      <div class="picture relative md:col-span-2 md:flex justify-center items-center">
-        <video style="width:1280px; max-width: 100%;" style="aspect-ratio: 1.7777;" controls poster="{{block.video-placeholder}}">
+      <div class="picture relative md:col-span-2 flex justify-center items-center" style="aspect-ratio: 1.4;">
+        <video style="width:1280px; max-width: 100%;" controls poster="{{block.video-placeholder}}">
           {% for video in block.videos %}
         <source src="{{video.video_path}}" type="video/{{video.video_type}}">
         {% endfor %}
