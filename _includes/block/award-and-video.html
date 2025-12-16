@@ -1,0 +1,116 @@
+
+<section class=" " >
+  <div class="max-width mx-auto">
+    <div class="grid md:grid-cols-3 overflow-hidden" style="gap: {{site.data.style.split_banner_gap}}">
+
+      <div class="picture relative md:col-span-2 flex justify-center items-center" style="aspect-ratio: 1.4;">
+        <video style="width:1280px; max-width: 100%;" controls poster="{{block.video-placeholder}}">
+          {% for video in block.videos %}
+        <source src="{{video.video_path}}" type="video/{{video.video_type}}">
+        {% endfor %}
+        Your browser does not support the video tag.
+      </video>
+        
+      </div>
+      <div class="text-block text-center">       
+        <div>
+          <img class="mx-auto mb-4" src="{{block.image}}" alt="Bali Best Wellness Retreat 2023 Award" loading="lazy" style="max-width: 15rem;" />
+        </div>
+        <div  class="text-center">
+
+        {% if noH1 == true %}
+        {{block.block-content-html | replace: 'h2','h1'}}
+        {% else %}
+        {{block.block-content-html}}
+        {% endif %}
+
+        {% if block.block-content-html contains "h2" %}
+          {% assign noH1 = false %}
+        {% endif %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <style>
+
+
+
+
+
+    #section-{{forloop.index}} .text-block {
+      text-align: {{block.text-alignment}};
+      align-self: {% case block.vert-alignment %}
+        {% when 'top' %}
+        self-start
+        {% when 'middle' %}
+        center
+        {% when 'bottom' %}
+        self-end
+        {% endcase %};
+      {% if block.desktop-image-position == 'right' %}
+          /* padding-left: var(--max-width-side-padding); */
+        {% else %}
+          /* padding-right: var(--max-width-side-padding); */
+          order:3;
+      {% endif %}
+    }
+
+    #section-{{forloop.index}} .picture{
+
+      align-self:center;
+      order:2;
+      {% if block.desktop-collapse-bg-padding == false %}
+         {% if block.desktop-image-position == 'left' %}
+          /* margin-left: var(--max-width-side-padding); */
+          {% else %}
+          /* margin-right: var(--max-width-side-padding); */
+         {% endif %}
+      {% endif %}
+    }
+
+    @media  (min-width: 750px) {
+      
+
+      #section-{{forloop.index}} section{
+        {% if block.collapse-top-space == true %}
+          padding-top: 0;
+        {% endif %}
+      
+        {% if block.collapse-bottom-space == true %}
+            padding-bottom: 0%;
+        {% endif %}
+      
+      }
+    }
+
+    @media (max-width: 750px) {
+      /* #section-{{forloop.index}} section{
+        flex-direction: column;
+      } */
+      #section-{{forloop.index}} .text-block{
+        /* padding-left: var(--max-width-side-padding); */
+        /* padding-right: var(--max-width-side-padding); */
+        {% if block.mobile-image-position == 'bottom' %}
+          order: 1;
+        {% else %}
+          order:3;
+      {% endif %}
+      }
+      
+      #section-{{forloop.index}} .picture{
+
+        {% if block.mobile-collapse-bg-padding == false %}
+        width: calc(100vw - calc( var(--side-gap) * 2));
+        /* margin-left: var(--side-gap); */
+        {% else %}
+        width: 100vw;
+       {% endif %} 
+      }
+
+    }
+
+      
+    </style>

@@ -1,6 +1,7 @@
 block-content-html: >-
-  <video style="width:1280px; max-width: 100%; max-height:100%" controls>
+  <video style="width:1280px; max-width: 100%; max-height:100%" controls placeholder="Video loading...">
     <source src="/uploads/welcome-to-sukhavati-bali.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 is-video: true
 featured-image:
@@ -9,5 +10,6 @@ pop-up-width: 750px
 hide-duration-in-days: 1
 popup-delay-in-seconds: 10
 pop-up.color-scheme: leaf-200
-testing-mode: true
 shown: false
+testing-mode: true
+

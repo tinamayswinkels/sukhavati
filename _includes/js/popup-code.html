@@ -35,6 +35,7 @@
 dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
   backdrop-filter: blur(2px); /* Example: blur the content behind the dialog */
+  margin-top: 5.6rem;
 }
 
 dialog:focus-visible {
@@ -111,7 +112,7 @@ html.lockScroll,html.lockScroll body {
     setTimeout(() => {
         console.log("show popup")
         cookieBanner.showModal()
-        popUpBody.classList.add('lockScroll')
+        // popUpBody.classList.add('lockScroll')
         popUpVideo.play()
       }, "{{site.data.pop-up.hide-duration-in-days | times: 1000 }}")
 
