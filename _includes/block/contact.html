@@ -29,6 +29,7 @@
 
               <!-- <input type="hidden" name="inbox_key" value="sukhavatibali"> -->
                        <!-- Other form fields here -->
+              <input type="hidden" name="ip" value="">
               <input type="hidden" id="utm_source" name="utm_source">
               <input type="hidden" id="utm_medium" name="utm_medium">
               <input type="hidden" id="utm_campaign" name="utm_campaign">
@@ -58,4 +59,15 @@
                 document.getElementById('utm_campaign').value = utmCampaign;
             }
         });
+
+        fetch('https://api.ipify.org?format=json')
+  .then(response => response.json())
+  .then(data => {
+    console.log('Your IP address is:', data.ip);
+    document.querySelector('input[name="ip"]').value = data.ip;
+    // You can now use data.ip in your code
+  })
+  .catch(error => {
+    console.error('Error fetching IP:', error);
+  });
     </script>
