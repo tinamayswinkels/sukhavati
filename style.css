@@ -594,3 +594,17 @@ float: right
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+
+/* banner-slideshow */
+
+
+  .banner-slideshow img {
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    transition: .2s;
+  }
+  .banner-slideshow img.active {
+    opacity: 1;
+  }

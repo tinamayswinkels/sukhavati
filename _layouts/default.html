@@ -179,6 +179,10 @@
         {% if block._id == 'slider-blog-loop' %}
         {% assign hasSlider = true %}
       {% endif %}
+      
+        {% if block._id == 'banner-slideshow' %}
+        {% assign hasBannerSlideShow = true %}
+      {% endif %}
     {% endfor %}
 
 
@@ -212,5 +216,5 @@
 {% include /js/ticker-banner.html %}
 {% include /js/popup-code.html %}
 {% include /js/slider.html %}
-
+{% include /js/banner-slider.html %}
 </body>

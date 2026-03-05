@@ -1,0 +1,43 @@
+
+<section class="py-0 relative banner-slideshow" style="min-height: {{block.min-height}};">
+      <div class="max-width {% if block.overlay-opacity != 0p %}relative z-10{% endif %}
+        flex         
+        {% case block.vert-alignment %}
+        {% when 'top' %}
+        items-start
+        {% when 'middle' %}
+        items-center
+        {% when 'bottom' %}
+        items-end
+        {% endcase %}
+
+        {% case block.text-alignment %}
+        {% when 'left' %}
+        justify-start
+        {% when 'center' %}
+        justify-center
+        {% when 'right' %}
+        justify-end
+        {% endcase %}
+        ">
+          <div style="{% if block.content-max-width %}max-width: {{block.content-max-width}} {% endif %}">
+            {% if noH1 == true %}
+            {{block.block-content-html | replace: 'h2','h1'}}
+            {% else %}
+            {{block.block-content-html}}
+            {% endif %}
+            {% if block.has_book_now == true %}
+              <p class="flex justify-center gap-8">
+                <a href="/contact.html" class="button inline-block grow">BOOK NOW</a>
+                <a href="/your-journey#pricing" class="button inline-block grow">PRICING</a></p>
+              </div>
+              {% endif %}
+            {% if block.block-content-html contains "h2" %}
+              {% assign noH1 = false %}
+            {% endif %}
+          </div>
+          {% for image in block.images %}
+          <img src="{{image.image_path}}" alt="{{image.image-description}}" class="absolute inset-0 w-full h-full {% if forloop.first %}active{% else %}" loading="lazy{% endif %}">
+          {% endfor %}
+    </section>
+

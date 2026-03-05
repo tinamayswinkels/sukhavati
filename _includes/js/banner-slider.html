@@ -1,0 +1,22 @@
+{% if hasBannerSlideShow == true  %}
+    <script>
+      console.log('look here 1')
+      let bannerSlideShows = document.querySelectorAll('.banner-slideshow')
+      console.log('dan look here',bannerSlideShows)
+      bannerSlideShows.forEach(slideshow => {
+        let images = slideshow.querySelectorAll('img')
+        let activeImage = 0
+        console.log(images.length)
+        function nextImage() {
+          console.log('next images time')
+          images[activeImage].classList.remove('active')
+          activeImage = (activeImage + 1) % images.length
+          images[activeImage].classList.add('active')
+        }
+        if (images.length > 1 ){
+          setInterval(nextImage,3000)
+        }
+
+      })
+    </script>
+{% endif %}
