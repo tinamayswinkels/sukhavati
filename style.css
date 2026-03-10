@@ -119,6 +119,10 @@ textarea:focus, textarea:focus-within{
   letter-spacing: -0.01em;
 }
 
+.bolder-parent > * {
+  font-weight: 600;
+}
+
 hr {
   border: none;
   border-bottom: 2px solid #C1C4B3;

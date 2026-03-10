@@ -20,18 +20,12 @@
         justify-end
         {% endcase %}
         ">
-          <div style="{% if block.content-max-width %}max-width: {{block.content-max-width}} {% endif %}">
+          <div class="relative z-10 text-center mx-full-side my-vert" style="{% if block.content-max-width %}max-width: {{block.content-max-width}} {% endif %}">
             {% if noH1 == true %}
             {{block.block-content-html | replace: 'h2','h1'}}
             {% else %}
             {{block.block-content-html}}
             {% endif %}
-            {% if block.has_book_now == true %}
-              <p class="flex justify-center gap-8">
-                <a href="/contact.html" class="button inline-block grow">BOOK NOW</a>
-                <a href="/your-journey#pricing" class="button inline-block grow">PRICING</a></p>
-              </div>
-              {% endif %}
             {% if block.block-content-html contains "h2" %}
               {% assign noH1 = false %}
             {% endif %}
