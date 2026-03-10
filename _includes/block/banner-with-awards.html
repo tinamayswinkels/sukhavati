@@ -1,7 +1,7 @@
 
 <section class="" style="text-align: {{block.text-alignment}}
 ">
-      <div class="max-width {% if block.overlay-opacity != 0p %}relative z-10{% endif %}
+      <div class="relative max-width {% if block.overlay-opacity != 0p %}relative z-10{% endif %}
         flex         
         {% case block.vert-alignment %}
         {% when 'top' %}
@@ -27,7 +27,7 @@
 
         {% endcase %}
         ">
-        <div class="md:flex gap-8 justify-center items-start text-center md:mt-[0.4rem]">
+        <div class=" grid md:flex gap-8 justify-center items-start text-center md:mt-[0.4rem]">
           <div class="bolder-parent" style=" {% if block.content-max-width %}max-width: {{block.content-max-width}} {% endif %}">
             <div class="mt-8">
             </div>
@@ -52,13 +52,21 @@
     <style>
       #section-{{forloop.index}} section {
         background-image: url({% if block.background-mobile-image %} {{block.background-mobile-image}} {% else %} {{block.background-desktop-image}} {% endif %});
-        background-position: {{}}
+      }
+
+      #section-{{forloop.index}} section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
       }
       #section-{{forloop.index}} .max-width{
         min-height: {{block.min-height}};
       }
 
-      {% if block.overlay-opacity != 0p %}
+      
       #section-{{forloop.index}} section::before {
         content: " ";
         position: absolute;
@@ -67,12 +75,16 @@
         width: 100%;
         height: 100%;
         background-color: #000;
-        opacity: {{block.overlay-opacity |  replace: "op", ""}}
+        opacity: .3;
       }
-      {% endif %}
+
+      @media (min-width: 765px) {
+
+      #section-{{forloop.index}} section::before {
+      opacity: 0;
+      }
 
       {% if block.background-mobile-image %} {% if block.background-desktop-image %}
-      @media (min-width: 765px) {
         #section-{{forloop.index}} section {
           
           background-image: url( {{block.background-desktop-image}} );
