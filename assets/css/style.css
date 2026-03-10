@@ -633,6 +633,9 @@ video {
   width: -moz-min-content;
   width: min-content;
 }
+.w-\[12rem\] {
+  width: 12rem;
+}
 .min-w-min {
   min-width: -moz-min-content;
   min-width: min-content;
@@ -1577,11 +1580,17 @@ float: right
   .md\:mt-24 {
     margin-top: 6rem;
   }
+  .md\:mt-\[0\.4rem\] {
+    margin-top: 0.4rem;
+  }
   .md\:block {
     display: block;
   }
   .md\:flex {
     display: flex;
+  }
+  .md\:w-\[16rem\] {
+    width: 16rem;
   }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
