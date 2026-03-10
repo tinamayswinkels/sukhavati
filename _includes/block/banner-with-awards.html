@@ -27,8 +27,11 @@
 
         {% endcase %}
         ">
-        <div class="md:flex justify-center items-end text-center md:mt-[0.4rem]">
+        <div class="md:flex gap-8 justify-center items-start text-center md:mt-[0.4rem]">
           <div class="bolder-parent" style=" {% if block.content-max-width %}max-width: {{block.content-max-width}} {% endif %}">
+            <div class="mt-8">
+            </div>
+
             {% if noH1 == true %}
             {{block.block-content-html | replace: 'h2','h1'}}
             {% else %}
@@ -36,7 +39,7 @@
             {% endif %}
           </div>
           <div>
-            <img class="inline-block w-[12rem] md:w-[16rem]" src="/uploads/2025-WLSA-Winner-Logo-Transparent.png" alt="">
+            <img class="inline-block w-[10rem] md:w-[12.5rem]" src="uploads/2025-Personalised-Spa-Winner-dark.png" alt="">
           </div>
           
             {% if block.block-content-html contains "h2" %}
