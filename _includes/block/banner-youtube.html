@@ -1,5 +1,5 @@
 
-<section>
+<section class="{% if block.embed_code %} {% else %} pb-0 {% endif %}">
   <div class="max-width">
       <div class="{% case block.text-alignment %}
       {% when 'left' %}
@@ -9,7 +9,7 @@
       {% when 'right' %}
       text-right
       {% endcase %}">
-        <div class="text-box mb-8">
+        <div class="text-box {% if block.embed_code %} mb-8{% endif %}">
           {% if noH1 == true %}
           {{block.block-content-html | replace: 'h2','h1'}}
           {% else %}
@@ -20,10 +20,11 @@
             {% assign noH1 = false %}
           {% endif %}
        </div>
+       {% if block.embed_code %}
         <div class="relative" style="aspect-ratio: 1.8;">
           {{block.embed_code}}
         </div>
-
+        {% endif %}
       </div>
   </div>
 </section>
