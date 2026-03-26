@@ -883,6 +883,9 @@ video {
 .text-\[1\.8rem\] {
   font-size: 1.8rem;
 }
+.\!font-extrabold {
+  font-weight: 800 !important;
+}
 .italic {
   font-style: italic;
 }
