@@ -57,7 +57,7 @@ For those moving regularly between Bali and Australia, it can become a smart pat
 
 ## **Luxury That Actually Serves Your Healing**
 
-The word “luxury” can sound like ego, but in this context it's about comfort that supports deep healing. Think of peaceful villas, lush gardens, gentle light, warm pools, and quiet corners for reading or resting. Think of high-quality linens, calming spaces, and treatments that are both therapeutic and deeply soothing.
+The word “luxury” can sound like ego, but in this context it’s about comfort that supports deep healing. Think of peaceful villas, lush gardens, gentle light, warm pools, and quiet corners for reading or resting. Think of high-quality linens, calming spaces, and treatments that are both therapeutic and deeply soothing.
 
 This kind of environment helps because:
 
@@ -114,6 +114,6 @@ At Sukhavati Bali, our focus is on giving high-performing adults a safe, beautif
 
 ## **Begin Your Authentic Healing Journey In Bali**
 
-If you are feeling called to reset your body and mind, our tailored programs at Sukhavati Bali are designed to support deep, lasting rejuvenation. Discover how a dedicated Panchakarma retreat in Bali can gently cleanse, nourish and rebalance your whole system. Share a little about your needs and timing and we will recommend the ideal program length and inclusions for you. To explore availability or ask any questions, simply contact us.
+If you are feeling called to reset your body and mind, our tailored programs at Sukhavati Bali are designed to support deep, lasting rejuvenation. Discover how a dedicated [Panchakarma retreat in Bali](https://sukhavatibali.com/panchakarma) can gently cleanse, nourish and rebalance your whole system. Share a little about your needs and timing and we will recommend the ideal program length and inclusions for you. To explore availability or ask any questions, simply [contact us]().
 
 &nbsp;
