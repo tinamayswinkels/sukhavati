@@ -139,6 +139,6 @@ For high performers, this turns a wellness retreat in Bali from a one-off treat 
 
 ## **Begin Your Personalised Journey To Lasting Wellbeing**
 
-If you are ready to reset your body and mind, our tailored wellness retreat in Bali can help you create lasting change, not just a short break. At Sukhavati Bali, we combine traditional Ayurvedic therapies, nourishing food and expert guidance to support your specific health goals. Tell us a little about what you need and we will recommend the best retreat program for you, or you can contact us with any questions before you book.
+If you are ready to reset your body and mind, our tailored [wellness retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat) can help you create lasting change, not just a short break. At Sukhavati Bali, we combine traditional Ayurvedic therapies, nourishing food and expert guidance to support your specific health goals. Tell us a little about what you need and we will recommend the best retreat program for you, or you can [contact us](https://sukhavatibali.com/contact) with any questions before you book.
 
 &nbsp;
