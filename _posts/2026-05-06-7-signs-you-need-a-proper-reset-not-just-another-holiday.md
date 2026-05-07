@@ -114,6 +114,6 @@ Stepping back, the main signs are clear: you wake up tired, your mind will not q
 
 ## **Begin Your Journey To Deeper Wellbeing Today**
 
-If you are ready to reset your body and mind, our wellness retreat in Bali offers a peaceful space to slow down and truly restore. At Sukhavati Bali, we tailor each stay to your needs so you can experience meaningful, lasting change rather than a quick escape. Share a few details about your health and intentions and we will recommend a personalised program that suits you. If you have questions or would like help planning dates, simply contact us and our team will guide you through the next steps.
+If you are ready to reset your body and mind, our [wellness retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat) offers a peaceful space to slow down and truly restore. At Sukhavati Bali, we tailor each stay to your needs so you can experience meaningful, lasting change rather than a quick escape. Share a few details about your health and intentions and we will recommend a personalised program that suits you. If you have questions or would like help planning dates, simply [contact us](https://sukhavatibali.com/contact) and our team will guide you through the next steps.
 
 &nbsp;
