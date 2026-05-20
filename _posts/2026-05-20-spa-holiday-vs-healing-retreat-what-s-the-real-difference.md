@@ -129,4 +129,4 @@ As you plan your next break, tune in honestly. Do you need a treat, a simple tim
 
 ## **Begin Your Journey To Genuine Healing Today**
 
-If you are ready to restore balance in mind, body and spirit, we invite you to explore our tailored programs at Sukhavati Bali. Discover how our healing retreat in Bali can support your wellbeing with personalised Ayurvedic therapies and daily practices. Share your needs and preferences so we can help design a retreat that truly fits you, or reach out directly to our team via our contact page to start planning your stay.
+If you are ready to restore balance in mind, body and spirit, we invite you to explore our tailored programs at Sukhavati Bali. Discover how our [healing retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat) can support your wellbeing with personalised Ayurvedic therapies and daily practices. Share your needs and preferences so we can help design a retreat that truly fits you, or reach out directly to our team via our [contact page](https://sukhavatibali.com/contact) to start planning your stay.
