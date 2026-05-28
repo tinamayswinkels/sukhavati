@@ -193,4 +193,4 @@ Saying yes to this kind of rest is less about escaping life and more about retur
 
 ## **Begin Your Journey To Genuine Ayurvedic Healing**
 
-If you are ready to experience deeper balance in body and mind, our Ayurvedic retreat in Bali offers a personalised pathway to restore your wellbeing. At Sukhavati Bali, we work closely with you to create a tailored program that respects your unique needs, lifestyle and health goals. Reach out to our team with any questions or to talk through the best time and program length for you via our contact page.
+If you are ready to experience deeper balance in body and mind, our [Ayurvedic retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat) offers a personalised pathway to restore your wellbeing. At Sukhavati Bali, we work closely with you to create a tailored program that respects your unique needs, lifestyle and health goals. Reach out to our team with any questions or to talk through the best time and program length for you via our [contact page](https://sukhavatibali.com/contact).
