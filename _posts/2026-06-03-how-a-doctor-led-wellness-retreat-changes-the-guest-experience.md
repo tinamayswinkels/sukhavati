@@ -104,6 +104,6 @@ A doctor-led Ayurvedic retreat in Bali such as Sukhavati Bali aims to offer a bl
 
 ## **Experience Deep Healing At Our Ayurvedic Retreat**
 
-If you feel ready to reset your body and mind, our Ayurvedic retreat in Bali offers tailored programs designed to support genuine, lasting wellbeing. At Sukhavati Bali, we combine traditional Ayurvedic therapies with a tranquil riverside setting to help you unwind, restore balance and reconnect with yourself. Reach out to our team to discuss your health goals and ideal retreat dates via our contact page.
+If you feel ready to reset your body and mind, our [Ayurvedic retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat) offers tailored programs designed to support genuine, lasting wellbeing. At Sukhavati Bali, we combine traditional Ayurvedic therapies with a tranquil riverside setting to help you unwind, restore balance and reconnect with yourself. Reach out to our team to discuss your health goals and ideal retreat dates via our [contact page](https://sukhavatibali.com/contact).
 
 &nbsp;
