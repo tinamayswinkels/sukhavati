@@ -18,6 +18,8 @@ seo:
 permalink:
 order: 1
 ---
+# **What Makes a Luxury Healing Spa Worth Travelling For?**
+
 ## **Stepping Beyond “Nice”: Why We Travel to Heal**
 
 Most of us can book a massage, facial or spa day without going very far from home, yet many people still feel tired, wired and stuck in the same patterns. A scented candle and a quick treatment can be pleasant, but pleasant is not the same as feeling genuinely renewed. When we travel for wellness, we are usually seeking something deeper, a reset that changes how we sleep, digest, think and show up in daily life.

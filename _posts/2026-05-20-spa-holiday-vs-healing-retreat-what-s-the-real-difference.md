@@ -19,6 +19,8 @@ seo:
 permalink:
 order: 1
 ---
+# **Spa Holiday vs Healing Retreat: What’s the Real Difference?**
+
 ## **Press Pause with Purpose: What Are You Really Craving?**
 
 When you are exhausted, wired, or simply over everything, booking a break can feel like the only thing keeping you going. You start scrolling and suddenly you are in a blur of words like spa, wellness, detox, retreat, and healing, all promising exactly what you crave: to finally stop and breathe. It is no wonder people use these terms as if they mean the same thing.

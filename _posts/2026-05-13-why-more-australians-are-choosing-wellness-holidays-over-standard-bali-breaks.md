@@ -18,6 +18,8 @@ seo:
 permalink:
 order: 1
 ---
+# **Why More Australians Are Choosing Wellness Holidays Over Standard Bali Breaks**
+
 ## **Rested, Not Wrecked: Rethinking the Classic Bali Escape**
 
 A Bali break has become almost a ritual for many Australians: cheap flights, familiar laneways, and the promise of instant holiday mode the moment we step off the plane. For years, that has often meant Seminyak sunsets, beach clubs, shopping, scooters, and late nights that blur into one another. It is fun, it is free, and it can feel like exactly what we deserve after months of hard work.

@@ -19,7 +19,7 @@ seo:
 permalink:
 order: 1
 ---
-## **Restorative Wellness Retreats in Bali for Burnout Recovery**
+# **Restorative Wellness Retreats in Bali for Burnout Recovery**
 
 Burnout does not feel like simple stress. It feels like your mind is foggy, your body is heavy, and even small tasks feel hard. When normal weekends and holidays stop refilling your tank, it is a sign that your system needs something deeper than a quick break.
 

@@ -19,6 +19,8 @@ seo:
 permalink:
 order: 1
 ---
+# **How a Doctor-Led Wellness Retreat Changes the Guest Experience**
+
 ## **Why a Doctor-led Retreat Lets You Fully Switch Off**
 
 Many people arrive at a wellness retreat not just tired, but worn down at a deeper level. Sleep is light, stress feels constant, and there may be health concerns quietly sitting in the background. In that state, most of us are not interested in experimenting with our wellbeing or trying random treatments just because they are on a menu.
