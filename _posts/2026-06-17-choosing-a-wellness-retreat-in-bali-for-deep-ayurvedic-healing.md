@@ -19,7 +19,7 @@ seo:
 permalink:
 order: 1
 ---
-## **Choosing a Wellness Retreat in Bali for Deep Ayurvedic Healing**
+# **Choosing a Wellness Retreat in Bali for Deep Ayurvedic Healing**
 
 Choosing a wellness retreat in Bali is not just about finding a nice pool and a good massage. If you are feeling burnt out, wired but tired, or dealing with long-term health niggles, you probably need something deeper than a few days on a sun lounger. You need a place that helps your body, mind, and emotions reset at the same time.
 
