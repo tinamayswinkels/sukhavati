@@ -178,4 +178,4 @@ Choosing an Ayurvedic retreat in Bali is not an indulgence. For many high-perfor
 
 ## **Begin Your Journey To Restorative Wellbeing Today**
 
-If you are ready to realign your body, mind and spirit, our Ayurvedic retreat in Bali offers a personalised pathway to deeper balance. At Sukhavati Bali, we tailor each stay to your unique health goals, drawing on authentic Ayurvedic therapies in a tranquil riverside setting. Reach out to our team so we can discuss your needs and design a program that truly supports you, or contact us to check availability for your preferred dates.
+If you are ready to realign your body, mind and spirit, our [Ayurvedic retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat) offers a personalised pathway to deeper balance. At Sukhavati Bali, we tailor each stay to your unique health goals, drawing on authentic Ayurvedic therapies in a tranquil riverside setting. Reach out to our team so we can discuss your needs and design a program that truly supports you, or [contact us](https://sukhavatibali.com/contact) to check availability for your preferred dates.
