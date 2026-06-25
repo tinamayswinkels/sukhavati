@@ -1,8 +1,6 @@
 ---
 layout: default
-title: >-
-  Ayurvedic Detox in Bali: Personalized Panchakarma by Dosha and Schedule10
-  Signs Your Liver is Sluggish and Tips to Help Detoxify
+title: 'Ayurvedic Detox in Bali: Personalized Panchakarma by Dosha and Schedule'
 featured_image: /uploads/detox.jpg
 blocks:
   - _id: blog-content-block
@@ -20,7 +18,9 @@ seo:
 permalink:
 order: 1
 ---
-## **Step Off the Hamster Wheel and Into Deep Reset**
+# **Ayurvedic Detox in Bali: Personalized Panchakarma by Dosha and Schedule**
+
+# **Step Off the Hamster Wheel and Into Deep Reset**
 
 Midyear can hit hard for high performers. End of financial year pressure, constant travel between Australia and Asia, long workdays, and a phone that never really turns off. Many people push through, then suddenly crash around June or July.
 
@@ -46,7 +46,7 @@ For many high performers, discretion and trust matter. A small, luxury wellness 
 
 ## **Personalising Panchakarma by Dosha and Stress Load**
 
-In Ayurveda, we talk about three main doshas, or body-mind types. Most people are a mix, but one or two tend to lead.
+In Ayurveda, there are three doshas. Everyone is a mix of all three, and that unique combination constitutes one’s ‘Mind-Body’ type. Though everyone has all three doshas, one or two tend to predominate.
 
 * **Vata:** quick mind, light sleep, tends to anxiety, gets wired and exhausted at the same time
 * **Pitta:** focused, driven, can get hot, inflamed, impatient or angry under pressure
@@ -77,7 +77,7 @@ A typical 7-day Panchakarma often includes:
 * Gentle digestive reset, not harsh cleansing
 * Daily oil massage and Shirodhara or related therapies
 * Tailored herbal support
-* Breath-led yoga and simple meditation
+* Yoga and guided meditation available
 * Early nights and light, nourishing Ayurvedic meals
 
 For men on tight schedules, we keep your days structured and efficient, with privacy if you truly must take a call. We can factor in jet lag and that wired, on-edge feeling you might carry from boardrooms or flights.
@@ -133,4 +133,4 @@ At Sukhavati Bali, we see Panchakarma as strategic maintenance for a long, high-
 
 ## **Begin Your Journey To Deep Rest And Renewal**
 
-If you are ready to restore balance, clarity and vitality, our Luxury wellness retreat in Bali offers a tailored sanctuary to support your needs. At Sukhavati Bali, we combine traditional Ayurvedic therapies, nourishing cuisine and tranquil riverside surrounds to help you unwind on every level. Share a little about what you are looking for and we will recommend a stay that aligns with your wellbeing goals. If you have questions or need help choosing dates or programs, please contact us and our team will guide you.
+If you are ready to restore balance, clarity and vitality, our [Luxury wellness retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat) offers a tailored sanctuary to support your needs. At Sukhavati Bali, we combine traditional Ayurvedic therapies, nourishing cuisine and tranquil riverside surrounds to help you unwind on every level. Share a little about what you are looking for and we will recommend a stay that aligns with your wellbeing goals. If you have questions or need help choosing dates or programs, please [contact us](https://sukhavatibali.com/contact) and our team will guide you.
