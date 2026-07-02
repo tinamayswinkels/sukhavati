@@ -19,6 +19,8 @@ seo:
 permalink:
 order: 1
 ---
+# **Why Executives Choose a Private Wellness Retreat in Bali**
+
 ## **When a Holiday Is Not Enough for High Performers**
 
 High performers are very good at pushing through. Early alarms, late calls across time zones, back-to-back meetings, a laptop that never really closes. For a while, it works. Then small cracks show up, like poor sleep, tight shoulders, a gut that reacts to every meal, and a mind that will not switch off, even on a Sunday.
@@ -121,6 +123,6 @@ Logistics are designed to reduce decision fatigue. Private airport transfers, ta
 
 ## **Begin Your Transformational Bali Retreat Journey Today**
 
-If you are ready to reset your mind, body and spirit in a more intentional way, we invite you to explore our private wellness retreat in Bali. At Sukhavati Bali, we tailor every stay to your individual needs so you can truly unwind, restore and return home with lasting benefits. Share a few details about your preferences and timing so we can design a personalised retreat program just for you, or contact us with any questions before you book.
+If you are ready to reset your mind, body and spirit in a more intentional way, we invite you to explore our [private wellness retreat in Bali](https://sukhavatibali.com/ayurvedic-wellness-retreat). At Sukhavati Bali, we tailor every stay to your individual needs so you can truly unwind, restore and return home with lasting benefits. Share a few details about your preferences and timing so we can design a personalised retreat program just for you, or [contact us](https://sukhavatibali.com/contact) with any questions before you book.
 
 &nbsp;
