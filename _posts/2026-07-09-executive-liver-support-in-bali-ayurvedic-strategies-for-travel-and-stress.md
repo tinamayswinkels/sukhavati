@@ -21,7 +21,7 @@ order: 1
 ---
 # **Executive Liver Support in Bali: Ayurvedic Strategies for Travel and Stress**
 
-## &nbsp;**Executive Liver Support in Bali**
+## **Executive Liver Support in Bali**
 
 High performers put their livers under a lot of pressure. Long days, late dinners, client drinks, and constant travel all add up. A short break in Bali can feel tempting, but without a clear plan, you return to the same habits and the same fatigue.
 
