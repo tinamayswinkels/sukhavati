@@ -19,6 +19,8 @@ seo:
 permalink:
 order: 1
 ---
+# **7-Day Bali Recovery Retreat Itinerary by Goal**
+
 A 7-day wellness retreat in Bali can reset much more than your out-of-office reply. With the right structure, one focused week can support your nervous system, sleep, digestion, and stress response in a way that a long weekend or casual holiday simply cannot. Less planning, fewer choices and expert-led days give your body space to switch off from constant decision-making and pressure.
 
 Here we will walk through a simple, day-by-day shape for a 7-day stay. We will focus on four common goals: recovering from burnout, resetting sleep, calming digestion and building stress resilience. You will see what to schedule in the first 48 hours compared with days 5 to 7, and how this can shift slightly for solo guests, couples and small private groups.
